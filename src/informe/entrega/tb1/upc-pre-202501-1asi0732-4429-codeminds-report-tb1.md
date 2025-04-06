@@ -6,7 +6,6 @@ author:
   - "Profesor: Robles Fernández, Ivan"
   - "Integrantes:"
   - "Ortega Huaraca, Abel Angel: U20201B380"
-  - "Avila Asto, Alex Ramon: U20221A322"
   - "Vilchez Rios, Mateo Alejandro: U202210059"
   - "Ramos Rios, Belén del Rocio: U202216246"
   - "Herrera González, Luis Eduardo: U202218227"
