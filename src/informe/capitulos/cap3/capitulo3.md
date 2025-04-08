@@ -1103,6 +1103,459 @@ US03 & Acceso a Ayuda y Preguntas Frecuentes \\
 
 \newpage
 
+***User Stories:***
+
+\begin{longtable}{|p{1cm}|p{3cm}|p{4cm}|p{5cm}|p{1cm}|}
+\hline
+\multicolumn{1}{|c|}{\textbf{ID}} & \multicolumn{1}{c|}{\textbf{Título}} & \multicolumn{1}{c|}{\textbf{Descripción}} & \multicolumn{1}{c|}{\textbf{Criterios de Aceptación}} & \multicolumn{1}{c|}{\textbf{Epic}} \\
+\hline
+US01 & Registro e Inicio de Sesión & \textbf{Como} tutor legal, \textbf{quiero} registrarme e iniciar sesión con mi cuenta, \textbf{para} acceder de forma segura a la aplicación móvil y administrar el seguimiento del transporte de mi hijo. &
+\begin{tabular}[t]{@{}p{5cm}@{}}
+\textbf{Escenario 1: Registro exitoso}\\
+\textbf{Dado que} accedo al formulario de registro en la aplicación móvil\\
+\textbf{cuando} ingreso mis datos personales (nombre, correo electrónico, número de teléfono) y creo una contraseña segura\\
+\textbf{entonces} el sistema valida mi información, crea mi cuenta y me dirige a la pantalla de inicio.\\[0.2em]
+
+\textbf{Escenario 2: Inicio de sesión exitoso}\\
+\textbf{Dado que} ya poseo una cuenta registrada\\
+\textbf{cuando} ingreso mis credenciales correctas (correo electrónico y contraseña) en el formulario de inicio de sesión\\
+\textbf{entonces} el sistema autentica mi identidad y me permite acceder a la aplicación móvil.\\[0.2em]
+
+\textbf{Escenario 3: Error en registro por datos incompletos o inválidos}\\
+\textbf{Dado que} intento registrarme\\
+\textbf{cuando} omito algún campo obligatorio o ingreso datos en formato incorrecto\\
+\textbf{entonces} el sistema muestra mensajes de error específicos indicando la necesidad de completar o corregir la información ingresada.\\[0.2em]
+\end{tabular}
+& EP01 \\
+
+\hline
+US02 & Recuperación de Contraseña & \textbf{Como} tutor legal, \textbf{quiero} recuperar mi contraseña vía correo o SMS, \textbf{para} restablecer el acceso en caso de olvido y seguir utilizando la aplicación sin inconvenientes. &
+\begin{tabular}[t]{@{}p{5cm}@{}}
+\textbf{Escenario 1: Solicitud de recuperación exitosa}\\
+\textbf{Dado que} he olvidado mi contraseña\\
+\textbf{cuando} selecciono la opción “¿Olvidaste tu contraseña?” en la pantalla de inicio de sesión\\
+\textbf{y} proporciono mi correo electrónico o número de teléfono registrado\\
+\textbf{entonces} el sistema envía un enlace o código de verificación para restablecer la contraseña.\\[0.2em]
+
+\textbf{Escenario 2: Ingreso de nueva contraseña}\\
+\textbf{Dado que} recibí el enlace o código de recuperación\\
+\textbf{cuando} accedo al formulario correspondiente\\
+\textbf{y} establezco una nueva contraseña válida\\
+\textbf{entonces} el sistema actualiza la contraseña y me permite iniciar sesión con la nueva clave.\\[0.2em]
+
+\textbf{Escenario 3: Error por correo o número no registrado}\\
+\textbf{Dado que} intento recuperar mi contraseña\\
+\textbf{cuando} ingreso un correo electrónico o número de teléfono no registrado en el sistema\\
+\textbf{entonces} el sistema muestra un mensaje de error indicando que no se encuentra ninguna cuenta asociada.\\[0.2em]
+\end{tabular}
+& EP01 \\
+
+\hline
+US03 & Edición de Perfil & \textbf{Como} tutor legal, \textbf{quiero} editar mi perfil (datos de contacto) y la información de mis hijos (grado, pulsera RFID), \textbf{para} mantener toda la información actualizada y garantizar una correcta gestión del transporte. &
+\begin{tabular}[t]{@{}p{5cm}@{}}
+\textbf{Escenario 1: Edición de datos de contacto exitosa}\\
+\textbf{Dado que} accedo a la sección de perfil desde la aplicación móvil\\
+\textbf{cuando} modifico mis datos de contacto como correo electrónico o número de teléfono\\
+\textbf{entonces} el sistema guarda los cambios y muestra un mensaje de confirmación.\\[0.2em]
+
+\textbf{Escenario 2: Edición de información del hijo}\\
+\textbf{Dado que} deseo actualizar la información de mi hijo\\
+\textbf{cuando} cambio el grado escolar o actualizo el identificador de su pulsera RFID\\
+\textbf{entonces} el sistema almacena la nueva información correctamente.\\[0.2em]
+
+\textbf{Escenario 3: Validación de campos obligatorios}\\
+\textbf{Dado que} estoy editando mi perfil o la información de mi hijo\\
+\textbf{cuando} dejo campos obligatorios vacíos o ingreso datos inválidos\\
+\textbf{entonces} el sistema muestra mensajes de advertencia solicitando corrección antes de guardar.\\[0.2em]
+\end{tabular}
+& EP01 \\
+
+\hline
+US04 & Gestión de Dispositivos de Notificación & \textbf{Como} tutor legal, \textbf{quiero} gestionar mis dispositivos de notificación (push, email, SMS), \textbf{para} elegir cómo y cuándo recibir alertas sobre el transporte de mi hijo. &
+\begin{tabular}[t]{@{}p{5cm}@{}}
+\textbf{Escenario 1: Configuración de canal de notificación preferido}\\
+\textbf{Dado que} accedo a la configuración de notificaciones en la aplicación móvil\\
+\textbf{cuando} selecciono uno o más canales como push, email o SMS\\
+\textbf{entonces} el sistema guarda mis preferencias y las usa para futuras alertas.\\[0.2em]
+
+\textbf{Escenario 2: Desactivación de un canal específico}\\
+\textbf{Dado que} ya no deseo recibir notificaciones por un canal específico\\
+\textbf{cuando} desactivo dicho canal desde la configuración\\
+\textbf{entonces} el sistema deja de enviar notificaciones por ese medio.\\[0.2em]
+
+\textbf{Escenario 3: Personalización de tipos de alertas}\\
+\textbf{Dado que} deseo recibir solo ciertos tipos de alertas (abordaje, llegada, temperatura)\\
+\textbf{cuando} selecciono mis preferencias dentro de la aplicación\\
+\textbf{entonces} el sistema me notificará solo sobre los eventos seleccionados.\\[0.2em]
+\end{tabular}
+& EP01 \\
+
+\hline
+US01 & Ubicación en Vivo del Vehículo & \textbf{Como} tutor legal, \textbf{quiero} ver la posición en vivo del vehículo que transporta a mi hijo, \textbf{para} estimar su hora de llegada y estar preparado ante cualquier eventualidad. &
+\begin{tabular}[t]{@{}p{5cm}@{}}
+\textbf{Escenario 1: Visualización de la ubicación en tiempo real}\\
+\textbf{Dado que} tengo acceso a la aplicación móvil como padre registrado\\
+\textbf{cuando} ingreso a la sección de seguimiento\\
+\textbf{entonces} el sistema muestra un mapa con la ubicación actual del vehículo en movimiento.\\[0.2em]
+
+\textbf{Escenario 2: Actualización automática de la ubicación}\\
+\textbf{Dado que} estoy visualizando el mapa de seguimiento\\
+\textbf{cuando} el vehículo avanza por su ruta\\
+\textbf{entonces} la ubicación se actualiza automáticamente cada cierto intervalo de tiempo (ej. cada 10 segundos).\\[0.2em]
+
+\textbf{Escenario 3: Indicador del estudiante a bordo}\\
+\textbf{Dado que} estoy visualizando la ubicación del vehículo\\
+\textbf{cuando} mi hijo ha abordado o descendido del vehículo\\
+\textbf{entonces} el sistema indica el estado del estudiante (a bordo / descendido) junto al ícono del vehículo.\\[0.2em]
+\end{tabular}
+& EP02 \\
+
+\hline
+US02 & Consulta de Ruta Planificada & \textbf{Como} tutor legal, \textbf{quiero} consultar la ruta planificada y el progreso del recorrido, \textbf{para} saber por dónde va el vehículo y cuánto falta para que llegue a su destino. &
+\begin{tabular}[t]{@{}p{5cm}@{}}
+\textbf{Escenario 1: Visualización de ruta planificada}\\
+\textbf{Dado que} tengo acceso a la aplicación móvil\\
+\textbf{cuando} ingreso a la sección de seguimiento\\
+\textbf{entonces} se muestra la ruta completa planificada del vehículo, incluyendo puntos de abordaje y destino final.\\[0.2em]
+
+\textbf{Escenario 2: Progreso de la ruta en porcentaje}\\
+\textbf{Dado que} estoy visualizando la ruta del vehículo\\
+\textbf{cuando} el vehículo avanza a lo largo de su trayecto\\
+\textbf{entonces} el sistema muestra un indicador del porcentaje de ruta completado en tiempo real.\\[0.2em]
+
+\textbf{Escenario 3: Resaltado de tramos recorridos y pendientes}\\
+\textbf{Dado que} estoy viendo el mapa con la ruta\\
+\textbf{cuando} el vehículo avanza\\
+\textbf{entonces} los tramos recorridos se resaltan con un color distinto al de los tramos pendientes.\\[0.2em]
+\end{tabular}
+& EP02 \\
+
+\hline
+US03 & Estimación de Tiempo Restante & \textbf{Como} tutor legal, \textbf{quiero} recibir la estimación de tiempo restante hasta el punto de recogida o entrega de mi hijo, \textbf{para} poder organizarme mejor y estar preparado a tiempo. &
+\begin{tabular}[t]{@{}p{5cm}@{}}
+\textbf{Escenario 1: Visualización del tiempo estimado de llegada}\\
+\textbf{Dado que} estoy en la aplicación móvil y consulto el estado del vehículo\\
+\textbf{cuando} selecciono el punto de recogida o entrega de mi hijo\\
+\textbf{entonces} el sistema muestra la hora estimada de llegada del vehículo.\\[0.2em]
+
+\textbf{Escenario 2: Actualización dinámica del tiempo restante}\\
+\textbf{Dado que} el vehículo está en movimiento\\
+\textbf{cuando} hay cambios en el tráfico o desvíos\\
+\textbf{entonces} la estimación de tiempo se actualiza automáticamente en la aplicación.\\[0.2em]
+
+\textbf{Escenario 3: Notificación de proximidad}\\
+\textbf{Dado que} el vehículo está próximo al punto de recogida o entrega\\
+\textbf{cuando} está a menos de 5 minutos de distancia\\
+\textbf{entonces} recibo una notificación indicando que el vehículo está cerca.\\[0.2em]
+\end{tabular}
+& EP02 \\
+
+\hline
+US01 & Notificación de Abordaje & \textbf{Como} tutor legal, \textbf{quiero} recibir una notificación cuando mi hijo aborde la unidad, \textbf{para} saber que ha subido correctamente al vehículo y estar tranquilo durante el viaje. &
+\begin{tabular}[t]{@{}p{5cm}@{}}
+\textbf{Escenario 1: Notificación exitosa de abordaje}\\
+\textbf{Dado que} el sistema detecta la lectura exitosa de la pulsera RFID de mi hijo al abordar la unidad\\
+\textbf{cuando} se registra el evento en el sistema\\
+\textbf{entonces} recibo de inmediato una notificación en mi dispositivo móvil indicando “Abordaje exitoso: [Nombre del estudiante] ha subido a la unidad”.\\[0.2em]
+
+\textbf{Escenario 2: Notificación en caso de retraso en el registro}\\
+\textbf{Dado que} mi hijo aborda la unidad, pero la lectura RFID se demora por cuestiones técnicas\\
+\textbf{cuando} el sistema eventualmente procesa la lectura\\
+\textbf{entonces} recibo una notificación tardía indicando el abordaje y se me informa del retraso en la actualización.\\[0.2em]
+
+\textbf{Escenario 3: Manejo de error en la lectura}\\
+\textbf{Dado que} ocurre un error en la lectura de la pulsera RFID al abordar\\
+\textbf{cuando} el sistema no puede confirmar el abordaje automáticamente\\
+\textbf{entonces} recibo una notificación de “Abordaje pendiente” solicitando que se verifique manualmente el estado del estudiante.
+\end{tabular}
+& EP03 \\
+
+\hline
+US02 & Notificación de Llegada & \textbf{Como} tutor legal, \textbf{quiero} recibir una notificación cuando mi hijo llegue al colegio o a casa, \textbf{para} confirmar su arribo seguro y tener tranquilidad sobre el cumplimiento del recorrido. &
+\begin{tabular}[t]{@{}p{5cm}@{}}
+\textbf{Escenario 1: Notificación de llegada al colegio}\\
+\textbf{Dado que} la unidad llega al punto de destino (colegio) y se detecta la bajada del estudiante mediante su pulsera RFID\\
+\textbf{cuando} se registra la salida del vehículo y la lectura de la pulsera\\
+\textbf{entonces} recibo una notificación que indica “Llegada confirmada: [Nombre del estudiante] ha llegado al colegio”.\\[0.2em]
+
+\textbf{Escenario 2: Notificación de llegada a casa}\\
+\textbf{Dado que} mi hijo está retornando del colegio y el vehículo llega al punto de bajada en casa\\
+\textbf{cuando} se registra la lectura RFID al bajar de la unidad\\
+\textbf{entonces} recibo una notificación que indica “Llegada confirmada: [Nombre del estudiante] ha llegado a casa”.\\[0.2em]
+
+\textbf{Escenario 3: Fallo en la detección de bajada}\\
+\textbf{Dado que} mi hijo llega al destino pero el sistema no detecta la bajada\\
+\textbf{cuando} no se recibe lectura RFID al descender\\
+\textbf{entonces} recibo una notificación de alerta indicando “No se ha confirmado la bajada de [Nombre del estudiante], por favor verifique el estado”.
+\end{tabular}
+& EP03 \\
+
+\hline
+US03 & Alerta por Desvío o Retraso & \textbf{Como} tutor legal, \textbf{quiero} recibir una alerta si el vehículo se desvía de la ruta o sufre un retraso significativo, \textbf{para} estar informado de cualquier incidencia que pueda afectar la seguridad o puntualidad del trayecto de mi hijo. &
+\begin{tabular}[t]{@{}p{5cm}@{}}
+\textbf{Escenario 1: Alerta por desvío de ruta}\\
+\textbf{Dado que} el vehículo escolar está siguiendo una ruta planificada\\
+\textbf{cuando} el sistema detecta que se ha desviado significativamente del trayecto autorizado\\
+\textbf{entonces} recibo una notificación indicando “Alerta: Desvío detectado en la ruta del vehículo de [Nombre del estudiante]”.\\[0.2em]
+
+\textbf{Escenario 2: Alerta por retraso significativo}\\
+\textbf{Dado que} el vehículo está en tránsito hacia el colegio o hacia casa\\
+\textbf{cuando} el tiempo estimado de llegada se ve superado en más de 10 minutos respecto al plan inicial\\
+\textbf{entonces} recibo una notificación que indica “Alerta: Retraso en el trayecto del vehículo de [Nombre del estudiante]”.\\[0.2em]
+
+\textbf{Escenario 3: Confirmación de resolución de incidente}\\
+\textbf{Dado que} se ha enviado una alerta por desvío o retraso\\
+\textbf{cuando} el sistema detecta que el vehículo ha retomado su ruta o se ha normalizado el tiempo estimado\\
+\textbf{entonces} recibo una notificación indicando “Actualización: La unidad de [Nombre del estudiante] ha retomado su ruta con normalidad”.
+\end{tabular}
+& EP03 \\
+
+\hline
+US04 & Alerta de Temperatura Insegura & \textbf{Como} tutor legal, \textbf{quiero} recibir una alerta si la temperatura interna del vehículo sale de los rangos seguros, \textbf{para} asegurarme del confort y la seguridad de mi hijo durante el trayecto. &
+\begin{tabular}[t]{@{}p{5cm}@{}}
+\textbf{Escenario 1: Alerta por temperatura alta}\\
+\textbf{Dado que} el sistema monitorea constantemente la temperatura dentro del vehículo\\
+\textbf{cuando} la temperatura interna supera los 30°C\\
+\textbf{entonces} recibo una notificación que indica “Alerta: Temperatura elevada en la unidad de [Nombre del estudiante]”.\\[0.2em]
+
+\textbf{Escenario 2: Alerta por temperatura baja}\\
+\textbf{Dado que} el sistema detecta condiciones térmicas inusuales dentro del vehículo\\
+\textbf{cuando} la temperatura interna desciende por debajo de los 15°C\\
+\textbf{entonces} recibo una notificación que indica “Alerta: Temperatura baja en la unidad de [Nombre del estudiante]”.\\[0.2em]
+
+\textbf{Escenario 3: Confirmación de temperatura normalizada}\\
+\textbf{Dado que} se ha enviado una alerta por temperatura insegura\\
+\textbf{cuando} el sistema detecta que la temperatura vuelve al rango seguro (15°C a 30°C)\\
+\textbf{entonces} recibo una notificación indicando “Actualización: Temperatura normalizada en la unidad de [Nombre del estudiante]”.
+\end{tabular}
+& EP03 \\
+
+\hline
+US01 & Supervisión en Tiempo Real (Ida) & \textbf{Como} tutor legal, \textbf{quiero} ver en tiempo real el video de la cámara instalada en la unidad durante el trayecto de ida, \textbf{para} supervisar las condiciones del viaje y asegurarme de que mi hijo se encuentre en un ambiente seguro. &
+\begin{tabular}[t]{@{}p{5cm}@{}}
+\textbf{Escenario 1: Acceso a la transmisión en vivo}\\
+\textbf{Dado que} he iniciado sesión en la aplicación móvil\\
+\textbf{cuando} selecciono la opción de supervisión en tiempo real para el trayecto de ida\\
+\textbf{entonces} el sistema muestra la transmisión en vivo de la cámara a bordo del vehículo.\\[0.2em]
+
+\textbf{Escenario 2: Calidad y estabilidad de la transmisión}\\
+\textbf{Dado que} estoy visualizando la transmisión en vivo\\
+\textbf{cuando} la conexión es estable y la cámara opera correctamente\\
+\textbf{entonces} la imagen se muestra en alta calidad y con mínimo retraso, permitiéndome supervisar el viaje de forma clara.\\[0.2em]
+
+\textbf{Escenario 3: Notificación de fallo en la transmisión}\\
+\textbf{Dado que} la transmisión en vivo presenta problemas (pérdida de conexión, imagen borrosa, etc.)\\
+\textbf{cuando} el sistema detecta un fallo en la transmisión\\
+\textbf{entonces} recibo una notificación indicando “Problema en la transmisión en tiempo real”, invitándome a verificar la conexión o contactar soporte técnico.
+\end{tabular}
+& EP04 \\
+
+\hline
+US02 & Supervisión en Tiempo Real (Regreso) & \textbf{Como} tutor legal, \textbf{quiero} ver en tiempo real el video de la cámara instalada en la unidad durante el trayecto de regreso, \textbf{para} asegurarme del bienestar de mi hijo y supervisar las condiciones del viaje de regreso a casa. &
+\begin{tabular}[t]{@{}p{5cm}@{}}
+\textbf{Escenario 1: Acceso a la transmisión en vivo}\\
+\textbf{Dado que} he iniciado sesión en la aplicación móvil\\
+\textbf{cuando} selecciono la opción de supervisión en tiempo real para el trayecto de regreso\\
+\textbf{entonces} el sistema muestra la transmisión en vivo de la cámara a bordo del vehículo.\\[0.2em]
+
+\textbf{Escenario 2: Calidad y estabilidad de la transmisión}\\
+\textbf{Dado que} estoy visualizando la transmisión en vivo\\
+\textbf{cuando} la conexión es estable y la cámara funciona correctamente\\
+\textbf{entonces} la imagen se muestra en alta calidad y con mínimo retraso, permitiéndome supervisar el viaje de regreso sin inconvenientes.\\[0.2em]
+
+\textbf{Escenario 3: Notificación de fallo en la transmisión}\\
+\textbf{Dado que} la transmisión en vivo presenta problemas (pérdida de conexión, imagen borrosa, etc.)\\
+\textbf{cuando} el sistema detecta un fallo en la transmisión\\
+\textbf{entonces} recibo una notificación indicando “Problema en la transmisión en tiempo real”, sugiriéndome verificar la conexión o contactar soporte técnico.
+\end{tabular}
+& EP04 \\
+
+\hline
+US01 & Historial de Rutas Diarias & \textbf{Como} tutor legal, \textbf{quiero} consultar el historial de rutas diarias de mi hijo, \textbf{para} revisar su puntualidad y los recorridos anteriores, asegurándome de que todo transcurra como estaba planificado. &
+\begin{tabular}[t]{@{}p{5cm}@{}}
+\textbf{Escenario 1: Consulta de historial de rutas diarias}\\
+\textbf{Dado que} he iniciado sesión en la aplicación móvil\\
+\textbf{cuando} accedo a la sección de historial de rutas diarias\\
+\textbf{entonces} el sistema muestra una lista de las rutas realizadas por el vehículo con las fechas y horarios correspondientes.\\[0.2em]
+
+\textbf{Escenario 2: Filtrado por fecha o rango de fechas}\\
+\textbf{Dado que} quiero revisar las rutas realizadas en un periodo específico\\
+\textbf{cuando} aplico un filtro de fechas (por ejemplo, una semana o mes)\\
+\textbf{entonces} el sistema muestra solo las rutas realizadas en ese periodo de tiempo seleccionado.\\[0.2em]
+
+\textbf{Escenario 3: Visualización de detalles del recorrido}\\
+\textbf{Dado que} estoy revisando el historial de una ruta específica\\
+\textbf{cuando} selecciono una ruta en particular\\
+\textbf{entonces} el sistema muestra detalles del recorrido, incluyendo la hora de inicio, hora de finalización, puntos de recogida y entrega, y cualquier incidencia registrada (retrasos, desvíos, etc.).\\[0.2em]
+\end{tabular}
+& EP05 \\
+
+\hline
+US02 & Log de Eventos Recientes & \textbf{Como} tutor legal, \textbf{quiero} ver un log de eventos (abordaje, llegada, alertas) de los últimos X días, \textbf{para} detectar posibles problemas recurrentes y garantizar el bienestar de mi hijo durante el trayecto. &
+\begin{tabular}[t]{@{}p{5cm}@{}}
+\textbf{Escenario 1: Consulta de log de eventos recientes}\\
+\textbf{Dado que} he iniciado sesión en la aplicación móvil\\
+\textbf{cuando} accedo a la sección de log de eventos recientes\\
+\textbf{entonces} el sistema muestra un listado de los eventos de los últimos X días, con detalles como la hora, tipo de evento (abordaje, llegada, alertas) y cualquier incidencia registrada.\\[0.2em]
+
+\textbf{Escenario 2: Filtrado por tipo de evento}\\
+\textbf{Dado que} quiero revisar eventos de un tipo específico\\
+\textbf{cuando} aplico un filtro de tipo de evento (por ejemplo, solo abordajes o solo alertas)\\
+\textbf{entonces} el sistema muestra solo los eventos correspondientes al tipo seleccionado.\\[0.2em]
+
+\textbf{Escenario 3: Filtrado por rango de fechas}\\
+\textbf{Dado que} quiero revisar los eventos dentro de un rango de fechas específico\\
+\textbf{cuando} aplico un filtro de fechas (por ejemplo, los últimos 3 días)\\
+\textbf{entonces} el sistema muestra los eventos ocurridos dentro de ese periodo de tiempo seleccionado.\\[0.2em]
+\end{tabular}
+& EP05 \\
+
+\hline
+US03 & Exportación de Historial & \textbf{Como} tutor legal, \textbf{quiero} exportar o compartir el historial de rutas y eventos (en formato PDF/CSV), \textbf{para} presentarlo al colegio o a la empresa de transporte si surge alguna incidencia y tener un registro formal. &
+\begin{tabular}[t]{@{}p{5cm}@{}}
+\textbf{Escenario 1: Exportación de historial a PDF}\\
+\textbf{Dado que} he accedido al historial de rutas y eventos\\
+\textbf{cuando} selecciono la opción para exportar el historial a PDF\\
+\textbf{entonces} el sistema genera un archivo PDF con los detalles del historial de rutas y eventos, y lo pone disponible para descargar o compartir.\\[0.2em]
+
+\textbf{Escenario 2: Exportación de historial a CSV}\\
+\textbf{Dado que} he accedido al historial de rutas y eventos\\
+\textbf{cuando} selecciono la opción para exportar el historial a CSV\\
+\textbf{entonces} el sistema genera un archivo CSV con los detalles del historial de rutas y eventos, y lo pone disponible para descargar o compartir.\\[0.2em]
+
+\textbf{Escenario 3: Error al exportar historial}\\
+\textbf{Dado que} intento exportar el historial a PDF o CSV\\
+\textbf{cuando} ocurre un error durante la exportación\\
+\textbf{entonces} el sistema muestra un mensaje de error indicando que la exportación no se pudo completar y sugiere intentar nuevamente.\\[0.2em]
+\end{tabular}
+& EP05 \\
+
+\hline
+US01 & Selección de Notificaciones por Hijo & \textbf{Como} tutor legal, \textbf{quiero} seleccionar para cuál de mis hijos quiero recibir notificaciones, \textbf{para} evitar recibir alertas innecesarias y personalizar mi experiencia en la aplicación móvil. &
+\begin{tabular}[t]{@{}p{5cm}@{}}
+\textbf{Escenario 1: Visualización de lista de hijos}\\
+\textbf{Dado que} tengo varios hijos registrados en mi perfil\\
+\textbf{cuando} accedo a la sección de preferencias y notificaciones\\
+\textbf{entonces} el sistema muestra una lista de todos mis hijos con opciones para activar o desactivar notificaciones individualmente.\\[0.2em]
+
+\textbf{Escenario 2: Selección y deselección de notificaciones}\\
+\textbf{Dado que} deseo personalizar las notificaciones recibidas\\
+\textbf{cuando} marco o desmarco la opción de notificaciones para cada hijo en la lista\\
+\textbf{entonces} el sistema guarda automáticamente mi selección y actualiza mis preferencias para que reciba alertas sólo para los hijos seleccionados.\\[0.2em]
+
+\textbf{Escenario 3: Confirmación de actualización de preferencias}\\
+\textbf{Dado que} he realizado cambios en la selección de notificaciones\\
+\textbf{cuando} finalizo el proceso de configuración\\
+\textbf{entonces} el sistema muestra un mensaje de confirmación (“Preferencias actualizadas con éxito”) y las futuras notificaciones se envían conforme a mis ajustes.
+\end{tabular}
+& EP06 \\
+
+\hline
+US02 & Definición de Horarios de Silencio & \textbf{Como} tutor legal, \textbf{quiero} definir horarios de silencio (modo "No molestar"), \textbf{para} no recibir notificaciones fuera del rango permitido y evitar interrupciones en mis momentos de descanso o concentración. &
+\begin{tabular}[t]{@{}p{5cm}@{}}
+\textbf{Escenario 1: Configuración de horario de silencio}\\
+\textbf{Dado que} accedo a la sección de preferencias de notificaciones en la aplicación móvil\\
+\textbf{cuando} selecciono la opción de "Horarios de Silencio" y establezco la franja horaria deseada\\
+\textbf{entonces} el sistema guarda la configuración y desactiva automáticamente las notificaciones durante ese intervalo.\\[0.2em]
+
+\textbf{Escenario 2: Confirmación de activación del modo silencio}\\
+\textbf{Dado que} he configurado un horario de silencio\\
+\textbf{cuando} la hora actual se encuentra dentro de la franja de silencio definida\\
+\textbf{entonces} la aplicación deja de enviar notificaciones y muestra un indicador que confirma que el modo "No molestar" está activado.\\[0.2em]
+
+\textbf{Escenario 3: Desactivación automática fuera del horario de silencio}\\
+\textbf{Dado que} el horario de silencio ha finalizado\\
+\textbf{cuando} el sistema detecta que la hora actual supera el rango configurado\\
+\textbf{entonces} el modo "No molestar" se desactiva automáticamente y las notificaciones vuelven a enviarse normalmente.\\[0.2em]
+\end{tabular}
+& EP06 \\
+
+\hline
+US03 & Personalización de Idioma y Tema & \textbf{Como} tutor legal, \textbf{quiero} cambiar el idioma y el tema (claro/oscuro) de la aplicación, \textbf{para} adaptar la interfaz a mis preferencias personales y mejorar mi experiencia de uso. &
+\begin{tabular}[t]{@{}p{5cm}@{}}
+\textbf{Escenario 1: Cambio de idioma}\\
+\textbf{Dado que} estoy en la pantalla de configuración de la aplicación\\
+\textbf{cuando} selecciono el idioma de preferencia en el menú desplegable (ej. español, inglés, etc.)\\
+\textbf{entonces} el idioma de la aplicación se actualiza inmediatamente y todas las pantallas se muestran en el nuevo idioma seleccionado.\\[0.2em]
+
+\textbf{Escenario 2: Cambio de tema}\\
+\textbf{Dado que} estoy en la pantalla de configuración de la aplicación\\
+\textbf{cuando} selecciono el tema (claro u oscuro) que prefiero\\
+\textbf{entonces} la interfaz de la aplicación cambia al tema seleccionado y se ajusta visualmente a la preferencia.\\[0.2em]
+
+\textbf{Escenario 3: Confirmación de cambios}\\
+\textbf{Dado que} he cambiado el idioma y el tema\\
+\textbf{cuando} guardo los cambios\\
+\textbf{entonces} el sistema muestra un mensaje de confirmación indicando “Idioma y tema actualizados con éxito” y la interfaz se adapta de acuerdo a las preferencias seleccionadas.\\[0.2em]
+\end{tabular}
+& EP06 \\
+
+\hline
+US01 & Comunicación Directa con el Conductor & \textbf{Como} tutor legal, \textbf{quiero} enviar un mensaje o realizar una llamada al conductor desde la aplicación, \textbf{para} resolver dudas o coordinar imprevistos durante el trayecto. &
+\begin{tabular}[t]{@{}p{5cm}@{}}
+\textbf{Escenario 1: Enviar mensaje al conductor}\\
+\textbf{Dado que} estoy en la pantalla de seguimiento de mi hijo\\
+\textbf{cuando} selecciono la opción de "Comunicación con el conductor" y elijo "Enviar mensaje"\\
+\textbf{entonces} se abre una ventana de chat donde puedo escribir mi mensaje y enviarlo directamente al conductor.\\[0.2em]
+
+\textbf{Escenario 2: Realizar llamada al conductor}\\
+\textbf{Dado que} estoy en la pantalla de seguimiento de mi hijo\\
+\textbf{cuando} selecciono la opción de "Comunicación con el conductor" y elijo "Llamar al conductor"\\
+\textbf{entonces} se realiza la llamada telefónica al conductor a través de la aplicación, utilizando el número de contacto del conductor.\\[0.2em]
+
+\textbf{Escenario 3: Confirmación de mensaje enviado}\\
+\textbf{Dado que} he enviado un mensaje al conductor\\
+\textbf{cuando} el mensaje es entregado\\
+\textbf{entonces} la aplicación muestra una notificación de confirmación indicando “Mensaje enviado con éxito al conductor” en la pantalla de chat.\\[0.2em]
+\end{tabular}
+& EP07 \\
+
+\hline
+US02 & Reporte de Incidencias con Evidencia & \textbf{Como} tutor legal, \textbf{quiero} reportar una incidencia (retraso, mal funcionamiento del sensor, etc.) con foto o video, \textbf{para} que el colegio pueda tomar acciones basadas en la evidencia proporcionada. &
+\begin{tabular}[t]{@{}p{5cm}@{}}
+\textbf{Escenario 1: Reporte de incidencia con foto}\\
+\textbf{Dado que} estoy en la pantalla de seguimiento de mi hijo y observo una incidencia (como un retraso o mal funcionamiento del sensor)\\
+\textbf{cuando} selecciono la opción "Reportar incidencia" y elijo "Adjuntar foto"\\
+\textbf{entonces} la aplicación me permite tomar una foto y enviarla junto con una descripción del problema, generando un reporte para el colegio.\\[0.2em]
+
+\textbf{Escenario 2: Reporte de incidencia con video}\\
+\textbf{Dado que} estoy en la pantalla de seguimiento de mi hijo y observo una incidencia\\
+\textbf{cuando} selecciono la opción "Reportar incidencia" y elijo "Adjuntar video"\\
+\textbf{entonces} la aplicación me permite grabar un video y enviarlo junto con una descripción del problema, generando un reporte para el colegio.\\[0.2em]
+
+\textbf{Escenario 3: Confirmación de reporte enviado}\\
+\textbf{Dado que} he enviado un reporte de incidencia con foto o video\\
+\textbf{cuando} el reporte es enviado correctamente\\
+\textbf{entonces} la aplicación muestra una notificación de confirmación indicando “Incidencia reportada con éxito” en la pantalla de reporte.\\[0.2em]
+\end{tabular}
+& EP07 \\
+
+\hline
+US03 & Acceso a Ayuda y Preguntas Frecuentes & \textbf{Como} tutor legal, \textbf{quiero} acceder a una sección de ayuda y preguntas frecuentes, \textbf{para} resolver rápidamente mis dudas sobre el funcionamiento de la app. &
+\begin{tabular}[t]{@{}p{5cm}@{}}
+\textbf{Escenario 1: Acceso a la sección de ayuda}\\
+\textbf{Dado que} estoy en la pantalla principal de la aplicación\\
+\textbf{cuando} selecciono la opción de "Ayuda" en el menú principal\\
+\textbf{entonces} la aplicación me redirige a la sección de ayuda y preguntas frecuentes, donde puedo ver una lista de preguntas comunes y sus respuestas.\\[0.2em]
+
+\textbf{Escenario 2: Búsqueda de una pregunta específica}\\
+\textbf{Dado que} estoy en la sección de preguntas frecuentes\\
+\textbf{cuando} utilizo la barra de búsqueda para escribir una palabra clave relacionada con mi duda\\
+\textbf{entonces} la aplicación muestra una lista de preguntas relacionadas con la búsqueda, para que pueda encontrar rápidamente la respuesta.\\[0.2em]
+
+\textbf{Escenario 3: Acceso a información detallada de una pregunta}\\
+\textbf{Dado que} estoy en la sección de preguntas frecuentes\\
+\textbf{cuando} selecciono una pregunta de la lista\\
+\textbf{entonces} la aplicación muestra una respuesta detallada con información adicional sobre cómo resolver el problema o gestionar la función relacionada.\\[0.2em]
+\end{tabular}
+& EP07 \\
+
+\hline
+
+\end{longtable}
+
+\newpage
+
 ## Impact Mapping.
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
