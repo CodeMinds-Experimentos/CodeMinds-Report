@@ -405,37 +405,451 @@ Las siguientes figuras presentan una síntesis visual de los elementos de interf
 
 ## Information Architecture.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+![Artefacto creado en Canva](src/img/cap4/InformationArchitecture.png)
+
+La arquitectura de la información (AI) se refiere al proceso de estructuración y categorización del contenido digital con el fin de facilitar su localización y comprensión por parte de los usuarios. Este aspecto es esencial para asegurar una experiencia fluida, especialmente en entornos digitales como aplicaciones móviles, donde la claridad en la organización puede determinar el éxito de la interacción usuario-sistema.
+
+
+\begin{quote}
+De acuerdo con Lin y Zarro (2024), una arquitectura de información bien diseñada “brinda estructura a la experiencia del usuario y actúa como una guía cognitiva que facilita la navegación, reduce la incertidumbre y mejora la eficiencia de uso en sistemas digitales complejos.
+\end{quote}
+
+\vspace{1em}
+
+En el desarrollo de RutaKids, se adoptó una estructura centrada en los principales perfiles de usuarios: padres de familia, conductores y gestores de transporte escolar. La intención fue lograr una jerarquía de información comprensible, accesible y coherente que soporte la visualización en tiempo real, la administración de rutas y estudiantes, y la comunicación segura dentro de la aplicación.
+
+A continuación se presentan los mapas generales de arquitectura de información correspondientes a cada tipo de usuario:
+
+**Arquitectura de Información – App Móvil para Padres**
+
+![Artefacto creado en Figma](src/img/cap4/AppPadres.png)
+
+**Arquitectura de Información – App Móvil para Conductores**
+
+![Artefacto creado en Figma](src/img/cap4/AppConductores.png)
+
+**Arquitectura de Información – Plataforma Web para Administradores**
+
+![Artefacto creado en Figma](src/img/cap4/AppWeb.png)
+
+
+Las secciones siguientes profundizan en los sistemas implementados para organización, etiquetado, navegación y búsqueda, así como en los elementos de SEO (Search Engine Optimization) y ASO (App Store Optimization) que fortalecen la visibilidad del producto.
 
 \newpage
 
 ### Organization Systems.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+- **Propósito**
+
+  La arquitectura organizativa de un producto digital permite estructurar la información de forma que los usuarios accedan rápida y eficientemente a los contenidos que necesitan. 
+
+  Según Morville y Rosenfeld (2006), “los sistemas de organización son esenciales para transformar el caos en claridad, facilitando que los usuarios comprendan la lógica detrás del contenido digital”. 
+
+  En el caso de *RutaKids*, se han diseñado diversos sistemas de organización visual y estructural adaptados tanto a padres como a administradores educativos.
+
+- **Organización para padres de familia (App móvil)**
+
+  La aplicación móvil muestra la información más relevante sobre el estado de sus hijos y el transporte escolar. La información sigue un modelo jerárquico en su interfaz principal y secuencial en el monitoreo de rutas.
+
+\begin{longtable}{|p{3cm}|p{3cm}|p{2.5cm}|p{4cm}|}
+\hline
+\textbf{Tópico} & \textbf{Sistema de Organización Visual} & \textbf{Categorización Aplicada} & \textbf{Descripción} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Tópico} & \textbf{Sistema de Organización Visual} & \textbf{Categorización Aplicada} & \textbf{Descripción} \\
+\hline
+\endhead
+Estado del recorrido & Jerárquico visual & Cronológica & Se presenta primero el nombre del conductor, estado, hora estimada y destino. \\
+\hline
+Línea de tiempo del viaje & Secuencial (paso a paso) & Cronológica & Refleja el progreso del viaje con puntos y estados temporales en orden. \\
+\hline
+Historial de viajes & Lista jerárquica ordenada & Cronológica & Permite revisar viajes anteriores organizados por fecha. \\
+\hline
+Hijos registrados & Jerárquico visual & Por audiencia (por cada hijo) & Cada hijo tiene su propio conjunto de datos visibles en tiempo real. \\
+\hline
+\end{longtable}
+
+- **Organización para administradores educativos (Plataforma web)**
+
+  La plataforma web está orientada a la administración y seguimiento operativo. Utiliza una estructura modular con categorización por tópicos y por audiencia (vehículos, estudiantes, rutas, conductores).
+
+\begin{longtable}{|p{3cm}|p{3cm}|p{2.5cm}|p{4cm}|}
+\hline
+\textbf{Tópico} & \textbf{Sistema de Organización Visual} & \textbf{Categorización Aplicada} & \textbf{Descripción} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Tópico} & \textbf{Sistema de Organización Visual} & \textbf{Categorización Aplicada} & \textbf{Descripción} \\
+\hline
+\endhead
+Dashboard & Jerárquico (panel con KPIs) & Por tópico & Muestra métricas clave: rutas activas, incidencias, temperatura, etc. \\
+\hline
+Gestión de estudiantes & Visual matricial & Por tópico y audiencia (grado/edad) & Clasificación de alumnos por grados escolares y grupos etarios. \\
+\hline
+Gestión de vehículos y rutas & Jerárquico + secuencial (módulo por pasos) & Por tópico (vehículos, zonas, rutas) & Panel para registro, edición y asignación de unidades a rutas. \\
+\hline
+Monitoreo en tiempo real & Jerárquico + secuencial & Cronológica y geoespacial & Muestra mapa con rutas, ubicación, velocidad, y eventos críticos. \\
+\hline
+Reportes e incidencias & Modular & Cronológica / por evento & Acceso a reportes por fecha, tipo de evento (desvíos, alertas térmicas). \\
+\hline
+\end{longtable}
+
+
+- **Organización en la Landing Page (Sitio Estático)**
+
+  La landing page está diseñada para atraer y guiar a nuevos usuarios. Utiliza una estructura secuencial, pensada para recorrer la información desde el valor de la app hasta las secciones específicas según audiencia.
+
+\begin{longtable}{|p{3cm}|p{4cm}|p{2.5cm}|p{4cm}|}
+\hline
+\textbf{Tópico} & \textbf{Organización Visual} & \textbf{Categorización Aplicada} & \textbf{Descripción} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Tópico} & \textbf{Organización Visual} & \textbf{Categorización Aplicada} & \textbf{Descripción} \\
+\hline
+\endhead
+Menú principal & Jerárquico visual horizontal & Por tópicos & Inicio, Beneficios, Características, Padres, Colegios, Contáctanos. \\
+\hline
+Flujo de contenido & Secuencial (scroll vertical guiado) & Por audiencia & Explica beneficios para padres, luego para colegios. \\
+\hline
+CTA (Call to Action) & Jerárquico visual final & Ninguna & Botones de descarga o contacto resaltados al final. \\
+\hline
+\end{longtable}
+
+Esta organización garantiza que tanto padres como administradores puedan interactuar de forma clara, eficiente y segura con la plataforma, reduciendo fricción y mejorando la toma de decisiones y la supervisión del servicio de transporte escolar.
+
 
 \newpage
 
 ### Labeling Systems.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+6. **Sistemas de Etiquetado**
+
+- **Propósito**
+
+  Los sistemas de etiquetado son fundamentales para la claridad del contenido y la navegación en cualquier producto digital. Una correcta nomenclatura ayuda a los usuarios a comprender de inmediato qué acciones pueden realizar, qué información están observando y qué pasos seguir.
+
+  En *RutaKids*, las etiquetas han sido desarrolladas con un enfoque en simplicidad, consistencia y significado contextual, garantizando una experiencia clara para los distintos tipos de usuarios: padres, administradores y conductores.
+
+- **App móvil – Padres de familia**
+
+\begin{longtable}{|p{4cm}|p{10.5cm}|}
+\hline
+\textbf{Tópico} & \textbf{Definición} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Tópico} & \textbf{Definición} \\
+\hline
+\endhead
+Inicio & Etiqueta utilizada para acceder a la pantalla principal, donde se presenta un resumen del estado del recorrido escolar en tiempo real. \\
+\hline
+Monitoreo & Abre el mapa con la ubicación actual del vehículo asignado, permitiendo ver el avance de la ruta y el estado del transporte del estudiante. \\
+\hline
+Historial & Muestra los viajes anteriores del estudiante, organizados por fecha, incluyendo hora de salida, llegada y eventos registrados. \\
+\hline
+Cuenta & Acceso a la configuración de perfil del padre, donde puede editar datos personales, activar o desactivar notificaciones y cerrar sesión. \\
+\hline
+\end{longtable}
+
+- **App móvil – Conductores**
+
+\begin{longtable}{|p{4cm}|p{10.5cm}|}
+\hline
+\textbf{Tópico} & \textbf{Definición} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Tópico} & \textbf{Definición} \\
+\hline
+\endhead
+Iniciar ruta & Botón que activa el inicio oficial del recorrido asignado; al presionarlo, se activa la navegación GPS hacia el primer punto de recojo. \\
+\hline
+Ver en GPS & Redirección automática al sistema de navegación (Google Maps, Waze, etc.) con la ruta preestablecida desde la plataforma. \\
+\hline
+Finalizar ruta & Permite al conductor cerrar el recorrido una vez completado, registrando hora de llegada y finalizando el monitoreo en tiempo real. \\
+\hline
+\end{longtable}
 
 \newpage
 
 ### SEO Tags and Meta Tags
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-\newpage
+- **Propósito**
+
+  En la aplicación *RutaKids*, los *SEO Tags* y *Meta Tags* juegan un rol crucial para garantizar la visibilidad del producto tanto en motores de búsqueda como en tiendas de aplicaciones móviles. 
+
+  Aunque el producto incluye una plataforma web y una aplicación móvil, la *landing page* cumple un rol estratégico al actuar como primer punto de contacto para nuevos usuarios, por lo que ha sido optimizada mediante el uso de etiquetas específicas.
+
+
+- **SEO Tags**
+
+  Los SEO Tags permiten mejorar el posicionamiento de la landing page de *RutaKids* en buscadores como Google, facilitando que padres y colegios interesados encuentren rápidamente el producto. A continuación se muestran algunos ejemplos aplicados:
+
+  - **Title Tag**  
+    Especifica el título visible en los resultados de búsqueda.
+
+    ```html
+    <title>RutaKids - Seguridad y Monitoreo Escolar en Tiempo Real</title>
+    ```
+
+  - **Meta Description**  
+    Describe brevemente el contenido de la página.
+
+    ```html
+    <meta name="description" content="RutaKids es una plataforma de movilidad escolar con pulseras RFID. Permite a los padres monitorear en tiempo real los recorridos escolares de sus hijos y a los colegios gestionar rutas de forma eficiente." />
+    ```
+
+  - **Header Tags**  
+    Estructuran jerárquicamente el contenido.
+
+    ```html
+    <h1>Movilidad Escolar Inteligente</h1>
+    <h2>Monitorea a tus hijos en tiempo real</h2>
+    <h3>Gestiona flotas escolares con tecnología RFID</h3>
+    ```
+
+
+- **Meta Tags**
+
+  Los Meta Tags proporcionan información técnica a navegadores y motores de búsqueda, mejorando la experiencia del usuario y el SEO técnico. Algunos utilizados en *RutaKids* son:
+
+  - **Charset Meta Tag**
+
+    ```html
+    <meta charset="UTF-8">
+    ```
+
+  - **Viewport Meta Tag**
+
+    ```html
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    ```
+
+  - **Robots Meta Tag**
+
+    ```html
+    <meta name="robots" content="index, follow">
+    ```
+
+  - **Canonical Tag**
+
+    ```html
+    <link rel="canonical" href="https://rutakids.com">
+    ```
+
+
+- **Landing Page SEO Tags (para la aplicación móvil)**
+
+  Además de las etiquetas estándar, se han definido etiquetas específicas para promover la aplicación móvil directamente desde la landing page:
+
+  ```html
+  <title>RutaKids | Transporte Escolar Seguro y Conectado</title>
+  <meta name="description" content="RutaKids permite a padres monitorear a sus hijos durante el transporte escolar mediante pulseras RFID. Disponible para iOS y Android.">
+  <meta name="keywords" content="app transporte escolar, seguridad infantil, GPS escolar, pulseras RFID, monitoreo niños">
+  <meta name="author" content="LlantaTech">
+  <link rel="canonical" href="https://rutakids.com/">
+    ```
+
+- **App Store Optimization (ASO)**
+
+  Para aumentar la visibilidad de la aplicación en tiendas como Google Play o App Store, RutaKids aplica estrategias de ASO (App Store Optimization) que incluyen título, descripción, palabras clave y categorías.
+
+
+\begin{longtable}{|p{4cm}|p{10.5cm}|}
+\hline
+\textbf{Elemento} & \textbf{Valor propuesto} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Elemento} & \textbf{Valor propuesto} \\
+\hline
+\endhead
+App Title & RutaKids: Monitoreo Escolar en Tiempo Real \\
+\hline
+App Subtitle & Seguridad escolar con tecnología RFID \\
+\hline
+App Description & Con RutaKids, los padres pueden seguir en tiempo real los recorridos escolares de sus hijos, recibir alertas, revisar historial de viajes y confiar en un sistema seguro con tecnología RFID. Ideal para colegios modernos y comprometidos con la seguridad. \\
+\hline
+Keywords & transporte escolar, app para padres, seguridad infantil, RFID, monitoreo niños \\
+\hline
+Developer & LlantaTech \\
+\hline
+Categoría & Educación / Familias \\
+\hline
+URL descarga Android & \url{https://play.google.com/store/apps/details?id=com.rutakids} \\
+\hline
+URL descarga iOS & \url{https://apps.apple.com/app/rutakids/id123456789} \\
+\hline
+\end{longtable}
+
+
+El uso estratégico de SEO Tags y Meta Tags en RutaKids no solo mejora la visibilidad en buscadores y redes sociales, sino que también facilita la experiencia del usuario desde el primer contacto con la plataforma. Además, las etiquetas ASO aseguran un buen posicionamiento en las tiendas de aplicaciones, promoviendo así la descarga y uso efectivo del producto.
+
+
 
 ### Searching Systems.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+- **Propósito**
+
+  Los sistemas de búsqueda en productos digitales permiten al usuario navegar grandes volúmenes de información de forma efectiva, evitando pérdida de tiempo y frustración.
+
+  En *RutaKids*, la búsqueda activa está implementada únicamente en la plataforma web de administradores, ya que la aplicación móvil está diseñada para mostrar información personalizada y filtrada automáticamente para los padres de familia.
+
+
+
+- **Filtros y herramientas de búsqueda en la Web App**
+
+\begin{longtable}{|p{5cm}|p{9.5cm}|}
+\hline
+\textbf{Filtro / Función} & \textbf{Definición} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Filtro / Función} & \textbf{Definición} \\
+\hline
+\endhead
+Nombre del estudiante & Permite encontrar a un estudiante específico mediante la entrada parcial o completa de su nombre. \\
+\hline
+Código de pulsera RFID & Filtra directamente por el identificador asignado al estudiante. \\
+\hline
+Grado escolar / Edad & Muestra únicamente a estudiantes de un grado o grupo etario específico. \\
+\hline
+Ruta asignada & Filtra a los estudiantes según el recorrido o zona a la que pertenecen. \\
+\hline
+Nombre del conductor & Permite identificar qué conductor está asignado a una ruta o grupo de estudiantes. \\
+\hline
+Fecha / rango de fechas & Busca viajes, alertas o registros según el día o periodo seleccionado. \\
+\hline
+Tipo de alerta & Clasifica las notificaciones (ej. alerta de desvío, abordaje no detectado, temperatura fuera del umbral). \\
+\hline
+Estado del recorrido & Muestra únicamente registros en estado específico: “en tránsito”, “finalizado”, “no iniciado”. \\
+\hline
+Búsqueda combinada avanzada & Combina múltiples filtros (ej. por nombre + ruta + fecha) para obtener resultados más precisos. \\
+\hline
+\end{longtable}
+
+
+
+- **Diseño de resultados y experiencia de búsqueda**
+
+  - Resultados ordenados alfabéticamente o por fecha según el módulo.
+  - Interfaz con autocompletado en campos de búsqueda (como nombres o placas).
+  - Posibilidad de acceder al detalle directamente desde los resultados.
+  - Visualización clara en tarjetas o tablas, según el tipo de información.
+
+
+
+- **App móvil – Padres de familia**
+
+  En la app móvil, no se requiere una herramienta de búsqueda, ya que toda la información está pre-filtrada por el sistema. Cada padre solo visualiza la información correspondiente a sus hijos y sus viajes.
+
+\begin{longtable}{|p{5cm}|p{9.5cm}|}
+\hline
+\textbf{Característica} & \textbf{Función} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Característica} & \textbf{Función} \\
+\hline
+\endhead
+Vista filtrada por estudiante & Si hay más de un hijo, el sistema separa la información por cada uno. \\
+\hline
+Historial por fecha & Organiza automáticamente los viajes anteriores por orden cronológico. \\
+\hline
+Alertas personalizadas & Solo muestra notificaciones relevantes al estudiante registrado. \\
+\hline
+\end{longtable}
+
+
+
+Esta combinación de sistemas asegura que tanto administradores como padres puedan encontrar información crítica sin esfuerzo, optimizando el uso del sistema y mejorando la experiencia general.
+
 
 \newpage
 
 ### Navigation Systems.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+- **Propósito**
+
+  Los sistemas de navegación son el conjunto de elementos y patrones que permiten a los usuarios moverse a través del contenido y funcionalidades de una interfaz. Una buena navegación no solo facilita el desplazamiento, sino que también guía, orienta y reduce el esfuerzo cognitivo.
+
+  Como afirman Garrett (2011), “la navegación efectiva proporciona al usuario una sensación de lugar, dirección y control dentro de un producto digital”.
+
+  En *RutaKids*, se implementan sistemas de navegación adaptados a cada tipo de usuario: padres (app móvil), conductores (app móvil simplificada) y administradores escolares (plataforma web). En cada caso, la navegación fue diseñada para ajustarse al nivel de interacción y al contexto de uso.
+
+
+
+- **App móvil – Padres de familia**
+
+\begin{longtable}{|p{5cm}|p{9.5cm}|}
+\hline
+\textbf{Elemento de navegación} & \textbf{Descripción} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Elemento de navegación} & \textbf{Descripción} \\
+\hline
+\endhead
+Menú inferior (tab bar) & Contiene accesos directos a: Inicio, Monitoreo, Historial y Cuenta. Visible en toda la app. \\
+\hline
+Navegación jerárquica & Cada sección permite acceder a pantallas secundarias (por ejemplo, ver detalle del historial). \\
+\hline
+Retroalimentación visual & Íconos activos con cambio de color al seleccionarse, y notificaciones visibles (campana). \\
+\hline
+Navegación simplificada & Solo se muestran las funciones relevantes al rol del padre, evitando sobrecarga de opciones. \\
+\hline
+\end{longtable}
+
+
+
+- **App móvil – Conductores**
+
+\begin{longtable}{|p{5cm}|p{9.5cm}|}
+\hline
+\textbf{Elemento de navegación} & \textbf{Descripción} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Elemento de navegación} & \textbf{Descripción} \\
+\hline
+\endhead
+Interfaz de acción directa & La navegación está basada en 2 o 3 botones: Iniciar Ruta, Ver GPS, Finalizar Ruta. \\
+\hline
+Redirección externa (GPS) & Al iniciar ruta, se abre la app de navegación externa (Google Maps o Waze) automáticamente. \\
+\hline
+Diseño de una sola vista & La app evita navegación compleja; el conductor solo necesita cumplir un flujo puntual. \\
+\hline
+\end{longtable}
+
+
+
+- **Plataforma Web – Administradores**
+
+\begin{longtable}{|p{5cm}|p{9.5cm}|}
+\hline
+\textbf{Elemento de navegación} & \textbf{Descripción} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Elemento de navegación} & \textbf{Descripción} \\
+\hline
+\endhead
+Menú lateral persistente & Acceso directo a módulos: Dashboard, Estudiantes, Rutas, Monitoreo, Notificaciones, Configuración, etc. \\
+\hline
+Submenús plegables & Algunas secciones contienen subcategorías, como niveles escolares dentro de "Estudiantes". \\
+\hline
+Navegación matricial & Vista tipo grid para elementos como grados escolares o rutas disponibles. \\
+\hline
+Navegación contextual & Acciones como “Editar” o “Asignar ruta” aparecen directamente en el contexto de la información. \\
+\hline
+Accesos rápidos & Acciones frecuentes resaltadas visualmente (botones flotantes o en tarjetas). \\
+\hline
+\end{longtable}
+
 
 \newpage
 
