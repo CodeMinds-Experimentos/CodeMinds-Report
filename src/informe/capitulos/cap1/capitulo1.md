@@ -153,7 +153,7 @@ FALTA COMPLETAR \\
 \textbf{Mateo Alejandro Vilchez Rios} \\
 FALTA COMPLETAR \\
 \textbf{Luis Eduardo Herrera González} \\
-FALTA COMPLETAR \\
+Durante el proyecto, siempre traté de ser transparente en las entrevistas y al dar opiniones sobre otras soluciones. Reconocí lo que la competencia hacía bien para mejorar nuestro trabajo, sin exagerar ni mentir. También me aseguré de comunicar cualquier problema al equipo de forma clara y honesta, manteniendo el respeto y la ética en todo momento. \\
 \textbf{Ariana Vargas Revollé} \\
 FALTA COMPLETAR \\
 } 
@@ -178,7 +178,7 @@ FALTA COMPLETAR \\
 \textbf{Mateo Alejandro Vilchez Rios} \\
 FALTA COMPLETAR \\
 \textbf{Luis Eduardo Herrera González} \\
-FALTA COMPLETAR \\
+Al investigar para nuestra solución de transporte escolar, tomé en cuenta el impacto social y la importancia de proteger la privacidad de los estudiantes. Evitamos propuestas que pudieran hacer que los padres invadieran la privacidad de sus hijos. También pensamos en que nuestro sistema fuera accesible y no generara un costo extra fuerte para las familias o colegios. \\
 \textbf{Ariana Vargas Revollé} \\
 FALTA COMPLETAR \\
 }
@@ -269,13 +269,13 @@ Soy estudiante de la carrera de Ingeniería de Software cursando actualmente el 
 \begin{tcolorbox}[colframe=mybackground, colback=mybackground, boxrule=0.8mm, width=\textwidth, sharp corners]
 {
 \begin{minipage}[c]{0.3\textwidth}
-\includegraphics[width=\linewidth]{src/img/integrantes/gato.png}
+\includegraphics[width=\linewidth]{src/img/integrantes/luis.png}
 \end{minipage}
 \hfill
 \begin{minipage}[c]{0.65\textwidth}
 \textbf{Luis Eduardo Herrera González} \\
 \textit{Ingeniero de Software} \\
-COMPLETAR
+Soy estudiante del séptimo ciclo de la carrera de Ingeniería de Software. Me apasiona el desarrollo de aplicaciones web y de escritorio eficientes, utilizando tecnologías modernas como Bun, Tauri y Lit. También cuento con experiencia en frameworks ampliamente adoptados como Next.js, Angular y Spring Boot. Además, tengo un gran interés en el área de Machine Learning, trabajando con CUDA, C++ y MLX para crear soluciones de alto rendimiento. Me considero una persona curiosa, enfocada en la innovación tecnológica y comprometida a aportar mis habilidades técnicas para el éxito del equipo.
 \end{minipage}
 }
 \end{tcolorbox}
