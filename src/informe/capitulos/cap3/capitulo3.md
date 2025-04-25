@@ -138,83 +138,83 @@ US07 & Cierre de sesión segura \\
 \hline
 \textbf{EP02 (Gestión de flotas y zonas)} & \textbf{Como} administrador educativo, \textbf{quiero} gestionar la información de vehículos y zonas geográficas \textbf{para} optimizar las rutas de transporte escolar y garantizar cobertura efectiva. \\
 \hline
-US01 & Registro y edición de vehículos \\
+CS01 & Registro y edición de vehículos \\
 \hline
-US02 & Definición y mapeo de zonas \\
+CS02 & Definición y mapeo de zonas \\
 \hline
-US03 & Visualización geoespacial de zonas y rutas \\
+CS03 & Visualización geoespacial de zonas y rutas \\
 \hline
-US04 & Asignación de vehículos a rutas específicas \\
+CS04 & Asignación de vehículos a rutas específicas \\
 \hline
-US05 & Desactivación temporal de unidades fuera de servicio \\
+CS05 & Desactivación temporal de unidades fuera de servicio \\
 \hline
 \textbf{EP03 (Gestión de conductores y estudiantes)} & \textbf{Como} administrador educativo, \textbf{quiero} gestionar la información de conductores y estudiantes \textbf{para} asegurar que las rutas se asignen correctamente y optimizar la seguridad del transporte escolar. \\
 \hline
-US01 & Registro y actualización de conductores \\
+DS01 & Registro y actualización de conductores \\
 \hline
-US02 & Registro y asignación de pulseras RFID a estudiantes \\
+DS02 & Registro y asignación de pulseras RFID a estudiantes \\
 \hline
-US03 & Asignación de conductores y estudiantes a rutas específicas \\
+DS03 & Asignación de conductores y estudiantes a rutas específicas \\
 \hline
-US04 & Verificación de disponibilidad de conductores \\
+DS04 & Verificación de disponibilidad de conductores \\
 \hline
-US05 & Control de cambios de última hora en la asignación de conductores y estudiantes \\
+DS05 & Control de cambios de última hora en la asignación de conductores y estudiantes \\
 \hline
 \textbf{EP04 (Integración IoT y captura de datos)} & \textbf{Como} administrador educativo, \textbf{quiero} integrar tecnologías IoT para el monitoreo en tiempo real de las flotas de transporte \textbf{para} optimizar la seguridad, eficiencia y control de las rutas de transporte escolar. \\
 \hline
-US01 & Monitoreo de posición y velocidad en tiempo real de vehículos \\
+ES01 & Monitoreo de posición y velocidad en tiempo real de vehículos \\
 \hline
-US02 & Monitoreo de temperatura interna de los vehículos \\
+ES02 & Monitoreo de temperatura interna de los vehículos \\
 \hline
-US03 & Seguimiento de unidades de transporte para verificar salida y llegada \\
+ES03 & Seguimiento de unidades de transporte para verificar salida y llegada \\
 \hline
-US04 & Monitoreo de estudiantes que no abordaron la unidad \\
+ES04 & Monitoreo de estudiantes que no abordaron la unidad \\
 \hline
-US05 & Verificación de rutas alternativas en caso de desvíos \\
+ES05 & Verificación de rutas alternativas en caso de desvíos \\
 \hline
-US06 & Visualización de unidades en ruta para gestionar desviaciones o retrasos \\
+ES06 & Visualización de unidades en ruta para gestionar desviaciones o retrasos \\
 \hline
 \textbf{EP05 (Notificaciones y Alertas)} & \textbf{Como} administrador educativo, \textbf{quiero} recibir notificaciones y alertas en tiempo real sobre los eventos y condiciones críticas de las unidades de transporte \textbf{para} poder tomar decisiones rápidas y garantizar la seguridad y eficiencia del servicio. \\
 \hline
-US01 & Alerta de temperatura fuera de rango \\
+FS01 & Alerta de temperatura fuera de rango \\
 \hline
-US02 & Alerta de retrasos o desviaciones en las rutas \\
+FS02 & Alerta de retrasos o desviaciones en las rutas \\
 \hline
-US03 & Alerta de estudiantes no abordando la unidad \\
+FS03 & Alerta de estudiantes no abordando la unidad \\
 \hline
-US04 & Notificación automática ante cambios de ruta o posibles retrasos \\
+FS04 & Notificación automática ante cambios de ruta o posibles retrasos \\
 \hline
-US05 & Alerta por fallo de equipo en el vehículo (GPS, RFID, sensores, etc.) \\
+FS05 & Alerta por fallo de equipo en el vehículo (GPS, RFID, sensores, etc.) \\
 \hline
-US06 & Notificación cuando la unidad ha completado el recorrido \\
+FS06 & Notificación cuando la unidad ha completado el recorrido \\
 \hline
 \textbf{EP06 (Reportes y Analítica)} & \textbf{Como} administrador educativo, \textbf{quiero} generar y analizar reportes e indicadores \textbf{para} evaluar el desempeño del transporte escolar y apoyar la toma de decisiones. \\
 \hline
-US01 & Reporte de tiempos de ruta y cumplimiento \\
+GS01 & Reporte de tiempos de ruta y cumplimiento \\
 \hline
-US02 & Estadísticas de abordaje por estudiante \\
+GS02 & Estadísticas de abordaje por estudiante \\
 \hline
-US03 & Exportación de datos históricos en Excel/PDF \\
+GS03 & Exportación de datos históricos en Excel/PDF \\
 \hline
-US04 & Reporte de incidencias críticas \\
+GS04 & Reporte de incidencias críticas \\
 \hline
-US05 & Programación de envíos automáticos de reportes \\
+GS05 & Programación de envíos automáticos de reportes \\
 \hline
-US06 & Filtrado y segmentación de datos históricos \\
+GS06 & Filtrado y segmentación de datos históricos \\
 \hline
 \textbf{EP07 (Plataforma Web de Administración)} & \textbf{Como} administrador educativo, \textbf{quiero} acceder a herramientas de administración centralizadas \textbf{para} configurar, monitorear y asegurar el correcto funcionamiento de la plataforma. \\
 \hline
-US01 & Dashboard con KPIs clave \\
+HS01 & Dashboard con KPIs clave \\
 \hline
-US02 & Gestión de roles y permisos \\
+HS02 & Gestión de roles y permisos \\
 \hline
-US03 & Configuración de parámetros globales \\
+HS03 & Configuración de parámetros globales \\
 \hline
-US04 & Registro de auditoría de actividad \\
+HS04 & Registro de auditoría de actividad \\
 \hline
-US05 & Configuración de notificaciones y alertas \\
+HS05 & Configuración de notificaciones y alertas \\
 \hline
-US06 & Personalización del dashboard \\
+HS06 & Personalización del dashboard \\
 \hline
 \end{longtable}
 
@@ -358,7 +358,7 @@ US07 & Cierre de sesión segura & \textbf{Como} administrador educativo, \textbf
 & EP01 \\
 
 \hline
-US01 & Registro y edición de vehículos & \textbf{Como} administrador educativo, \textbf{quiero} registrar y editar los datos de cada vehículo (placa, modelo, capacidad y estado operativo), \textbf{para} mantener un catálogo actualizado y fiable de la flota. & 
+CS01 & Registro y edición de vehículos & \textbf{Como} administrador educativo, \textbf{quiero} registrar y editar los datos de cada vehículo (placa, modelo, capacidad y estado operativo), \textbf{para} mantener un catálogo actualizado y fiable de la flota. & 
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Registro exitoso de vehículo}\\
 \textbf{Dado que} el administrador accede al formulario de registro de vehículos\\
@@ -378,7 +378,7 @@ US01 & Registro y edición de vehículos & \textbf{Como} administrador educativo
 & EP02 \\
 
 \hline
-US02 & Definición y mapeo de zonas & \textbf{Como} administrador educativo, \textbf{quiero} definir y mapear zonas de recogida y entrega en un mapa interactivo, \textbf{para} optimizar la cobertura y asignar rutas con precisión. & 
+CS02 & Definición y mapeo de zonas & \textbf{Como} administrador educativo, \textbf{quiero} definir y mapear zonas de recogida y entrega en un mapa interactivo, \textbf{para} optimizar la cobertura y asignar rutas con precisión. & 
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Creación exitosa de zona}\\
 \textbf{Dado que} el administrador accede a la sección de zonas\\
@@ -398,7 +398,7 @@ US02 & Definición y mapeo de zonas & \textbf{Como} administrador educativo, \te
 & EP02 \\
 
 \hline
-US03 & Visualización geoespacial de zonas y rutas & \textbf{Como} administrador educativo, \textbf{quiero} visualizar todas las zonas de recogida y entrega y sus rutas asociadas en un mapa interactivo, \textbf{para} detectar posibles solapamientos, huecos de cobertura o áreas no cubiertas. & 
+CS03 & Visualización geoespacial de zonas y rutas & \textbf{Como} administrador educativo, \textbf{quiero} visualizar todas las zonas de recogida y entrega y sus rutas asociadas en un mapa interactivo, \textbf{para} detectar posibles solapamientos, huecos de cobertura o áreas no cubiertas. & 
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Visualización correcta de zonas y rutas}\\
 \textbf{Dado que} el administrador accede al mapa interactivo\\
@@ -419,7 +419,7 @@ US03 & Visualización geoespacial de zonas y rutas & \textbf{Como} administrador
 & EP02 \\
 
 \hline
-US04 & Asignación de vehículos a rutas específicas & \textbf{Como} administrador educativo, \textbf{quiero} asignar vehículos específicos a rutas definidas, \textbf{para} tener un control operacional directo sobre qué unidad se utiliza en cada recorrido y facilitar la trazabilidad en caso de incidentes. & 
+CS04 & Asignación de vehículos a rutas específicas & \textbf{Como} administrador educativo, \textbf{quiero} asignar vehículos específicos a rutas definidas, \textbf{para} tener un control operacional directo sobre qué unidad se utiliza en cada recorrido y facilitar la trazabilidad en caso de incidentes. & 
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Asignación de vehículo a ruta}\\
 \textbf{Dado que} el administrador está visualizando las rutas disponibles\\
@@ -439,7 +439,7 @@ US04 & Asignación de vehículos a rutas específicas & \textbf{Como} administra
 & EP02 \\
 
 \hline
-US05 & Desactivación temporal de unidades fuera de servicio & \textbf{Como} administrador educativo, \textbf{quiero} desactivar temporalmente vehículos fuera de servicio, \textbf{para} evitar su asignación errónea a rutas mientras se mantiene su información en el sistema para futuras referencias y reactivación. & 
+CS05 & Desactivación temporal de unidades fuera de servicio & \textbf{Como} administrador educativo, \textbf{quiero} desactivar temporalmente vehículos fuera de servicio, \textbf{para} evitar su asignación errónea a rutas mientras se mantiene su información en el sistema para futuras referencias y reactivación. & 
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Desactivación de vehículo fuera de servicio}\\
 \textbf{Dado que} un vehículo requiere mantenimiento o no está operativo\\
@@ -458,7 +458,7 @@ US05 & Desactivación temporal de unidades fuera de servicio & \textbf{Como} adm
 \end{tabular}
 & EP02 \\
 \hline
-US01 & Registro y actualización de conductores & \textbf{Como} administrador educativo, \textbf{quiero} registrar nuevos conductores y actualizar sus datos de contacto, número de licencia y estado operativo, \textbf{para} mantener un personal actualizado y garantizar la correcta asignación de rutas. & 
+DS01 & Registro y actualización de conductores & \textbf{Como} administrador educativo, \textbf{quiero} registrar nuevos conductores y actualizar sus datos de contacto, número de licencia y estado operativo, \textbf{para} mantener un personal actualizado y garantizar la correcta asignación de rutas. & 
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Registro exitoso de conductor}\\
 \textbf{Dado que} el administrador accede al formulario de conductores\\
@@ -479,7 +479,7 @@ US01 & Registro y actualización de conductores & \textbf{Como} administrador ed
 
 \hline
 
-US02 & Registro y asignación de pulseras RFID a estudiantes & \textbf{Como} administrador educativo, \textbf{quiero} registrar a los estudiantes en el sistema y asignarles pulseras RFID con un identificador único, \textbf{para} vincular cada niño con su dispositivo de control y gestionar su transporte de manera más eficiente. & 
+DS02 & Registro y asignación de pulseras RFID a estudiantes & \textbf{Como} administrador educativo, \textbf{quiero} registrar a los estudiantes en el sistema y asignarles pulseras RFID con un identificador único, \textbf{para} vincular cada niño con su dispositivo de control y gestionar su transporte de manera más eficiente. & 
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Registro de estudiante exitoso}\\
 \textbf{Dado que} el administrador accede al formulario de registro de estudiante\\
@@ -499,7 +499,7 @@ US02 & Registro y asignación de pulseras RFID a estudiantes & \textbf{Como} adm
 & EP03 \\
 
 \hline
-US03 & Asignación de conductores y estudiantes a rutas específicas & \textbf{Como} administrador educativo, \textbf{quiero} asignar conductores y estudiantes a rutas específicas en el sistema, \textbf{para} asegurar que cada unidad opere con el personal y pasajeros correctos y optimizar la seguridad del transporte escolar. & 
+DS03 & Asignación de conductores y estudiantes a rutas específicas & \textbf{Como} administrador educativo, \textbf{quiero} asignar conductores y estudiantes a rutas específicas en el sistema, \textbf{para} asegurar que cada unidad opere con el personal y pasajeros correctos y optimizar la seguridad del transporte escolar. & 
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Asignación exitosa}\\
 \textbf{Dado que} el administrador se encuentra en la interfaz de asignación de rutas\\
@@ -517,8 +517,10 @@ US03 & Asignación de conductores y estudiantes a rutas específicas & \textbf{C
 \textbf{entonces} el sistema muestra un mensaje de advertencia indicando “El conductor/estudiante ya se encuentra asignado a otra ruta en este horario” y no permite la asignación duplicada.\\[0.2em]
 \end{tabular}
 & EP03 \\
+
 \hline
-US04 & Verificación de disponibilidad de conductores & \textbf{Como} administrador educativo, \textbf{quiero} verificar la disponibilidad de los conductores antes de asignarlos a una ruta, \textbf{para} evitar conflictos de horario y asegurar una gestión eficiente del personal y la flota. &
+
+DS04 & Verificación de disponibilidad de conductores & \textbf{Como} administrador educativo, \textbf{quiero} verificar la disponibilidad de los conductores antes de asignarlos a una ruta, \textbf{para} evitar conflictos de horario y asegurar una gestión eficiente del personal y la flota. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Conductor disponible}\\
 \textbf{Dado que} el administrador accede al panel de asignación de rutas\\
@@ -538,7 +540,8 @@ US04 & Verificación de disponibilidad de conductores & \textbf{Como} administra
 & EP03 \\
 
 \hline
-US05 & Control de cambios de última hora en la asignación de conductores y estudiantes & \textbf{Como} administrador educativo, \textbf{quiero} realizar cambios de última hora en la asignación de conductores y estudiantes, \textbf{para} asegurar la continuidad del servicio ante imprevistos sin afectar el resto de la programación. &
+
+DS05 & Control de cambios de última hora en la asignación de conductores y estudiantes & \textbf{Como} administrador educativo, \textbf{quiero} realizar cambios de última hora en la asignación de conductores y estudiantes, \textbf{para} asegurar la continuidad del servicio ante imprevistos sin afectar el resto de la programación. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Reasignación rápida de conductor}\\
 \textbf{Dado que} un conductor asignado a una ruta reporta una ausencia inesperada\\
@@ -558,7 +561,7 @@ US05 & Control de cambios de última hora en la asignación de conductores y est
 & EP03 \\
 
 \hline
-US01 & Monitoreo en tiempo real de posición y velocidad de vehículos & \textbf{Como} administrador educativo, \textbf{quiero} conocer la posición y velocidad en tiempo real de cada vehículo, \textbf{para} monitorear sus rutas y detectar posibles retrasos o desvíos oportunamente. & 
+ES01 & Monitoreo en tiempo real de posición y velocidad de vehículos & \textbf{Como} administrador educativo, \textbf{quiero} conocer la posición y velocidad en tiempo real de cada vehículo, \textbf{para} monitorear sus rutas y detectar posibles retrasos o desvíos oportunamente. & 
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Visualización de datos en tiempo real}\\
 \textbf{Dado que} el administrador accede al panel de monitoreo\\
@@ -578,7 +581,7 @@ US01 & Monitoreo en tiempo real de posición y velocidad de vehículos & \textbf
 & EP04 \\
 
 \hline
-US02 & Monitoreo de temperatura interna de los vehículos & \textbf{Como} administrador educativo, \textbf{quiero} monitorear remotamente la temperatura interna de los vehículos, \textbf{para} asegurarme de que las condiciones sean seguras para los pasajeros. &
+ES02 & Monitoreo de temperatura interna de los vehículos & \textbf{Como} administrador educativo, \textbf{quiero} monitorear remotamente la temperatura interna de los vehículos, \textbf{para} asegurarme de que las condiciones sean seguras para los pasajeros. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Visualización de temperatura actual}\\
 \textbf{Dado que} el supervisor accede al panel de monitoreo de temperatura\\
@@ -598,7 +601,7 @@ US02 & Monitoreo de temperatura interna de los vehículos & \textbf{Como} admini
 & EP04 \\
 
 \hline
-US03 & Seguimiento de unidades de transporte para verificar salida y llegada & \textbf{Como} administrador educativo, \textbf{quiero} visualizar en tiempo real qué unidades ya han partido para recoger a los estudiantes y qué unidades ya han llegado al centro educativo, \textbf{para} hacer un seguimiento eficiente del estado de las rutas y asegurarme de que todos los estudiantes han sido recogidos o entregados. &
+ES03 & Seguimiento de unidades de transporte para verificar salida y llegada & \textbf{Como} administrador educativo, \textbf{quiero} visualizar en tiempo real qué unidades ya han partido para recoger a los estudiantes y qué unidades ya han llegado al centro educativo, \textbf{para} hacer un seguimiento eficiente del estado de las rutas y asegurarme de que todos los estudiantes han sido recogidos o entregados. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Visualización de estado de unidades}\\
 \textbf{Dado que} el administrador accede al panel de seguimiento de rutas\\
@@ -618,7 +621,7 @@ US03 & Seguimiento de unidades de transporte para verificar salida y llegada & \
 & EP04 \\
 
 \hline
-US04 & Monitoreo de estudiantes que no abordaron la unidad & \textbf{Como} administrador educativo, \textbf{quiero} hacer un seguimiento de qué estudiantes no abordaron la unidad, \textbf{para} tomar acciones inmediatas y asegurarme de que todos los estudiantes estén siendo transportados de forma segura. &
+ES04 & Monitoreo de estudiantes que no abordaron la unidad & \textbf{Como} administrador educativo, \textbf{quiero} hacer un seguimiento de qué estudiantes no abordaron la unidad, \textbf{para} tomar acciones inmediatas y asegurarme de que todos los estudiantes estén siendo transportados de forma segura. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Identificación de estudiantes ausentes}\\
 \textbf{Dado que} el sistema tiene registrados los estudiantes asignados a una ruta\\
@@ -638,7 +641,7 @@ US04 & Monitoreo de estudiantes que no abordaron la unidad & \textbf{Como} admin
 & EP04 \\
 
 \hline
-US05 & Verificación de rutas alternativas en caso de desvíos & \textbf{Como} administrador educativo, \textbf{quiero} verificar y gestionar rutas alternativas en tiempo real cuando una unidad se desvía de su ruta prevista, \textbf{para} garantizar que los estudiantes lleguen a su destino de manera segura y a tiempo frente a imprevistos. &
+ES05 & Verificación de rutas alternativas en caso de desvíos & \textbf{Como} administrador educativo, \textbf{quiero} verificar y gestionar rutas alternativas en tiempo real cuando una unidad se desvía de su ruta prevista, \textbf{para} garantizar que los estudiantes lleguen a su destino de manera segura y a tiempo frente a imprevistos. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Notificación de desvío detectado}\\
 \textbf{Dado que} una unidad se desvía de su ruta establecida\\
@@ -657,7 +660,7 @@ US05 & Verificación de rutas alternativas en caso de desvíos & \textbf{Como} a
 \end{tabular}
 & EP04 \\
 \hline
-US06 & Visualización de unidades en ruta para gestionar desviaciones o retrasos & \textbf{Como} administrador educativo, \textbf{quiero} visualizar en tiempo real todas las unidades en ruta, \textbf{para} detectar rápidamente desviaciones o retrasos y tomar decisiones oportunas que aseguren el cumplimiento de los horarios y la seguridad de los estudiantes. &
+ES06 & Visualización de unidades en ruta para gestionar desviaciones o retrasos & \textbf{Como} administrador educativo, \textbf{quiero} visualizar en tiempo real todas las unidades en ruta, \textbf{para} detectar rápidamente desviaciones o retrasos y tomar decisiones oportunas que aseguren el cumplimiento de los horarios y la seguridad de los estudiantes. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Visualización en tiempo real de unidades activas}\\
 \textbf{Dado que} el administrador accede al panel de monitoreo\\
@@ -677,7 +680,7 @@ US06 & Visualización de unidades en ruta para gestionar desviaciones o retrasos
 & EP04 \\
 
 \hline
-US01 & Alerta de temperatura fuera de rango & \textbf{Como} administrador educativo, \textbf{quiero} recibir alertas en tiempo real cuando la temperatura interna de un vehículo se salga de los parámetros establecidos, \textbf{para} tomar medidas inmediatas que garanticen la seguridad y el confort de los estudiantes durante el transporte. &
+FS01 & Alerta de temperatura fuera de rango & \textbf{Como} administrador educativo, \textbf{quiero} recibir alertas en tiempo real cuando la temperatura interna de un vehículo se salga de los parámetros establecidos, \textbf{para} tomar medidas inmediatas que garanticen la seguridad y el confort de los estudiantes durante el transporte. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Recepción de alerta por alta temperatura}\\
 \textbf{Dado que} la temperatura interna de una unidad supera el umbral máximo permitido\\
@@ -697,7 +700,7 @@ US01 & Alerta de temperatura fuera de rango & \textbf{Como} administrador educat
 & EP05 \\
 
 \hline
-US02 & Alerta de retrasos o desviaciones en las rutas & \textbf{Como} administrador educativo, \textbf{quiero} recibir alertas inmediatas cuando una unidad de transporte experimente retrasos o se desvíe de la ruta establecida, \textbf{para} poder coordinar con el conductor y tomar decisiones rápidas que minimicen el impacto en el servicio y garanticen la llegada segura y oportuna de los estudiantes. &
+FS02 & Alerta de retrasos o desviaciones en las rutas & \textbf{Como} administrador educativo, \textbf{quiero} recibir alertas inmediatas cuando una unidad de transporte experimente retrasos o se desvíe de la ruta establecida, \textbf{para} poder coordinar con el conductor y tomar decisiones rápidas que minimicen el impacto en el servicio y garanticen la llegada segura y oportuna de los estudiantes. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Alerta por retraso en la ruta}\\
 \textbf{Dado que} una unidad excede el tiempo estimado de llegada a un punto planificado\\
@@ -717,7 +720,7 @@ US02 & Alerta de retrasos o desviaciones en las rutas & \textbf{Como} administra
 & EP05 \\
 
 \hline
-US03 & Alerta de estudiantes no abordando la unidad & \textbf{Como} administrador educativo, \textbf{quiero} recibir alertas en tiempo real cuando un estudiante asignado a una ruta no aborde la unidad, \textbf{para} poder tomar medidas inmediatas como contactar al conductor o a los padres, y así garantizar la seguridad de todos los estudiantes. &
+FS03 & Alerta de estudiantes no abordando la unidad & \textbf{Como} administrador educativo, \textbf{quiero} recibir alertas en tiempo real cuando un estudiante asignado a una ruta no aborde la unidad, \textbf{para} poder tomar medidas inmediatas como contactar al conductor o a los padres, y así garantizar la seguridad de todos los estudiantes. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Alerta automática de no abordaje}\\
 \textbf{Dado que} un estudiante asignado a una unidad no es registrado como presente\\
@@ -737,7 +740,7 @@ US03 & Alerta de estudiantes no abordando la unidad & \textbf{Como} administrado
 & EP05 \\
 
 \hline
-US04 & Notificación automática ante cambios de ruta o posibles retrasos & \textbf{Como} administrador educativo, \textbf{quiero} recibir notificaciones automáticas cuando un vehículo experimente cambios de ruta o posibles retrasos, \textbf{para} poder gestionar de manera proactiva las rutas y tomar decisiones para minimizar el impacto en los horarios de transporte. &
+FS04 & Notificación automática ante cambios de ruta o posibles retrasos & \textbf{Como} administrador educativo, \textbf{quiero} recibir notificaciones automáticas cuando un vehículo experimente cambios de ruta o posibles retrasos, \textbf{para} poder gestionar de manera proactiva las rutas y tomar decisiones para minimizar el impacto en los horarios de transporte. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Notificación de cambio de ruta}\\
 \textbf{Dado que} un vehículo ha sido desviado de su ruta planificada debido a un imprevisto\\
@@ -757,7 +760,7 @@ US04 & Notificación automática ante cambios de ruta o posibles retrasos & \tex
 & EP05 \\
 
 \hline
-US05 & Alerta por fallo de equipo en el vehículo (GPS, RFID, sensores, etc.) & \textbf{Como} administrador educativo, \textbf{quiero} recibir una alerta inmediata en caso de fallo de equipos en los vehículos, como el GPS, RFID o sensores, \textbf{para} poder tomar medidas rápidas y garantizar que el control de las rutas y la seguridad de los estudiantes no se vean comprometidos. &
+FS05 & Alerta por fallo de equipo en el vehículo (GPS, RFID, sensores, etc.) & \textbf{Como} administrador educativo, \textbf{quiero} recibir una alerta inmediata en caso de fallo de equipos en los vehículos, como el GPS, RFID o sensores, \textbf{para} poder tomar medidas rápidas y garantizar que el control de las rutas y la seguridad de los estudiantes no se vean comprometidos. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Alerta por fallo en el GPS}\\
 \textbf{Dado que} el GPS de un vehículo ha dejado de funcionar correctamente\\
@@ -777,7 +780,7 @@ US05 & Alerta por fallo de equipo en el vehículo (GPS, RFID, sensores, etc.) & 
 & EP05 \\
 
 \hline
-US06 & Notificación cuando la unidad ha completado el recorrido & \textbf{Como} administrador educativo, \textbf{quiero} recibir una notificación cuando una unidad haya completado su recorrido (tanto la ruta hacia el colegio como el retorno a casa) \textbf{para} poder gestionar eficientemente la programación de las unidades, evitando retrasos y asegurando que las unidades estén disponibles para nuevas asignaciones. &
+FS06 & Notificación cuando la unidad ha completado el recorrido & \textbf{Como} administrador educativo, \textbf{quiero} recibir una notificación cuando una unidad haya completado su recorrido (tanto la ruta hacia el colegio como el retorno a casa) \textbf{para} poder gestionar eficientemente la programación de las unidades, evitando retrasos y asegurando que las unidades estén disponibles para nuevas asignaciones. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Notificación de llegada al colegio}\\
 \textbf{Dado que} la unidad ha llegado al colegio para dejar a los estudiantes\\
@@ -797,7 +800,7 @@ US06 & Notificación cuando la unidad ha completado el recorrido & \textbf{Como}
 & EP05 \\
 
 \hline
-US01 & Reporte de tiempos de ruta y cumplimiento & \textbf{Como} administrador educativo, \textbf{quiero} generar reportes de tiempos de ruta y cumplimiento, \textbf{para} evaluar el desempeño de la flota y apoyar la toma de decisiones basadas en datos operativos. & 
+GS01 & Reporte de tiempos de ruta y cumplimiento & \textbf{Como} administrador educativo, \textbf{quiero} generar reportes de tiempos de ruta y cumplimiento, \textbf{para} evaluar el desempeño de la flota y apoyar la toma de decisiones basadas en datos operativos. & 
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Generación exitosa del reporte}\\
 \textbf{Dado que} el administrador accede al módulo de reportes\\
@@ -817,7 +820,7 @@ US01 & Reporte de tiempos de ruta y cumplimiento & \textbf{Como} administrador e
 & EP06 \\
 
 \hline
-US02 & Estadísticas de abordaje por estudiante & \textbf{Como} administrador educativo, \textbf{quiero} obtener estadísticas de abordaje por estudiante, \textbf{para} detectar patrones de retraso o ausencias y tomar acciones preventivas que mejoren la eficiencia del transporte escolar. &
+GS02 & Estadísticas de abordaje por estudiante & \textbf{Como} administrador educativo, \textbf{quiero} obtener estadísticas de abordaje por estudiante, \textbf{para} detectar patrones de retraso o ausencias y tomar acciones preventivas que mejoren la eficiencia del transporte escolar. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Generación exitosa de estadísticas}\\
 \textbf{Dado que} el administrador accede al módulo de reportes\\
@@ -837,7 +840,7 @@ US02 & Estadísticas de abordaje por estudiante & \textbf{Como} administrador ed
 & EP06 \\
 
 \hline
-US03 & Exportación de datos históricos en Excel/PDF & \textbf{Como} responsable de calidad, \textbf{quiero} exportar datos históricos en formatos Excel o PDF, \textbf{para} presentarlos en auditorías o juntas directivas y facilitar la toma de decisiones estratégicas basadas en datos históricos. &
+GS03 & Exportación de datos históricos en Excel/PDF & \textbf{Como} responsable de calidad, \textbf{quiero} exportar datos históricos en formatos Excel o PDF, \textbf{para} presentarlos en auditorías o juntas directivas y facilitar la toma de decisiones estratégicas basadas en datos históricos. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Exportación exitosa de datos históricos}\\
 \textbf{Dado que} el responsable de calidad accede al módulo de reportes\\
@@ -857,7 +860,7 @@ US03 & Exportación de datos históricos en Excel/PDF & \textbf{Como} responsabl
 & EP06 \\
 
 \hline
-US04 & Reporte de incidencias críticas & \textbf{Como} administrador del sistema, \textbf{quiero} generar reportes de incidencias críticas, \textbf{para} consolidar y analizar eventos como alertas de temperatura, desviaciones de ruta o fallos de equipo, con el fin de identificar patrones recurrentes y focalizar acciones de mejora continua en la gestión de transporte escolar. &
+GS04 & Reporte de incidencias críticas & \textbf{Como} administrador del sistema, \textbf{quiero} generar reportes de incidencias críticas, \textbf{para} consolidar y analizar eventos como alertas de temperatura, desviaciones de ruta o fallos de equipo, con el fin de identificar patrones recurrentes y focalizar acciones de mejora continua en la gestión de transporte escolar. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Generación de reporte de incidencias críticas}\\
 \textbf{Dado que} el administrador accede a la sección de reportes de incidencias críticas\\
@@ -877,7 +880,7 @@ US04 & Reporte de incidencias críticas & \textbf{Como} administrador del sistem
 & EP06 \\
 
 \hline
-US05 & Programación de envíos automáticos de reportes & \textbf{Como} administrador del sistema, \textbf{quiero} programar envíos automáticos de reportes, \textbf{para} automatizar la distribución periódica de reportes (diarios, semanales o mensuales) a los responsables, garantizando que la información llegue a tiempo sin necesidad de intervención manual. &
+GS05 & Programación de envíos automáticos de reportes & \textbf{Como} administrador del sistema, \textbf{quiero} programar envíos automáticos de reportes, \textbf{para} automatizar la distribución periódica de reportes (diarios, semanales o mensuales) a los responsables, garantizando que la información llegue a tiempo sin necesidad de intervención manual. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Programación de envío automático de reportes}\\
 \textbf{Dado que} el administrador desea enviar reportes periódicamente\\
@@ -897,7 +900,7 @@ US05 & Programación de envíos automáticos de reportes & \textbf{Como} adminis
 & EP06 \\
 
 \hline
-US06 & Filtrado y segmentación de datos históricos & \textbf{Como} administrador del sistema, \textbf{quiero} filtrar y segmentar datos históricos por ruta, vehículo, conductor o rango de fechas, \textbf{para} optimizar el análisis detallado y la preparación de informes personalizados para auditorías o reuniones de gestión. &
+GS06 & Filtrado y segmentación de datos históricos & \textbf{Como} administrador del sistema, \textbf{quiero} filtrar y segmentar datos históricos por ruta, vehículo, conductor o rango de fechas, \textbf{para} optimizar el análisis detallado y la preparación de informes personalizados para auditorías o reuniones de gestión. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Filtrado de datos históricos por ruta}\\
 \textbf{Dado que} el administrador necesita analizar los datos de una ruta específica\\
@@ -917,7 +920,7 @@ US06 & Filtrado y segmentación de datos históricos & \textbf{Como} administrad
 & EP06 \\
 
 \hline
-US01 & Dashboard con KPIs clave & \textbf{Como} administrador educativo, \textbf{quiero} acceder a un dashboard que muestre KPIs clave (número de rutas activas, incidencias, temperatura media, etc.), \textbf{para} monitorear la operación del transporte escolar de un vistazo y tomar decisiones basadas en datos en tiempo real. &
+HS01 & Dashboard con KPIs clave & \textbf{Como} administrador educativo, \textbf{quiero} acceder a un dashboard que muestre KPIs clave (número de rutas activas, incidencias, temperatura media, etc.), \textbf{para} monitorear la operación del transporte escolar de un vistazo y tomar decisiones basadas en datos en tiempo real. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Visualización del dashboard}\\
 \textbf{Dado que} el administrador accede a la plataforma web\\
@@ -937,7 +940,7 @@ US01 & Dashboard con KPIs clave & \textbf{Como} administrador educativo, \textbf
 & EP07 \\
 
 \hline
-US02 & Gestión de roles y permisos & \textbf{Como} administrador educativo, \textbf{quiero} gestionar los roles y permisos de los usuarios (coordinadores, supervisores, etc.), \textbf{para} delegar responsabilidades con seguridad y asegurarme de que cada usuario solo tenga acceso a la información y funciones necesarias para su rol. &
+HS02 & Gestión de roles y permisos & \textbf{Como} administrador educativo, \textbf{quiero} gestionar los roles y permisos de los usuarios (coordinadores, supervisores, etc.), \textbf{para} delegar responsabilidades con seguridad y asegurarme de que cada usuario solo tenga acceso a la información y funciones necesarias para su rol. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Asignación de roles}\\
 \textbf{Dado que} soy un administrador con privilegios para gestionar usuarios\\
@@ -957,7 +960,7 @@ US02 & Gestión de roles y permisos & \textbf{Como} administrador educativo, \te
 & EP07 \\
 
 \hline
-US03 & Configuración de parámetros globales & \textbf{Como} administrador educativo, \textbf{quiero} configurar parámetros globales (como los umbrales de temperatura, la frecuencia de reporte GPS, etc.), \textbf{para} adaptar el sistema a las políticas internas de la institución y asegurar el funcionamiento adecuado de la plataforma. &
+HS03 & Configuración de parámetros globales & \textbf{Como} administrador educativo, \textbf{quiero} configurar parámetros globales (como los umbrales de temperatura, la frecuencia de reporte GPS, etc.), \textbf{para} adaptar el sistema a las políticas internas de la institución y asegurar el funcionamiento adecuado de la plataforma. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Configuración de umbrales de temperatura}\\
 \textbf{Dado que} soy un administrador con privilegios para configurar parámetros\\
@@ -977,7 +980,7 @@ US03 & Configuración de parámetros globales & \textbf{Como} administrador educ
 & EP07 \\
 
 \hline
-US04 & Registro de auditoría de actividad & \textbf{Como} administrador educativo, \textbf{quiero} llevar un registro de auditoría de todas las acciones realizadas por los administradores y supervisores (como la creación/edición de usuarios, cambios en rutas, ajustes de parámetros), \textbf{para} garantizar la trazabilidad y el cumplimiento de normativas internas. &
+HS04 & Registro de auditoría de actividad & \textbf{Como} administrador educativo, \textbf{quiero} llevar un registro de auditoría de todas las acciones realizadas por los administradores y supervisores (como la creación/edición de usuarios, cambios en rutas, ajustes de parámetros), \textbf{para} garantizar la trazabilidad y el cumplimiento de normativas internas. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Registro de ajustes de parámetros}\\
 \textbf{Dado que} soy un administrador y ajusto los parámetros globales del sistema\\
@@ -997,7 +1000,7 @@ US04 & Registro de auditoría de actividad & \textbf{Como} administrador educati
 & EP07 \\
 
 \hline
-US05 & Configuración de notificaciones y alertas & \textbf{Como} administrador educativo, \textbf{quiero} configurar qué tipos de notificaciones y alertas deseo recibir, por qué canal (correo electrónico, SMS, notificación push) y con qué umbrales, \textbf{para} adaptar la comunicación del sistema a los procesos internos de la institución. &
+HS05 & Configuración de notificaciones y alertas & \textbf{Como} administrador educativo, \textbf{quiero} configurar qué tipos de notificaciones y alertas deseo recibir, por qué canal (correo electrónico, SMS, notificación push) y con qué umbrales, \textbf{para} adaptar la comunicación del sistema a los procesos internos de la institución. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Configuración de tipos de alertas}\\
 \textbf{Dado que} soy un administrador con acceso a la configuración de notificaciones\\
@@ -1017,7 +1020,7 @@ US05 & Configuración de notificaciones y alertas & \textbf{Como} administrador 
 & EP07 \\
 
 \hline
-US06 & Personalización del dashboard & \textbf{Como} administrador educativo, \textbf{quiero} personalizar el dashboard seleccionando qué widgets visualizar, su orden y frecuencia de actualización, \textbf{para} adaptar la interfaz a las prioridades específicas de mi institución y mejorar la usabilidad del sistema. &
+HS06 & Personalización del dashboard & \textbf{Como} administrador educativo, \textbf{quiero} personalizar el dashboard seleccionando qué widgets visualizar, su orden y frecuencia de actualización, \textbf{para} adaptar la interfaz a las prioridades específicas de mi institución y mejorar la usabilidad del sistema. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Selección de widgets del dashboard}\\
 \textbf{Dado que} estoy visualizando el dashboard de administración\\
@@ -1060,51 +1063,51 @@ US04 & Gestión de Dispositivos de Notificación \\
 \hline
 \textbf{EP02 (Seguimiento en Tiempo Real)} & \textbf{Como} tutor legal, \textbf{quiero} conocer la ubicación y el progreso de la ruta de transporte de mi hijo en tiempo real, para poder organizarme y estar informado. \\
 \hline
-US01 & Ubicación en Vivo del Vehículo \\
+CS01 & Ubicación en Vivo del Vehículo \\
 \hline
-US02 & Consulta de Ruta Planificada \\
+CS02 & Consulta de Ruta Planificada \\
 \hline
-US03 & Estimación de Tiempo Restante \\
+CS03 & Estimación de Tiempo Restante \\
 \hline
 \textbf{EP03 (Notificaciones y Alertas)} & \textbf{Como} tutor legal, \textbf{quiero} recibir alertas y notificaciones sobre los eventos críticos del viaje de mi hijo, para asegurarme de que todo esté en orden durante el trayecto. \\
 \hline
-US01 & Notificación de Abordaje \\
+DS01 & Notificación de Abordaje \\
 \hline
-US02 & Notificación de Llegada \\
+DS02 & Notificación de Llegada \\
 \hline
-US03 & Alerta por Desvío o Retraso \\
+DS03 & Alerta por Desvío o Retraso \\
 \hline
-US04 & Alerta de Temperatura Insegura \\
+DS04 & Alerta de Temperatura Insegura \\
 \hline
 \textbf{EP04 (Supervisión Visual)} & \textbf{Como} tutor legal, \textbf{quiero} tener acceso en tiempo real a la transmisión de video desde la cámara a bordo, para poder supervisar el viaje de mi hijo en todo momento. \\
 \hline
-US01 & Supervisión en Tiempo Real (Ida) \\
+ES01 & Supervisión en Tiempo Real (Ida) \\
 \hline
-US02 & Supervisión en Tiempo Real (Regreso) \\
+ES02 & Supervisión en Tiempo Real (Regreso) \\
 \hline
 \textbf{EP05 (Historial y Reportes Personales)} & \textbf{Como} tutor legal, \textbf{quiero} tener acceso al historial de viajes y eventos pasados de mi hijo, para poder revisar patrones de comportamiento y reportar cualquier anomalía. \\
 \hline
-US01 & Historial de Rutas Diarias \\
+FS01 & Historial de Rutas Diarias \\
 \hline
-US02 & Log de Eventos Recientes \\
+FS02 & Log de Eventos Recientes \\
 \hline
-US03 & Exportación de Historial \\
+FS03 & Exportación de Historial \\
 \hline
 \textbf{EP06 (Preferencias y Configuración)} & \textbf{Como} tutor legal, \textbf{quiero} poder personalizar mi experiencia en la aplicación móvil, para ajustarla a mis necesidades y preferencias personales. \\
 \hline
-US01 & Selección de Notificaciones por Hijo \\
+GS01 & Selección de Notificaciones por Hijo \\
 \hline
-US02 & Definición de Horarios de Silencio \\
+GS02 & Definición de Horarios de Silencio \\
 \hline
-US03 & Personalización de Idioma y Tema \\
+GS03 & Personalización de Idioma y Tema \\
 \hline
 \textbf{EP07 (Soporte y Comunicación)} & \textbf{Como} tutor legal, \textbf{quiero} poder comunicarme con el conductor o el administrador, y reportar incidencias, para resolver cualquier problema que surja durante el trayecto. \\
 \hline
-US01 & Comunicación Directa con el Conductor \\
+HS01 & Comunicación Directa con el Conductor \\
 \hline
-US02 & Reporte de Incidencias con Evidencia \\
+HS02 & Reporte de Incidencias con Evidencia \\
 \hline
-US03 & Acceso a Ayuda y Preguntas Frecuentes \\
+HS03 & Acceso a Ayuda y Preguntas Frecuentes \\
 \hline
 \end{longtable}
 
@@ -1198,7 +1201,7 @@ US04 & Gestión de Dispositivos de Notificación & \textbf{Como} tutor legal, \t
 & EP01 \\
 
 \hline
-US01 & Ubicación en Vivo del Vehículo & \textbf{Como} tutor legal, \textbf{quiero} ver la posición en vivo del vehículo que transporta a mi hijo, \textbf{para} estimar su hora de llegada y estar preparado ante cualquier eventualidad. &
+CS01 & Ubicación en Vivo del Vehículo & \textbf{Como} tutor legal, \textbf{quiero} ver la posición en vivo del vehículo que transporta a mi hijo, \textbf{para} estimar su hora de llegada y estar preparado ante cualquier eventualidad. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Visualización de la ubicación en tiempo real}\\
 \textbf{Dado que} tengo acceso a la aplicación móvil como padre registrado\\
@@ -1218,7 +1221,7 @@ US01 & Ubicación en Vivo del Vehículo & \textbf{Como} tutor legal, \textbf{qui
 & EP02 \\
 
 \hline
-US02 & Consulta de Ruta Planificada & \textbf{Como} tutor legal, \textbf{quiero} consultar la ruta planificada y el progreso del recorrido, \textbf{para} saber por dónde va el vehículo y cuánto falta para que llegue a su destino. &
+CS02 & Consulta de Ruta Planificada & \textbf{Como} tutor legal, \textbf{quiero} consultar la ruta planificada y el progreso del recorrido, \textbf{para} saber por dónde va el vehículo y cuánto falta para que llegue a su destino. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Visualización de ruta planificada}\\
 \textbf{Dado que} tengo acceso a la aplicación móvil\\
@@ -1238,7 +1241,7 @@ US02 & Consulta de Ruta Planificada & \textbf{Como} tutor legal, \textbf{quiero}
 & EP02 \\
 
 \hline
-US03 & Estimación de Tiempo Restante & \textbf{Como} tutor legal, \textbf{quiero} recibir la estimación de tiempo restante hasta el punto de recogida o entrega de mi hijo, \textbf{para} poder organizarme mejor y estar preparado a tiempo. &
+CS03 & Estimación de Tiempo Restante & \textbf{Como} tutor legal, \textbf{quiero} recibir la estimación de tiempo restante hasta el punto de recogida o entrega de mi hijo, \textbf{para} poder organizarme mejor y estar preparado a tiempo. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Visualización del tiempo estimado de llegada}\\
 \textbf{Dado que} estoy en la aplicación móvil y consulto el estado del vehículo\\
@@ -1258,7 +1261,7 @@ US03 & Estimación de Tiempo Restante & \textbf{Como} tutor legal, \textbf{quier
 & EP02 \\
 
 \hline
-US01 & Notificación de Abordaje & \textbf{Como} tutor legal, \textbf{quiero} recibir una notificación cuando mi hijo aborde la unidad, \textbf{para} saber que ha subido correctamente al vehículo y estar tranquilo durante el viaje. &
+DS01 & Notificación de Abordaje & \textbf{Como} tutor legal, \textbf{quiero} recibir una notificación cuando mi hijo aborde la unidad, \textbf{para} saber que ha subido correctamente al vehículo y estar tranquilo durante el viaje. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Notificación exitosa de abordaje}\\
 \textbf{Dado que} el sistema detecta la lectura exitosa de la pulsera RFID de mi hijo al abordar la unidad\\
@@ -1278,7 +1281,7 @@ US01 & Notificación de Abordaje & \textbf{Como} tutor legal, \textbf{quiero} re
 & EP03 \\
 
 \hline
-US02 & Notificación de Llegada & \textbf{Como} tutor legal, \textbf{quiero} recibir una notificación cuando mi hijo llegue al colegio o a casa, \textbf{para} confirmar su arribo seguro y tener tranquilidad sobre el cumplimiento del recorrido. &
+DS02 & Notificación de Llegada & \textbf{Como} tutor legal, \textbf{quiero} recibir una notificación cuando mi hijo llegue al colegio o a casa, \textbf{para} confirmar su arribo seguro y tener tranquilidad sobre el cumplimiento del recorrido. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Notificación de llegada al colegio}\\
 \textbf{Dado que} la unidad llega al punto de destino (colegio) y se detecta la bajada del estudiante mediante su pulsera RFID\\
@@ -1298,7 +1301,7 @@ US02 & Notificación de Llegada & \textbf{Como} tutor legal, \textbf{quiero} rec
 & EP03 \\
 
 \hline
-US03 & Alerta por Desvío o Retraso & \textbf{Como} tutor legal, \textbf{quiero} recibir una alerta si el vehículo se desvía de la ruta o sufre un retraso significativo, \textbf{para} estar informado de cualquier incidencia que pueda afectar la seguridad o puntualidad del trayecto de mi hijo. &
+DS03 & Alerta por Desvío o Retraso & \textbf{Como} tutor legal, \textbf{quiero} recibir una alerta si el vehículo se desvía de la ruta o sufre un retraso significativo, \textbf{para} estar informado de cualquier incidencia que pueda afectar la seguridad o puntualidad del trayecto de mi hijo. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Alerta por desvío de ruta}\\
 \textbf{Dado que} el vehículo escolar está siguiendo una ruta planificada\\
@@ -1318,7 +1321,7 @@ US03 & Alerta por Desvío o Retraso & \textbf{Como} tutor legal, \textbf{quiero}
 & EP03 \\
 
 \hline
-US04 & Alerta de Temperatura Insegura & \textbf{Como} tutor legal, \textbf{quiero} recibir una alerta si la temperatura interna del vehículo sale de los rangos seguros, \textbf{para} asegurarme del confort y la seguridad de mi hijo durante el trayecto. &
+DS04 & Alerta de Temperatura Insegura & \textbf{Como} tutor legal, \textbf{quiero} recibir una alerta si la temperatura interna del vehículo sale de los rangos seguros, \textbf{para} asegurarme del confort y la seguridad de mi hijo durante el trayecto. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Alerta por temperatura alta}\\
 \textbf{Dado que} el sistema monitorea constantemente la temperatura dentro del vehículo\\
@@ -1338,7 +1341,7 @@ US04 & Alerta de Temperatura Insegura & \textbf{Como} tutor legal, \textbf{quier
 & EP03 \\
 
 \hline
-US01 & Supervisión en Tiempo Real (Ida) & \textbf{Como} tutor legal, \textbf{quiero} ver en tiempo real el video de la cámara instalada en la unidad durante el trayecto de ida, \textbf{para} supervisar las condiciones del viaje y asegurarme de que mi hijo se encuentre en un ambiente seguro. &
+ES01 & Supervisión en Tiempo Real (Ida) & \textbf{Como} tutor legal, \textbf{quiero} ver en tiempo real el video de la cámara instalada en la unidad durante el trayecto de ida, \textbf{para} supervisar las condiciones del viaje y asegurarme de que mi hijo se encuentre en un ambiente seguro. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Acceso a la transmisión en vivo}\\
 \textbf{Dado que} he iniciado sesión en la aplicación móvil\\
@@ -1358,7 +1361,7 @@ US01 & Supervisión en Tiempo Real (Ida) & \textbf{Como} tutor legal, \textbf{qu
 & EP04 \\
 
 \hline
-US02 & Supervisión en Tiempo Real (Regreso) & \textbf{Como} tutor legal, \textbf{quiero} ver en tiempo real el video de la cámara instalada en la unidad durante el trayecto de regreso, \textbf{para} asegurarme del bienestar de mi hijo y supervisar las condiciones del viaje de regreso a casa. &
+ES02 & Supervisión en Tiempo Real (Regreso) & \textbf{Como} tutor legal, \textbf{quiero} ver en tiempo real el video de la cámara instalada en la unidad durante el trayecto de regreso, \textbf{para} asegurarme del bienestar de mi hijo y supervisar las condiciones del viaje de regreso a casa. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Acceso a la transmisión en vivo}\\
 \textbf{Dado que} he iniciado sesión en la aplicación móvil\\
@@ -1378,7 +1381,7 @@ US02 & Supervisión en Tiempo Real (Regreso) & \textbf{Como} tutor legal, \textb
 & EP04 \\
 
 \hline
-US01 & Historial de Rutas Diarias & \textbf{Como} tutor legal, \textbf{quiero} consultar el historial de rutas diarias de mi hijo, \textbf{para} revisar su puntualidad y los recorridos anteriores, asegurándome de que todo transcurra como estaba planificado. &
+FS01 & Historial de Rutas Diarias & \textbf{Como} tutor legal, \textbf{quiero} consultar el historial de rutas diarias de mi hijo, \textbf{para} revisar su puntualidad y los recorridos anteriores, asegurándome de que todo transcurra como estaba planificado. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Consulta de historial de rutas diarias}\\
 \textbf{Dado que} he iniciado sesión en la aplicación móvil\\
@@ -1398,7 +1401,7 @@ US01 & Historial de Rutas Diarias & \textbf{Como} tutor legal, \textbf{quiero} c
 & EP05 \\
 
 \hline
-US02 & Log de Eventos Recientes & \textbf{Como} tutor legal, \textbf{quiero} ver un log de eventos (abordaje, llegada, alertas) de los últimos X días, \textbf{para} detectar posibles problemas recurrentes y garantizar el bienestar de mi hijo durante el trayecto. &
+FS02 & Log de Eventos Recientes & \textbf{Como} tutor legal, \textbf{quiero} ver un log de eventos (abordaje, llegada, alertas) de los últimos X días, \textbf{para} detectar posibles problemas recurrentes y garantizar el bienestar de mi hijo durante el trayecto. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Consulta de log de eventos recientes}\\
 \textbf{Dado que} he iniciado sesión en la aplicación móvil\\
@@ -1418,7 +1421,7 @@ US02 & Log de Eventos Recientes & \textbf{Como} tutor legal, \textbf{quiero} ver
 & EP05 \\
 
 \hline
-US03 & Exportación de Historial & \textbf{Como} tutor legal, \textbf{quiero} exportar o compartir el historial de rutas y eventos (en formato PDF/CSV), \textbf{para} presentarlo al colegio o a la empresa de transporte si surge alguna incidencia y tener un registro formal. &
+FS03 & Exportación de Historial & \textbf{Como} tutor legal, \textbf{quiero} exportar o compartir el historial de rutas y eventos (en formato PDF/CSV), \textbf{para} presentarlo al colegio o a la empresa de transporte si surge alguna incidencia y tener un registro formal. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Exportación de historial a PDF}\\
 \textbf{Dado que} he accedido al historial de rutas y eventos\\
@@ -1438,7 +1441,7 @@ US03 & Exportación de Historial & \textbf{Como} tutor legal, \textbf{quiero} ex
 & EP05 \\
 
 \hline
-US01 & Selección de Notificaciones por Hijo & \textbf{Como} tutor legal, \textbf{quiero} seleccionar para cuál de mis hijos quiero recibir notificaciones, \textbf{para} evitar recibir alertas innecesarias y personalizar mi experiencia en la aplicación móvil. &
+GS01 & Selección de Notificaciones por Hijo & \textbf{Como} tutor legal, \textbf{quiero} seleccionar para cuál de mis hijos quiero recibir notificaciones, \textbf{para} evitar recibir alertas innecesarias y personalizar mi experiencia en la aplicación móvil. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Visualización de lista de hijos}\\
 \textbf{Dado que} tengo varios hijos registrados en mi perfil\\
@@ -1458,7 +1461,7 @@ US01 & Selección de Notificaciones por Hijo & \textbf{Como} tutor legal, \textb
 & EP06 \\
 
 \hline
-US02 & Definición de Horarios de Silencio & \textbf{Como} tutor legal, \textbf{quiero} definir horarios de silencio (modo "No molestar"), \textbf{para} no recibir notificaciones fuera del rango permitido y evitar interrupciones en mis momentos de descanso o concentración. &
+GS02 & Definición de Horarios de Silencio & \textbf{Como} tutor legal, \textbf{quiero} definir horarios de silencio (modo "No molestar"), \textbf{para} no recibir notificaciones fuera del rango permitido y evitar interrupciones en mis momentos de descanso o concentración. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Configuración de horario de silencio}\\
 \textbf{Dado que} accedo a la sección de preferencias de notificaciones en la aplicación móvil\\
@@ -1478,7 +1481,7 @@ US02 & Definición de Horarios de Silencio & \textbf{Como} tutor legal, \textbf{
 & EP06 \\
 
 \hline
-US03 & Personalización de Idioma y Tema & \textbf{Como} tutor legal, \textbf{quiero} cambiar el idioma y el tema (claro/oscuro) de la aplicación, \textbf{para} adaptar la interfaz a mis preferencias personales y mejorar mi experiencia de uso. &
+GS03 & Personalización de Idioma y Tema & \textbf{Como} tutor legal, \textbf{quiero} cambiar el idioma y el tema (claro/oscuro) de la aplicación, \textbf{para} adaptar la interfaz a mis preferencias personales y mejorar mi experiencia de uso. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Cambio de idioma}\\
 \textbf{Dado que} estoy en la pantalla de configuración de la aplicación\\
@@ -1498,7 +1501,7 @@ US03 & Personalización de Idioma y Tema & \textbf{Como} tutor legal, \textbf{qu
 & EP06 \\
 
 \hline
-US01 & Comunicación Directa con el Conductor & \textbf{Como} tutor legal, \textbf{quiero} enviar un mensaje o realizar una llamada al conductor desde la aplicación, \textbf{para} resolver dudas o coordinar imprevistos durante el trayecto. &
+HS01 & Comunicación Directa con el Conductor & \textbf{Como} tutor legal, \textbf{quiero} enviar un mensaje o realizar una llamada al conductor desde la aplicación, \textbf{para} resolver dudas o coordinar imprevistos durante el trayecto. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Enviar mensaje al conductor}\\
 \textbf{Dado que} estoy en la pantalla de seguimiento de mi hijo\\
@@ -1518,7 +1521,7 @@ US01 & Comunicación Directa con el Conductor & \textbf{Como} tutor legal, \text
 & EP07 \\
 
 \hline
-US02 & Reporte de Incidencias con Evidencia & \textbf{Como} tutor legal, \textbf{quiero} reportar una incidencia (retraso, mal funcionamiento del sensor, etc.) con foto o video, \textbf{para} que el colegio pueda tomar acciones basadas en la evidencia proporcionada. &
+HS02 & Reporte de Incidencias con Evidencia & \textbf{Como} tutor legal, \textbf{quiero} reportar una incidencia (retraso, mal funcionamiento del sensor, etc.) con foto o video, \textbf{para} que el colegio pueda tomar acciones basadas en la evidencia proporcionada. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Reporte de incidencia con foto}\\
 \textbf{Dado que} estoy en la pantalla de seguimiento de mi hijo y observo una incidencia (como un retraso o mal funcionamiento del sensor)\\
@@ -1538,7 +1541,7 @@ US02 & Reporte de Incidencias con Evidencia & \textbf{Como} tutor legal, \textbf
 & EP07 \\
 
 \hline
-US03 & Acceso a Ayuda y Preguntas Frecuentes & \textbf{Como} tutor legal, \textbf{quiero} acceder a una sección de ayuda y preguntas frecuentes, \textbf{para} resolver rápidamente mis dudas sobre el funcionamiento de la app. &
+HS03 & Acceso a Ayuda y Preguntas Frecuentes & \textbf{Como} tutor legal, \textbf{quiero} acceder a una sección de ayuda y preguntas frecuentes, \textbf{para} resolver rápidamente mis dudas sobre el funcionamiento de la app. &
 \begin{tabular}[t]{@{}p{5cm}@{}}
 \textbf{Escenario 1: Acceso a la sección de ayuda}\\
 \textbf{Dado que} estoy en la pantalla principal de la aplicación\\
@@ -1563,12 +1566,182 @@ US03 & Acceso a Ayuda y Preguntas Frecuentes & \textbf{Como} tutor legal, \textb
 
 \newpage
 
+## Product Backlog.
+
+Una de las técnicas más utilizadas para estimar el esfuerzo necesario para completar cada tarea es la escala de Fibonacci, la cual permite asignar puntos de historia de manera proporcional a la complejidad y tiempo requerido. 
+
+\vspace{1em}
+
+\begin{quote}
+Como señala Smith (2020), esta escala no lineal facilita la identificación de tareas que requieren un mayor esfuerzo, lo que resulta en una planificación más precisa y eficiente.
+\end{quote}
+
+\vspace{1em}
+
+A continuación, se presentan la tablas de nuestros *Product Backlog* para cada segmento objetivo, demostrando cómo se alinean nuestros recursos con las necesidades más urgentes de nuestros usuarios.
+
+**Administrador educativo:**
+
+\begin{longtable}{|c|p{4cm}|p{7cm}|c|}
+\hline
+\multicolumn{1}{|c|}{\textbf{ID}} & \multicolumn{1}{c|}{\textbf{Título}} & \multicolumn{1}{c|}{\textbf{Descripción}} & \multicolumn{1}{c|}{\textbf{Story Points}} \\
+\hline
+
+DS05 & Control de cambios de última hora en la asignación de conductores y estudiantes & \textbf{Como} administrador educativo, \textbf{quiero} realizar cambios de última hora en la asignación de conductores y estudiantes, \textbf{para} asegurar la continuidad del servicio ante imprevistos sin afectar el resto de la programación. & 13 \\
+\hline
+ES01 & Monitoreo en tiempo real de posición y velocidad de vehículos & \textbf{Como} administrador educativo, \textbf{quiero} conocer la posición y velocidad en tiempo real de cada vehículo, \textbf{para} monitorear sus rutas y detectar posibles retrasos o desvíos oportunamente. & 13 \\
+\hline
+ES05 & Verificación de rutas alternativas en caso de desvíos & \textbf{Como} administrador educativo, \textbf{quiero} verificar y gestionar rutas alternativas en tiempo real cuando una unidad se desvía de su ruta prevista, \textbf{para} garantizar que los estudiantes lleguen a su destino de manera segura y a tiempo frente a imprevistos. & 13 \\
+\hline
+HS01 & Dashboard con KPIs clave & \textbf{Como} administrador educativo, \textbf{quiero} acceder a un dashboard que muestre KPIs clave (número de rutas activas, incidencias, temperatura media, etc.), \textbf{para} monitorear la operación del transporte escolar de un vistazo y tomar decisiones basadas en datos en tiempo real. & 13 \\
+\hline
+
+CS02 & Definición y mapeo de zonas & \textbf{Como} administrador educativo, \textbf{quiero} definir y mapear zonas de recogida y entrega en un mapa interactivo, \textbf{para} optimizar la cobertura y asignar rutas con precisión. & 8 \\
+\hline
+CS03 & Visualización geoespacial de zonas y rutas & \textbf{Como} administrador educativo, \textbf{quiero} visualizar todas las zonas de recogida y entrega y sus rutas asociadas en un mapa interactivo, \textbf{para} detectar posibles solapamientos, huecos de cobertura o áreas no cubiertas. & 8 \\
+\hline
+DS02 & Registro y asignación de pulseras RFID a estudiantes & \textbf{Como} administrador educativo, \textbf{quiero} registrar a los estudiantes en el sistema y asignarles pulseras RFID con un identificador único, \textbf{para} vincular cada niño con su dispositivo de control y gestionar su transporte de manera más eficiente. & 8 \\
+\hline
+DS03 & Asignación de conductores y estudiantes a rutas específicas & \textbf{Como} administrador educativo, \textbf{quiero} asignar conductores y estudiantes a rutas específicas en el sistema, \textbf{para} asegurar que cada unidad opere con el personal y pasajeros correctos y optimizar la seguridad del transporte escolar. & 8 \\
+\hline
+ES02 & Monitoreo de temperatura interna de los vehículos & \textbf{Como} administrador educativo, \textbf{quiero} monitorear remotamente la temperatura interna de los vehículos, \textbf{para} asegurarme de que las condiciones sean seguras para los pasajeros. & 8 \\
+\hline
+ES03 & Seguimiento de unidades de transporte para verificar salida y llegada & \textbf{Como} administrador educativo, \textbf{quiero} visualizar en tiempo real qué unidades ya han partido para recoger a los estudiantes y qué unidades ya han llegado al centro educativo, \textbf{para} hacer un seguimiento eficiente del estado de las rutas y asegurarme de que todos los estudiantes han sido recogidos o entregados. & 8 \\
+\hline
+ES04 & Monitoreo de estudiantes que no abordaron la unidad & \textbf{Como} administrador educativo, \textbf{quiero} hacer un seguimiento de qué estudiantes no abordaron la unidad, \textbf{para} tomar acciones inmediatas y asegurarme de que todos los estudiantes estén siendo transportados de forma segura. & 8 \\
+\hline
+ES06 & Visualización de unidades en ruta para gestionar desviaciones o retrasos & \textbf{Como} administrador educativo, \textbf{quiero} visualizar en tiempo real todas las unidades en ruta, \textbf{para} detectar rápidamente desviaciones o retrasos y tomar decisiones oportunas que aseguren el cumplimiento de los horarios y la seguridad de los estudiantes. & 8 \\
+\hline
+GS01 & Reporte de tiempos de ruta y cumplimiento & \textbf{Como} administrador educativo, \textbf{quiero} generar reportes de tiempos de ruta y cumplimiento, \textbf{para} evaluar el desempeño de la flota y apoyar la toma de decisiones basadas en datos operativos. & 8 \\
+\hline
+GS04 & Reporte de incidencias críticas & \textbf{Como} administrador del sistema, \textbf{quiero} generar reportes de incidencias críticas, \textbf{para} consolidar y analizar eventos como alertas de temperatura, desviaciones de ruta o fallos de equipo, con el fin de identificar patrones recurrentes y focalizar acciones de mejora continua en la gestión de transporte escolar. & 8 \\
+\hline
+GS05 & Programación de envíos automáticos de reportes & \textbf{Como} administrador del sistema, \textbf{quiero} programar envíos automáticos de reportes, \textbf{para} automatizar la distribución periódica de reportes (diarios, semanales o mensuales) a los responsables, garantizando que la información llegue a tiempo sin necesidad de intervención manual. & 8 \\
+\hline
+HS02 & Gestión de roles y permisos & \textbf{Como} administrador educativo, \textbf{quiero} gestionar los roles y permisos de los usuarios (coordinadores, supervisores, etc.), \textbf{para} delegar responsabilidades con seguridad y asegurarme de que cada usuario solo tenga acceso a la información y funciones necesarias para su rol. & 8 \\
+\hline
+HS04 & Registro de auditoría de actividad & \textbf{Como} administrador educativo, \textbf{quiero} llevar un registro de auditoría de todas las acciones realizadas por los administradores y supervisores (como la creación/edición de usuarios, cambios en rutas, ajustes de parámetros), \textbf{para} garantizar la trazabilidad y el cumplimiento de normativas internas. & 8 \\
+\hline
+HS06 & Personalización del dashboard & \textbf{Como} administrador educativo, \textbf{quiero} personalizar el dashboard seleccionando qué widgets visualizar, su orden y frecuencia de actualización, \textbf{para} adaptar la interfaz a las prioridades específicas de mi institución y mejorar la usabilidad del sistema. & 8 \\
+\hline
+
+CS01 & Registro y edición de vehículos & \textbf{Como} administrador educativo, \textbf{quiero} registrar y editar los datos de cada vehículo (placa, modelo, capacidad y estado operativo), \textbf{para} mantener un catálogo actualizado y fiable de la flota. & 5 \\
+\hline
+CS04 & Asignación de vehículos a rutas específicas & \textbf{Como} administrador educativo, \textbf{quiero} asignar vehículos específicos a rutas definidas, \textbf{para} tener un control operacional directo sobre qué unidad se utiliza en cada recorrido y facilitar la trazabilidad en caso de incidentes. & 5 \\
+\hline
+DS01 & Registro y actualización de conductores & \textbf{Como} administrador educativo, \textbf{quiero} registrar nuevos conductores y actualizar sus datos de contacto, número de licencia y estado operativo, \textbf{para} mantener un personal actualizado y garantizar la correcta asignación de rutas. & 5 \\
+\hline
+DS04 & Verificación de disponibilidad de conductores & \textbf{Como} administrador educativo, \textbf{quiero} verificar la disponibilidad de los conductores antes de asignarlos a una ruta, \textbf{para} evitar conflictos de horario y asegurar una gestión eficiente del personal y la flota. & 5 \\
+\hline
+FS01 & Alerta de temperatura fuera de rango & \textbf{Como} administrador educativo, \textbf{quiero} recibir alertas en tiempo real cuando la temperatura interna de un vehículo se salga de los parámetros establecidos, \textbf{para} tomar medidas inmediatas que garanticen la seguridad y el confort de los estudiantes durante el transporte. & 5 \\
+\hline
+FS02 & Alerta de retrasos o desviaciones en las rutas & \textbf{Como} administrador educativo, \textbf{quiero} recibir alertas inmediatas cuando una unidad de transporte experimente retrasos o se desvíe de la ruta establecida, \textbf{para} poder coordinar con el conductor y tomar decisiones rápidas que minimicen el impacto en el servicio y garanticen la llegada segura y oportuna de los estudiantes. & 5 \\
+\hline
+FS03 & Alerta de estudiantes no abordando la unidad & \textbf{Como} administrador educativo, \textbf{quiero} recibir alertas en tiempo real cuando un estudiante asignado a una ruta no aborde la unidad, \textbf{para} poder tomar medidas inmediatas como contactar al conductor o a los padres, y así garantizar la seguridad de todos los estudiantes. & 5 \\
+\hline
+FS04 & Notificación automática ante cambios de ruta o posibles retrasos & \textbf{Como} administrador educativo, \textbf{quiero} recibir notificaciones automáticas cuando un vehículo experimente cambios de ruta o posibles retrasos, \textbf{para} poder gestionar de manera proactiva las rutas y tomar decisiones para minimizar el impacto en los horarios de transporte. & 5 \\
+\hline
+FS05 & Alerta por fallo de equipo en el vehículo (GPS, RFID, sensores, etc.) & \textbf{Como} administrador educativo, \textbf{quiero} recibir una alerta inmediata en caso de fallo de equipos en los vehículos, como el GPS, RFID o sensores, \textbf{para} poder tomar medidas rápidas y garantizar que el control de las rutas y la seguridad de los estudiantes no se vean comprometidos. & 5 \\
+\hline
+GS02 & Estadísticas de abordaje por estudiante & \textbf{Como} administrador educativo, \textbf{quiero} obtener estadísticas de abordaje por estudiante, \textbf{para} detectar patrones de retraso o ausencias y tomar acciones preventivas que mejoren la eficiencia del transporte escolar. & 5 \\
+\hline
+GS03 & Exportación de datos históricos en Excel/PDF & \textbf{Como} responsable de calidad, \textbf{quiero} exportar datos históricos en formatos Excel o PDF, \textbf{para} presentarlos en auditorías o juntas directivas y facilitar la toma de decisiones estratégicas basadas en datos históricos. & 5 \\
+\hline
+GS06 & Filtrado y segmentación de datos históricos & \textbf{Como} administrador del sistema, \textbf{quiero} filtrar y segmentar datos históricos por ruta, vehículo, conductor o rango de fechas, \textbf{para} optimizar el análisis detallado y la preparación de informes personalizados para auditorías o reuniones de gestión. & 5 \\
+\hline
+HS03 & Configuración de parámetros globales & \textbf{Como} administrador educativo, \textbf{quiero} configurar parámetros globales (como los umbrales de temperatura, la frecuencia de reporte GPS, etc.), \textbf{para} adaptar el sistema a las políticas internas de la institución y asegurar el funcionamiento adecuado de la plataforma. & 5 \\
+\hline
+HS05 & Configuración de notificaciones y alertas & \textbf{Como} administrador educativo, \textbf{quiero} configurar qué tipos de notificaciones y alertas deseo recibir, por qué canal (correo electrónico, SMS, notificación push) y con qué umbrales, \textbf{para} adaptar la comunicación del sistema a los procesos internos de la institución. & 5 \\
+\hline
+
+CS05 & Desactivación temporal de unidades fuera de servicio & \textbf{Como} administrador educativo, \textbf{quiero} desactivar temporalmente vehículos fuera de servicio, \textbf{para} evitar su asignación errónea a rutas mientras se mantiene su información en el sistema para futuras referencias y reactivación. & 3 \\
+\hline
+FS06 & Notificación cuando la unidad ha completado el recorrido & \textbf{Como} administrador educativo, \textbf{quiero} recibir una notificación cuando una unidad haya completado su recorrido (tanto la ruta hacia el colegio como el retorno a casa), \textbf{para} poder gestionar eficientemente la programación de las unidades, evitando retrasos y asegurando que las unidades estén disponibles para nuevas asignaciones. & 3 \\
+\hline
+US01 & Registro de cuenta institucional & \textbf{Como} administrador educativo, \textbf{quiero} crear una cuenta institucional proporcionando mi nombre completo, correo institucional y contraseña, \textbf{para} acceder de manera segura a la plataforma web. & 3 \\
+\hline
+US05 & Recuperación de contraseña & \textbf{Como} administrador educativo, \textbf{quiero} poder recuperar mi contraseña a través de un correo electrónico, \textbf{para} poder acceder nuevamente a mi cuenta si la olvido. & 3 \\
+\hline
+US06 & Gestión de perfil administrativo & \textbf{Como} administrador educativo, \textbf{quiero} poder editar y actualizar mi perfil (como datos de contacto, cargo, etc.), \textbf{para} mantener mi información actualizada en la plataforma. & 3 \\
+\hline
+
+US02 & Confirmación de cuenta del administrador & \textbf{Como} administrador educativo, \textbf{quiero} confirmar mi cuenta a través de un enlace enviado a mi correo institucional, \textbf{para} verificar mi identidad y activar mi acceso al sistema. & 2 \\
+\hline
+US03 & Verificación de cuenta por parte del sistema & \textbf{Como} administrador educativo, \textbf{quiero} que el sistema verifique automáticamente la validez de mi cuenta, \textbf{para} asegurarme de que mi información esté correctamente registrada y no haya problemas para acceder a la plataforma. & 2 \\
+\hline
+US04 & Inicio de sesión del administrador educativo & \textbf{Como} administrador educativo, \textbf{quiero} iniciar sesión de manera segura en la plataforma utilizando mis credenciales (correo electrónico y contraseña), \textbf{para} acceder a las funcionalidades de administración del sistema de transporte escolar de manera eficiente. & 2 \\
+\hline
+
+US07 & Cierre de sesión segura & \textbf{Como} administrador educativo, \textbf{quiero} cerrar sesión de manera segura en la plataforma, \textbf{para} garantizar que mi cuenta esté protegida y no quede abierta a accesos no autorizados. & 1 \\
+\hline
+
+\end{longtable}
+
+\newpage
+
+**Tutor legal o familiar**
+
+
+\begin{longtable}{|c|p{4cm}|p{7cm}|c|}
+\hline
+\multicolumn{1}{|c|}{\textbf{ID}} & \multicolumn{1}{c|}{\textbf{Título}} & \multicolumn{1}{c|}{\textbf{Descripción}} & \multicolumn{1}{c|}{\textbf{Story Points}} \\
+\hline
+
+ES01 & Supervisión en Tiempo Real (Ida) & \textbf{Como} tutor legal, \textbf{quiero} ver en tiempo real el video de la cámara instalada en la unidad durante el trayecto de ida, \textbf{para} supervisar las condiciones del viaje y asegurarme de que mi hijo se encuentre en un ambiente seguro. & 13 \\
+\hline
+ES02 & Supervisión en Tiempo Real (Regreso) & \textbf{Como} tutor legal, \textbf{quiero} ver en tiempo real el video de la cámara instalada en la unidad durante el trayecto de regreso, \textbf{para} asegurarme del bienestar de mi hijo y supervisar las condiciones del viaje de regreso a casa. & 13 \\
+\hline
+
+CS01 & Ubicación en Vivo del Vehículo & \textbf{Como} tutor legal, \textbf{quiero} ver la posición en vivo del vehículo que transporta a mi hijo, \textbf{para} estimar su hora de llegada y estar preparado ante cualquier eventualidad. & 8 \\
+\hline
+DS03 & Alerta por Desvío o Retraso & \textbf{Como} tutor legal, \textbf{quiero} recibir una alerta si el vehículo se desvía de la ruta o sufre un retraso significativo, \textbf{para} estar informado de cualquier incidencia que pueda afectar la seguridad o puntualidad del trayecto de mi hijo. & 8 \\
+\hline
+DS04 & Alerta de Temperatura Insegura & \textbf{Como} tutor legal, \textbf{quiero} recibir una alerta si la temperatura interna del vehículo sale de los rangos seguros, \textbf{para} asegurarme del confort y la seguridad de mi hijo durante el trayecto. & 8 \\
+\hline
+HS01 & Comunicación Directa con el Conductor & \textbf{Como} tutor legal, \textbf{quiero} enviar un mensaje o realizar una llamada al conductor desde la aplicación, \textbf{para} resolver dudas o coordinar imprevistos durante el trayecto. & 8 \\
+\hline
+HS02 & Reporte de Incidencias con Evidencia & \textbf{Como} tutor legal, \textbf{quiero} reportar una incidencia (retraso, mal funcionamiento del sensor, etc.) con foto o video, \textbf{para} que el colegio pueda tomar acciones basadas en la evidencia proporcionada. & 8 \\
+\hline
+
+US01 & Registro e Inicio de Sesión & \textbf{Como} tutor legal, \textbf{quiero} registrarme e iniciar sesión con mi cuenta, \textbf{para} acceder de forma segura a la aplicación móvil y administrar el seguimiento del transporte de mi hijo. & 5 \\
+\hline
+US02 & Recuperación de Contraseña & \textbf{Como} tutor legal, \textbf{quiero} recuperar mi contraseña vía correo o SMS, \textbf{para} restablecer el acceso en caso de olvido y seguir utilizando la aplicación sin inconvenientes. & 5 \\
+\hline
+CS02 & Consulta de Ruta Planificada & \textbf{Como} tutor legal, \textbf{quiero} consultar la ruta planificada y el progreso del recorrido, \textbf{para} saber por dónde va el vehículo y cuánto falta para que llegue a su destino. & 5 \\
+\hline
+CS03 & Estimación de Tiempo Restante & \textbf{Como} tutor legal, \textbf{quiero} recibir la estimación de tiempo restante hasta el punto de recogida o entrega de mi hijo, \textbf{para} poder organizarme mejor y estar preparado a tiempo. & 5 \\
+\hline
+FS03 & Exportación de Historial & \textbf{Como} tutor legal, \textbf{quiero} exportar o compartir el historial de rutas y eventos (en formato PDF/CSV), \textbf{para} presentarlo al colegio o a la empresa de transporte si surge alguna incidencia y tener un registro formal. & 5 \\
+\hline
+
+US03 & Edición de Perfil & \textbf{Como} tutor legal, \textbf{quiero} editar mi perfil (datos de contacto) y la información de mis hijos (grado, pulsera RFID), \textbf{para} mantener toda la información actualizada y garantizar una correcta gestión del transporte. & 3 \\
+\hline
+US04 & Gestión de Dispositivos de Notificación & \textbf{Como} tutor legal, \textbf{quiero} gestionar mis dispositivos de notificación (push, email, SMS), \textbf{para} elegir cómo y cuándo recibir alertas sobre el transporte de mi hijo. & 3 \\
+\hline
+DS01 & Notificación de Abordaje & \textbf{Como} tutor legal, \textbf{quiero} recibir una notificación cuando mi hijo aborde la unidad, \textbf{para} saber que ha subido correctamente al vehículo y estar tranquilo durante el viaje. & 3 \\
+\hline
+DS02 & Notificación de Llegada & \textbf{Como} tutor legal, \textbf{quiero} recibir una notificación cuando mi hijo llegue al colegio o a casa, \textbf{para} confirmar su arribo seguro y tener tranquilidad sobre el cumplimiento del recorrido. & 3 \\
+\hline
+FS01 & Historial de Rutas Diarias & \textbf{Como} tutor legal, \textbf{quiero} consultar el historial de rutas diarias de mi hijo, \textbf{para} revisar su puntualidad y los recorridos anteriores, asegurándome de que todo transcurra como estaba planificado. & 3 \\
+\hline
+FS02 & Log de Eventos Recientes & \textbf{Como} tutor legal, \textbf{quiero} ver un log de eventos (abordaje, llegada, alertas) de los últimos X días, \textbf{para} detectar posibles problemas recurrentes y garantizar el bienestar de mi hijo durante el trayecto. & 3 \\
+\hline
+
+GS01 & Selección de Notificaciones por Hijo & \textbf{Como} tutor legal, \textbf{quiero} seleccionar para cuál de mis hijos quiero recibir notificaciones, \textbf{para} evitar recibir alertas innecesarias y personalizar mi experiencia en la aplicación móvil. & 2 \\
+\hline
+GS02 & Definición de Horarios de Silencio & \textbf{Como} tutor legal, \textbf{quiero} definir horarios de silencio (modo "No molestar"), \textbf{para} no recibir notificaciones fuera del rango permitido y evitar interrupciones en mis momentos de descanso o concentración. & 2 \\
+\hline
+GS03 & Personalización de Idioma y Tema & \textbf{Como} tutor legal, \textbf{quiero} cambiar el idioma y el tema (claro/oscuro) de la aplicación, \textbf{para} adaptar la interfaz a mis preferencias personales y mejorar mi experiencia de uso. & 2 \\
+\hline
+HS03 & Acceso a Ayuda y Preguntas Frecuentes & \textbf{Como} tutor legal, \textbf{quiero} acceder a una sección de ayuda y preguntas frecuentes, \textbf{para} resolver rápidamente mis dudas sobre el funcionamiento de la app. & 2 \\
+\hline
+
+\end{longtable}
+
+\newpage
+
 ## Impact Mapping.
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-\newpage
 
-## Product Backlog.
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
