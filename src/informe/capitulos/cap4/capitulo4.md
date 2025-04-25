@@ -173,19 +173,38 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 ## Landing Page UI Design.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-\newpage
+El diseño de la interfaz de usuario (UI) de la landing page fue concebido con un enfoque centrado en el usuario, priorizando la claridad, accesibilidad y jerarquía visual. A través de un lenguaje visual coherente y elementos interactivos bien distribuidos, se buscó comunicar el valor de la plataforma de manera inmediata y efectiva. La estructura de la landing page permite a los usuarios identificar rápidamente las secciones clave, generando interés y facilitando la navegación hacia las áreas de mayor conversión. Este proceso de diseño incluyó tanto la creación de wireframes como mockups, permitiendo validar la experiencia antes de su implementación definitiva
 
 ### Landing Page Wireframe.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Los wireframes representan la estructura básica de la landing page, enfocándose en la disposición de los elementos sin distraer con colores o estilos visuales complejos. Esta etapa fue clave para definir la jerarquía de la información, la ubicación de llamados a la acción (CTAs) y la secuencia de navegación esperada. Cada sección fue diseñada para cumplir un objetivo específico dentro del recorrido del usuario, desde la presentación inicial hasta los beneficios, características, segmentos objetivo (padres y colegios), equipo, demostración y contacto. El uso de wireframes permitió validar la lógica de la interfaz antes de pasar a etapas más detalladas de diseño visual.
 
+![](https://i.postimg.cc/Jh7nbHyD/wireframe-inicio.png){ width=50% }
+![](https://i.postimg.cc/CxgdxQS4/wireframe-beneficios.png){ width=50% }
+![](https://i.postimg.cc/J4JGmLVn/wireframe-caracteristicas.png){ width=50% }
+![](https://i.postimg.cc/FFYYWST0/wireframe-padres.png){ width=50% }
+![](https://i.postimg.cc/66FyDQPg/wireframe-colegios.png){ width=50% }
+![](https://i.postimg.cc/jCV0vmZ3/wireframe-team.png){ width=50% }
+![](https://i.postimg.cc/C1QVnzDg/wireframe-demo.png){ width=50% }
+![](https://i.postimg.cc/0QQsNpzn/wireframe-contactanos-footer.png){ width=50% }
+
+[Figma CodeMinds Wireframe](https://www.figma.com/design/hWQCYGLq8uiSZolh8ChRN7/Untitled?node-id=0-1&t=r3o6PxgMClNo9kx7-1)
 \newpage
 
 ### Landing Page Mock-up.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Los mockups son representaciones de alta fidelidad de la interfaz, incorporando el estilo visual definitivo, paleta de colores, tipografías, imágenes y demás elementos gráficos. En esta etapa, se reflejó la identidad visual de la plataforma, asegurando coherencia entre el mensaje y la estética. Los mockups también permiten evaluar aspectos como el contraste, el espaciado, la legibilidad y el impacto visual de cada sección. Gracias a esta representación visual detallada, fue posible obtener retroalimentación específica y realizar ajustes antes de iniciar la implementación del diseño en código.
+
+![](https://i.postimg.cc/Kj3hPxrg/mockup-inicio.png)
+![](https://i.postimg.cc/q7prPf09/mockup-beneficios.png)
+![](https://i.postimg.cc/k5wC9jgD/mockup-caracteristicas.png)
+![](https://i.postimg.cc/RZ79pCr7/mockup-padres.png)
+![](https://i.postimg.cc/RZ54T6YC/mockup-colegios.png)
+![](https://i.postimg.cc/BQ1JDcMw/mockup-team.png)
+![](https://i.postimg.cc/kMHnBhFb/mockup-demo.png)
+![Landing Page Mockup - Recurso de Figma](https://i.postimg.cc/2y1r04my/mockup-contactanos-footer.png)
+[Figma CodeMinds Mockup](https://www.figma.com/design/hWQCYGLq8uiSZolh8ChRN7/Untitled?node-id=0-1&t=r3o6PxgMClNo9kx7-1)
+
 
 \newpage
 
