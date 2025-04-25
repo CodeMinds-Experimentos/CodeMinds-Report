@@ -1578,7 +1578,9 @@ Como señala Smith (2020), esta escala no lineal facilita la identificación de 
 
 \vspace{1em}
 
-A continuación, se presenta la tabla de nuestro *Product Backlog*, demostrando cómo se alinean nuestros recursos con las necesidades más urgentes de nuestros usuarios.
+A continuación, se presentan la tablas de nuestros *Product Backlog* para cada segmento objetivo, demostrando cómo se alinean nuestros recursos con las necesidades más urgentes de nuestros usuarios.
+
+**Administrador educativo:**
 
 \begin{longtable}{|c|p{4cm}|p{7cm}|c|}
 \hline
@@ -1671,6 +1673,67 @@ US04 & Inicio de sesión del administrador educativo & \textbf{Como} administrad
 \hline
 
 US07 & Cierre de sesión segura & \textbf{Como} administrador educativo, \textbf{quiero} cerrar sesión de manera segura en la plataforma, \textbf{para} garantizar que mi cuenta esté protegida y no quede abierta a accesos no autorizados. & 1 \\
+\hline
+
+\end{longtable}
+
+\newpage
+
+**Tutor legal o familiar**
+
+
+\begin{longtable}{|c|p{4cm}|p{7cm}|c|}
+\hline
+\multicolumn{1}{|c|}{\textbf{ID}} & \multicolumn{1}{c|}{\textbf{Título}} & \multicolumn{1}{c|}{\textbf{Descripción}} & \multicolumn{1}{c|}{\textbf{Story Points}} \\
+\hline
+
+ES01 & Supervisión en Tiempo Real (Ida) & \textbf{Como} tutor legal, \textbf{quiero} ver en tiempo real el video de la cámara instalada en la unidad durante el trayecto de ida, \textbf{para} supervisar las condiciones del viaje y asegurarme de que mi hijo se encuentre en un ambiente seguro. & 13 \\
+\hline
+ES02 & Supervisión en Tiempo Real (Regreso) & \textbf{Como} tutor legal, \textbf{quiero} ver en tiempo real el video de la cámara instalada en la unidad durante el trayecto de regreso, \textbf{para} asegurarme del bienestar de mi hijo y supervisar las condiciones del viaje de regreso a casa. & 13 \\
+\hline
+
+CS01 & Ubicación en Vivo del Vehículo & \textbf{Como} tutor legal, \textbf{quiero} ver la posición en vivo del vehículo que transporta a mi hijo, \textbf{para} estimar su hora de llegada y estar preparado ante cualquier eventualidad. & 8 \\
+\hline
+DS03 & Alerta por Desvío o Retraso & \textbf{Como} tutor legal, \textbf{quiero} recibir una alerta si el vehículo se desvía de la ruta o sufre un retraso significativo, \textbf{para} estar informado de cualquier incidencia que pueda afectar la seguridad o puntualidad del trayecto de mi hijo. & 8 \\
+\hline
+DS04 & Alerta de Temperatura Insegura & \textbf{Como} tutor legal, \textbf{quiero} recibir una alerta si la temperatura interna del vehículo sale de los rangos seguros, \textbf{para} asegurarme del confort y la seguridad de mi hijo durante el trayecto. & 8 \\
+\hline
+HS01 & Comunicación Directa con el Conductor & \textbf{Como} tutor legal, \textbf{quiero} enviar un mensaje o realizar una llamada al conductor desde la aplicación, \textbf{para} resolver dudas o coordinar imprevistos durante el trayecto. & 8 \\
+\hline
+HS02 & Reporte de Incidencias con Evidencia & \textbf{Como} tutor legal, \textbf{quiero} reportar una incidencia (retraso, mal funcionamiento del sensor, etc.) con foto o video, \textbf{para} que el colegio pueda tomar acciones basadas en la evidencia proporcionada. & 8 \\
+\hline
+
+US01 & Registro e Inicio de Sesión & \textbf{Como} tutor legal, \textbf{quiero} registrarme e iniciar sesión con mi cuenta, \textbf{para} acceder de forma segura a la aplicación móvil y administrar el seguimiento del transporte de mi hijo. & 5 \\
+\hline
+US02 & Recuperación de Contraseña & \textbf{Como} tutor legal, \textbf{quiero} recuperar mi contraseña vía correo o SMS, \textbf{para} restablecer el acceso en caso de olvido y seguir utilizando la aplicación sin inconvenientes. & 5 \\
+\hline
+CS02 & Consulta de Ruta Planificada & \textbf{Como} tutor legal, \textbf{quiero} consultar la ruta planificada y el progreso del recorrido, \textbf{para} saber por dónde va el vehículo y cuánto falta para que llegue a su destino. & 5 \\
+\hline
+CS03 & Estimación de Tiempo Restante & \textbf{Como} tutor legal, \textbf{quiero} recibir la estimación de tiempo restante hasta el punto de recogida o entrega de mi hijo, \textbf{para} poder organizarme mejor y estar preparado a tiempo. & 5 \\
+\hline
+FS03 & Exportación de Historial & \textbf{Como} tutor legal, \textbf{quiero} exportar o compartir el historial de rutas y eventos (en formato PDF/CSV), \textbf{para} presentarlo al colegio o a la empresa de transporte si surge alguna incidencia y tener un registro formal. & 5 \\
+\hline
+
+US03 & Edición de Perfil & \textbf{Como} tutor legal, \textbf{quiero} editar mi perfil (datos de contacto) y la información de mis hijos (grado, pulsera RFID), \textbf{para} mantener toda la información actualizada y garantizar una correcta gestión del transporte. & 3 \\
+\hline
+US04 & Gestión de Dispositivos de Notificación & \textbf{Como} tutor legal, \textbf{quiero} gestionar mis dispositivos de notificación (push, email, SMS), \textbf{para} elegir cómo y cuándo recibir alertas sobre el transporte de mi hijo. & 3 \\
+\hline
+DS01 & Notificación de Abordaje & \textbf{Como} tutor legal, \textbf{quiero} recibir una notificación cuando mi hijo aborde la unidad, \textbf{para} saber que ha subido correctamente al vehículo y estar tranquilo durante el viaje. & 3 \\
+\hline
+DS02 & Notificación de Llegada & \textbf{Como} tutor legal, \textbf{quiero} recibir una notificación cuando mi hijo llegue al colegio o a casa, \textbf{para} confirmar su arribo seguro y tener tranquilidad sobre el cumplimiento del recorrido. & 3 \\
+\hline
+FS01 & Historial de Rutas Diarias & \textbf{Como} tutor legal, \textbf{quiero} consultar el historial de rutas diarias de mi hijo, \textbf{para} revisar su puntualidad y los recorridos anteriores, asegurándome de que todo transcurra como estaba planificado. & 3 \\
+\hline
+FS02 & Log de Eventos Recientes & \textbf{Como} tutor legal, \textbf{quiero} ver un log de eventos (abordaje, llegada, alertas) de los últimos X días, \textbf{para} detectar posibles problemas recurrentes y garantizar el bienestar de mi hijo durante el trayecto. & 3 \\
+\hline
+
+GS01 & Selección de Notificaciones por Hijo & \textbf{Como} tutor legal, \textbf{quiero} seleccionar para cuál de mis hijos quiero recibir notificaciones, \textbf{para} evitar recibir alertas innecesarias y personalizar mi experiencia en la aplicación móvil. & 2 \\
+\hline
+GS02 & Definición de Horarios de Silencio & \textbf{Como} tutor legal, \textbf{quiero} definir horarios de silencio (modo "No molestar"), \textbf{para} no recibir notificaciones fuera del rango permitido y evitar interrupciones en mis momentos de descanso o concentración. & 2 \\
+\hline
+GS03 & Personalización de Idioma y Tema & \textbf{Como} tutor legal, \textbf{quiero} cambiar el idioma y el tema (claro/oscuro) de la aplicación, \textbf{para} adaptar la interfaz a mis preferencias personales y mejorar mi experiencia de uso. & 2 \\
+\hline
+HS03 & Acceso a Ayuda y Preguntas Frecuentes & \textbf{Como} tutor legal, \textbf{quiero} acceder a una sección de ayuda y preguntas frecuentes, \textbf{para} resolver rápidamente mis dudas sobre el funcionamiento de la app. & 2 \\
 \hline
 
 \end{longtable}
