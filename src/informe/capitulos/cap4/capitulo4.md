@@ -1071,25 +1071,31 @@ Para visualizar el video del prototipo de la aplicación,  haga click en la [URL
 
 ## Domain-Driven Software Architecture.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+En esta sección se describe la arquitectura impulsada por el dominio para **CodeMinds**, nuestra solución de autenticación IoT enfocada en el transporte escolar seguro. Utilizamos principios de *Domain-Driven Design* (DDD) para estructurar los componentes de software de manera alineada con las necesidades del negocio, garantizando escalabilidad, robustez y claridad en la separación de responsabilidades.
 
 \newpage
 
 ### Software Architecture Context Diagram.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+El Diagrama de Contexto muestra cómo **CodeMinds** se integra en su ecosistema. Describe a alto nivel los actores externos (como padres, colegios, conductores y autoridades escolares) y los sistemas externos (por ejemplo, bases de datos escolares, plataformas de mensajería y servidores de autenticación) que interactúan con nuestra plataforma. También identifica los flujos principales de información entre estos actores y el sistema central de **CodeMinds**.
+
+![CodeMinds Software Context Diagram](../../../img/cap4/structurizr-83808-SystemContext-001%20%281%29.png)
 
 \newpage
 
 ### Software Architecture Container Diagrams.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+El Diagrama de Contenedores de **CodeMinds** descompone el sistema en contenedores principales: aplicaciones móviles, API gateway, servicios backend, bases de datos, y dispositivos IoT de escaneo RFID/NFC instalados en autobuses escolares. Este diagrama detalla cómo cada contenedor contribuye a funcionalidades específicas, como la autenticación de estudiantes, la generación de reportes, las notificaciones a padres en tiempo real y la administración del sistema desde una consola web.
+
+![CodeMinds Software Container Diagram](../../../img/cap4/structurizr-83808-Container-001.png)
 
 \newpage
 
 ### Software Architecture Components Diagrams.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+En esta sección presentamos el Diagrama de Componentes de **CodeMinds**, que profundizan en la estructura interna de cada contenedor principal. Cada componente se detalla mostrando su responsabilidad y las interacciones internas y externas. Por ejemplo, dentro del servicio de autenticación, mostramos componentes como el Módulo de Verificación de Identidad, el Módulo de Gestión de Horarios y Rutas, y el Módulo de Alertas en Tiempo Real, explicando cómo colaboran entre sí para garantizar la seguridad y el seguimiento de los escolares.
+
+![CodeMinds Software Components Diagram](../../../img/cap4/structurizr-83808-Component-001.png)
 
 \newpage
 
