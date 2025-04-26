@@ -962,6 +962,8 @@ Para visualizar todo el diseño de los wireframes y mockups de la aplicación, h
 
 ![Cambio de contraseña - Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/change_password.png)
 
+\newpage
+
 **Navegación y funcionalidades complementarias**
 
 ![Dashboard general - Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/dashboard.png)
@@ -976,6 +978,7 @@ Para visualizar todo el diseño de los wireframes y mockups de la aplicación, h
 
 ![Terminos y Condiciones - Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/terms.png)
 
+\newpage
 
 **Gestión de estudiantes**
 
@@ -985,6 +988,7 @@ Para visualizar todo el diseño de los wireframes y mockups de la aplicación, h
 
 ![Tarjetas de estudiantes - Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/students_cards.png)
 
+\newpage
 
 **Gestión de movilidades y rutas escolares**
 
@@ -1001,7 +1005,52 @@ Para visualizar todo el diseño de los wireframes y mockups de la aplicación, h
 
 ### *Web Applications Wireflow Diagrams.*
 
-solo falta subir canchis canchis
+Los wireflows representan visualmente la navegación entre las diferentes pantallas de la aplicación RutaKids, permitiendo comprender la lógica de interacción del usuario antes del desarrollo de las interfaces finales. Estos diagramas combinan los wireframes de cada vista con las conexiones funcionales entre ellas, trazando el recorrido esperado que realizarán los usuarios al interactuar con el sistema. La construcción de estos wireflows se realizó en **Uizard**, destacando la navegación entre módulos clave como autenticación, gestión de estudiantes, movilidades, rutas escolares y configuraciones. Este enfoque permite validar anticipadamente la usabilidad, fluidez y estructura lógica de la experiencia de usuario en RutaKids.
+
+
+**Inicio de sesión y autenticación**
+
+![Inicio de sesión – Artefacto creado en Uizard](src/img/cap4/rutakids_wireflows/login.jpeg)
+
+Este wireflow representa el flujo completo de autenticación de usuarios en la aplicación. Desde la pantalla de inicio de sesión se habilita la navegación hacia funciones clave como la recuperación de contraseña, el restablecimiento de credenciales y el acceso al dashboard principal en caso de inicio exitoso. También se contempla el proceso de cierre de sesión. El objetivo es garantizar un acceso seguro y fluido, permitiendo que directivos, padres o personal autorizado ingresen a la plataforma con la menor fricción posible.
+
+\newpage
+
+**Gestión de estudiantes**
+
+![Gestión de estudiantes – Artefacto creado en Uizard](src/img/cap4/rutakids_wireflows/students.jpeg)
+
+Este wireflow muestra la navegación entre las secciones relacionadas a los estudiantes: listado general, vista en tarjetas individuales y el formulario de creación de nuevo alumno. Cada flujo parte desde el dashboard y está pensado para facilitar la gestión visual y estructurada de los alumnos registrados en el sistema, permitiendo búsquedas ágiles, navegación fluida entre vistas y registro eficiente de nuevos estudiantes.
+
+**Gestión de movilidades escolares**
+
+![Gestión de movilidades – Artefacto creado en Uizard](src/img/cap4/rutakids_wireflows/school_trans.jpeg)
+
+Este flujo refleja la administración de los vehículos escolares asignados a cada ruta. A partir del dashboard, se puede acceder a la lista de movilidades registradas y a la vista para crear nuevas, incluyendo datos como matrícula, chofer y características del vehículo. El wireflow evidencia cómo el sistema facilita un control centralizado de la flota activa, promoviendo orden y eficiencia en la planificación logística del transporte.
+
+\newpage
+
+**Gestión de rutas escolares**
+
+![Gestión de rutas escolares – Artefacto creado en Uizard](src/img/cap4/rutakids_wireflows/school_routes.jpeg)
+
+Este wireflow detalla la navegación entre las vistas de lista y creación de rutas escolares. A partir del dashboard, se accede a las rutas activas con posibilidad de registrar nuevas, asignar alumnos y vincular una movilidad. La visualización jerárquica de esta sección permite una asignación clara y rastreable, asegurando cobertura y trazabilidad en cada recorrido escolar.
+
+\newpage
+
+**Configuración y secciones administrativas**
+
+![Configuraciones y políticas – Artefacto creado en Uizard](src/img/cap4/rutakids_wireflows/settings.jpeg)
+
+Aquí se detallan los flujos relacionados con la configuración personal del usuario, incluyendo el cambio de contraseña, política de privacidad y términos y condiciones. Todas las rutas se originan en el dashboard y apuntan a mejorar la transparencia del sistema, ofreciendo acceso fácil a las políticas institucionales y a la personalización de la cuenta, mejorando la confianza del usuario.
+
+\newpage
+
+**Otras funcionalidades complementarias**
+
+![Otras funcionalidades – Artefacto creado en Uizard](src/img/cap4/rutakids_wireflows/others.jpeg)
+
+Este wireflow agrupa funciones de soporte como las notificaciones y la sección de preguntas frecuentes (FAQ). Estos apartados permiten mejorar la experiencia del usuario mediante respuestas rápidas y una comunicación efectiva. La navegación parte desde el dashboard y está diseñada para no interferir con las tareas principales, pero sí ofrecer valor añadido al sistema en términos de asistencia y seguimiento.
 
 \newpage
 
@@ -1017,6 +1066,7 @@ solo falta subir canchis canchis
 
 ![Cambio de contraseña - Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/change_password.png)
 
+\newpage
 
 **Navegación y funcionalidades complementarias**
 
@@ -1032,6 +1082,7 @@ solo falta subir canchis canchis
 
 ![Terminos y Condiciones - Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/terms.png)
 
+\newpage
 
 **Gestión de estudiantes**
 
@@ -1041,6 +1092,7 @@ solo falta subir canchis canchis
 
 ![Tarjetas de estudiantes - Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/students_cards.png)
 
+\newpage
 
 **Gestión de movilidades y rutas escolares**
 
@@ -1056,7 +1108,51 @@ solo falta subir canchis canchis
 
 ### *Web Applications User Flow Diagrams.*
 
-solo falta subir canchis canchis
+Los wireflows representan visualmente la navegación entre las diferentes pantallas de la aplicación RutaKids, permitiendo comprender la lógica de interacción del usuario antes del desarrollo de las interfaces finales. Estos diagramas combinan los wireframes de cada vista con las conexiones funcionales entre ellas, trazando el recorrido esperado que realizarán los usuarios al interactuar con el sistema. La construcción de estos wireflows se realizó en **Uizard**, destacando la navegación entre módulos clave como autenticación, gestión de estudiantes, movilidades, rutas escolares y configuraciones. Este enfoque permite validar anticipadamente la usabilidad, fluidez y estructura lógica de la experiencia de usuario en RutaKids.
+
+**Inicio de sesión y autenticación**
+
+![Inicio de sesión – Artefacto creado en Uizard](src/img/cap4/rutakids_userflows/login.jpeg)
+
+Este wireflow representa el flujo completo de autenticación de usuarios en la aplicación. Desde la pantalla de inicio de sesión se habilita la navegación hacia funciones clave como la recuperación de contraseña, el restablecimiento de credenciales y el acceso al dashboard principal en caso de inicio exitoso. También se contempla el proceso de cierre de sesión. El objetivo es garantizar un acceso seguro y fluido, permitiendo que directivos, padres o personal autorizado ingresen a la plataforma con la menor fricción posible.
+
+\newpage
+
+**Gestión de estudiantes**
+
+![Gestión de estudiantes – Artefacto creado en Uizard](src/img/cap4/rutakids_userflows/students.jpeg)
+
+Este wireflow muestra la navegación entre las secciones relacionadas a los estudiantes: listado general, vista en tarjetas individuales y el formulario de creación de nuevo alumno. Cada flujo parte desde el dashboard y está pensado para facilitar la gestión visual y estructurada de los alumnos registrados en el sistema, permitiendo búsquedas ágiles, navegación fluida entre vistas y registro eficiente de nuevos estudiantes.
+
+**Gestión de movilidades escolares**
+
+![Gestión de movilidades – Artefacto creado en Uizard](src/img/cap4/rutakids_userflows/school_trans.jpeg)
+
+Este flujo refleja la administración de los vehículos escolares asignados a cada ruta. A partir del dashboard, se puede acceder a la lista de movilidades registradas y a la vista para crear nuevas, incluyendo datos como matrícula, chofer y características del vehículo. El wireflow evidencia cómo el sistema facilita un control centralizado de la flota activa, promoviendo orden y eficiencia en la planificación logística del transporte.
+
+\newpage
+
+**Gestión de rutas escolares**
+
+![Gestión de rutas escolares – Artefacto creado en Uizard](src/img/cap4/rutakids_userflows/school_routes.jpeg)
+
+Este wireflow detalla la navegación entre las vistas de lista y creación de rutas escolares. A partir del dashboard, se accede a las rutas activas con posibilidad de registrar nuevas, asignar alumnos y vincular una movilidad. La visualización jerárquica de esta sección permite una asignación clara y rastreable, asegurando cobertura y trazabilidad en cada recorrido escolar.
+
+\newpage
+
+**Configuración y secciones administrativas**
+
+![Configuraciones y políticas – Artefacto creado en Uizard](src/img/cap4/rutakids_userflows/settings.jpeg)
+
+Aquí se detallan los flujos relacionados con la configuración personal del usuario, incluyendo el cambio de contraseña, política de privacidad y términos y condiciones. Todas las rutas se originan en el dashboard y apuntan a mejorar la transparencia del sistema, ofreciendo acceso fácil a las políticas institucionales y a la personalización de la cuenta, mejorando la confianza del usuario.
+
+\newpage
+
+**Otras funcionalidades complementarias**
+
+![Otras funcionalidades – Artefacto creado en Uizard](src/img/cap4/rutakids_userflows/others.jpeg)
+
+Este wireflow agrupa funciones de soporte como las notificaciones y la sección de preguntas frecuentes (FAQ). Estos apartados permiten mejorar la experiencia del usuario mediante respuestas rápidas y una comunicación efectiva. La navegación parte desde el dashboard y está diseñada para no interferir con las tareas principales, pero sí ofrecer valor añadido al sistema en términos de asistencia y seguimiento.
 
 \newpage
 
