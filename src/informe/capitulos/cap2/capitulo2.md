@@ -71,6 +71,7 @@ header-includes:
   \newtcolorbox{outline-box}{colback=cyan!5!white,arc=0pt,outer arc=0pt,colframe=cyan!60!black,title=\textbf{Outline:}}
   \newtcolorbox{prereqs-box}{colback=red!5!white,arc=0pt,outer arc=0pt,colframe=red!60!black,title=\textbf{Prerequisites:}}
   \newtcolorbox{labtime-box}{colback=yellow!5!white,arc=0pt,outer arc=0pt,colframe=yellow!60!black,title=\textbf{Lab:}}
+  \newcommand{\pandocbounded}[1]{#1} 
 
   ```
 pandoc-latex-environment:
@@ -1030,4 +1031,37 @@ Carolina gestiona procesos con llamadas y hojas de cálculo, con baja automatiza
 
 ## Ubiquitous Language.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+- *Alumno*: Niño o niña que utiliza el servicio de transporte escolar. Es quien porta la Tarjeta RFID y genera eventos de abordaje y descenso. (Sinónimos: Estudiante, Niño)
+- *Padre de Familia*: Persona responsable del Alumno (padre, madre o apoderado) que recibe notificaciones y puede gestionar permisos. (Sinónimos: Padre, Madre, Apoderado)
+- *Conductor*: Chofer designado para una Unidad de Transporte; interactúa con la app Conductor y valida abordajes/desabordajes. (Sinónimos: Chofer)
+- *Administrador Escolar*: Personal de la institución que configura Rutas, Paradas, Alumnos y Conductores y supervisa reportes. (Sinónimos: Admin, Colegio)
+- *Tarjeta RFID*: Tarjeta (o llavero) pasiva, asignada de forma única a un Alumno para autenticarse al acercarla al Lector.
+- *Lector RFID*: Dispositivo IoT instalado en la Unidad que lee la Tarjeta RFID y envía eventos en tiempo real.
+- *Unidad de Transporte*: Vehículo escolar identificado por placa y código interno, equipado con Lector RFID y GPS.
+- *App RutaKids Conductor*: Aplicación móvil vinculada a la Unidad; muestra la lista de Alumnos por Parada y confirma incidentes.
+- *Backend RutaKids*: Plataforma en la nube que procesa eventos, reglas de negocio y persiste datos.
+- *Panel de Control*: Interfaz web para Administradores Escolares y Operadores de Flota.
+- *Ruta*: Conjunto ordenado de Paradas asociadas a una Institución y un Horario recurrente.
+- *Parada*: Punto geográfico donde se recoge o deja Alumnos. Incluye ventana de tiempo y lista de Alumnos asignados.
+- *Trayecto*: Ejecución diaria de una Ruta en una fecha concreta.
+- *Horario*: Reglas de recurrencia de la Ruta (días laborables, hora de inicio y fin estimada).
+- *AlumnoAbordóUnidad*: Evento emitido cuando un Alumno validó su Tarjeta y subió a la Unidad.
+- *AlumnoDescendióUnidad*: Evento emitido cuando un Alumno validó su Tarjeta al salir de la Unidad.
+- *TarjetaNoReconocida*: Evento emitido cuando se leyó un UID no asociado a ningún Alumno.
+- *IncidenciaReportada*: Evento emitido cuando el Conductor registra un evento anómalo (retraso, avería, etc.).
+- *CambioDeRutaProgramado*: Evento emitido cuando un Admin modificó la configuración de una Ruta.
+- *RegistrarAlumno*: Comando para crear la Entidad Alumno y vincular al Padre de Familia.
+- *AsignarTarjeta*: Comando para asociar Tarjeta RFID a Alumno.
+- *ProgramarRuta*: Comando para crear o actualizar una Ruta, su Horario y Paradas.
+- *MarcarAbordaje*: Comando para forzar confirmación manual de abordaje (modo fallback).
+- *EnviarNotificación*: Comando para avisar a Padres de Familia sobre un Evento.
+- *ServicioDeAutenticaciónRFID*: Servicio que valida UID, levanta Eventos y asegura consistencia.
+- *ServicioDeNotificaciones*: Servicio que orquesta avisos (push, correo, SMS) a Padres de Familia y Admins.
+- *ServicioDeRutas*: Servicio que calcula tiempos estimados, detecta desvíos y actualiza Estado de Trayecto.
+- *ServicioDeReportes*: Servicio que genera KPIs: puntualidad, asistencia y uso de Rutas.
+- *Estado de Trayecto*: Secuencia Pendiente → EnCurso → Finalizado / Cancelado.
+- *Rol*: Identidades posibles en el sistema: Alumno, Padre de Familia, Conductor, Administrador Escolar, Operador de Flota.
+- *Modo de Notificación*: Tipos de aviso soportados: Push, SMS, Email.
+- *Incidencia*: Registro de evento no deseado (retraso, exceso de velocidad, ruta cambiada).
+
+Aqui esta

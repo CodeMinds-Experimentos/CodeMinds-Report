@@ -269,7 +269,7 @@ Soy estudiante de la carrera de Ingeniería de Software cursando actualmente el 
 \begin{tcolorbox}[colframe=mybackground, colback=mybackground, boxrule=0.8mm, width=\textwidth, sharp corners]
 {
 \begin{minipage}[c]{0.3\textwidth}
-\includegraphics[width=\linewidth]{src/img/integrantes/luis.png}
+\includegraphics[width=\linewidth]{src/img/integrantes/luis.jpeg}
 \end{minipage}
 \hfill
 \begin{minipage}[c]{0.65\textwidth}
