@@ -71,7 +71,7 @@ header-includes:
   \newtcolorbox{outline-box}{colback=cyan!5!white,arc=0pt,outer arc=0pt,colframe=cyan!60!black,title=\textbf{Outline:}}
   \newtcolorbox{prereqs-box}{colback=red!5!white,arc=0pt,outer arc=0pt,colframe=red!60!black,title=\textbf{Prerequisites:}}
   \newtcolorbox{labtime-box}{colback=yellow!5!white,arc=0pt,outer arc=0pt,colframe=yellow!60!black,title=\textbf{Lab:}}
-  \newcommand{\pandocbounded}[1]{#1} 
+
   ```
 pandoc-latex-environment:
   tcolorbox: [box]
@@ -99,17 +99,18 @@ pandoc-latex-environment:
   \hline
   \textbf{Versión} & \textbf{Fecha} & \textbf{Autor} & \textbf{Descripción de Modificación} \\
   \hline
-  tb1 & 25/04/2025 & Ortega Huaraca, Abel & Ayudé con la estructura del informe en general. Respecto a los puntos específicos, contribuí con la elaboración del \textit{Solution Profile}, \textit{Startup Profile}, Segmentos objetivo, \textit{User Stories} y una introducción para los \textit{Requirements Specification}. \\
+  tb1 & 25/04/2025 & Ortega Huaraca, Abel & Ayudé con la estructura del informe en general. Respecto a los puntos específicos, contribuí con la elaboración del \textit{Solution Profile}, \textit{Startup Profile}, Segmentos objetivo, \textit{User Stories} y una introducción para los \textit{Requirements Specification}. También colaboré con el \textit{Product Backlog}, \textit{Diseño de entrevistas}, \textit{Mobile Applications Prototyping}, implementación del producto, y la documentación del API RESTful. \\
   \hline
-  tb1 & 25/04/2025 & Ramos Rios, Belén del Rocio & completar \\
+  tb1 & 25/04/2025 & Ramos Rios, Belén del Rocio & Elaboré el análisis competitivo y estrategias frente a competidores, el diseño de entrevistas y su análisis. Además, desarrollé los apartados de \textit{Style Guidelines}, \textit{Information Architecture}, y los sistemas de navegación. \\
   \hline
-  tb1 & 25/04/2025 & Vilchez Rios, Mateo Alejandro & completar \\
+  tb1 & 25/04/2025 & Vilchez Rios, Mateo Alejandro & Redacté los antecedentes y problemática, además de contribuir con el \textit{Impact Mapping}. Participé en el diseño UX/UI de aplicaciones web y colaboré en la sección de arquitectura de software (\textit{Domain-Driven Software Architecture}). \\
   \hline
-  tb1 & 25/04/2025 & Herrera González, Luis Eduardo & completar \\
+  tb1 & 25/04/2025 & Herrera González, Luis Eduardo & Desarrollé el apartado de \textit{Ubiquitous Language} y colaboré en el diseño de arquitectura de software, específicamente en los diagramas de contexto, contenedores y componentes. También apoyé en la parte de UX/UI para aplicaciones web. \\
   \hline
-  tb1 & 25/04/2025 & Vargas Revollé, Ariana & completar \\
+  tb1 & 25/04/2025 & Vargas Revollé, Ariana & Me encargué del \textit{To-Be Scenario Mapping}, \textit{Needfinding}, incluyendo \textit{User Personas}, \textit{Journey Map}, \textit{Empathy Mapping} y \textit{As-is Scenario Map}. También diseñé el \textit{Landing Page Mock-up}. \\
   \hline
 \end{longtable}
+
 
 \newpage
 
@@ -140,6 +141,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciadas de concl
 \multicolumn{1}{|c|}{\textbf{Criterio Específico}} & \multicolumn{1}{c|}{\textbf{Acciones Realizadas}} & \multicolumn{1}{c|}{\textbf{Conclusiones}} \\
 \hline
 \endfirsthead
+
 \parbox[t]{4cm}{
 \textit{\textbf{4.c.1} Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software}
 } 
@@ -147,20 +149,20 @@ En el siguiente cuadro se describe las acciones realizadas y enunciadas de concl
 \parbox[t]{6cm}{
 \textbf{TB1:} \\
 \textbf{Abel Angel Ortega Huaraca} \\
-FALTA COMPLETAR \\
+Fomenté un ambiente de trabajo colaborativo y respetuoso, asumiendo con seriedad los compromisos asumidos. Evité prácticas deshonestas en la documentación y respeté los tiempos del equipo. \\
 \textbf{Belen del Rocio Ramos Rios} \\
-FALTA COMPLETAR \\
+Mantuve imparcialidad en el análisis de la competencia y fui objetiva en las entrevistas, evitando sesgos o influencias indebidas. Promoví una participación ética durante la recolección de datos. \\
 \textbf{Mateo Alejandro Vilchez Rios} \\
-FALTA COMPLETAR \\
+Durante la formulación del problema y el diseño UX, me aseguré de usar fuentes confiables y no tergiversar los hallazgos para beneficiar nuestras propuestas. \\
 \textbf{Luis Eduardo Herrera González} \\
 Durante el proyecto, siempre traté de ser transparente en las entrevistas y al dar opiniones sobre otras soluciones. Reconocí lo que la competencia hacía bien para mejorar nuestro trabajo, sin exagerar ni mentir. También me aseguré de comunicar cualquier problema al equipo de forma clara y honesta, manteniendo el respeto y la ética en todo momento. \\
 \textbf{Ariana Vargas Revollé} \\
-FALTA COMPLETAR \\
+Durante la elaboración de los mapas de empatía y escenarios, me aseguré de representar fielmente las necesidades de los usuarios sin manipular la información para favorecer nuestras ideas. 
 } 
 &
 \parbox[t]{5cm}{
 \textbf{TB1:} \\
-FALTA COMPLETAR \\
+Todos los integrantes demostramos responsabilidad ética en cada etapa del proyecto. Se respetaron los derechos de los usuarios, se promovió la honestidad en la documentación y se evitó cualquier forma de desinformación o apropiación indebida.
 } \\ 
 
 \hline
@@ -172,23 +174,24 @@ FALTA COMPLETAR \\
 \parbox[t]{6cm}{
 \textbf{TB1:} \\
 \textbf{Abel Angel Ortega Huaraca} \\
-FALTA COMPLETAR \\
+Consideré cómo nuestra solución podía escalar a otras ciudades y cómo afectaría la rutina familiar y escolar. Evalué el impacto económico para no generar exclusión. \\
 \textbf{Belen del Rocio Ramos Rios} \\
-FALTA COMPLETAR \\
+Analicé el contexto competitivo para asegurar que nuestra solución tuviera un valor diferencial que aportara realmente a la sociedad, sin crear dependencias innecesarias en los usuarios. \\
 \textbf{Mateo Alejandro Vilchez Rios} \\
-FALTA COMPLETAR \\
+Durante la definición de problemas, tomé en cuenta factores sociales y urbanos que afectan el transporte escolar. Procuré no sugerir soluciones que generaran mayor tráfico o contaminación. \\
 \textbf{Luis Eduardo Herrera González} \\
 Al investigar para nuestra solución de transporte escolar, tomé en cuenta el impacto social y la importancia de proteger la privacidad de los estudiantes. Evitamos propuestas que pudieran hacer que los padres invadieran la privacidad de sus hijos. También pensamos en que nuestro sistema fuera accesible y no generara un costo extra fuerte para las familias o colegios. \\
 \textbf{Ariana Vargas Revollé} \\
-FALTA COMPLETAR \\
+Al crear los escenarios y perfiles de usuario, prioricé un enfoque inclusivo que tomara en cuenta distintos niveles socioeconómicos. También busqué que la experiencia del usuario no dependiera de dispositivos costosos o poco accesibles.
 }
 &
 \parbox[t]{5cm}{
 \textbf{TB1:} \\
-FALTA COMPLETAR \\
+Todos los integrantes demostramos conciencia del impacto de nuestras decisiones, priorizando una solución accesible, ética y útil socialmente. Se consideraron factores económicos y sociales durante el diseño y desarrollo del proyecto.
 } \\
 \hline
 \end{longtable}
+
 
 \newpage
 
@@ -247,7 +250,7 @@ Me considero una persona responsable y comprometida en las funciones que se me d
 \begin{minipage}[c]{0.65\textwidth}
 \textbf{Belen del Rocio Ramos Rios} \\
 \textit{Ingeniera de Software} \\
-Soy estudiante del sexto ciclo de la carrera de Ingeniería de Software. A lo largo de mi formación, he adquirido conocimientos en diversos lenguajes de programación, como Java, C++, y SQL. Además, manejo frameworks como Spring Boot para el desarrollo backend, y tanto Vue como Angular para el desarrollo frontend.
+Soy estudiante del séptimo ciclo de la carrera de Ingeniería de Software. A lo largo de mi formación, he adquirido conocimientos en diversos lenguajes de programación como Java, C++, SQL y recientemente Kotlin. También tengo experiencia en el uso de frameworks como Spring Boot para el desarrollo backend, y Vue, Angular y Flutter para el desarrollo frontend. Me considero una persona comprometida, con habilidades para el trabajo en equipo y siempre dispuesta a dar lo mejor de mí en cada proyecto que emprendo.
 \end{minipage}
 }
 \end{tcolorbox}
@@ -261,7 +264,7 @@ Soy estudiante del sexto ciclo de la carrera de Ingeniería de Software. A lo la
 \begin{minipage}[c]{0.65\textwidth}
 \textbf{Mateo Alejandro Vilchez Rios} \\
 \textit{Ingeniero de Software} \\
-Soy estudiante de la carrera de Ingeniería de Software cursando actualmente el 6to ciclo. Me considero una persona eficiente, disciplinada y responsable. Poseo conocimientos básicos en C++, Java y JavaScript. Manejo de Base de Datos relacionales. Conocimientos en Frameworks como Angular y Spring. Me comprometo a brindar todo el apoyo necesario para cumplir con todos los requerimientos.
+Soy estudiante de la carrera de Ingeniería de Software cursando actualmente el 7mo ciclo. Me considero una persona eficiente, disciplinada y responsable. Poseo conocimientos Java, JavaScript y TypeScript. Manejo de Base de Datos relacionales. Conocimientos en Frameworks como Angular y Spring. Me comprometo a brindar todo el apoyo necesario para cumplir con todos los requerimientos.
 \end{minipage}
 }
 \end{tcolorbox}
@@ -269,7 +272,7 @@ Soy estudiante de la carrera de Ingeniería de Software cursando actualmente el 
 \begin{tcolorbox}[colframe=mybackground, colback=mybackground, boxrule=0.8mm, width=\textwidth, sharp corners]
 {
 \begin{minipage}[c]{0.3\textwidth}
-\includegraphics[width=\linewidth]{src/img/integrantes/luis.png}
+\includegraphics[width=\linewidth]{src/img/integrantes/luis.jpeg}
 \end{minipage}
 \hfill
 \begin{minipage}[c]{0.65\textwidth}
@@ -283,13 +286,13 @@ Soy estudiante del séptimo ciclo de la carrera de Ingeniería de Software. Me a
 \begin{tcolorbox}[colframe=mybackground, colback=mybackground, boxrule=0.8mm, width=\textwidth, sharp corners]
 {
 \begin{minipage}[c]{0.3\textwidth}
-\includegraphics[width=\linewidth]{src/img/integrantes/gato.png}
+\includegraphics[width=\linewidth]{src/img/integrantes/Ariana.jpeg}
 \end{minipage}
 \hfill
 \begin{minipage}[c]{0.65\textwidth}
 \textbf{Ariana Vargas Revollé} \\
 \textit{Ingeniera de Software} \\
-COMPLETAR
+Soy estudiante de la carrera de Ingeniería de Software cursando actualmente el 7mo ciclo. Me interesa el rubro de ciberseguridad y me gusta leer sobre nuevas tecnologías y su impacto en la vida de las personas. Me gusta trabajar en equipo y aprender de otras personas
 \end{minipage}
 }
 \end{tcolorbox}
