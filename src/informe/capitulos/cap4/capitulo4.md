@@ -71,7 +71,7 @@ header-includes:
   \newtcolorbox{outline-box}{colback=cyan!5!white,arc=0pt,outer arc=0pt,colframe=cyan!60!black,title=\textbf{Outline:}}
   \newtcolorbox{prereqs-box}{colback=red!5!white,arc=0pt,outer arc=0pt,colframe=red!60!black,title=\textbf{Prerequisites:}}
   \newtcolorbox{labtime-box}{colback=yellow!5!white,arc=0pt,outer arc=0pt,colframe=yellow!60!black,title=\textbf{Lab:}}
-  \newcommand{\pandocbounded}[1]{#1} 
+ 
   ```
 pandoc-latex-environment:
   tcolorbox: [box]
@@ -892,7 +892,9 @@ Los mockups son representaciones de alta fidelidad de la interfaz, incorporando 
 
 ## Mobile Applications UX/UI Design.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+El diseño UX/UI de aplicaciones móviles busca crear experiencias intuitivas, eficientes y agradables que respondan a las necesidades reales de los usuarios.
+A través de un enfoque centrado en el usuario, se desarrollan interfaces funcionales y flujos de navegación claros que mejoran la interacción y fomentan la confianza en los servicios digitales.
+Este proyecto aplica principios de usabilidad, accesibilidad y diseño visual para garantizar que cada tutor legal pueda monitorear y gestionar el transporte escolar de manera segura, sencilla y confiable.
 
 \newpage
 
@@ -904,37 +906,391 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 ### Mobile Applications Wireflow Diagrams.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+En esta sección se presentan los wireflows diseñados para RutaKids. A través de estos diagramas, se busca representar de manera clara y estructurada cómo los padres de familia o tutores legales pueden navegar por la app, realizar tareas esenciales como el inicio de sesión, la visualización de trayectos en tiempo real, la recepción de notificaciones, el acceso al historial de viajes, entre otros.
+Cada wireflow incluye tanto los objetivos del usuario como la descripción paso a paso del flujo de tareas, facilitando así la comprensión del recorrido de usuario y la funcionalidad de la aplicación.
+
+**Wireflow Diagram 1 :  Inicio de Sesión**
+
+- **User Goal:**
+  El tutor legal desea acceder a la aplicación móvil para monitorear el transporte escolar de su hijo/a.
+
+- **Task Flow (Flujo de tareas del usuario):**
+  1. Visualiza la pantalla de carga con el logo de la aplicación al abrir la app por primera vez.
+  2. Visualiza la pantalla con información de lo que ofrece la aplicación
+  3. Accede a la pantalla de inicio de sesión.
+  4. Ingresa sus credenciales (correo electrónico y contraseña).
+  5. En caso de haber olvidado la contraseña, solicita su recuperación mediante correo electrónico.
+  6. Si las credenciales son válidas, el sistema redirige a la pantalla de carga mientras valida la sesión.
+  7. Finalmente, accede a la pantalla principal (dashboard) desde donde podrá realizar el monitoreo del transporte.
+
+A continuación, se muestran de forma secuencial las pantallas involucradas en el proceso de inicio de sesión de un tutor legal, detallando las interacciones principales y transiciones posibles desde la carga inicial de la aplicación hasta el acceso exitoso al panel de monitoreo.
+
+![Artefacto creado en Figma](src/img/cap4/WD/WD_SignIn.png)
 
 \newpage
 
+**Wireflow Diagram 2 :  Visualización de eventos del recorrido (línea de tiempo)**
+
+- **User Goal:**  
+  El tutor legal desea consultar el estado y el avance del recorrido escolar para asegurar el cumplimiento del trayecto.
+
+- **Task Flow (Flujo de tareas del usuario):**
+  1. Desde la pantalla principal, el tutor identifica el seguimiento activo del transporte.
+  2. Presiona el botón "Detalles" ubicado en la parte inferior de la tarjeta del trayecto.
+  3. El sistema redirige a una pantalla donde se presenta una línea de tiempo con los eventos del recorrido.
+  4. En esta línea de tiempo, el usuario puede observar:
+     - Inicio del recorrido
+     - Llegada del conductor al punto de encuentro
+     - Abordaje de los estudiantes
+     - Estado "en camino"
+     - Llegada al colegio
+     - Descenso de los estudiantes
+     - Finalización del trayecto
+  5. El usuario puede tocar eventos interactivos (como el abordaje) para ver un modal con información adicional: nombres, horarios y matrícula del vehículo.
+  6. El usuario puede regresar o navegar entre vistas sin perder el progreso visual del seguimiento.
+
+
+![Artefacto creado en Figma](src/img/cap4/WD/WD_Details.png)
+
+Este wireflow describe el módulo de visualización detallada del recorrido escolar. Tras acceder desde la pantalla principal, el tutor legal puede observar una representación cronológica de los eventos clave del trayecto, organizada mediante una línea de tiempo progresiva.
+La visualización incluye horarios, estados y acciones del conductor, así como hitos importantes como el momento en que los estudiantes abordan o descienden de la unidad. Para mejorar la trazabilidad, algunos eventos son interactivos y despliegan ventanas modales con información adicional. Este módulo garantiza transparencia y confianza sobre el cumplimiento del servicio de transporte.
+
+
+\newpage
+
+**Wireflow Diagram 3 :  Notificaciones de eventos**
+
+- **User Goal:**  
+  El tutor legal desea recibir alertas sobre momentos importantes del viaje, como el inicio del recorrido o la llegada al punto de encuentro, para mantenerse informado sobre el trayecto de su hijo/a.
+
+- **Task Flow (Flujo de tareas del usuario):**
+  1. El sistema genera automáticamente notificaciones push cuando ocurre un evento clave del recorrido escolar, por ejemplo:
+     - El conductor inicia el recorrido.
+     - La unidad llega al punto de encuentro.
+  2. El tutor recibe una alerta en su dispositivo móvil.
+  3. Al abrir la aplicación, accede a la sección "Notificaciones" desde el ícono de campana o desde la barra inferior.
+  4. Visualiza una lista de eventos relevantes en orden cronológico.
+  5. Puede seleccionar una notificación específica para ver más detalles.
+  6. Se despliega una tarjeta informativa con:
+     - Iconografía del evento
+     - Mensaje descriptivo
+     - Hora exacta del suceso
+     - Fecha y unidad asociada
+  7. El tutor puede regresar a la vista anterior tras consultar el detalle.
+
+
+![Artefacto creado en Figma](src/img/cap4/WD/WD_Notifications.png)
+
+Este wireflow describe la interacción del tutor legal con el módulo de notificaciones dentro de la aplicación móvil. El sistema genera alertas automáticas basadas en eventos definidos durante el recorrido escolar, como la salida de la unidad o la llegada al punto de recogida.
+Estas notificaciones se agrupan en una vista dedicada dentro de la app, accesible desde el menú inferior o un ícono persistente. Cada alerta incluye un resumen visual del evento, hora exacta, iconografía asociada y una breve descripción. Al seleccionar una notificación, el tutor puede expandir la información para entender mejor el contexto del evento, fortaleciendo la comunicación y el monitoreo en tiempo real del transporte escolar.
+
+\newpage
+
+**Wireflow Diagram 4 :  Visualización del trayecto del transporte escolar en mapa en tiempo real**
+
+- **User Goal:**  
+  El tutor legal desea visualizar en tiempo real la ruta que sigue la unidad de transporte escolar, con información resumida del conductor, clima y estado del viaje.
+
+- **Task Flow (Flujo de tareas del usuario):**
+  1. Desde la pantalla principal (Inicio), el tutor identifica la tarjeta con información de su unidad asignada.
+  2. Presiona el botón “Detalles”.
+  3. El sistema redirige al usuario a una pantalla con mapa en vivo.
+  4. En esta pantalla se visualiza:
+     - Ruta actual del transporte (de punto A al punto B)
+     - Ubicación en tiempo real del bus
+     - Nombre y contacto del conductor
+     - Estado: "En tránsito"
+     - Tiempo estimado de llegada
+     - Temperatura actual
+     - Pasajeros a bordo
+  5. La información se actualiza automáticamente durante el trayecto.
+  6. El usuario puede regresar a la pantalla principal en cualquier momento desde la navegación inferior.
+
+
+![Artefacto creado en Figma](src/img/cap4/WD/WD_LiveMap.png)
+
+Este wireflow representa el proceso mediante el cual el tutor accede al monitoreo visual del trayecto escolar a través de un mapa en tiempo real. Desde la pantalla principal, el usuario puede seleccionar la opción “Detalles”, lo cual lo redirige a una vista de mapa interactivo donde se muestra la posición actual del bus, así como la ruta proyectada desde origen hasta destino.
+En la misma vista, se presentan datos complementarios como el nombre del conductor, número de pasajeros, clima y tiempo estimado de llegada. La información es dinámica y se actualiza en tiempo real sin intervención del usuario. Esta funcionalidad brinda una visión rápida y clara del estado actual del transporte escolar.
+
+\newpage
+
+**Wireflow Diagram 5 :  Visualización en vivo del interior de la unidad**
+
+- **User Goal:**  
+  El tutor legal desea observar visualmente la unidad de transporte en tiempo real para verificar las condiciones internas y confirmar que su hijo/a viaja de forma segura.
+
+- **Task Flow (Flujo de tareas del usuario):**
+  1. Desde la pantalla de Detalles del viaje (mapa con ruta y datos del transporte), el tutor identifica el botón "Visualizar Unidad".
+  2. Presiona el botón y es redirigido a una nueva vista.
+  3. La aplicación muestra una transmisión en tiempo real del interior del vehículo.
+  4. En la parte inferior de la pantalla se presenta:
+     - La temperatura interna del vehículo.
+     - El botón de regreso para volver a la vista anterior.
+  5. El tutor puede observar sin interactuar y cerrar la vista cuando lo desee.
+  6. Al cerrar la visualización, vuelve a la pantalla de “Detalles del viaje”.
+
+
+
+![Artefacto creado en Figma](src/img/cap4/WD/WD_LiveInteriorView.png)
+
+Este wireflow representa la interacción del tutor con la funcionalidad de visualización en vivo del interior del transporte escolar. Desde la pantalla de seguimiento del viaje, el tutor puede acceder mediante el botón “Visualizar Unidad” a una transmisión de video en tiempo real.
+Esta vista permite monitorear visualmente las condiciones internas del vehículo, incluyendo el comportamiento de los estudiantes y el estado del entorno. Además, se ofrece la temperatura interna del bus como dato adicional. Esta funcionalidad está diseñada para reforzar la percepción de seguridad y confianza del tutor legal durante el trayecto escolar.
+
+
+\newpage
+
+**Wireflow Diagram 6 :  Consulta de historial de viajes**
+
+- **User Goal:**  
+  El tutor legal desea revisar los viajes anteriores para verificar detalles como la hora de salida y llegada, la ruta recorrida y las condiciones generales del transporte escolar.
+
+- **Task Flow (Flujo de tareas del usuario):**
+  1. Desde la pantalla principal, el tutor accede a la sección "Historial" mediante la barra de navegación inferior.
+  2. Se despliega una lista de viajes completados organizados por fecha (más reciente primero).
+  3. Cada tarjeta de viaje muestra:
+     - Fecha del recorrido
+     - Hora de llegada
+     - Dirección de origen y destino
+     - Clima registrado
+     - Cantidad de pasajeros a bordo
+     - Iconografía de estado
+  4. El tutor puede desplazarse por la lista para explorar días anteriores.
+  5. Al finalizar la consulta, el tutor puede navegar hacia otra sección mediante el menú inferior.
+
+![Artefacto creado en Figma](src/img/cap4/WD/WD_Record.png)
+
+Este wireflow corresponde a la funcionalidad de consulta del historial de viajes previos. Al acceder desde el menú principal, el tutor visualiza una lista de recorridos completados, organizados por fecha. Cada ítem contiene información clave como la hora de llegada, el número de pasajeros, las condiciones climáticas y el estado general del trayecto.
+La interfaz está diseñada para facilitar el seguimiento retrospectivo de la actividad del transporte escolar, brindando al tutor una herramienta útil para auditoría personal, validación de horarios y monitoreo histórico de la puntualidad y condiciones del servicio.
+
+\newpage
+
+**Wireflow Diagram 7 :  Gestión de cuenta**
+
+- **User Goal:**  
+  El tutor legal desea configurar y gestionar sus datos personales, seguridad, privacidad y notificaciones desde su perfil en la aplicación.
+
+- **Task Flow (Flujo de tareas del usuario):**
+  1. Desde cualquier vista de la app, el tutor accede a la sección "Cuenta" mediante el ícono del menú inferior.
+  2. En la pantalla principal, se muestran las siguientes opciones:
+     - Información personal
+     - Seguridad
+     - Protección de datos
+     - Notificaciones
+  3. Si selecciona "Información personal", accede a una vista donde puede consultar y actualizar:
+     - Nombre
+     - Número de teléfono
+     - Correo electrónico
+  4. Si selecciona "Seguridad", puede:
+     - Cambiar su contraseña
+     - Activar o revisar la verificación en dos pasos
+     - Ver el correo de soporte técnico
+  5. En "Protección de datos", el tutor puede revisar:
+     - Términos y condiciones
+     - Políticas de privacidad
+     - Información sobre protección de datos
+  6. En "Notificaciones", puede activar o desactivar alertas específicas relacionadas a:
+     - Transporte
+     - Mapa
+     - Seguimiento
+     - Otros servicios
+  7. El tutor puede volver a la pantalla principal de cuenta mediante el ícono de retroceso o la barra inferior.
+
+A continuación, se muestran de forma secuencial las pantallas involucradas en el proceso de gestión de cuenta, detallando las interacciones principales y transiciones posibles desde el acceso al menú de configuración hasta la actualización o consulta de datos personales, seguridad y preferencias.
+
+![Artefacto creado en Figma](src/img/cap4/WD/WD_AccountConfiguration)
+
+\newpage
+
+
 ### Mobile Applications Mock-ups.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+En esta sección se presentan los mockups de la aplicación RutaKids, los cuales representan visualmente las principales pantallas y funcionalidades diseñadas. Estas interfaces han sido construidas siguiendo principios de diseño centrado en el usuario, diseño inclusivo, accesibilidad y consistencia visual, conforme al Design System definido para este producto digital.
+
+
+![Inicio de sesión - Artefacto creado en Figma](src/img/cap4/Mockups/SignIn.png)
+
+![Notificaciones - Artefacto creado en Figma](src/img/cap4/Mockups/Notifications.png)
+
+![Mapa en tiempo real - Artefacto creado en Figma](src/img/cap4/Mockups/Details.png)
+
+![Vista interior de la unidad - Artefacto creado en Figma](src/img/cap4/Mockups/LiveInteriorView.png)
+
+![Historial de viajes - Artefacto creado en Figma](src/img/cap4/Mockups/Record.png)
+
+![Gestión de cuenta - Artefacto creado en Figma](src/img/cap4/Mockups/AccountConfiguration.png)
+
 
 \newpage
 
 ### Mobile Applications User Flow Diagrams.
+En esta sección se presentan los flujos de usuario diseñados para RutaKids, enfocados en ofrecer a los tutores legales una experiencia clara, segura y eficiente en el monitoreo del transporte escolar de sus hijos/as.
+Cada diagrama describe paso a paso cómo el usuario interactúa con la aplicación para cumplir sus objetivos principales, contemplando rutas típicas, alternativas y escenarios excepcionales.
+Estos flujos buscan garantizar la transparencia, la facilidad de uso y la confianza en cada interacción, abordando funcionalidades clave como el acceso al sistema, la visualización en tiempo real del trayecto, la recepción de notificaciones, la consulta de historial de viajes y la gestión de la cuenta personal.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+**Inicio de Sesión**
+
+- **User Goal:**
+  El tutor legal desea acceder a la aplicación móvil para monitorear el transporte escolar de su hijo/a.
+
+
+![Artefacto creado en Figma](src/img/cap4/UF/SignIn.png)
+
+Este User Flow inicia con la carga del sistema y guía al tutor legal hacia la pantalla de login, donde se permite ingresar sus credenciales o iniciar el proceso de recuperación de contraseña. Se ha considerado un flujo alternativo para usuarios que olvidan su contraseña, así como una condición de éxito que los redirige a la pantalla principal. El proceso incluye interacciones simples y claras, con rutas diferenciadas para escenarios típicos y excepcionales.
 
 \newpage
+
+
+**Visualización de eventos del recorrido (línea de tiempo)**
+
+- **User Goal:**  
+  El tutor legal desea consultar el estado y el avance del recorrido escolar para asegurar el cumplimiento del trayecto.
+
+![Artefacto creado en Figma](src/img/cap4/UF/Details.png)
+
+Este diagrama de flujo de usuario muestra el proceso mediante el cual el tutor legal accede a la línea de tiempo del recorrido escolar actual. Desde la pantalla principal, el usuario selecciona el botón “Detalles”, lo que lo redirige a una vista que presenta los hitos del viaje en orden cronológico.
+La línea de tiempo muestra eventos clave como el inicio del trayecto, el abordaje de los estudiantes, el trayecto en curso, y la llegada al colegio.
+Para una trazabilidad más detallada, algunos eventos incluyen íconos interactivos que permiten abrir ventanas modales con información adicional, como los nombres de los estudiantes que abordaron y la placa del vehículo. Esta funcionalidad permite al tutor monitorear el cumplimiento del servicio de transporte escolar de forma clara y precisa, fomentando la transparencia y confianza en el proceso.
+
+
+
+\newpage
+
+**Notificaciones de eventos**
+
+- **User Goal:**  
+  El tutor legal desea recibir alertas sobre momentos importantes del viaje, como el inicio del recorrido o la llegada al punto de encuentro, para mantenerse informado sobre el trayecto de su hijo/a.
+
+![Artefacto creado en Figma](src/img/cap4/UF/Notifications.png)
+
+Este diagrama representa el flujo de usuario para acceder a las notificaciones generadas automáticamente por la aplicación durante el recorrido escolar.
+El tutor legal, desde la pantalla principal, puede visualizar un ícono de campana que indica nuevas alertas. Al presionarlo, se accede a una lista cronológica de eventos relevantes, como el inicio del recorrido o la llegada al punto de encuentro.
+Cada notificación incluye iconografía, texto descriptivo, hora y fecha. Al seleccionar una notificación específica, se despliega una tarjeta con información extendida del evento.
+Esta funcionalidad permite al tutor mantenerse informado en tiempo real, fortaleciendo el acompañamiento del trayecto sin necesidad de interacción directa con el sistema de transporte.
+
+
+\newpage
+
+**Visualización del trayecto del transporte escolar en mapa en tiempo real**
+
+- **User Goal:**  
+  El tutor legal desea visualizar en tiempo real la ruta que sigue la unidad de transporte escolar, con información resumida del conductor, clima y estado del viaje.
+
+![Artefacto creado en Figma](src/img/cap4/UF/LiveMap.png)
+
+Este diagrama de flujo de usuario representa la funcionalidad de monitoreo del trayecto escolar mediante un mapa en vivo.
+El tutor legal accede a esta vista a través del botón “Monitoreo” en la barra inferior de navegación.
+Al ingresar, se presenta una pantalla que muestra la ubicación actual del vehículo en tiempo real, junto con la ruta estimada desde el punto de origen hasta el destino.
+Además, se incluyen datos complementarios como el nombre y placa del conductor, número de pasajeros a bordo, clima actual y tiempo estimado de llegada.
+Esta vista se actualiza de manera automática sin necesidad de interacción por parte del usuario, permitiendo un seguimiento continuo y preciso del recorrido escolar.
+Esta funcionalidad mejora significativamente la visibilidad y tranquilidad del tutor respecto a la seguridad y puntualidad del transporte.
+
+
+\newpage
+
+**Visualización en vivo del interior de la unidad**
+
+- **User Goal:**  
+  El tutor legal desea observar visualmente la unidad de transporte en tiempo real para verificar las condiciones internas y confirmar que su hijo/a viaja de forma segura.
+
+![Artefacto creado en Figma](src/img/cap4/UF/LiveInteriorView.png)
+
+Este flujo de usuario muestra la funcionalidad que permite al tutor legal acceder a una vista en tiempo real del interior del vehículo escolar.
+Desde la pantalla de “Detalles del viaje”, el tutor puede presionar el botón “Visualizar unidad”, lo cual redirige a una vista dedicada donde se transmite un video en vivo del interior del bus.
+Esta transmisión permite observar las condiciones internas, incluyendo el comportamiento de los estudiantes y el ambiente dentro de la unidad durante el trayecto.
+Además, se muestra la temperatura interna del vehículo en la parte inferior de la pantalla como dato contextual relevante.
+Esta funcionalidad tiene como objetivo principal fortalecer la confianza y seguridad del tutor legal, proporcionando una capa adicional de supervisión visual.
+
+
+
+\newpage
+
+**Consulta de historial de viajes**
+
+- **User Goal:**  
+  El tutor legal desea revisar los viajes anteriores para verificar detalles como la hora de salida y llegada, la ruta recorrida y las condiciones generales del transporte escolar.
+
+![Artefacto creado en Figma](src/img/cap4/UF/Record.png)
+
+Este flujo de usuario describe cómo el tutor legal puede acceder al historial de recorridos realizados por la unidad de transporte escolar.
+Desde la pantalla principal, el tutor presiona el ícono de “Historial” ubicado en la barra de navegación inferior.
+El sistema redirige a una nueva vista que presenta una lista cronológica de los viajes completados, ordenados desde el más reciente.
+Cada tarjeta de viaje muestra información clave como:
+
+- Fecha y hora del trayecto
+- Dirección de origen
+- Número de pasajeros a bordo
+- Condiciones climáticas registradas
+- Iconografía del estado del viaje
+
+Esta funcionalidad permite al tutor verificar la puntualidad del servicio, confirmar que el trayecto se ha cumplido adecuadamente y llevar un registro retrospectivo de la actividad escolar de sus hijos/as.
+
+\newpage
+
+**Gestión de cuenta**
+
+- **User Goal:**  
+  El tutor legal desea configurar y gestionar sus datos personales, seguridad, privacidad y notificaciones desde su perfil en la aplicación.
+
+
+![Artefacto creado en Figma](src/img/cap4/UF/AccountConfiguration.png)
+
+
+Este flujo de usuario representa cómo el tutor legal accede y gestiona su configuración personal dentro de la aplicación RutaKids.
+Desde cualquier pantalla, el tutor puede ingresar a la sección de cuenta ya sea presionando el ícono de perfil en la parte superior o a través del botón “Cuenta” en la barra inferior de navegación.
+En la vista principal de cuenta, se le presentan cuatro opciones principales:
+
+- **Información personal:** Permite visualizar y editar nombre, número telefónico y correo electrónico.
+- **Seguridad:** Ofrece opciones para cambiar la contraseña, activar la verificación en dos pasos y contactar al soporte.
+- **Protección de datos:** Muestra los términos y condiciones, políticas de privacidad y configuraciones sobre protección de datos personales.
+- **Notificaciones:** El usuario puede activar o desactivar distintos tipos de alertas, como aquellas relacionadas con el transporte, el mapa, el seguimiento del viaje y otros servicios.
+
+Cada sección está diseñada para brindar al tutor control total sobre su perfil y preferencias dentro de la app, promoviendo una experiencia personalizada, segura y transparente.
+
+
+\newpage
+
 
 ## Mobile Applications Prototyping.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Esta sección presenta los prototipos interactivos desarrollados para las aplicaciones móviles, los cuales permiten simular la experiencia de usuario en condiciones reales de navegación, alineados con los User Flow Diagrams previamente definidos. Los prototipos contemplan el comportamiento esperado de la interfaz ante acciones como toques, desplazamientos y navegación entre pantallas, y fueron diseñados utilizando Figma como herramienta principal de diseño y simulación.
 
-\newpage
+**Justificación de decisiones de diseño e interacción**
+
+El diseño de interacción responde a una arquitectura de información centrada en el usuario, basada en jerarquías claras y flujos de navegación predecibles. Para ello se han definido rutas esperadas (happy paths) que guían al tutor legal desde el acceso inicial a la aplicación hasta funcionalidades clave como el monitoreo en tiempo real, la recepción de notificaciones o la gestión de cuenta personal.
+
+El sistema de navegación utiliza una barra inferior persistente, con íconos universalmente reconocibles, que agrupa las secciones principales: Inicio, Monitoreo, Historial y Cuenta. Esta estructura se eligió por su efectividad en dispositivos móviles, permitiendo que el usuario navegue sin esfuerzo entre vistas relacionadas sin necesidad de regresar a menús superiores.
+
+En cuanto a las interacciones, se ha priorizado una lógica de flujo lineal pero flexible, donde cada acción permite al usuario avanzar o retroceder sin pérdida de contexto. Los botones de acción primaria mantienen una jerarquía visual constante, con estilos y colores definidos por el Design System para asegurar accesibilidad y reconocimiento visual. Se usaron estilos consistentes de tipografía y espaciado en todos los mockups, siguiendo criterios de diseño inclusivo y contraste adecuado para la lectura en pantalla.
+
+**Consistencia y adaptabilidad**
+
+A pesar de que los prototipos fueron desarrollados inicialmente con frames de iOS para facilitar el testeo visual, todas las decisiones fueron tomadas considerando el desarrollo futuro con Flutter como framework multiplataforma. Esto asegura que los elementos visuales, tamaños de fuente, márgenes y estilos de interacción son adaptables a sistemas operativos Android, y que cualquier ajuste de microinteracción puede realizarse posteriormente sin romper la coherencia de experiencia.
+Las diferencias menores en los tamaños de botones o alineaciones responden a las guías específicas de cada sistema operativo (Apple Human Interface Guidelines y Material Design), pero sin comprometer la armonía visual ni la funcionalidad entre plataformas.
+
 
 ### Android Mobile Applications Prototyping.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+La versión prototipada corresponde a la arquitectura funcional de Android, replicando los mismos flujos de navegación definidos para iOS.
+Gracias al enfoque cross-platform con Flutter, las decisiones de interacción son consistentes entre sistemas.
 
-\newpage
+
+**Ver prototipo interactivo (Figma):** https://www.figma.com/proto/eciWGdnbz2vbcafpC3ry61/RutaKids?node-id=1-191&t=Q43WuZLUjqqKj29U-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A191  
+
+**Ver demo en Microsoft Stream - Min(00:33):** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EWNyaDk6mgdMlrmkd3YCekQBkWfpMUBC7oBkGaqmv3HQIA?e=ZCJBW6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+
+
 
 ### iOS Mobile Applications Prototyping.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+La interfaz se prototipó inicialmente para iOS siguiendo las guías de diseño de Apple (Human Interface Guidelines), aplicando principios de accesibilidad y navegación móvil.
+
+
+**Ver prototipo interactivo (Figma):** https://www.figma.com/proto/eciWGdnbz2vbcafpC3ry61/RutaKids?node-id=5-1336&t=xAeh2weCXXUvbcOx-1&scaling=scale-down&content-scaling=fixed&page-id=5%3A1185&starting-point-node-id=5%3A1336 
+
+**Ver demo en Microsoft Stream - Min(01:57):** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EWNyaDk6mgdMlrmkd3YCekQBkWfpMUBC7oBkGaqmv3HQIA?e=ZCJBW6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+
+
+
 
 \newpage
 
@@ -1159,7 +1515,8 @@ Este wireflow agrupa funciones de soporte como las notificaciones y la sección 
 ## *Web Applications Prototyping.*
 
 ::: warn
-Para visualizar el video del prototipo de la aplicación,  haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EaarYyGV9fFJpLWK1u04GaIBtRlSoc7_affoLtT38NNzEQ?e=krmvNP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+Para visualizar el video del prototipo de la aplicación,  haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EWNyaDk6mgdMlrmkd3YCekQBkWfpMUBC7oBkGaqmv3HQIA?e=ZCJBW6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+)
 :::
 
 
@@ -1175,7 +1532,7 @@ En esta sección se describe la arquitectura impulsada por el dominio para **Cod
 
 El Diagrama de Contexto muestra cómo **CodeMinds** se integra en su ecosistema. Describe a alto nivel los actores externos (como padres, colegios, conductores y autoridades escolares) y los sistemas externos (por ejemplo, bases de datos escolares, plataformas de mensajería y servidores de autenticación) que interactúan con nuestra plataforma. También identifica los flujos principales de información entre estos actores y el sistema central de **CodeMinds**.
 
-![CodeMinds Software Context Diagram](../../../img/cap4/structurizr-83808-SystemContext-001%20%281%29.png)
+![CodeMinds Software Context Diagram](src/img/cap4/structurizr-83808-SystemContext-001.png)
 
 \newpage
 
@@ -1183,7 +1540,7 @@ El Diagrama de Contexto muestra cómo **CodeMinds** se integra en su ecosistema.
 
 El Diagrama de Contenedores de **CodeMinds** descompone el sistema en contenedores principales: aplicaciones móviles, API gateway, servicios backend, bases de datos, y dispositivos IoT de escaneo RFID/NFC instalados en autobuses escolares. Este diagrama detalla cómo cada contenedor contribuye a funcionalidades específicas, como la autenticación de estudiantes, la generación de reportes, las notificaciones a padres en tiempo real y la administración del sistema desde una consola web.
 
-![CodeMinds Software Container Diagram](../../../img/cap4/structurizr-83808-Container-001.png)
+![CodeMinds Software Container Diagram](src/img/cap4/structurizr-83808-Container-001.png)
 
 \newpage
 
@@ -1191,7 +1548,7 @@ El Diagrama de Contenedores de **CodeMinds** descompone el sistema en contenedor
 
 En esta sección presentamos el Diagrama de Componentes de **CodeMinds**, que profundizan en la estructura interna de cada contenedor principal. Cada componente se detalla mostrando su responsabilidad y las interacciones internas y externas. Por ejemplo, dentro del servicio de autenticación, mostramos componentes como el Módulo de Verificación de Identidad, el Módulo de Gestión de Horarios y Rutas, y el Módulo de Alertas en Tiempo Real, explicando cómo colaboran entre sí para garantizar la seguridad y el seguimiento de los escolares.
 
-![CodeMinds Software Components Diagram](../../../img/cap4/structurizr-83808-Component-001.png)
+![CodeMinds Software Components Diagram](src/img/cap4/structurizr-83808-Component-001.png)
 
 \newpage
 
