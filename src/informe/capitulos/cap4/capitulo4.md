@@ -1273,23 +1273,23 @@ Las diferencias menores en los tamaños de botones o alineaciones responden a la
 La versión prototipada corresponde a la arquitectura funcional de Android, replicando los mismos flujos de navegación definidos para iOS.
 Gracias al enfoque cross-platform con Flutter, las decisiones de interacción son consistentes entre sistemas.
 
-::: info
+
 **Ver prototipo interactivo (Figma):** https://www.figma.com/proto/eciWGdnbz2vbcafpC3ry61/RutaKids?node-id=1-191&t=Q43WuZLUjqqKj29U-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A191  
 
-Ver demo en Microsoft Stream - Min(00:33): https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EWNyaDk6mgdMlrmkd3YCekQBkWfpMUBC7oBkGaqmv3HQIA?e=ZCJBW6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+**Ver demo en Microsoft Stream - Min(00:33):** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EWNyaDk6mgdMlrmkd3YCekQBkWfpMUBC7oBkGaqmv3HQIA?e=ZCJBW6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
 
-:::
+
 
 ### iOS Mobile Applications Prototyping.
 
 La interfaz se prototipó inicialmente para iOS siguiendo las guías de diseño de Apple (Human Interface Guidelines), aplicando principios de accesibilidad y navegación móvil.
 
-::: info
+
 **Ver prototipo interactivo (Figma):** https://www.figma.com/proto/eciWGdnbz2vbcafpC3ry61/RutaKids?node-id=5-1336&t=xAeh2weCXXUvbcOx-1&scaling=scale-down&content-scaling=fixed&page-id=5%3A1185&starting-point-node-id=5%3A1336 
 
-Ver demo en Microsoft Stream - Min(01:57): https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EWNyaDk6mgdMlrmkd3YCekQBkWfpMUBC7oBkGaqmv3HQIA?e=ZCJBW6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+**Ver demo en Microsoft Stream - Min(01:57):** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EWNyaDk6mgdMlrmkd3YCekQBkWfpMUBC7oBkGaqmv3HQIA?e=ZCJBW6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
 
-:::
+
 
 
 \newpage
@@ -1515,7 +1515,8 @@ Este wireflow agrupa funciones de soporte como las notificaciones y la sección 
 ## *Web Applications Prototyping.*
 
 ::: warn
-Para visualizar el video del prototipo de la aplicación,  haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EaarYyGV9fFJpLWK1u04GaIBtRlSoc7_affoLtT38NNzEQ?e=krmvNP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+Para visualizar el video del prototipo de la aplicación,  haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EWNyaDk6mgdMlrmkd3YCekQBkWfpMUBC7oBkGaqmv3HQIA?e=ZCJBW6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+)
 :::
 
 
