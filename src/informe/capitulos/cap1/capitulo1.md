@@ -71,6 +71,7 @@ header-includes:
   \newtcolorbox{outline-box}{colback=cyan!5!white,arc=0pt,outer arc=0pt,colframe=cyan!60!black,title=\textbf{Outline:}}
   \newtcolorbox{prereqs-box}{colback=red!5!white,arc=0pt,outer arc=0pt,colframe=red!60!black,title=\textbf{Prerequisites:}}
   \newtcolorbox{labtime-box}{colback=yellow!5!white,arc=0pt,outer arc=0pt,colframe=yellow!60!black,title=\textbf{Lab:}}
+  \newcommand{\pandocbounded}[1]{#1} 
 
   ```
 pandoc-latex-environment:
@@ -116,17 +117,32 @@ pandoc-latex-environment:
 
 ***Project Report Collaboration Insights***
 
-::: warn
-Para mayor información, haga click en la [URL](https://github.com/orgs/CodeMinds-Experimentos/projects/2) 
-:::
-
-:::caution
-Faltan colocar imagenes
-:::
-
 **TB1:**
 
+::: warn
+Para acceder los insights de este proyecto, haga click a la [URL](https://github.com/CodeMinds-Experimentos/CodeMinds-Report/pulse)
+:::
+
+**Tablero Kanban:**
+
+![Organización CodeMinds, imagen extraída de Github](src/img/cap5/insights-kanban-todo-1.png){ width=85% }
+
+**Kanban List:**
+
+![Organización CodeMinds, imagen extraída de Github](src/img/cap5/insights-kanban-list-1.png){ width=85% }
+
 \newpage
+
+**Network Graph:**
+
+![Organización CodeMinds, imagen extraída de Github](src/img/cap5/insights-network-graph-1.png){ width=85% }
+
+**Traffic Map:**
+
+![Organización CodeMinds, imagen extraída de Github](src/img/cap5/insights-traffic-1.png){ width=85% }
+
+\newpage
+
 
 ***Student Outcome***
 
@@ -155,14 +171,14 @@ Mantuve imparcialidad en el análisis de la competencia y fui objetiva en las en
 \textbf{Mateo Alejandro Vilchez Rios} \\
 Durante la formulación del problema y el diseño UX, me aseguré de usar fuentes confiables y no tergiversar los hallazgos para beneficiar nuestras propuestas. \\
 \textbf{Luis Eduardo Herrera González} \\
-Durante el proyecto, siempre traté de ser transparente en las entrevistas y al dar opiniones sobre otras soluciones. Reconocí lo que la competencia hacía bien para mejorar nuestro trabajo, sin exagerar ni mentir. También me aseguré de comunicar cualquier problema al equipo de forma clara y honesta, manteniendo el respeto y la ética en todo momento. \\
+Durante el proyecto, siempre traté de ser transparente en las entrevistas y al dar opiniones sobre otras soluciones. Reconocí lo que la competencia hacía bien para mejorar nuestro trabajo, sin exagerar ni mentir. \\
 \textbf{Ariana Vargas Revollé} \\
-Durante la elaboración de los mapas de empatía y escenarios, me aseguré de representar fielmente las necesidades de los usuarios sin manipular la información para favorecer nuestras ideas. 
+Durante la elaboración de los mapas de empatía y escenarios, me aseguré de representar fielmente las necesidades de los usuarios sin manipular la información para favorecer nuestras ideas. \\
 } 
 &
 \parbox[t]{5cm}{
 \textbf{TB1:} \\
-Todos los integrantes demostramos responsabilidad ética en cada etapa del proyecto. Se respetaron los derechos de los usuarios, se promovió la honestidad en la documentación y se evitó cualquier forma de desinformación o apropiación indebida.
+\textbf{Abel Ángel Ortega Huaraca} promovió un ambiente de trabajo colaborativo basado en el respeto mutuo y el cumplimiento de compromisos. \textbf{Belén del Rocío Ramos Ríos} interiorizó la necesidad de mantener la objetividad en la recolección de información, asegurándose de que las decisiones fueran justas y libres de sesgos. \textbf{Mateo Alejandro Vílchez Ríos} reforzó la importancia de trabajar con fuentes confiables y de representar los hallazgos de manera honesta, reconociendo que la veracidad en los datos es esencial para proponer soluciones éticas y sostenibles. \textbf{Luis Eduardo Herrera González} aprendió a valorar y reconocer el mérito en el trabajo de otros, contribuyendo así a una cultura de respeto profesional y crítica constructiva. Finalmente, \textbf{Ariana Vargas Revollé} consolidó su compromiso de representar fielmente las necesidades reales de los usuarios, comprendiendo que manipular información compromete no solo el proyecto, sino también la confianza de quienes serán los beneficiarios finales.
 } \\ 
 
 \hline
@@ -180,14 +196,14 @@ Analicé el contexto competitivo para asegurar que nuestra solución tuviera un 
 \textbf{Mateo Alejandro Vilchez Rios} \\
 Durante la definición de problemas, tomé en cuenta factores sociales y urbanos que afectan el transporte escolar. Procuré no sugerir soluciones que generaran mayor tráfico o contaminación. \\
 \textbf{Luis Eduardo Herrera González} \\
-Al investigar para nuestra solución de transporte escolar, tomé en cuenta el impacto social y la importancia de proteger la privacidad de los estudiantes. Evitamos propuestas que pudieran hacer que los padres invadieran la privacidad de sus hijos. También pensamos en que nuestro sistema fuera accesible y no generara un costo extra fuerte para las familias o colegios. \\
+Al investigar para nuestra solución de transporte escolar, tomé en cuenta el impacto social y la importancia de proteger la privacidad de los estudiantes. Evitamos propuestas que pudieran hacer que los padres invadieran la privacidad de sus hijos. \\
 \textbf{Ariana Vargas Revollé} \\
-Al crear los escenarios y perfiles de usuario, prioricé un enfoque inclusivo que tomara en cuenta distintos niveles socioeconómicos. También busqué que la experiencia del usuario no dependiera de dispositivos costosos o poco accesibles.
+Al crear los escenarios y perfiles de usuario, prioricé un enfoque inclusivo que tomara en cuenta distintos niveles socioeconómicos. También busqué que la experiencia del usuario no dependiera de dispositivos costosos o poco accesibles. \\
 }
 &
 \parbox[t]{5cm}{
 \textbf{TB1:} \\
-Todos los integrantes demostramos conciencia del impacto de nuestras decisiones, priorizando una solución accesible, ética y útil socialmente. Se consideraron factores económicos y sociales durante el diseño y desarrollo del proyecto.
+\textbf{Abel Ángel Ortega Huaraca} reflexionó sobre la escalabilidad de la solución a diferentes ciudades y los posibles efectos en la dinámica familiar y escolar. \textbf{Belén del Rocío Ramos Ríos} evaluó el entorno competitivo no solo desde un punto de vista comercial, sino asegurándose de que la solución aportara un valor real y social. \textbf{Mateo Alejandro Vílchez Ríos}, en la identificación de problemas, integró factores sociales y urbanos, procurando no sugerir soluciones que pudieran aumentar el tráfico o la contaminación. \textbf{Luis Eduardo Herrera González}, al investigar, destacó la importancia de proteger la privacidad de los estudiantes, comprendiendo que las soluciones deben respetar no solo las necesidades funcionales, sino también los derechos fundamentales de los usuarios en el entorno social. Por su parte, \textbf{Ariana Vargas Revollé} promovió un enfoque inclusivo en la creación de perfiles de usuario y escenarios, garantizando que la experiencia propuesta fuera accesible para personas de distintos niveles socioeconómicos.
 } \\
 \hline
 \end{longtable}
@@ -286,7 +302,7 @@ Soy estudiante del séptimo ciclo de la carrera de Ingeniería de Software. Me a
 \begin{tcolorbox}[colframe=mybackground, colback=mybackground, boxrule=0.8mm, width=\textwidth, sharp corners]
 {
 \begin{minipage}[c]{0.3\textwidth}
-\includegraphics[width=\linewidth]{src/img/integrantes/Ariana.jpeg}
+\includegraphics[width=\linewidth]{src/img/integrantes/ariana.jpg}
 \end{minipage}
 \hfill
 \begin{minipage}[c]{0.65\textwidth}

@@ -1742,9 +1742,14 @@ HS03 & Acceso a Ayuda y Preguntas Frecuentes & \textbf{Como} tutor legal, \textb
 
 ## Impact Mapping.
 
+El Impact Map es una herramienta estratégica que ayuda a identificar y mejorar las características de una aplicación para cumplir con un objetivo empresarial específico. Partiendo de un objetivo clave, se determinan los comportamientos necesarios de los usuarios, las acciones que deben realizar en la aplicación, y las características que habilitarán esas acciones. Luego, se evalúa el impacto potencial de cada característica en el cumplimiento del objetivo y se desarrolla un plan de acción detallado,
+alineando así las acciones de los usuarios con los objetivos estratégicos de la empresa.
+
 **Segmento Objetivo 1**
 
 ![Artefacto creado en UXPressia](src/img/cap3/ImpactMapping1.png)
+
+\newpage
 
 **Segmento Objetivo 2**
 

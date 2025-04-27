@@ -98,10 +98,7 @@ pandoc-latex-environment:
 El diseño del producto no solo refleja el propósito funcional de RutaKids, sino también sus valores fundamentales: seguridad, transparencia y eficiencia. 
 En esta sección se detallan los principios visuales, patrones de interacción y estilos adoptados para asegurar una experiencia homogénea y accesible en todas las plataformas: web, móvil e IoT. Cada elemento de la interfaz ha sido concebido con base en las necesidades reales de nuestros usuarios, identificadas a través de entrevistas, mapas de empatía y journeys. El enfoque se centra en resolver problemas con soluciones visuales limpias, directas y adaptadas al entorno educativo.
 
-\newpage
-
 ## Style Guidelines.
-
 
 ![Artefacto creado en Figma](src/img/cap4/cover.png)
 
@@ -121,13 +118,10 @@ Rijgersberg (2025) argumenta que reducir la complejidad visual y estructurar la 
 
 Por eso, contar con principios de diseño sólidos no solo mejora la accesibilidad y la eficiencia del producto, sino que también habilita su evolución en distintos contextos y dispositivos. Así, se construye una identidad visual adaptable, al servicio tanto de la experiencia del usuario como de la narrativa de la organización.
 
-\newpage
-
 **Branding:**
 
 *Rutakids* es una solución tecnológica pensada para brindar seguridad y control en el transporte escolar. Su identidad visual refleja confianza, cercanía y modernidad, valores clave para padres y colegios. La plataforma busca simplificar la experiencia de seguimiento escolar a través de una interfaz clara, accesible y conectada en tiempo real.
 Cada elemento del branding (colores, tipografía y estilo visual) está diseñado para reforzar la misión de *RutaKids*: ofrecer tranquilidad a las familias y eficiencia a las instituciones, con una experiencia intuitiva y coherente en todos sus canales digitales.
-
 
 **Logotipo:**
 
@@ -137,16 +131,11 @@ La elección del color azul vibrante busca transmitir confianza, profesionalismo
 ![Artefacto creado en Figma](src/img/cap4/LogoStyle.png)
 
 
-\newpage
-
 **Iconografía de la Aplicación**
 
 La iconografía de *RutaKids* se basa en el uso del imagotipo de la marca (una rueda estilizada en movimiento) como símbolo principal en su versión para dispositivos móviles. Este elemento mantiene la coherencia gráfica de la marca al tiempo que asegura versatilidad y reconocimiento en pantallas reducidas. Además, para garantizar su legibilidad y funcionalidad, se desarrollaron distintas variantes del ícono, adaptables a diferentes fondos y contextos de uso. Su forma simplificada y su alto contraste permiten una fácil identificación desde la pantalla de inicio de cualquier dispositivo, reforzando la presencia visual de *RutaKids* dentro de su ecosistema digital.
 
 ![Artefacto creado en Figma](src/img/cap4/Icon_App.png)
-
-
-\newpage
 
 **Colores**
 
@@ -166,8 +155,6 @@ La paleta de colores de *RutaKids* está estructurada en dos grupos principales:
 
   ![Artefacto creado en Figma](src/img/cap4/PrimaryColors.png)
 
-\newpage
-
 - **Colores Secundarios (Variantes de Logos e Iconos)**
 
   Estos tonos de azul se emplean para asegurar que el logotipo y los íconos mantengan su visibilidad y coherencia visual en diferentes fondos y dispositivos. Las variantes permiten adaptar la marca sin perder identidad.
@@ -179,8 +166,6 @@ La paleta de colores de *RutaKids* está estructurada en dos grupos principales:
   - **Azul Oscuro (#123672):** Aplicado sobre fondos oscuros o saturados. Este tono profundo refuerza la elegancia, seriedad y profesionalismo de la marca, siendo apropiado para presentaciones formales, documentación institucional o entornos corporativos.
   
   ![Artefacto creado en Figma](src/img/cap4/SecondColors.png)
-
-\newpage
 
 **Tipografía**
 
@@ -227,8 +212,6 @@ La identidad tipográfica de *RutaKids* ha sido cuidadosamente definida para ase
 
   ![Artefacto creado en Figma](src/img/cap4/Typography_Poppins_app.png)
 
-\newpage
-
 **Tonos de Comunicación**
 
 El tono de voz de *RutaKids* fue cuidadosamente definido para alinearse con los valores del proyecto: seguridad, confiabilidad y eficiencia. Dado que se trata de una solución orientada al seguimiento de estudiantes en transporte escolar, la comunicación debe ser clara, profesional y empática. Por ello, se eligieron cuatro atributos clave que guían el estilo comunicativo en todas las plataformas y puntos de contacto:
@@ -253,7 +236,6 @@ El eslogan de RutaKids, “Seguridad que te acompaña”, expresa de manera clar
 La palabra “acompaña” destaca el compromiso de la marca con una presencia constante, mientras que “seguridad” refuerza su enfoque en el bienestar infantil.
 
 ![Artefacto creado en Figma](src/img/cap4/Eslogan.png)
-
 
 \newpage
 
@@ -386,16 +368,37 @@ Las siguientes figuras presentan una síntesis visual de los elementos de interf
 
 \newpage
 
+**Sistema de Grillas:**
 
 ![**Sistema de Grillas** - Artefacto creado en Figma](src/img/cap4/Grid.png)
 
+\newpage
+
+**Botones y Enlaces:**
+
 ![**Botones y Enlaces** - Artefacto creado en Figma](src/img/cap4/Button_Link.png)
+
+\newpage
+
+**Campos de Entrada:**
 
 ![**Campos de Entrada** - Artefacto creado en Figma](src/img/cap4/Input_fields.png)
 
+\newpage
+
+**Diálogos Emergentes:**
+
 ![**Diálogos Emergentes** - Artefacto creado en Figma](src/img/cap4/Dialog.png)
 
+\newpage
+
+**Pestañas de Navegación (Tabs):**
+
 ![**Pestañas de Navegación (Tabs)** - Artefacto creado en Figma](src/img/cap4/Tabs.png)
+
+\newpage
+
+**Rutas de Navegación (Breadcrumbs):**
 
 ![**Rutas de Navegación (Breadcrumbs)** - Artefacto creado en Figma](src/img/cap4/Breadcrumbs.png)
 
@@ -418,20 +421,23 @@ De acuerdo con Lin y Zarro (2024), una arquitectura de información bien diseña
 
 En el desarrollo de RutaKids, se adoptó una estructura centrada en los principales perfiles de usuarios: padres de familia, conductores y gestores de transporte escolar. La intención fue lograr una jerarquía de información comprensible, accesible y coherente que soporte la visualización en tiempo real, la administración de rutas y estudiantes, y la comunicación segura dentro de la aplicación.
 
+\newpage
+
 A continuación se presentan los mapas generales de arquitectura de información correspondientes a cada tipo de usuario:
 
 **Arquitectura de Información – App Móvil para Padres**
 
-![Artefacto creado en Figma](src/img/cap4/AppPadres.png)
+![Artefacto creado en Figma](src/img/cap4/AppPadres.png){ width=85% }
 
 **Arquitectura de Información – App Móvil para Conductores**
 
-![Artefacto creado en Figma](src/img/cap4/AppConductores.png)
+![Artefacto creado en Figma](src/img/cap4/AppConductores.png){ width=85% }
+
+\newpage
 
 **Arquitectura de Información – Plataforma Web para Administradores**
 
-![Artefacto creado en Figma](src/img/cap4/AppWeb.png)
-
+![Artefacto creado en Figma](src/img/cap4/AppWeb.png){ width=90% }
 
 Las secciones siguientes profundizan en los sistemas implementados para organización, etiquetado, navegación y búsqueda, así como en los elementos de SEO (Search Engine Optimization) y ASO (App Store Optimization) que fortalecen la visibilidad del producto.
 
@@ -443,7 +449,7 @@ Las secciones siguientes profundizan en los sistemas implementados para organiza
 
   La arquitectura organizativa de un producto digital permite estructurar la información de forma que los usuarios accedan rápida y eficientemente a los contenidos que necesitan. 
 
-  Según Morville y Rosenfeld (2006), “los sistemas de organización son esenciales para transformar el caos en claridad, facilitando que los usuarios comprendan la lógica detrás del contenido digital”. 
+  > Según Morville y Rosenfeld (2006), “los sistemas de organización son esenciales para transformar el caos en claridad, facilitando que los usuarios comprendan la lógica detrás del contenido digital”. 
 
   En el caso de *RutaKids*, se han diseñado diversos sistemas de organización visual y estructural adaptados tanto a padres como a administradores educativos.
 
@@ -451,7 +457,7 @@ Las secciones siguientes profundizan en los sistemas implementados para organiza
 
   La aplicación móvil muestra la información más relevante sobre el estado de sus hijos y el transporte escolar. La información sigue un modelo jerárquico en su interfaz principal y secuencial en el monitoreo de rutas.
 
-\begin{longtable}{|p{3cm}|p{3cm}|p{2.5cm}|p{4cm}|}
+\begin{longtable}{|p{3cm}|p{3cm}|p{3cm}|p{5cm}|}
 \hline
 \textbf{Tópico} & \textbf{Sistema de Organización Visual} & \textbf{Categorización Aplicada} & \textbf{Descripción} \\
 \hline
@@ -470,11 +476,13 @@ Hijos registrados & Jerárquico visual & Por audiencia (por cada hijo) & Cada hi
 \hline
 \end{longtable}
 
+\newpage
+
 - **Organización para administradores educativos (Plataforma web)**
 
   La plataforma web está orientada a la administración y seguimiento operativo. Utiliza una estructura modular con categorización por tópicos y por audiencia (vehículos, estudiantes, rutas, conductores).
 
-\begin{longtable}{|p{3cm}|p{3cm}|p{2.5cm}|p{4cm}|}
+\begin{longtable}{|p{3cm}|p{3cm}|p{3cm}|p{5cm}|}
 \hline
 \textbf{Tópico} & \textbf{Sistema de Organización Visual} & \textbf{Categorización Aplicada} & \textbf{Descripción} \\
 \hline
@@ -500,7 +508,7 @@ Reportes e incidencias & Modular & Cronológica / por evento & Acceso a reportes
 
   La landing page está diseñada para atraer y guiar a nuevos usuarios. Utiliza una estructura secuencial, pensada para recorrer la información desde el valor de la app hasta las secciones específicas según audiencia.
 
-\begin{longtable}{|p{3cm}|p{4cm}|p{2.5cm}|p{4cm}|}
+\begin{longtable}{|p{3cm}|p{3cm}|p{3cm}|p{5cm}|}
 \hline
 \textbf{Tópico} & \textbf{Organización Visual} & \textbf{Categorización Aplicada} & \textbf{Descripción} \\
 \hline
@@ -516,9 +524,6 @@ Flujo de contenido & Secuencial (scroll vertical guiado) & Por audiencia & Expli
 CTA (Call to Action) & Jerárquico visual final & Ninguna & Botones de descarga o contacto resaltados al final. \\
 \hline
 \end{longtable}
-
-Esta organización garantiza que tanto padres como administradores puedan interactuar de forma clara, eficiente y segura con la plataforma, reduciendo fricción y mejorando la toma de decisiones y la supervisión del servicio de transporte escolar.
-
 
 \newpage
 
@@ -825,7 +830,7 @@ Diseño de una sola vista & La app evita navegación compleja; el conductor solo
 \hline
 \end{longtable}
 
-
+\newpage
 
 - **Plataforma Web – Administradores**
 
@@ -857,36 +862,104 @@ Accesos rápidos & Acciones frecuentes resaltadas visualmente (botones flotantes
 
 El diseño de la interfaz de usuario (UI) de la landing page fue concebido con un enfoque centrado en el usuario, priorizando la claridad, accesibilidad y jerarquía visual. A través de un lenguaje visual coherente y elementos interactivos bien distribuidos, se buscó comunicar el valor de la plataforma de manera inmediata y efectiva. La estructura de la landing page permite a los usuarios identificar rápidamente las secciones clave, generando interés y facilitando la navegación hacia las áreas de mayor conversión. Este proceso de diseño incluyó tanto la creación de wireframes como mockups, permitiendo validar la experiencia antes de su implementación definitiva
 
+::: warn
+Para acceder a los wireframes de la landing page, haga click en la [URL](https://www.figma.com/design/hWQCYGLq8uiSZolh8ChRN7/Untitled?node-id=0-1&t=r3o6PxgMClNo9kx7-1)
+:::
+
 ### Landing Page Wireframe.
 
 Los wireframes representan la estructura básica de la landing page, enfocándose en la disposición de los elementos sin distraer con colores o estilos visuales complejos. Esta etapa fue clave para definir la jerarquía de la información, la ubicación de llamados a la acción (CTAs) y la secuencia de navegación esperada. Cada sección fue diseñada para cumplir un objetivo específico dentro del recorrido del usuario, desde la presentación inicial hasta los beneficios, características, segmentos objetivo (padres y colegios), equipo, demostración y contacto. El uso de wireframes permitió validar la lógica de la interfaz antes de pasar a etapas más detalladas de diseño visual.
 
-![](https://i.postimg.cc/Jh7nbHyD/wireframe-inicio.png){ width=50% }
-![](https://i.postimg.cc/CxgdxQS4/wireframe-beneficios.png){ width=50% }
-![](https://i.postimg.cc/J4JGmLVn/wireframe-caracteristicas.png){ width=50% }
-![](https://i.postimg.cc/FFYYWST0/wireframe-padres.png){ width=50% }
-![](https://i.postimg.cc/66FyDQPg/wireframe-colegios.png){ width=50% }
-![](https://i.postimg.cc/jCV0vmZ3/wireframe-team.png){ width=50% }
-![](https://i.postimg.cc/C1QVnzDg/wireframe-demo.png){ width=50% }
-![](https://i.postimg.cc/0QQsNpzn/wireframe-contactanos-footer.png){ width=50% }
+**Landing Page Wireframe 1:**
 
-[Figma CodeMinds Wireframe](https://www.figma.com/design/hWQCYGLq8uiSZolh8ChRN7/Untitled?node-id=0-1&t=r3o6PxgMClNo9kx7-1)
+![Figma CodeMinds Wireframe](https://i.postimg.cc/Jh7nbHyD/wireframe-inicio.png)
+
+\newpage
+
+**Landing Page Wireframe 2:**
+
+![Figma CodeMinds Wireframe](https://i.postimg.cc/CxgdxQS4/wireframe-beneficios.png)
+
+**Landing Page Wireframe 3:**
+
+![Figma CodeMinds Wireframe](https://i.postimg.cc/J4JGmLVn/wireframe-caracteristicas.png)
+
+\newpage
+
+**Landing Page Wireframe 4:**
+
+![Figma CodeMinds Wireframe](https://i.postimg.cc/FFYYWST0/wireframe-padres.png)
+
+**Landing Page Wireframe 5:**
+
+![Figma CodeMinds Wireframe](https://i.postimg.cc/66FyDQPg/wireframe-colegios.png)
+
+\newpage
+
+**Landing Page Wireframe 6:**
+
+![Figma CodeMinds Wireframe](https://i.postimg.cc/jCV0vmZ3/wireframe-team.png)
+
+**Landing Page Wireframe 7:**
+
+![Figma CodeMinds Wireframe](https://i.postimg.cc/C1QVnzDg/wireframe-demo.png)
+
+\newpage
+
+**Landing Page Wireframe 8:**
+
+![Figma CodeMinds Wireframe](https://i.postimg.cc/0QQsNpzn/wireframe-contactanos-footer.png)
+
 \newpage
 
 ### Landing Page Mock-up.
 
 Los mockups son representaciones de alta fidelidad de la interfaz, incorporando el estilo visual definitivo, paleta de colores, tipografías, imágenes y demás elementos gráficos. En esta etapa, se reflejó la identidad visual de la plataforma, asegurando coherencia entre el mensaje y la estética. Los mockups también permiten evaluar aspectos como el contraste, el espaciado, la legibilidad y el impacto visual de cada sección. Gracias a esta representación visual detallada, fue posible obtener retroalimentación específica y realizar ajustes antes de iniciar la implementación del diseño en código.
 
-![](https://i.postimg.cc/Kj3hPxrg/mockup-inicio.png)
-![](https://i.postimg.cc/q7prPf09/mockup-beneficios.png)
-![](https://i.postimg.cc/k5wC9jgD/mockup-caracteristicas.png)
-![](https://i.postimg.cc/RZ79pCr7/mockup-padres.png)
-![](https://i.postimg.cc/RZ54T6YC/mockup-colegios.png)
-![](https://i.postimg.cc/BQ1JDcMw/mockup-team.png)
-![](https://i.postimg.cc/kMHnBhFb/mockup-demo.png)
-![Landing Page Mockup - Recurso de Figma](https://i.postimg.cc/2y1r04my/mockup-contactanos-footer.png)
-[Figma CodeMinds Mockup](https://www.figma.com/design/hWQCYGLq8uiSZolh8ChRN7/Untitled?node-id=0-1&t=r3o6PxgMClNo9kx7-1)
+::: warn
+Para acceder a los mockups de la landing page, haga click en la [URL](https://www.figma.com/design/hWQCYGLq8uiSZolh8ChRN7/Untitled?node-id=0-1&t=r3o6PxgMClNo9kx7-1)
+:::
 
+**Landing Page Mockups 1:**
+
+![Figma CodeMinds Mockups](https://i.postimg.cc/Kj3hPxrg/mockup-inicio.png)
+
+\newpage
+
+
+**Landing Page Mockups 2:**
+
+![Figma CodeMinds Mockups](https://i.postimg.cc/q7prPf09/mockup-beneficios.png)
+
+**Landing Page Mockups 3:**
+
+![Figma CodeMinds Mockups](https://i.postimg.cc/k5wC9jgD/mockup-caracteristicas.png)
+
+\newpage
+
+**Landing Page Mockups 4:**
+
+![Figma CodeMinds Mockups](https://i.postimg.cc/RZ79pCr7/mockup-padres.png)
+
+**Landing Page Mockups 5:**
+
+![Figma CodeMinds Mockups](https://i.postimg.cc/RZ54T6YC/mockup-colegios.png)
+
+\newpage
+
+**Landing Page Mockups 6:**
+
+![Figma CodeMinds Mockups](https://i.postimg.cc/BQ1JDcMw/mockup-team.png)
+
+**Landing Page Mockups 7:**
+
+![Figma CodeMinds Mockups](https://i.postimg.cc/kMHnBhFb/mockup-demo.png)
+
+\newpage
+
+**Landing Page Mockups 8:**
+
+![Figma CodeMinds Mockups](https://i.postimg.cc/2y1r04my/mockup-contactanos-footer.png)
 
 \newpage
 
@@ -896,25 +969,103 @@ El diseño UX/UI de aplicaciones móviles busca crear experiencias intuitivas, e
 A través de un enfoque centrado en el usuario, se desarrollan interfaces funcionales y flujos de navegación claros que mejoran la interacción y fomentan la confianza en los servicios digitales.
 Este proyecto aplica principios de usabilidad, accesibilidad y diseño visual para garantizar que cada tutor legal pueda monitorear y gestionar el transporte escolar de manera segura, sencilla y confiable.
 
-\newpage
-
 ### Mobile Applications Wireframes.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Los wireframes de aplicaciones móviles son representaciones visuales que permiten planificar la estructura y funcionalidad de la interfaz antes de su desarrollo.
+A través de esquemas de baja y alta fidelidad, se definen la disposición de elementos, los flujos de navegación y las interacciones clave, asegurando que las necesidades del usuario se aborden de manera efectiva.
+
+Este proyecto presenta wireframes que priorizan la claridad, la usabilidad y la accesibilidad, facilitando una supervisión intuitiva del transporte escolar por parte de los tutores legales.
+
+::: warn
+Para acceder a los wireframes de la mobile app, haga click en la [URL](https://www.figma.com/design/ph6aTjM4mzxkNic0Hk4VLX/RutaKids?node-id=275-3006&t=8oFGZm5oHMybkhay-1)
+:::
+
+**Mobile Application Wireframes - Splash:**
+
+![Figma CodeMinds Wireframes](src/img/cap4/mobile-wireframes/splash.png){ height=35% }
+
+\newpage
+
+**Mobile Application Wireframes - Bienvenida:**
+
+![Figma CodeMinds Wireframes](src/img/cap4/mobile-wireframes/bienvenida.png){ height=35% }
+
+**Mobile Application Wireframes - Login:**
+
+![Figma CodeMinds Wireframes](src/img/cap4/mobile-wireframes/login.png){ height=35% }
+
+\newpage
+
+**Mobile Application Wireframes - Recuperar Contraseña:**
+
+![Figma CodeMinds Wireframes](src/img/cap4/mobile-wireframes/recuperar-password.png){ height=35% }
+
+**Mobile Application Wireframes - Home:**
+
+![Figma CodeMinds Wireframes](src/img/cap4/mobile-wireframes/principal.png){ height=35% }
+
+\newpage
+
+**Mobile Application Wireframes - Home - Notificaciones:**
+
+![Figma CodeMinds Wireframes](src/img/cap4/mobile-wireframes/principal-notificaciones.png){ height=35% }
+
+**Mobile Application Wireframes - Home - Notificaciones - Popup:**
+
+![Figma CodeMinds Wireframes](src/img/cap4/mobile-wireframes/principal-notificaciones-popup.png){ height=35% }
+
+\newpage
+
+**Mobile Application Wireframes - Home - Detalles:**
+
+![Figma CodeMinds Wireframes](src/img/cap4/mobile-wireframes/principal-detalles.png){ height=35% }
+
+**Mobile Application Wireframes - Home - Detalles - Popup:**
+
+![Figma CodeMinds Wireframes](src/img/cap4/mobile-wireframes/principal-detalles-popup.png){ height=35% }
+
+\newpage
+
+**Mobile Application Wireframes - Monitoreo:**
+
+![Figma CodeMinds Wireframes](src/img/cap4/mobile-wireframes/monitoreo.png){ height=35% }
+
+**Mobile Application Wireframes - Monitoreo - Cam:**
+
+![Figma CodeMinds Wireframes](src/img/cap4/mobile-wireframes/monitoreo-cam.png){ height=35% }
+
+\newpage
+
+**Mobile Application Wireframes - Historial:**
+
+![Figma CodeMinds Wireframes](src/img/cap4/mobile-wireframes/historial.png){ height=35% }
+
+**Mobile Application Wireframes - Cuenta:**
+
+![Figma CodeMinds Wireframes](src/img/cap4/mobile-wireframes/cuenta.png){ height=35% }
+
+\newpage
+
+**Mobile Application Wireframes - Cuenta - Settings:**
+
+![Figma CodeMinds Wireframes](src/img/cap4/mobile-wireframes/cuenta-settings.png){ height=35% }
 
 \newpage
 
 ### Mobile Applications Wireflow Diagrams.
 
 En esta sección se presentan los wireflows diseñados para RutaKids. A través de estos diagramas, se busca representar de manera clara y estructurada cómo los padres de familia o tutores legales pueden navegar por la app, realizar tareas esenciales como el inicio de sesión, la visualización de trayectos en tiempo real, la recepción de notificaciones, el acceso al historial de viajes, entre otros.
+
 Cada wireflow incluye tanto los objetivos del usuario como la descripción paso a paso del flujo de tareas, facilitando así la comprensión del recorrido de usuario y la funcionalidad de la aplicación.
 
-**Wireflow Diagram 1 :  Inicio de Sesión**
+**Wireflow Diagram 1: Inicio de Sesión**
 
-- **User Goal:**
+- **User Goal**
+
   El tutor legal desea acceder a la aplicación móvil para monitorear el transporte escolar de su hijo/a.
 
-- **Task Flow (Flujo de tareas del usuario):**
+- **Task Flow (Flujo de tareas del usuario)**
+
   1. Visualiza la pantalla de carga con el logo de la aplicación al abrir la app por primera vez.
   2. Visualiza la pantalla con información de lo que ofrece la aplicación
   3. Accede a la pantalla de inicio de sesión.
@@ -925,20 +1076,27 @@ Cada wireflow incluye tanto los objetivos del usuario como la descripción paso 
 
 A continuación, se muestran de forma secuencial las pantallas involucradas en el proceso de inicio de sesión de un tutor legal, detallando las interacciones principales y transiciones posibles desde la carga inicial de la aplicación hasta el acceso exitoso al panel de monitoreo.
 
+\newpage
+
+**Wireflow:  Inicio de Sesión**
+
 ![Artefacto creado en Figma](src/img/cap4/WD/WD_SignIn.png)
 
 \newpage
 
-**Wireflow Diagram 2 :  Visualización de eventos del recorrido (línea de tiempo)**
+**Wireflow Diagram 2: Visualización de eventos del recorrido (línea de tiempo)**
 
-- **User Goal:**  
+- **User Goal**  
+
   El tutor legal desea consultar el estado y el avance del recorrido escolar para asegurar el cumplimiento del trayecto.
 
-- **Task Flow (Flujo de tareas del usuario):**
+- **Task Flow (Flujo de tareas del usuario)**
+
   1. Desde la pantalla principal, el tutor identifica el seguimiento activo del transporte.
   2. Presiona el botón "Detalles" ubicado en la parte inferior de la tarjeta del trayecto.
   3. El sistema redirige a una pantalla donde se presenta una línea de tiempo con los eventos del recorrido.
   4. En esta línea de tiempo, el usuario puede observar:
+
      - Inicio del recorrido
      - Llegada del conductor al punto de encuentro
      - Abordaje de los estudiantes
@@ -946,56 +1104,61 @@ A continuación, se muestran de forma secuencial las pantallas involucradas en e
      - Llegada al colegio
      - Descenso de los estudiantes
      - Finalización del trayecto
+
   5. El usuario puede tocar eventos interactivos (como el abordaje) para ver un modal con información adicional: nombres, horarios y matrícula del vehículo.
   6. El usuario puede regresar o navegar entre vistas sin perder el progreso visual del seguimiento.
 
+**Wireflow:  Timeline Details**
 
-![Artefacto creado en Figma](src/img/cap4/WD/WD_Details.png)
-
-Este wireflow describe el módulo de visualización detallada del recorrido escolar. Tras acceder desde la pantalla principal, el tutor legal puede observar una representación cronológica de los eventos clave del trayecto, organizada mediante una línea de tiempo progresiva.
-La visualización incluye horarios, estados y acciones del conductor, así como hitos importantes como el momento en que los estudiantes abordan o descienden de la unidad. Para mejorar la trazabilidad, algunos eventos son interactivos y despliegan ventanas modales con información adicional. Este módulo garantiza transparencia y confianza sobre el cumplimiento del servicio de transporte.
-
+![Artefacto creado en Figma](src/img/cap4/WD/WD_Details.png){ width=90% }
 
 \newpage
 
-**Wireflow Diagram 3 :  Notificaciones de eventos**
+**Wireflow Diagram 3: Notificaciones de eventos**
 
-- **User Goal:**  
+- **User Goal**  
+
   El tutor legal desea recibir alertas sobre momentos importantes del viaje, como el inicio del recorrido o la llegada al punto de encuentro, para mantenerse informado sobre el trayecto de su hijo/a.
 
-- **Task Flow (Flujo de tareas del usuario):**
+- **Task Flow (Flujo de tareas del usuario)**
+
   1. El sistema genera automáticamente notificaciones push cuando ocurre un evento clave del recorrido escolar, por ejemplo:
+
      - El conductor inicia el recorrido.
      - La unidad llega al punto de encuentro.
+
   2. El tutor recibe una alerta en su dispositivo móvil.
   3. Al abrir la aplicación, accede a la sección "Notificaciones" desde el ícono de campana o desde la barra inferior.
   4. Visualiza una lista de eventos relevantes en orden cronológico.
   5. Puede seleccionar una notificación específica para ver más detalles.
   6. Se despliega una tarjeta informativa con:
+
      - Iconografía del evento
      - Mensaje descriptivo
      - Hora exacta del suceso
      - Fecha y unidad asociada
+
   7. El tutor puede regresar a la vista anterior tras consultar el detalle.
 
+**Wireflow: Notificaciones**
 
-![Artefacto creado en Figma](src/img/cap4/WD/WD_Notifications.png)
-
-Este wireflow describe la interacción del tutor legal con el módulo de notificaciones dentro de la aplicación móvil. El sistema genera alertas automáticas basadas en eventos definidos durante el recorrido escolar, como la salida de la unidad o la llegada al punto de recogida.
-Estas notificaciones se agrupan en una vista dedicada dentro de la app, accesible desde el menú inferior o un ícono persistente. Cada alerta incluye un resumen visual del evento, hora exacta, iconografía asociada y una breve descripción. Al seleccionar una notificación, el tutor puede expandir la información para entender mejor el contexto del evento, fortaleciendo la comunicación y el monitoreo en tiempo real del transporte escolar.
+![Artefacto creado en Figma](src/img/cap4/WD/WD_Notifications.png){ width=90% }
 
 \newpage
 
-**Wireflow Diagram 4 :  Visualización del trayecto del transporte escolar en mapa en tiempo real**
+**Wireflow Diagram 4: Visualización del trayecto del transporte escolar en mapa en tiempo real**
 
-- **User Goal:**  
+- **User Goal**  
+
   El tutor legal desea visualizar en tiempo real la ruta que sigue la unidad de transporte escolar, con información resumida del conductor, clima y estado del viaje.
 
-- **Task Flow (Flujo de tareas del usuario):**
+- **Task Flow (Flujo de tareas del usuario)**
+
   1. Desde la pantalla principal (Inicio), el tutor identifica la tarjeta con información de su unidad asignada.
   2. Presiona el botón “Detalles”.
   3. El sistema redirige al usuario a una pantalla con mapa en vivo.
   4. En esta pantalla se visualiza:
+
      - Ruta actual del transporte (de punto A al punto B)
      - Ubicación en tiempo real del bus
      - Nombre y contacto del conductor
@@ -1003,101 +1166,121 @@ Estas notificaciones se agrupan en una vista dedicada dentro de la app, accesibl
      - Tiempo estimado de llegada
      - Temperatura actual
      - Pasajeros a bordo
+
   5. La información se actualiza automáticamente durante el trayecto.
   6. El usuario puede regresar a la pantalla principal en cualquier momento desde la navegación inferior.
 
+**Wireflow: Home a Monitoreo**
 
 ![Artefacto creado en Figma](src/img/cap4/WD/WD_LiveMap.png)
 
-Este wireflow representa el proceso mediante el cual el tutor accede al monitoreo visual del trayecto escolar a través de un mapa en tiempo real. Desde la pantalla principal, el usuario puede seleccionar la opción “Detalles”, lo cual lo redirige a una vista de mapa interactivo donde se muestra la posición actual del bus, así como la ruta proyectada desde origen hasta destino.
-En la misma vista, se presentan datos complementarios como el nombre del conductor, número de pasajeros, clima y tiempo estimado de llegada. La información es dinámica y se actualiza en tiempo real sin intervención del usuario. Esta funcionalidad brinda una visión rápida y clara del estado actual del transporte escolar.
-
 \newpage
 
-**Wireflow Diagram 5 :  Visualización en vivo del interior de la unidad**
+**Wireflow Diagram 5: Visualización en vivo del interior de la unidad**
 
-- **User Goal:**  
+- **User Goal**  
+
   El tutor legal desea observar visualmente la unidad de transporte en tiempo real para verificar las condiciones internas y confirmar que su hijo/a viaja de forma segura.
 
-- **Task Flow (Flujo de tareas del usuario):**
+- **Task Flow (Flujo de tareas del usuario)**
+
   1. Desde la pantalla de Detalles del viaje (mapa con ruta y datos del transporte), el tutor identifica el botón "Visualizar Unidad".
   2. Presiona el botón y es redirigido a una nueva vista.
   3. La aplicación muestra una transmisión en tiempo real del interior del vehículo.
   4. En la parte inferior de la pantalla se presenta:
+
      - La temperatura interna del vehículo.
      - El botón de regreso para volver a la vista anterior.
+
   5. El tutor puede observar sin interactuar y cerrar la vista cuando lo desee.
   6. Al cerrar la visualización, vuelve a la pantalla de “Detalles del viaje”.
 
-
+**Wireflow: Visualizar Cámara**
 
 ![Artefacto creado en Figma](src/img/cap4/WD/WD_LiveInteriorView.png)
 
-Este wireflow representa la interacción del tutor con la funcionalidad de visualización en vivo del interior del transporte escolar. Desde la pantalla de seguimiento del viaje, el tutor puede acceder mediante el botón “Visualizar Unidad” a una transmisión de video en tiempo real.
 Esta vista permite monitorear visualmente las condiciones internas del vehículo, incluyendo el comportamiento de los estudiantes y el estado del entorno. Además, se ofrece la temperatura interna del bus como dato adicional. Esta funcionalidad está diseñada para reforzar la percepción de seguridad y confianza del tutor legal durante el trayecto escolar.
-
 
 \newpage
 
-**Wireflow Diagram 6 :  Consulta de historial de viajes**
+**Wireflow Diagram 6: Consulta de historial de viajes**
 
-- **User Goal:**  
+- **User Goal**  
+
   El tutor legal desea revisar los viajes anteriores para verificar detalles como la hora de salida y llegada, la ruta recorrida y las condiciones generales del transporte escolar.
 
-- **Task Flow (Flujo de tareas del usuario):**
+- **Task Flow (Flujo de tareas del usuario)**
+
   1. Desde la pantalla principal, el tutor accede a la sección "Historial" mediante la barra de navegación inferior.
   2. Se despliega una lista de viajes completados organizados por fecha (más reciente primero).
   3. Cada tarjeta de viaje muestra:
+
      - Fecha del recorrido
      - Hora de llegada
      - Dirección de origen y destino
      - Clima registrado
      - Cantidad de pasajeros a bordo
      - Iconografía de estado
+     
   4. El tutor puede desplazarse por la lista para explorar días anteriores.
   5. Al finalizar la consulta, el tutor puede navegar hacia otra sección mediante el menú inferior.
 
+**Wireflow: Historial de Viajes**
+
 ![Artefacto creado en Figma](src/img/cap4/WD/WD_Record.png)
 
-Este wireflow corresponde a la funcionalidad de consulta del historial de viajes previos. Al acceder desde el menú principal, el tutor visualiza una lista de recorridos completados, organizados por fecha. Cada ítem contiene información clave como la hora de llegada, el número de pasajeros, las condiciones climáticas y el estado general del trayecto.
-La interfaz está diseñada para facilitar el seguimiento retrospectivo de la actividad del transporte escolar, brindando al tutor una herramienta útil para auditoría personal, validación de horarios y monitoreo histórico de la puntualidad y condiciones del servicio.
+Este wireflow corresponde a la funcionalidad de consulta del historial de viajes previos. Al acceder desde el menú principal, el tutor visualiza una lista de recorridos completados, organizados por fecha.
 
 \newpage
 
-**Wireflow Diagram 7 :  Gestión de cuenta**
+**Wireflow Diagram 7: Gestión de cuenta**
 
-- **User Goal:**  
+- **User Goal**  
+
   El tutor legal desea configurar y gestionar sus datos personales, seguridad, privacidad y notificaciones desde su perfil en la aplicación.
 
-- **Task Flow (Flujo de tareas del usuario):**
+- **Task Flow (Flujo de tareas del usuario)**
+
   1. Desde cualquier vista de la app, el tutor accede a la sección "Cuenta" mediante el ícono del menú inferior.
   2. En la pantalla principal, se muestran las siguientes opciones:
+
      - Información personal
      - Seguridad
      - Protección de datos
      - Notificaciones
+
   3. Si selecciona "Información personal", accede a una vista donde puede consultar y actualizar:
+
      - Nombre
      - Número de teléfono
      - Correo electrónico
+
   4. Si selecciona "Seguridad", puede:
+
      - Cambiar su contraseña
      - Activar o revisar la verificación en dos pasos
      - Ver el correo de soporte técnico
+
   5. En "Protección de datos", el tutor puede revisar:
+
      - Términos y condiciones
      - Políticas de privacidad
      - Información sobre protección de datos
+
   6. En "Notificaciones", puede activar o desactivar alertas específicas relacionadas a:
+
      - Transporte
      - Mapa
      - Seguimiento
      - Otros servicios
+
   7. El tutor puede volver a la pantalla principal de cuenta mediante el ícono de retroceso o la barra inferior.
 
 A continuación, se muestran de forma secuencial las pantallas involucradas en el proceso de gestión de cuenta, detallando las interacciones principales y transiciones posibles desde el acceso al menú de configuración hasta la actualización o consulta de datos personales, seguridad y preferencias.
 
-![Artefacto creado en Figma](src/img/cap4/WD/WD_AccountConfiguration)
+**Wireflow: Gestión de Cuenta**
+
+![Artefacto creado en Figma](src/img/cap4/WD/WD_AccountConfiguration.png)
 
 \newpage
 
@@ -1129,7 +1312,8 @@ Estos flujos buscan garantizar la transparencia, la facilidad de uso y la confia
 
 **Inicio de Sesión**
 
-- **User Goal:**
+- **User Goal**
+
   El tutor legal desea acceder a la aplicación móvil para monitorear el transporte escolar de su hijo/a.
 
 
@@ -1137,12 +1321,10 @@ Estos flujos buscan garantizar la transparencia, la facilidad de uso y la confia
 
 Este User Flow inicia con la carga del sistema y guía al tutor legal hacia la pantalla de login, donde se permite ingresar sus credenciales o iniciar el proceso de recuperación de contraseña. Se ha considerado un flujo alternativo para usuarios que olvidan su contraseña, así como una condición de éxito que los redirige a la pantalla principal. El proceso incluye interacciones simples y claras, con rutas diferenciadas para escenarios típicos y excepcionales.
 
-\newpage
-
-
 **Visualización de eventos del recorrido (línea de tiempo)**
 
-- **User Goal:**  
+- **User Goal**  
+
   El tutor legal desea consultar el estado y el avance del recorrido escolar para asegurar el cumplimiento del trayecto.
 
 ![Artefacto creado en Figma](src/img/cap4/UF/Details.png)
@@ -1151,13 +1333,12 @@ Este diagrama de flujo de usuario muestra el proceso mediante el cual el tutor l
 La línea de tiempo muestra eventos clave como el inicio del trayecto, el abordaje de los estudiantes, el trayecto en curso, y la llegada al colegio.
 Para una trazabilidad más detallada, algunos eventos incluyen íconos interactivos que permiten abrir ventanas modales con información adicional, como los nombres de los estudiantes que abordaron y la placa del vehículo. Esta funcionalidad permite al tutor monitorear el cumplimiento del servicio de transporte escolar de forma clara y precisa, fomentando la transparencia y confianza en el proceso.
 
-
-
 \newpage
 
 **Notificaciones de eventos**
 
-- **User Goal:**  
+- **User Goal**  
+
   El tutor legal desea recibir alertas sobre momentos importantes del viaje, como el inicio del recorrido o la llegada al punto de encuentro, para mantenerse informado sobre el trayecto de su hijo/a.
 
 ![Artefacto creado en Figma](src/img/cap4/UF/Notifications.png)
@@ -1167,12 +1348,12 @@ El tutor legal, desde la pantalla principal, puede visualizar un ícono de campa
 Cada notificación incluye iconografía, texto descriptivo, hora y fecha. Al seleccionar una notificación específica, se despliega una tarjeta con información extendida del evento.
 Esta funcionalidad permite al tutor mantenerse informado en tiempo real, fortaleciendo el acompañamiento del trayecto sin necesidad de interacción directa con el sistema de transporte.
 
-
 \newpage
 
 **Visualización del trayecto del transporte escolar en mapa en tiempo real**
 
-- **User Goal:**  
+- **User Goal**  
+
   El tutor legal desea visualizar en tiempo real la ruta que sigue la unidad de transporte escolar, con información resumida del conductor, clima y estado del viaje.
 
 ![Artefacto creado en Figma](src/img/cap4/UF/LiveMap.png)
@@ -1184,12 +1365,12 @@ Además, se incluyen datos complementarios como el nombre y placa del conductor,
 Esta vista se actualiza de manera automática sin necesidad de interacción por parte del usuario, permitiendo un seguimiento continuo y preciso del recorrido escolar.
 Esta funcionalidad mejora significativamente la visibilidad y tranquilidad del tutor respecto a la seguridad y puntualidad del transporte.
 
-
 \newpage
 
 **Visualización en vivo del interior de la unidad**
 
-- **User Goal:**  
+- **User Goal**  
+
   El tutor legal desea observar visualmente la unidad de transporte en tiempo real para verificar las condiciones internas y confirmar que su hijo/a viaja de forma segura.
 
 ![Artefacto creado en Figma](src/img/cap4/UF/LiveInteriorView.png)
@@ -1200,13 +1381,12 @@ Esta transmisión permite observar las condiciones internas, incluyendo el compo
 Además, se muestra la temperatura interna del vehículo en la parte inferior de la pantalla como dato contextual relevante.
 Esta funcionalidad tiene como objetivo principal fortalecer la confianza y seguridad del tutor legal, proporcionando una capa adicional de supervisión visual.
 
-
-
 \newpage
 
 **Consulta de historial de viajes**
 
-- **User Goal:**  
+- **User Goal**  
+
   El tutor legal desea revisar los viajes anteriores para verificar detalles como la hora de salida y llegada, la ruta recorrida y las condiciones generales del transporte escolar.
 
 ![Artefacto creado en Figma](src/img/cap4/UF/Record.png)
@@ -1228,12 +1408,11 @@ Esta funcionalidad permite al tutor verificar la puntualidad del servicio, confi
 
 **Gestión de cuenta**
 
-- **User Goal:**  
+- **User Goal**  
+
   El tutor legal desea configurar y gestionar sus datos personales, seguridad, privacidad y notificaciones desde su perfil en la aplicación.
 
-
 ![Artefacto creado en Figma](src/img/cap4/UF/AccountConfiguration.png)
-
 
 Este flujo de usuario representa cómo el tutor legal accede y gestiona su configuración personal dentro de la aplicación RutaKids.
 Desde cualquier pantalla, el tutor puede ingresar a la sección de cuenta ya sea presionando el ícono de perfil en la parte superior o a través del botón “Cuenta” en la barra inferior de navegación.
@@ -1248,7 +1427,6 @@ Cada sección está diseñada para brindar al tutor control total sobre su perfi
 
 
 \newpage
-
 
 ## Mobile Applications Prototyping.
 
@@ -1267,30 +1445,39 @@ En cuanto a las interacciones, se ha priorizado una lógica de flujo lineal pero
 A pesar de que los prototipos fueron desarrollados inicialmente con frames de iOS para facilitar el testeo visual, todas las decisiones fueron tomadas considerando el desarrollo futuro con Flutter como framework multiplataforma. Esto asegura que los elementos visuales, tamaños de fuente, márgenes y estilos de interacción son adaptables a sistemas operativos Android, y que cualquier ajuste de microinteracción puede realizarse posteriormente sin romper la coherencia de experiencia.
 Las diferencias menores en los tamaños de botones o alineaciones responden a las guías específicas de cada sistema operativo (Apple Human Interface Guidelines y Material Design), pero sin comprometer la armonía visual ni la funcionalidad entre plataformas.
 
+\newpage
 
 ### Android Mobile Applications Prototyping.
 
 La versión prototipada corresponde a la arquitectura funcional de Android, replicando los mismos flujos de navegación definidos para iOS.
 Gracias al enfoque cross-platform con Flutter, las decisiones de interacción son consistentes entre sistemas.
 
+::: warn
+Para acceder al prototipo de la Android Mobile, haga click en la [URL](https://www.figma.com/proto/eciWGdnbz2vbcafpC3ry61/RutaKids?node-id=1-191&t=Q43WuZLUjqqKj29U-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A191)
+:::
 
-**Ver prototipo interactivo (Figma):** https://www.figma.com/proto/eciWGdnbz2vbcafpC3ry61/RutaKids?node-id=1-191&t=Q43WuZLUjqqKj29U-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A191  
+::: warn
+Para ver la demo en Microsoft Stream - Min(00:33), haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EWNyaDk6mgdMlrmkd3YCekQBkWfpMUBC7oBkGaqmv3HQIA?e=ZCJBW6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+:::
 
-**Ver demo en Microsoft Stream - Min(00:33):** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EWNyaDk6mgdMlrmkd3YCekQBkWfpMUBC7oBkGaqmv3HQIA?e=ZCJBW6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
 
+![Android Prototyping - Figma](src/img/cap4/android-proto.png)
 
+\newpage
 
 ### iOS Mobile Applications Prototyping.
 
 La interfaz se prototipó inicialmente para iOS siguiendo las guías de diseño de Apple (Human Interface Guidelines), aplicando principios de accesibilidad y navegación móvil.
 
+::: warn
+Para acceder al prototipo de la iOS Mobile, haga click en la [URL](https://www.figma.com/proto/eciWGdnbz2vbcafpC3ry61/RutaKids?node-id=5-1336&t=xAeh2weCXXUvbcOx-1&scaling=scale-down&content-scaling=fixed&page-id=5%3A1185&starting-point-node-id=5%3A1336)
+:::
 
-**Ver prototipo interactivo (Figma):** https://www.figma.com/proto/eciWGdnbz2vbcafpC3ry61/RutaKids?node-id=5-1336&t=xAeh2weCXXUvbcOx-1&scaling=scale-down&content-scaling=fixed&page-id=5%3A1185&starting-point-node-id=5%3A1336 
+::: warn
+Para ver la demo en Microsoft Stream - Min(01:57), haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EWNyaDk6mgdMlrmkd3YCekQBkWfpMUBC7oBkGaqmv3HQIA?e=ZCJBW6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+:::
 
-**Ver demo en Microsoft Stream - Min(01:57):** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EWNyaDk6mgdMlrmkd3YCekQBkWfpMUBC7oBkGaqmv3HQIA?e=ZCJBW6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
-
-
-
+![iOS Prototyping - Figma](src/img/cap4/ios-proto.png)
 
 \newpage
 
@@ -1525,8 +1712,6 @@ Para visualizar el video del prototipo de la aplicación,  haga click en la [URL
 ## Domain-Driven Software Architecture.
 
 En esta sección se describe la arquitectura impulsada por el dominio para **CodeMinds**, nuestra solución de autenticación IoT enfocada en el transporte escolar seguro. Utilizamos principios de *Domain-Driven Design* (DDD) para estructurar los componentes de software de manera alineada con las necesidades del negocio, garantizando escalabilidad, robustez y claridad en la separación de responsabilidades.
-
-\newpage
 
 ### Software Architecture Context Diagram.
 
