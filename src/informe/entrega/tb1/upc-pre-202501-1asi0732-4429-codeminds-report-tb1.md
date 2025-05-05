@@ -138,19 +138,21 @@ Para acceder los insights de este proyecto, haga click a la [URL](https://github
 
 **Tablero Kanban:**
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap5/insights-kanban-todo-1.png){ width=80% }
+![Organización CodeMinds, imagen extraída de Github](src/img/cap5/insights-kanban-todo-1.png){ width=85% }
 
 **Kanban List:**
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap5/insights-kanban-list-1.png){ width=80% }
+![Organización CodeMinds, imagen extraída de Github](src/img/cap5/insights-kanban-list-1.png){ width=85% }
+
+\newpage
 
 **Network Graph:**
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap5/insights-network-graph-1.png){ width=80% }
+![Organización CodeMinds, imagen extraída de Github](src/img/cap5/insights-network-graph-1.png){ width=85% }
 
 **Traffic Map:**
 
-![Organización CodeMinds, imagen extraída de Github](src/img/cap5/insights-traffic-1.png){ width=80% }
+![Organización CodeMinds, imagen extraída de Github](src/img/cap5/insights-traffic-1.png){ width=85% }
 
 \newpage
 
@@ -182,14 +184,14 @@ Mantuve imparcialidad en el análisis de la competencia y fui objetiva en las en
 \textbf{Mateo Alejandro Vilchez Rios} \\
 Durante la formulación del problema y el diseño UX, me aseguré de usar fuentes confiables y no tergiversar los hallazgos para beneficiar nuestras propuestas. \\
 \textbf{Luis Eduardo Herrera González} \\
-Durante el proyecto, siempre traté de ser transparente en las entrevistas y al dar opiniones sobre otras soluciones. Reconocí lo que la competencia hacía bien para mejorar nuestro trabajo, sin exagerar ni mentir. También me aseguré de comunicar cualquier problema al equipo de forma clara y honesta, manteniendo el respeto y la ética en todo momento. \\
+Durante el proyecto, siempre traté de ser transparente en las entrevistas y al dar opiniones sobre otras soluciones. Reconocí lo que la competencia hacía bien para mejorar nuestro trabajo, sin exagerar ni mentir. \\
 \textbf{Ariana Vargas Revollé} \\
-Durante la elaboración de los mapas de empatía y escenarios, me aseguré de representar fielmente las necesidades de los usuarios sin manipular la información para favorecer nuestras ideas. 
+Durante la elaboración de los mapas de empatía y escenarios, me aseguré de representar fielmente las necesidades de los usuarios sin manipular la información para favorecer nuestras ideas. \\
 } 
 &
 \parbox[t]{5cm}{
 \textbf{TB1:} \\
-Todos los integrantes demostramos responsabilidad ética en cada etapa del proyecto. Se respetaron los derechos de los usuarios, se promovió la honestidad en la documentación y se evitó cualquier forma de desinformación o apropiación indebida.
+\textbf{Abel Ángel Ortega Huaraca} promovió un ambiente de trabajo colaborativo basado en el respeto mutuo y el cumplimiento de compromisos. \textbf{Belén del Rocío Ramos Ríos} interiorizó la necesidad de mantener la objetividad en la recolección de información, asegurándose de que las decisiones fueran justas y libres de sesgos. \textbf{Mateo Alejandro Vílchez Ríos} reforzó la importancia de trabajar con fuentes confiables y de representar los hallazgos de manera honesta, reconociendo que la veracidad en los datos es esencial para proponer soluciones éticas y sostenibles. \textbf{Luis Eduardo Herrera González} aprendió a valorar y reconocer el mérito en el trabajo de otros, contribuyendo así a una cultura de respeto profesional y crítica constructiva. Finalmente, \textbf{Ariana Vargas Revollé} consolidó su compromiso de representar fielmente las necesidades reales de los usuarios, comprendiendo que manipular información compromete no solo el proyecto, sino también la confianza de quienes serán los beneficiarios finales.
 } \\ 
 
 \hline
@@ -207,14 +209,14 @@ Analicé el contexto competitivo para asegurar que nuestra solución tuviera un 
 \textbf{Mateo Alejandro Vilchez Rios} \\
 Durante la definición de problemas, tomé en cuenta factores sociales y urbanos que afectan el transporte escolar. Procuré no sugerir soluciones que generaran mayor tráfico o contaminación. \\
 \textbf{Luis Eduardo Herrera González} \\
-Al investigar para nuestra solución de transporte escolar, tomé en cuenta el impacto social y la importancia de proteger la privacidad de los estudiantes. Evitamos propuestas que pudieran hacer que los padres invadieran la privacidad de sus hijos. También pensamos en que nuestro sistema fuera accesible y no generara un costo extra fuerte para las familias o colegios. \\
+Al investigar para nuestra solución de transporte escolar, tomé en cuenta el impacto social y la importancia de proteger la privacidad de los estudiantes. Evitamos propuestas que pudieran hacer que los padres invadieran la privacidad de sus hijos. \\
 \textbf{Ariana Vargas Revollé} \\
-Al crear los escenarios y perfiles de usuario, prioricé un enfoque inclusivo que tomara en cuenta distintos niveles socioeconómicos. También busqué que la experiencia del usuario no dependiera de dispositivos costosos o poco accesibles.
+Al crear los escenarios y perfiles de usuario, prioricé un enfoque inclusivo que tomara en cuenta distintos niveles socioeconómicos. También busqué que la experiencia del usuario no dependiera de dispositivos costosos o poco accesibles. \\
 }
 &
 \parbox[t]{5cm}{
 \textbf{TB1:} \\
-Todos los integrantes demostramos conciencia del impacto de nuestras decisiones, priorizando una solución accesible, ética y útil socialmente. Se consideraron factores económicos y sociales durante el diseño y desarrollo del proyecto.
+\textbf{Abel Ángel Ortega Huaraca} reflexionó sobre la escalabilidad de la solución a diferentes ciudades y los posibles efectos en la dinámica familiar y escolar. \textbf{Belén del Rocío Ramos Ríos} evaluó el entorno competitivo no solo desde un punto de vista comercial, sino asegurándose de que la solución aportara un valor real y social. \textbf{Mateo Alejandro Vílchez Ríos}, en la identificación de problemas, integró factores sociales y urbanos, procurando no sugerir soluciones que pudieran aumentar el tráfico o la contaminación. \textbf{Luis Eduardo Herrera González}, al investigar, destacó la importancia de proteger la privacidad de los estudiantes, comprendiendo que las soluciones deben respetar no solo las necesidades funcionales, sino también los derechos fundamentales de los usuarios en el entorno social. Por su parte, \textbf{Ariana Vargas Revollé} promovió un enfoque inclusivo en la creación de perfiles de usuario y escenarios, garantizando que la experiencia propuesta fuera accesible para personas de distintos niveles socioeconómicos.
 } \\
 \hline
 \end{longtable}
@@ -636,8 +638,6 @@ En esta sección se identifican los segmentos objetivos clave a los que está di
 
 Antes de construir una solución tecnológica efectiva, es esencial entender a fondo el problema, a los usuarios y el entorno en el que la solución será implementada. Este capítulo presenta el proceso de Requirements Elicitation & Analysis, una fase crítica en el desarrollo de soluciones centradas en el usuario. Aquí se identifican y analizan las necesidades del público objetivo, se estudia a la competencia y se utilizan técnicas como entrevistas, mapeo de tareas y escenarios para definir con claridad los requisitos funcionales y no funcionales del sistema. La información obtenida en esta etapa servirá como base sólida para el diseño e implementación de un producto alineado con las expectativas del mercado y con alto impacto en su adopción y uso.
 
-\newpage
-
 ## Competidores.
 
 ![Recurso extraído de Canva](src/img/cap2/competidores-introduccion.png)
@@ -754,8 +754,6 @@ Sobre esta base, se presentan a continuación las estrategias competitivas clave
 
    - Vincularse con soluciones EdTech existentes para ofrecer paquetes integrados (gestión escolar, pagos, comunicaciones).
 
-\newpage
-
 ::: box
 **Escalamiento regional con visión latinoamericana:**
 :::
@@ -769,8 +767,6 @@ Sobre esta base, se presentan a continuación las estrategias competitivas clave
    - Asegurar la adecuación de la plataforma a marcos normativos y culturales de cada país.
   
    - Aplicar un modelo de expansión progresiva basado en aliados comerciales o distribuidores locales.
-
-\newpage
 
 **Tácticas Específicas para para el Fortalecimiento de *RutaKids***
 
@@ -808,8 +804,6 @@ Establecer un sistema sistemático de vigilancia del entorno competitivo para an
   
   - Realizar sesiones de benchmarking cada trimestre para revisar la posición de RutaKids y actualizar su hoja de ruta comercial y técnica.
 
-\newpage
-
 ::: box
 **Optimización continua de la experiencia de usuario (UX)**
 :::
@@ -840,8 +834,6 @@ Establecer un sistema sistemático de vigilancia del entorno competitivo para an
 
    - Considerar la introducción de un modelo freemium con funcionalidades básicas disponibles sin costo durante un periodo limitado, como estrategia de entrada para instituciones que aún evalúan la solución.
 
-\newpage
-
 ::: box
 **Fortalecimiento de la fidelización institucional y del vínculo con los usuarios:**
 :::
@@ -865,7 +857,7 @@ Las entrevistas están diseñadas para recolectar tanto información objetiva (e
 ![Recurso extraído de Canva](src/img/cap2/entrevistas-introduccion.png)
 
 ::: note
-Para acceder al video de las entrevistas, haga click en la [URL]( )
+Para acceder al video de las entrevistas, haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EV28HExaIsFIh22vN6-VY-sBzdw5JApHhMXCx5KyLMdBPQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=X20C3t)
 :::
 
 \newpage
@@ -1010,7 +1002,7 @@ Entender cómo los padres viven la experiencia del transporte escolar, sus nivel
 \textbf{Edad}                 & 55 años                   \\ \hline
 \textbf{Ubicación geográfica} & Paiján, Ascope, La Libertad, Perú \\ \hline
 \textbf{Cargo}                & Docente de secundaria y asesor tecnológico \\ \hline
-\textbf{Tiempo de entrevista} & 00:00 - 00:00             \\ \hline
+\textbf{Tiempo de entrevista} & 00:00 - 10:34             \\ \hline
 \end{tabular}
 \end{center}
 \end{table}
@@ -1037,7 +1029,7 @@ El principal obstáculo para la implementación es el costo adicional para las f
 \textbf{Edad}                 & 32 años                   \\ \hline
 \textbf{Ubicación geográfica} & Paiján, Ascope, La Libertad, Perú \\ \hline
 \textbf{Cargo}                & Directora de institución educativa privada \\ \hline
-\textbf{Tiempo de entrevista} & 00:00 - 00:00             \\ \hline
+\textbf{Tiempo de entrevista} & 10:34 - 19:40             \\ \hline
 \end{tabular}
 \end{center}
 \end{table}
@@ -1070,7 +1062,7 @@ En cuanto a la viabilidad de este tipo de solución, cree que los padres estarí
 \textbf{Edad}                 & 52 años                   \\ \hline
 \textbf{Ubicación geográfica} & Paiján, Ascope, La Libertad, Perú \\ \hline
 \textbf{Cargo}                & Promotora de institución educativa \\ \hline
-\textbf{Tiempo de entrevista} & 00:00 - 00:00             \\ \hline
+\textbf{Tiempo de entrevista} & 19:40 - 29:26             \\ \hline
 \end{tabular}
 \end{center}
 \end{table}
@@ -1111,7 +1103,7 @@ Está convencida de que sería viable implementar esta solución en su colegio y
 \textbf{Ubicación geográfica} & Trujillo, La libertad \\ \hline
 \textbf{Ocupación}            & Obstetra \\ \hline
 \textbf{Relación con la educación} & Madre de un estudiante de secundaria \\ \hline
-\textbf{Tiempo de entrevista} & 00:00 - 00:00             \\ \hline
+\textbf{Tiempo de entrevista} & 29:26 - 39:23             \\ \hline
 \end{tabular}
 \end{center}
 \end{table}
@@ -1143,7 +1135,7 @@ Finalmente, considera que lo más importante en una solución tecnológica de es
 \textbf{Ubicación geográfica} & Trujillo, La libertad \\ \hline
 \textbf{Ocupación}            & Obstetra \\ \hline
 \textbf{Relación con la educación} & Madre de cuatro hijos (tres en primaria y una bebé) \\ \hline
-\textbf{Tiempo de entrevista} & 00:00 - 00:00             \\ \hline
+\textbf{Tiempo de entrevista} & 39:23 - 45:15             \\ \hline
 \end{tabular}
 \end{center}
 \end{table}
@@ -1182,7 +1174,7 @@ Zoila estaría dispuesta a pagar un costo adicional por este servicio digital, s
 \textbf{Ubicación geográfica} & Paiján, Ascope, La Libertad \\ \hline
 \textbf{Ocupación}            & Docente \\ \hline
 \textbf{Relación con la educación} & Madre de una niña en tercer grado de primaria \\ \hline
-\textbf{Tiempo de entrevista} & 00:00 - 00:00             \\ \hline
+\textbf{Tiempo de entrevista} & 45:15 - 51:52             \\ \hline
 \end{tabular}
 \end{center}
 \end{table}
@@ -1493,27 +1485,34 @@ Existe una clara expectativa de que el colegio sea el actor responsable en imple
 
 \newpage
 
-
-
 ## Needfinding.
 
-Para garantizar que las soluciones propuestas respondan efectivamente a los problemas reales de los usuarios, es fundamental comprender a fondo sus necesidades, contextos y comportamientos. En esta etapa de needfinding, se llevó a cabo una exploración detallada orientada a descubrir oportunidades de diseño a través de la observación directa, entrevistas y otras técnicas de investigación centradas en el usuario.
+Para garantizar que las soluciones propuestas respondan efectivamente a los problemas reales de los usuarios, resultó fundamental comprender a fondo sus necesidades, contextos y comportamientos. En un contexto donde el transporte escolar enfrenta retos crecientes debido a las demandas de seguridad y eficiencia, era imprescindible adoptar un enfoque de investigación centrado en el usuario que permitiera identificar oportunidades de innovación genuina. Durante esta etapa de needfinding, se llevó a cabo una exploración detallada mediante técnicas como la observación directa, entrevistas semiestructuradas y la aplicación de herramientas de empatía. Este proceso no solo nos permitió detectar las tareas clave, frustraciones, expectativas y objetivos de los distintos actores involucrados (padres, estudiantes, colegios y operadores de transporte), sino también descubrir tensiones ocultas y necesidades latentes que no siempre son explícitas en interacciones superficiales.
 
-Este proceso no solo permitió identificar las tareas clave, frustraciones y objetivos de los usuarios, sino que también ayudó a construir una base sólida para el desarrollo de funcionalidades relevantes y valiosas. A través de herramientas como perfiles de usuario, mapas de empatía, y journeys, se consolidó una visión clara de los desafíos actuales y las motivaciones de los actores principales, sentando así las bases para un diseño centrado en el usuario.
+A partir de la información recolectada, se desarrollaron perfiles de usuario que capturan las características esenciales de nuestros grupos de interés. Asimismo, la elaboración de mapas de empatía nos permitió comprender mejor los pensamientos, emociones, preocupaciones y aspiraciones de los usuarios frente al servicio de transporte escolar. Complementariamente, a través de customer journeys se mapeó la experiencia completa de los usuarios, identificando momentos críticos de fricción y oportunidad a lo largo del proceso de traslado.
+
+![Imagen extraída de Canva](src/img/cap2/intro_needfinding.png)
+
+\newpage
 
 ### User Personas.
 Presentamos perfiles representativos de nuestros usuarios objetivos. Estos arquetipos nos ayudan a diseñar centrados en sus motivaciones, frustraciones y objetivos.
 
-**User Persona 1** - Segmento Tutor/Padre Apoderado
+**User Persona 1 - Segmento Tutor/Padre Apoderado**
+
 Esteban representa a los padres que buscan seguridad, puntualidad y confianza en el servicio de transporte escolar.
 
 ![User Persona 1 - Recurso de Figma](https://i.postimg.cc/5tVd8BDb/user-person-esteban.png)
 
-**User Persona 2** - Segmento Administrador Educativo
+\newpage
+
+**User Persona 2 - Segmento Administrador Educativo**
+
 Carolina representa a las administradoras que necesitan eficiencia, control y visibilidad en la gestión del transporte escolar.
 
 ![User Persona 2 - Recurso de Figma](https://i.postimg.cc/GmYnB77X/user-person-carolina.png)
 
+\newpage
 
 ### User Task Matrix.
 
@@ -1521,6 +1520,7 @@ Se mapea la relación entre los usuarios y sus tareas principales. Esto nos perm
 
 ![User Task Matrix - Recurso de Miro](https://i.postimg.cc/JnKLrs6m/task-matrix.png)
 
+\newpage
 
 ### User Journey Mapping.
 
@@ -1529,78 +1529,118 @@ Visualizamos el recorrido actual de cada usuario con el servicio. Esta herramien
 **User Journey – Esteban (Padre de familia)**
 Muestra cómo Esteban experimenta el servicio día a día, destacando momentos críticos como la espera o la llegada del bus.
 
-![User Journey Mapping 1 - Recurso de Miro](https://i.postimg.cc/vHCdZFz1/user-journey-esteban.png)
+![User Journey Mapping 1 - Recurso de Miro](https://i.postimg.cc/vHCdZFz1/user-journey-esteban.png){ width=90% }
 
 **User Journey – Carolina (Administradora)**
 Refleja las acciones y frustraciones que Carolina enfrenta al gestionar manualmente el transporte escolar.
 
-![User Journey Mapping 2 - Recurso de Miro](https://i.postimg.cc/ZKWSmKrt/user-journey-carolina.png)
+![User Journey Mapping 2 - Recurso de Miro](https://i.postimg.cc/ZKWSmKrt/user-journey-carolina.png){ width=90% }
 
+\newpage
 
 ### Empathy Mapping.
 
 Ayuda a profundizar en la perspectiva emocional y racional de cada usuario: lo que piensa, siente, ve, escucha, dice y hace.
 
 **Empathy Map – Esteban**
+
 Nos permite entender el entorno emocional de Esteban frente a la seguridad y control del transporte escolar.
 
 ![Empathy Mapping 1 - Recurso de Miro](https://i.postimg.cc/Y2nHTmLz/empathy-esteban.png)
 
+\newpage
+
 **Empathy Map – Carolina**
+
 Expone las preocupaciones, necesidades y entorno de Carolina como gestora del sistema de transporte.
 
 ![Empathy Mapping 2 - Recurso de Miro](https://i.postimg.cc/BbVfFdfV/empathy-carolina.png)
 
+\newpage
 
 ### As-is Scenario Mapping.
 
 Describe cómo es actualmente la experiencia del usuario sin una solución tecnológica centralizada. Se evidencian fricciones, ineficiencias y oportunidades.
 
 **As-Is Scenario – Esteban**
+
 Esteban enfrenta incertidumbre en los horarios y poca información en tiempo real.
 
-![As-is Scenario Mapping 1 - Recurso de Miro](https://i.postimg.cc/tJTHY9w6/as-is-esteban.png)
+![As-is Scenario Mapping 1 - Recurso de Miro](https://i.postimg.cc/tJTHY9w6/as-is-esteban.png){ width=75% }
 
 **As-Is Scenario – Carolina**
+
 Carolina gestiona procesos con llamadas y hojas de cálculo, con baja automatización.
 
-![As-is Scenario Mapping 2 - Recurso de Miro](https://i.postimg.cc/50fJWBmn/as-is-carolina.png)
+![As-is Scenario Mapping 2 - Recurso de Miro](https://i.postimg.cc/50fJWBmn/as-is-carolina.png){ width=75% }
 
+\newpage
 
 ## Ubiquitous Language.
 
-- *Alumno*: Niño o niña que utiliza el servicio de transporte escolar. Es quien porta la Tarjeta RFID y genera eventos de abordaje y descenso. (Sinónimos: Estudiante, Niño)
-- *Padre de Familia*: Persona responsable del Alumno (padre, madre o apoderado) que recibe notificaciones y puede gestionar permisos. (Sinónimos: Padre, Madre, Apoderado)
-- *Conductor*: Chofer designado para una Unidad de Transporte; interactúa con la app Conductor y valida abordajes/desabordajes. (Sinónimos: Chofer)
-- *Administrador Escolar*: Personal de la institución que configura Rutas, Paradas, Alumnos y Conductores y supervisa reportes. (Sinónimos: Admin, Colegio)
-- *Tarjeta RFID*: Tarjeta (o llavero) pasiva, asignada de forma única a un Alumno para autenticarse al acercarla al Lector.
-- *Lector RFID*: Dispositivo IoT instalado en la Unidad que lee la Tarjeta RFID y envía eventos en tiempo real.
-- *Unidad de Transporte*: Vehículo escolar identificado por placa y código interno, equipado con Lector RFID y GPS.
-- *App RutaKids Conductor*: Aplicación móvil vinculada a la Unidad; muestra la lista de Alumnos por Parada y confirma incidentes.
-- *Backend RutaKids*: Plataforma en la nube que procesa eventos, reglas de negocio y persiste datos.
-- *Panel de Control*: Interfaz web para Administradores Escolares y Operadores de Flota.
-- *Ruta*: Conjunto ordenado de Paradas asociadas a una Institución y un Horario recurrente.
-- *Parada*: Punto geográfico donde se recoge o deja Alumnos. Incluye ventana de tiempo y lista de Alumnos asignados.
-- *Trayecto*: Ejecución diaria de una Ruta en una fecha concreta.
-- *Horario*: Reglas de recurrencia de la Ruta (días laborables, hora de inicio y fin estimada).
-- *AlumnoAbordóUnidad*: Evento emitido cuando un Alumno validó su Tarjeta y subió a la Unidad.
-- *AlumnoDescendióUnidad*: Evento emitido cuando un Alumno validó su Tarjeta al salir de la Unidad.
-- *TarjetaNoReconocida*: Evento emitido cuando se leyó un UID no asociado a ningún Alumno.
-- *IncidenciaReportada*: Evento emitido cuando el Conductor registra un evento anómalo (retraso, avería, etc.).
-- *CambioDeRutaProgramado*: Evento emitido cuando un Admin modificó la configuración de una Ruta.
-- *RegistrarAlumno*: Comando para crear la Entidad Alumno y vincular al Padre de Familia.
-- *AsignarTarjeta*: Comando para asociar Tarjeta RFID a Alumno.
-- *ProgramarRuta*: Comando para crear o actualizar una Ruta, su Horario y Paradas.
-- *MarcarAbordaje*: Comando para forzar confirmación manual de abordaje (modo fallback).
-- *EnviarNotificación*: Comando para avisar a Padres de Familia sobre un Evento.
-- *ServicioDeAutenticaciónRFID*: Servicio que valida UID, levanta Eventos y asegura consistencia.
-- *ServicioDeNotificaciones*: Servicio que orquesta avisos (push, correo, SMS) a Padres de Familia y Admins.
-- *ServicioDeRutas*: Servicio que calcula tiempos estimados, detecta desvíos y actualiza Estado de Trayecto.
-- *ServicioDeReportes*: Servicio que genera KPIs: puntualidad, asistencia y uso de Rutas.
-- *Estado de Trayecto*: Secuencia Pendiente → EnCurso → Finalizado / Cancelado.
-- *Rol*: Identidades posibles en el sistema: Alumno, Padre de Familia, Conductor, Administrador Escolar, Operador de Flota.
-- *Modo de Notificación*: Tipos de aviso soportados: Push, SMS, Email.
-- *Incidencia*: Registro de evento no deseado (retraso, exceso de velocidad, ruta cambiada).
+- **Alumno**: Niño o niña que utiliza el servicio de transporte escolar. Es quien porta la Tarjeta RFID y genera eventos de abordaje y descenso. (Sinónimos: Estudiante, Niño)
+
+- **Padre de Familia**: Persona responsable del Alumno (padre, madre o apoderado) que recibe notificaciones y puede gestionar permisos. (Sinónimos: Padre, Madre, Apoderado)
+
+- **Conductor**: Chofer designado para una Unidad de Transporte; interactúa con la app Conductor y valida abordajes/desabordajes. (Sinónimos: Chofer)
+
+- **Administrador Escolar**: Personal de la institución que configura Rutas, Paradas, Alumnos y Conductores y supervisa reportes. (Sinónimos: Admin, Colegio)
+
+- **Tarjeta RFID**: Tarjeta (o llavero) pasiva, asignada de forma única a un Alumno para autenticarse al acercarla al Lector.
+
+- **Lector RFID**: Dispositivo IoT instalado en la Unidad que lee la Tarjeta RFID y envía eventos en tiempo real.
+
+- **Unidad de Transporte**: Vehículo escolar identificado por placa y código interno, equipado con Lector RFID y GPS.
+
+- **App RutaKids Conductor**: Aplicación móvil vinculada a la Unidad; muestra la lista de Alumnos por Parada y confirma incidentes.
+
+- **Backend RutaKids**: Plataforma en la nube que procesa eventos, reglas de negocio y persiste datos.
+
+- **Panel de Control**: Interfaz web para Administradores Escolares y Operadores de Flota.
+
+- **Ruta**: Conjunto ordenado de Paradas asociadas a una Institución y un Horario recurrente.
+
+- **Parada**: Punto geográfico donde se recoge o deja Alumnos. Incluye ventana de tiempo y lista de Alumnos asignados.
+
+- **Trayecto**: Ejecución diaria de una Ruta en una fecha concreta.
+
+- **Horario**: Reglas de recurrencia de la Ruta (días laborables, hora de inicio y fin estimada).
+
+- **Alumno Abordó Unidad**: Evento emitido cuando un Alumno validó su Tarjeta y subió a la Unidad.
+
+- **Alumno Descendió Unidad**: Evento emitido cuando un Alumno validó su Tarjeta al salir de la Unidad.
+
+- **Tarjeta No Reconocida**: Evento emitido cuando se leyó un UID no asociado a ningún Alumno.
+
+- **Incidencia Reportada**: Evento emitido cuando el Conductor registra un evento anómalo (retraso, avería, etc.).
+
+- **Cambio De Ruta Programado**: Evento emitido cuando un Admin modificó la configuración de una Ruta.
+
+- **Registrar Alumno**: Comando para crear la Entidad Alumno y vincular al Padre de Familia.
+
+- **Asignar Tarjeta**: Comando para asociar Tarjeta RFID a Alumno.
+
+- **Programar Ruta**: Comando para crear o actualizar una Ruta, su Horario y Paradas.
+
+- **Marcar Abordaje**: Comando para forzar confirmación manual de abordaje (modo fallback).
+
+- **Enviar Notificación**: Comando para avisar a Padres de Familia sobre un Evento.
+
+- **Servicio De Autenticación RFID**: Servicio que valida UID, levanta Eventos y asegura consistencia.
+
+- **Servicio De Notificaciones**: Servicio que orquesta avisos (push, correo, SMS) a Padres de Familia y Admins.
+
+- **Servicio De Rutas**: Servicio que calcula tiempos estimados, detecta desvíos y actualiza Estado de Trayecto.
+
+- **Servicio De Reportes**: Servicio que genera KPIs: puntualidad, asistencia y uso de Rutas.
+
+- **Estado de Trayecto**: Secuencia Pendiente → EnCurso → Finalizado / Cancelado.
+
+- **Rol**: Identidades posibles en el sistema: Alumno, Padre de Familia, Conductor, Administrador Escolar, Operador de Flota.
+
+- **Modo de Notificación**: Tipos de aviso soportados: Push, SMS, Email.
+
+- **Incidencia**: Registro de evento no deseado (retraso, exceso de velocidad, ruta cambiada).
 
 \newpage
 
@@ -1610,19 +1650,32 @@ La sección de Especificación de Requisitos tiene como objetivo describir de fo
 
 Los requisitos presentados en esta sección se han recopilado a través de investigaciones con usuarios, entrevistas con los interesados y análisis de los procesos actuales. Están organizados de manera que reflejan tanto las necesidades del usuario como la viabilidad técnica. Este documento servirá como guía durante todas las etapas del ciclo de vida del proyecto: diseño, implementación, pruebas y mantenimiento.
 
+![Recurso extraído de Canva](src/img/cap3/requirements-specification-intro.png)
+
+\newpage
+
 ## To-Be Scenario Mapping.
 
 **To-Be Scenario – Marco (Padre de familia)**
+
 Con la solución digital, Marco tiene información en tiempo real, alertas personalizadas y tranquilidad al saber que su hijo está seguro.
 
 ![To-be Scenario Mapping 1 - Recurso de Miro](https://i.postimg.cc/vZRHS6CS/to-be-esteban.png)
 
+En el escenario futuro, Marco deja atrás la incertidumbre del día a día. La tecnología le permite monitorear fácilmente la rutina de su hijo, recibir notificaciones relevantes y tomar decisiones informadas de forma inmediata. La solución no solo mejora su experiencia como padre, sino que también fortalece su confianza en el entorno que rodea a su familia. Esto representa un cambio significativo respecto al escenario actual, en el que la falta de información y control genera ansiedad y preocupación constante.
+
+\newpage
+
 **To-Be Scenario – Carolina (Administradora)**
+
 Carolina ahora gestiona rutas, asistencia y comunicaciones desde una plataforma centralizada, reduciendo el caos operativo y ganando eficiencia.
 
 ![To-be Scenario Mapping 2 - Recurso de Miro](https://i.postimg.cc/fTSRKvq9/to-be-carolina.png)
 
+En este escenario futuro, Carolina cuenta con una plataforma digital unificada que le permite supervisar y coordinar todas las operaciones logísticas en un solo lugar. Ya no necesita depender de múltiples canales o procesos manuales: puede gestionar rutas, controlar la asistencia del personal y mantener una comunicación fluida con padres y conductores de forma eficiente. Esta solución le permite enfocarse en la toma de decisiones estratégicas y mejora significativamente la productividad del equipo administrativo.
+
 \newpage 
+
 ## User Stories.
 
 ### Administrador educativo
@@ -3242,7 +3295,7 @@ GS01 & Selección de Notificaciones por Hijo & \textbf{Como} tutor legal, \textb
 \hline
 GS02 & Definición de Horarios de Silencio & \textbf{Como} tutor legal, \textbf{quiero} definir horarios de silencio (modo "No molestar"), \textbf{para} no recibir notificaciones fuera del rango permitido y evitar interrupciones en mis momentos de descanso o concentración. & 2 \\
 \hline
-GS03 & Personalización de Idioma y Tema & \textbf{Como} tutor legal, \textbf{quiero} cambiar el idioma y el tema (claro/oscuro) de la aplicación, \textbf{para} adaptar l\a interfaz a mis preferencias personales y mejorar mi experiencia de uso. & 2 \\
+GS03 & Personalización de Idioma y Tema & \textbf{Como} tutor legal, \textbf{quiero} cambiar el idioma y el tema (claro/oscuro) de la aplicación, \textbf{para} adaptar la interfaz a mis preferencias personales y mejorar mi experiencia de uso. & 2 \\
 \hline
 HS03 & Acceso a Ayuda y Preguntas Frecuentes & \textbf{Como} tutor legal, \textbf{quiero} acceder a una sección de ayuda y preguntas frecuentes, \textbf{para} resolver rápidamente mis dudas sobre el funcionamiento de la app. & 2 \\
 \hline
@@ -3253,9 +3306,14 @@ HS03 & Acceso a Ayuda y Preguntas Frecuentes & \textbf{Como} tutor legal, \textb
 
 ## Impact Mapping.
 
+El Impact Map es una herramienta estratégica que ayuda a identificar y mejorar las características de una aplicación para cumplir con un objetivo empresarial específico. Partiendo de un objetivo clave, se determinan los comportamientos necesarios de los usuarios, las acciones que deben realizar en la aplicación, y las características que habilitarán esas acciones. Luego, se evalúa el impacto potencial de cada característica en el cumplimiento del objetivo y se desarrolla un plan de acción detallado,
+alineando así las acciones de los usuarios con los objetivos estratégicos de la empresa.
+
 **Segmento Objetivo 1**
 
 ![Artefacto creado en UXPressia](src/img/cap3/ImpactMapping1.png)
+
+\newpage
 
 **Segmento Objetivo 2**
 
@@ -3268,10 +3326,7 @@ HS03 & Acceso a Ayuda y Preguntas Frecuentes & \textbf{Como} tutor legal, \textb
 El diseño del producto no solo refleja el propósito funcional de RutaKids, sino también sus valores fundamentales: seguridad, transparencia y eficiencia. 
 En esta sección se detallan los principios visuales, patrones de interacción y estilos adoptados para asegurar una experiencia homogénea y accesible en todas las plataformas: web, móvil e IoT. Cada elemento de la interfaz ha sido concebido con base en las necesidades reales de nuestros usuarios, identificadas a través de entrevistas, mapas de empatía y journeys. El enfoque se centra en resolver problemas con soluciones visuales limpias, directas y adaptadas al entorno educativo.
 
-\newpage
-
 ## Style Guidelines.
-
 
 ![Artefacto creado en Figma](src/img/cap4/cover.png)
 
@@ -3291,13 +3346,10 @@ Rijgersberg (2025) argumenta que reducir la complejidad visual y estructurar la 
 
 Por eso, contar con principios de diseño sólidos no solo mejora la accesibilidad y la eficiencia del producto, sino que también habilita su evolución en distintos contextos y dispositivos. Así, se construye una identidad visual adaptable, al servicio tanto de la experiencia del usuario como de la narrativa de la organización.
 
-\newpage
-
 **Branding:**
 
 *Rutakids* es una solución tecnológica pensada para brindar seguridad y control en el transporte escolar. Su identidad visual refleja confianza, cercanía y modernidad, valores clave para padres y colegios. La plataforma busca simplificar la experiencia de seguimiento escolar a través de una interfaz clara, accesible y conectada en tiempo real.
 Cada elemento del branding (colores, tipografía y estilo visual) está diseñado para reforzar la misión de *RutaKids*: ofrecer tranquilidad a las familias y eficiencia a las instituciones, con una experiencia intuitiva y coherente en todos sus canales digitales.
-
 
 **Logotipo:**
 
@@ -3307,16 +3359,11 @@ La elección del color azul vibrante busca transmitir confianza, profesionalismo
 ![Artefacto creado en Figma](src/img/cap4/LogoStyle.png)
 
 
-\newpage
-
 **Iconografía de la Aplicación**
 
 La iconografía de *RutaKids* se basa en el uso del imagotipo de la marca (una rueda estilizada en movimiento) como símbolo principal en su versión para dispositivos móviles. Este elemento mantiene la coherencia gráfica de la marca al tiempo que asegura versatilidad y reconocimiento en pantallas reducidas. Además, para garantizar su legibilidad y funcionalidad, se desarrollaron distintas variantes del ícono, adaptables a diferentes fondos y contextos de uso. Su forma simplificada y su alto contraste permiten una fácil identificación desde la pantalla de inicio de cualquier dispositivo, reforzando la presencia visual de *RutaKids* dentro de su ecosistema digital.
 
 ![Artefacto creado en Figma](src/img/cap4/Icon_App.png)
-
-
-\newpage
 
 **Colores**
 
@@ -3336,8 +3383,6 @@ La paleta de colores de *RutaKids* está estructurada en dos grupos principales:
 
   ![Artefacto creado en Figma](src/img/cap4/PrimaryColors.png)
 
-\newpage
-
 - **Colores Secundarios (Variantes de Logos e Iconos)**
 
   Estos tonos de azul se emplean para asegurar que el logotipo y los íconos mantengan su visibilidad y coherencia visual en diferentes fondos y dispositivos. Las variantes permiten adaptar la marca sin perder identidad.
@@ -3349,8 +3394,6 @@ La paleta de colores de *RutaKids* está estructurada en dos grupos principales:
   - **Azul Oscuro (#123672):** Aplicado sobre fondos oscuros o saturados. Este tono profundo refuerza la elegancia, seriedad y profesionalismo de la marca, siendo apropiado para presentaciones formales, documentación institucional o entornos corporativos.
   
   ![Artefacto creado en Figma](src/img/cap4/SecondColors.png)
-
-\newpage
 
 **Tipografía**
 
@@ -3397,8 +3440,6 @@ La identidad tipográfica de *RutaKids* ha sido cuidadosamente definida para ase
 
   ![Artefacto creado en Figma](src/img/cap4/Typography_Poppins_app.png)
 
-\newpage
-
 **Tonos de Comunicación**
 
 El tono de voz de *RutaKids* fue cuidadosamente definido para alinearse con los valores del proyecto: seguridad, confiabilidad y eficiencia. Dado que se trata de una solución orientada al seguimiento de estudiantes en transporte escolar, la comunicación debe ser clara, profesional y empática. Por ello, se eligieron cuatro atributos clave que guían el estilo comunicativo en todas las plataformas y puntos de contacto:
@@ -3423,7 +3464,6 @@ El eslogan de RutaKids, “Seguridad que te acompaña”, expresa de manera clar
 La palabra “acompaña” destaca el compromiso de la marca con una presencia constante, mientras que “seguridad” refuerza su enfoque en el bienestar infantil.
 
 ![Artefacto creado en Figma](src/img/cap4/Eslogan.png)
-
 
 \newpage
 
@@ -3556,16 +3596,37 @@ Las siguientes figuras presentan una síntesis visual de los elementos de interf
 
 \newpage
 
+**Sistema de Grillas:**
 
 ![**Sistema de Grillas** - Artefacto creado en Figma](src/img/cap4/Grid.png)
 
-![**Botones y Enlaces** - Artefacto creado en Figma](src/img/cap4/Button_Link.png)
+\newpage
+
+**Botones y Enlaces:**
+
+![**Botones y Enlaces** - Artefacto creado en Figma](src/img/cap4/Button_Link.png){ height=90%}
+
+\newpage
+
+**Campos de Entrada:**
 
 ![**Campos de Entrada** - Artefacto creado en Figma](src/img/cap4/Input_fields.png)
 
-![**Diálogos Emergentes** - Artefacto creado en Figma](src/img/cap4/Dialog.png)
+\newpage
 
-![**Pestañas de Navegación (Tabs)** - Artefacto creado en Figma](src/img/cap4/Tabs.png)
+**Diálogos Emergentes:**
+
+![**Diálogos Emergentes** - Artefacto creado en Figma](src/img/cap4/Dialog.png){ height=90% }
+
+\newpage
+
+**Pestañas de Navegación (Tabs):**
+
+![**Pestañas de Navegación (Tabs)** - Artefacto creado en Figma](src/img/cap4/Tabs.png){ height=90% }
+
+\newpage
+
+**Rutas de Navegación (Breadcrumbs):**
 
 ![**Rutas de Navegación (Breadcrumbs)** - Artefacto creado en Figma](src/img/cap4/Breadcrumbs.png)
 
@@ -3588,20 +3649,23 @@ De acuerdo con Lin y Zarro (2024), una arquitectura de información bien diseña
 
 En el desarrollo de RutaKids, se adoptó una estructura centrada en los principales perfiles de usuarios: padres de familia, conductores y gestores de transporte escolar. La intención fue lograr una jerarquía de información comprensible, accesible y coherente que soporte la visualización en tiempo real, la administración de rutas y estudiantes, y la comunicación segura dentro de la aplicación.
 
+\newpage
+
 A continuación se presentan los mapas generales de arquitectura de información correspondientes a cada tipo de usuario:
 
 **Arquitectura de Información – App Móvil para Padres**
 
-![Artefacto creado en Figma](src/img/cap4/AppPadres.png)
+![Artefacto creado en Figma](src/img/cap4/AppPadres.png){ width=85% }
 
 **Arquitectura de Información – App Móvil para Conductores**
 
-![Artefacto creado en Figma](src/img/cap4/AppConductores.png)
+![Artefacto creado en Figma](src/img/cap4/AppConductores.png){ width=85% }
+
+\newpage
 
 **Arquitectura de Información – Plataforma Web para Administradores**
 
-![Artefacto creado en Figma](src/img/cap4/AppWeb.png)
-
+![Artefacto creado en Figma](src/img/cap4/AppWeb.png){ width=90% }
 
 Las secciones siguientes profundizan en los sistemas implementados para organización, etiquetado, navegación y búsqueda, así como en los elementos de SEO (Search Engine Optimization) y ASO (App Store Optimization) que fortalecen la visibilidad del producto.
 
@@ -3613,7 +3677,7 @@ Las secciones siguientes profundizan en los sistemas implementados para organiza
 
   La arquitectura organizativa de un producto digital permite estructurar la información de forma que los usuarios accedan rápida y eficientemente a los contenidos que necesitan. 
 
-  Según Morville y Rosenfeld (2006), “los sistemas de organización son esenciales para transformar el caos en claridad, facilitando que los usuarios comprendan la lógica detrás del contenido digital”. 
+  > Según Morville y Rosenfeld (2006), “los sistemas de organización son esenciales para transformar el caos en claridad, facilitando que los usuarios comprendan la lógica detrás del contenido digital”. 
 
   En el caso de *RutaKids*, se han diseñado diversos sistemas de organización visual y estructural adaptados tanto a padres como a administradores educativos.
 
@@ -3621,7 +3685,7 @@ Las secciones siguientes profundizan en los sistemas implementados para organiza
 
   La aplicación móvil muestra la información más relevante sobre el estado de sus hijos y el transporte escolar. La información sigue un modelo jerárquico en su interfaz principal y secuencial en el monitoreo de rutas.
 
-\begin{longtable}{|p{3cm}|p{3cm}|p{2.5cm}|p{4cm}|}
+\begin{longtable}{|p{3cm}|p{3cm}|p{3cm}|p{5cm}|}
 \hline
 \textbf{Tópico} & \textbf{Sistema de Organización Visual} & \textbf{Categorización Aplicada} & \textbf{Descripción} \\
 \hline
@@ -3640,11 +3704,13 @@ Hijos registrados & Jerárquico visual & Por audiencia (por cada hijo) & Cada hi
 \hline
 \end{longtable}
 
+\newpage
+
 - **Organización para administradores educativos (Plataforma web)**
 
   La plataforma web está orientada a la administración y seguimiento operativo. Utiliza una estructura modular con categorización por tópicos y por audiencia (vehículos, estudiantes, rutas, conductores).
 
-\begin{longtable}{|p{3cm}|p{3cm}|p{2.5cm}|p{4cm}|}
+\begin{longtable}{|p{3cm}|p{3cm}|p{3cm}|p{5cm}|}
 \hline
 \textbf{Tópico} & \textbf{Sistema de Organización Visual} & \textbf{Categorización Aplicada} & \textbf{Descripción} \\
 \hline
@@ -3670,7 +3736,7 @@ Reportes e incidencias & Modular & Cronológica / por evento & Acceso a reportes
 
   La landing page está diseñada para atraer y guiar a nuevos usuarios. Utiliza una estructura secuencial, pensada para recorrer la información desde el valor de la app hasta las secciones específicas según audiencia.
 
-\begin{longtable}{|p{3cm}|p{4cm}|p{2.5cm}|p{4cm}|}
+\begin{longtable}{|p{3cm}|p{3cm}|p{3cm}|p{5cm}|}
 \hline
 \textbf{Tópico} & \textbf{Organización Visual} & \textbf{Categorización Aplicada} & \textbf{Descripción} \\
 \hline
@@ -3686,9 +3752,6 @@ Flujo de contenido & Secuencial (scroll vertical guiado) & Por audiencia & Expli
 CTA (Call to Action) & Jerárquico visual final & Ninguna & Botones de descarga o contacto resaltados al final. \\
 \hline
 \end{longtable}
-
-Esta organización garantiza que tanto padres como administradores puedan interactuar de forma clara, eficiente y segura con la plataforma, reduciendo fricción y mejorando la toma de decisiones y la supervisión del servicio de transporte escolar.
-
 
 \newpage
 
@@ -3995,7 +4058,7 @@ Diseño de una sola vista & La app evita navegación compleja; el conductor solo
 \hline
 \end{longtable}
 
-
+\newpage
 
 - **Plataforma Web – Administradores**
 
@@ -4027,36 +4090,104 @@ Accesos rápidos & Acciones frecuentes resaltadas visualmente (botones flotantes
 
 El diseño de la interfaz de usuario (UI) de la landing page fue concebido con un enfoque centrado en el usuario, priorizando la claridad, accesibilidad y jerarquía visual. A través de un lenguaje visual coherente y elementos interactivos bien distribuidos, se buscó comunicar el valor de la plataforma de manera inmediata y efectiva. La estructura de la landing page permite a los usuarios identificar rápidamente las secciones clave, generando interés y facilitando la navegación hacia las áreas de mayor conversión. Este proceso de diseño incluyó tanto la creación de wireframes como mockups, permitiendo validar la experiencia antes de su implementación definitiva
 
+::: warn
+Para acceder a los wireframes de la landing page, haga click en la [URL](https://www.figma.com/design/hWQCYGLq8uiSZolh8ChRN7/Untitled?node-id=0-1&t=r3o6PxgMClNo9kx7-1)
+:::
+
 ### Landing Page Wireframe.
 
 Los wireframes representan la estructura básica de la landing page, enfocándose en la disposición de los elementos sin distraer con colores o estilos visuales complejos. Esta etapa fue clave para definir la jerarquía de la información, la ubicación de llamados a la acción (CTAs) y la secuencia de navegación esperada. Cada sección fue diseñada para cumplir un objetivo específico dentro del recorrido del usuario, desde la presentación inicial hasta los beneficios, características, segmentos objetivo (padres y colegios), equipo, demostración y contacto. El uso de wireframes permitió validar la lógica de la interfaz antes de pasar a etapas más detalladas de diseño visual.
 
-![](https://i.postimg.cc/Jh7nbHyD/wireframe-inicio.png){ width=50% }
-![](https://i.postimg.cc/CxgdxQS4/wireframe-beneficios.png){ width=50% }
-![](https://i.postimg.cc/J4JGmLVn/wireframe-caracteristicas.png){ width=50% }
-![](https://i.postimg.cc/FFYYWST0/wireframe-padres.png){ width=50% }
-![](https://i.postimg.cc/66FyDQPg/wireframe-colegios.png){ width=50% }
-![](https://i.postimg.cc/jCV0vmZ3/wireframe-team.png){ width=50% }
-![](https://i.postimg.cc/C1QVnzDg/wireframe-demo.png){ width=50% }
-![](https://i.postimg.cc/0QQsNpzn/wireframe-contactanos-footer.png){ width=50% }
+**Landing Page Wireframe 1:**
 
-[Figma CodeMinds Wireframe](https://www.figma.com/design/hWQCYGLq8uiSZolh8ChRN7/Untitled?node-id=0-1&t=r3o6PxgMClNo9kx7-1)
+![Figma CodeMinds Wireframe](https://i.postimg.cc/Jh7nbHyD/wireframe-inicio.png)
+
+\newpage
+
+**Landing Page Wireframe 2:**
+
+![Figma CodeMinds Wireframe](https://i.postimg.cc/CxgdxQS4/wireframe-beneficios.png)
+
+**Landing Page Wireframe 3:**
+
+![Figma CodeMinds Wireframe](https://i.postimg.cc/J4JGmLVn/wireframe-caracteristicas.png)
+
+\newpage
+
+**Landing Page Wireframe 4:**
+
+![Figma CodeMinds Wireframe](https://i.postimg.cc/FFYYWST0/wireframe-padres.png)
+
+**Landing Page Wireframe 5:**
+
+![Figma CodeMinds Wireframe](https://i.postimg.cc/66FyDQPg/wireframe-colegios.png)
+
+\newpage
+
+**Landing Page Wireframe 6:**
+
+![Figma CodeMinds Wireframe](https://i.postimg.cc/jCV0vmZ3/wireframe-team.png)
+
+**Landing Page Wireframe 7:**
+
+![Figma CodeMinds Wireframe](https://i.postimg.cc/C1QVnzDg/wireframe-demo.png)
+
+\newpage
+
+**Landing Page Wireframe 8:**
+
+![Figma CodeMinds Wireframe](https://i.postimg.cc/0QQsNpzn/wireframe-contactanos-footer.png)
+
 \newpage
 
 ### Landing Page Mock-up.
 
 Los mockups son representaciones de alta fidelidad de la interfaz, incorporando el estilo visual definitivo, paleta de colores, tipografías, imágenes y demás elementos gráficos. En esta etapa, se reflejó la identidad visual de la plataforma, asegurando coherencia entre el mensaje y la estética. Los mockups también permiten evaluar aspectos como el contraste, el espaciado, la legibilidad y el impacto visual de cada sección. Gracias a esta representación visual detallada, fue posible obtener retroalimentación específica y realizar ajustes antes de iniciar la implementación del diseño en código.
 
-![](https://i.postimg.cc/Kj3hPxrg/mockup-inicio.png)
-![](https://i.postimg.cc/q7prPf09/mockup-beneficios.png)
-![](https://i.postimg.cc/k5wC9jgD/mockup-caracteristicas.png)
-![](https://i.postimg.cc/RZ79pCr7/mockup-padres.png)
-![](https://i.postimg.cc/RZ54T6YC/mockup-colegios.png)
-![](https://i.postimg.cc/BQ1JDcMw/mockup-team.png)
-![](https://i.postimg.cc/kMHnBhFb/mockup-demo.png)
-![Landing Page Mockup - Recurso de Figma](https://i.postimg.cc/2y1r04my/mockup-contactanos-footer.png)
-[Figma CodeMinds Mockup](https://www.figma.com/design/hWQCYGLq8uiSZolh8ChRN7/Untitled?node-id=0-1&t=r3o6PxgMClNo9kx7-1)
+::: warn
+Para acceder a los mockups de la landing page, haga click en la [URL](https://www.figma.com/design/hWQCYGLq8uiSZolh8ChRN7/Untitled?node-id=0-1&t=r3o6PxgMClNo9kx7-1)
+:::
 
+**Landing Page Mockups 1:**
+
+![Figma CodeMinds Mockups](https://i.postimg.cc/Kj3hPxrg/mockup-inicio.png)
+
+\newpage
+
+
+**Landing Page Mockups 2:**
+
+![Figma CodeMinds Mockups](https://i.postimg.cc/q7prPf09/mockup-beneficios.png)
+
+**Landing Page Mockups 3:**
+
+![Figma CodeMinds Mockups](https://i.postimg.cc/k5wC9jgD/mockup-caracteristicas.png)
+
+\newpage
+
+**Landing Page Mockups 4:**
+
+![Figma CodeMinds Mockups](https://i.postimg.cc/RZ79pCr7/mockup-padres.png)
+
+**Landing Page Mockups 5:**
+
+![Figma CodeMinds Mockups](https://i.postimg.cc/RZ54T6YC/mockup-colegios.png)
+
+\newpage
+
+**Landing Page Mockups 6:**
+
+![Figma CodeMinds Mockups](https://i.postimg.cc/BQ1JDcMw/mockup-team.png)
+
+**Landing Page Mockups 7:**
+
+![Figma CodeMinds Mockups](https://i.postimg.cc/kMHnBhFb/mockup-demo.png)
+
+\newpage
+
+**Landing Page Mockups 8:**
+
+![Figma CodeMinds Mockups](https://i.postimg.cc/2y1r04my/mockup-contactanos-footer.png)
 
 \newpage
 
@@ -4066,25 +4197,103 @@ El diseño UX/UI de aplicaciones móviles busca crear experiencias intuitivas, e
 A través de un enfoque centrado en el usuario, se desarrollan interfaces funcionales y flujos de navegación claros que mejoran la interacción y fomentan la confianza en los servicios digitales.
 Este proyecto aplica principios de usabilidad, accesibilidad y diseño visual para garantizar que cada tutor legal pueda monitorear y gestionar el transporte escolar de manera segura, sencilla y confiable.
 
-\newpage
-
 ### Mobile Applications Wireframes.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Los wireframes de aplicaciones móviles son representaciones visuales que permiten planificar la estructura y funcionalidad de la interfaz antes de su desarrollo.
+A través de esquemas de baja y alta fidelidad, se definen la disposición de elementos, los flujos de navegación y las interacciones clave, asegurando que las necesidades del usuario se aborden de manera efectiva.
+
+Este proyecto presenta wireframes que priorizan la claridad, la usabilidad y la accesibilidad, facilitando una supervisión intuitiva del transporte escolar por parte de los tutores legales.
+
+::: warn
+Para acceder a los wireframes de la mobile app, haga click en la [URL](https://www.figma.com/design/ph6aTjM4mzxkNic0Hk4VLX/RutaKids?node-id=275-3006&t=8oFGZm5oHMybkhay-1)
+:::
+
+**Mobile Application Wireframes - Splash:**
+
+![Figma CodeMinds Wireframes](src/img/cap4/mobile-wireframes/splash.png){ height=35% }
+
+\newpage
+
+**Mobile Application Wireframes - Bienvenida:**
+
+![Figma CodeMinds Wireframes](src/img/cap4/mobile-wireframes/bienvenida.png){ height=35% }
+
+**Mobile Application Wireframes - Login:**
+
+![Figma CodeMinds Wireframes](src/img/cap4/mobile-wireframes/login.png){ height=35% }
+
+\newpage
+
+**Mobile Application Wireframes - Recuperar Contraseña:**
+
+![Figma CodeMinds Wireframes](src/img/cap4/mobile-wireframes/recuperar-password.png){ height=35% }
+
+**Mobile Application Wireframes - Home:**
+
+![Figma CodeMinds Wireframes](src/img/cap4/mobile-wireframes/principal.png){ height=35% }
+
+\newpage
+
+**Mobile Application Wireframes - Home - Notificaciones:**
+
+![Figma CodeMinds Wireframes](src/img/cap4/mobile-wireframes/principal-notificaciones.png){ height=35% }
+
+**Mobile Application Wireframes - Home - Notificaciones - Popup:**
+
+![Figma CodeMinds Wireframes](src/img/cap4/mobile-wireframes/principal-notificaciones-popup.png){ height=35% }
+
+\newpage
+
+**Mobile Application Wireframes - Home - Detalles:**
+
+![Figma CodeMinds Wireframes](src/img/cap4/mobile-wireframes/principal-detalles.png){ height=35% }
+
+**Mobile Application Wireframes - Home - Detalles - Popup:**
+
+![Figma CodeMinds Wireframes](src/img/cap4/mobile-wireframes/principal-detalles-popup.png){ height=35% }
+
+\newpage
+
+**Mobile Application Wireframes - Monitoreo:**
+
+![Figma CodeMinds Wireframes](src/img/cap4/mobile-wireframes/monitoreo.png){ height=35% }
+
+**Mobile Application Wireframes - Monitoreo - Cam:**
+
+![Figma CodeMinds Wireframes](src/img/cap4/mobile-wireframes/monitoreo-cam.png){ height=35% }
+
+\newpage
+
+**Mobile Application Wireframes - Historial:**
+
+![Figma CodeMinds Wireframes](src/img/cap4/mobile-wireframes/historial.png){ height=35% }
+
+**Mobile Application Wireframes - Cuenta:**
+
+![Figma CodeMinds Wireframes](src/img/cap4/mobile-wireframes/cuenta.png){ height=35% }
+
+\newpage
+
+**Mobile Application Wireframes - Cuenta - Settings:**
+
+![Figma CodeMinds Wireframes](src/img/cap4/mobile-wireframes/cuenta-settings.png){ height=35% }
 
 \newpage
 
 ### Mobile Applications Wireflow Diagrams.
 
 En esta sección se presentan los wireflows diseñados para RutaKids. A través de estos diagramas, se busca representar de manera clara y estructurada cómo los padres de familia o tutores legales pueden navegar por la app, realizar tareas esenciales como el inicio de sesión, la visualización de trayectos en tiempo real, la recepción de notificaciones, el acceso al historial de viajes, entre otros.
+
 Cada wireflow incluye tanto los objetivos del usuario como la descripción paso a paso del flujo de tareas, facilitando así la comprensión del recorrido de usuario y la funcionalidad de la aplicación.
 
-**Wireflow Diagram 1 :  Inicio de Sesión**
+**Wireflow Diagram 1: Inicio de Sesión**
 
-- **User Goal:**
+- **User Goal**
+
   El tutor legal desea acceder a la aplicación móvil para monitorear el transporte escolar de su hijo/a.
 
-- **Task Flow (Flujo de tareas del usuario):**
+- **Task Flow (Flujo de tareas del usuario)**
+
   1. Visualiza la pantalla de carga con el logo de la aplicación al abrir la app por primera vez.
   2. Visualiza la pantalla con información de lo que ofrece la aplicación
   3. Accede a la pantalla de inicio de sesión.
@@ -4095,20 +4304,27 @@ Cada wireflow incluye tanto los objetivos del usuario como la descripción paso 
 
 A continuación, se muestran de forma secuencial las pantallas involucradas en el proceso de inicio de sesión de un tutor legal, detallando las interacciones principales y transiciones posibles desde la carga inicial de la aplicación hasta el acceso exitoso al panel de monitoreo.
 
+\newpage
+
+**Wireflow:  Inicio de Sesión**
+
 ![Artefacto creado en Figma](src/img/cap4/WD/WD_SignIn.png)
 
 \newpage
 
-**Wireflow Diagram 2 :  Visualización de eventos del recorrido (línea de tiempo)**
+**Wireflow Diagram 2: Visualización de eventos del recorrido (línea de tiempo)**
 
-- **User Goal:**  
+- **User Goal**  
+
   El tutor legal desea consultar el estado y el avance del recorrido escolar para asegurar el cumplimiento del trayecto.
 
-- **Task Flow (Flujo de tareas del usuario):**
+- **Task Flow (Flujo de tareas del usuario)**
+
   1. Desde la pantalla principal, el tutor identifica el seguimiento activo del transporte.
   2. Presiona el botón "Detalles" ubicado en la parte inferior de la tarjeta del trayecto.
   3. El sistema redirige a una pantalla donde se presenta una línea de tiempo con los eventos del recorrido.
   4. En esta línea de tiempo, el usuario puede observar:
+
      - Inicio del recorrido
      - Llegada del conductor al punto de encuentro
      - Abordaje de los estudiantes
@@ -4116,56 +4332,61 @@ A continuación, se muestran de forma secuencial las pantallas involucradas en e
      - Llegada al colegio
      - Descenso de los estudiantes
      - Finalización del trayecto
+
   5. El usuario puede tocar eventos interactivos (como el abordaje) para ver un modal con información adicional: nombres, horarios y matrícula del vehículo.
   6. El usuario puede regresar o navegar entre vistas sin perder el progreso visual del seguimiento.
 
+**Wireflow:  Timeline Details**
 
-![Artefacto creado en Figma](src/img/cap4/WD/WD_Details.png)
-
-Este wireflow describe el módulo de visualización detallada del recorrido escolar. Tras acceder desde la pantalla principal, el tutor legal puede observar una representación cronológica de los eventos clave del trayecto, organizada mediante una línea de tiempo progresiva.
-La visualización incluye horarios, estados y acciones del conductor, así como hitos importantes como el momento en que los estudiantes abordan o descienden de la unidad. Para mejorar la trazabilidad, algunos eventos son interactivos y despliegan ventanas modales con información adicional. Este módulo garantiza transparencia y confianza sobre el cumplimiento del servicio de transporte.
-
+![Artefacto creado en Figma](src/img/cap4/WD/WD_Details.png){ width=90% }
 
 \newpage
 
-**Wireflow Diagram 3 :  Notificaciones de eventos**
+**Wireflow Diagram 3: Notificaciones de eventos**
 
-- **User Goal:**  
+- **User Goal**  
+
   El tutor legal desea recibir alertas sobre momentos importantes del viaje, como el inicio del recorrido o la llegada al punto de encuentro, para mantenerse informado sobre el trayecto de su hijo/a.
 
-- **Task Flow (Flujo de tareas del usuario):**
+- **Task Flow (Flujo de tareas del usuario)**
+
   1. El sistema genera automáticamente notificaciones push cuando ocurre un evento clave del recorrido escolar, por ejemplo:
+
      - El conductor inicia el recorrido.
      - La unidad llega al punto de encuentro.
+
   2. El tutor recibe una alerta en su dispositivo móvil.
   3. Al abrir la aplicación, accede a la sección "Notificaciones" desde el ícono de campana o desde la barra inferior.
   4. Visualiza una lista de eventos relevantes en orden cronológico.
   5. Puede seleccionar una notificación específica para ver más detalles.
   6. Se despliega una tarjeta informativa con:
+
      - Iconografía del evento
      - Mensaje descriptivo
      - Hora exacta del suceso
      - Fecha y unidad asociada
+
   7. El tutor puede regresar a la vista anterior tras consultar el detalle.
 
+**Wireflow: Notificaciones**
 
-![Artefacto creado en Figma](src/img/cap4/WD/WD_Notifications.png)
-
-Este wireflow describe la interacción del tutor legal con el módulo de notificaciones dentro de la aplicación móvil. El sistema genera alertas automáticas basadas en eventos definidos durante el recorrido escolar, como la salida de la unidad o la llegada al punto de recogida.
-Estas notificaciones se agrupan en una vista dedicada dentro de la app, accesible desde el menú inferior o un ícono persistente. Cada alerta incluye un resumen visual del evento, hora exacta, iconografía asociada y una breve descripción. Al seleccionar una notificación, el tutor puede expandir la información para entender mejor el contexto del evento, fortaleciendo la comunicación y el monitoreo en tiempo real del transporte escolar.
+![Artefacto creado en Figma](src/img/cap4/WD/WD_Notifications.png){ width=90% }
 
 \newpage
 
-**Wireflow Diagram 4 :  Visualización del trayecto del transporte escolar en mapa en tiempo real**
+**Wireflow Diagram 4: Visualización del trayecto del transporte escolar en mapa en tiempo real**
 
-- **User Goal:**  
+- **User Goal**  
+
   El tutor legal desea visualizar en tiempo real la ruta que sigue la unidad de transporte escolar, con información resumida del conductor, clima y estado del viaje.
 
-- **Task Flow (Flujo de tareas del usuario):**
+- **Task Flow (Flujo de tareas del usuario)**
+
   1. Desde la pantalla principal (Inicio), el tutor identifica la tarjeta con información de su unidad asignada.
   2. Presiona el botón “Detalles”.
   3. El sistema redirige al usuario a una pantalla con mapa en vivo.
   4. En esta pantalla se visualiza:
+
      - Ruta actual del transporte (de punto A al punto B)
      - Ubicación en tiempo real del bus
      - Nombre y contacto del conductor
@@ -4173,101 +4394,121 @@ Estas notificaciones se agrupan en una vista dedicada dentro de la app, accesibl
      - Tiempo estimado de llegada
      - Temperatura actual
      - Pasajeros a bordo
+
   5. La información se actualiza automáticamente durante el trayecto.
   6. El usuario puede regresar a la pantalla principal en cualquier momento desde la navegación inferior.
 
+**Wireflow: Home a Monitoreo**
 
 ![Artefacto creado en Figma](src/img/cap4/WD/WD_LiveMap.png)
 
-Este wireflow representa el proceso mediante el cual el tutor accede al monitoreo visual del trayecto escolar a través de un mapa en tiempo real. Desde la pantalla principal, el usuario puede seleccionar la opción “Detalles”, lo cual lo redirige a una vista de mapa interactivo donde se muestra la posición actual del bus, así como la ruta proyectada desde origen hasta destino.
-En la misma vista, se presentan datos complementarios como el nombre del conductor, número de pasajeros, clima y tiempo estimado de llegada. La información es dinámica y se actualiza en tiempo real sin intervención del usuario. Esta funcionalidad brinda una visión rápida y clara del estado actual del transporte escolar.
-
 \newpage
 
-**Wireflow Diagram 5 :  Visualización en vivo del interior de la unidad**
+**Wireflow Diagram 5: Visualización en vivo del interior de la unidad**
 
-- **User Goal:**  
+- **User Goal**  
+
   El tutor legal desea observar visualmente la unidad de transporte en tiempo real para verificar las condiciones internas y confirmar que su hijo/a viaja de forma segura.
 
-- **Task Flow (Flujo de tareas del usuario):**
+- **Task Flow (Flujo de tareas del usuario)**
+
   1. Desde la pantalla de Detalles del viaje (mapa con ruta y datos del transporte), el tutor identifica el botón "Visualizar Unidad".
   2. Presiona el botón y es redirigido a una nueva vista.
   3. La aplicación muestra una transmisión en tiempo real del interior del vehículo.
   4. En la parte inferior de la pantalla se presenta:
+
      - La temperatura interna del vehículo.
      - El botón de regreso para volver a la vista anterior.
+
   5. El tutor puede observar sin interactuar y cerrar la vista cuando lo desee.
   6. Al cerrar la visualización, vuelve a la pantalla de “Detalles del viaje”.
 
-
+**Wireflow: Visualizar Cámara**
 
 ![Artefacto creado en Figma](src/img/cap4/WD/WD_LiveInteriorView.png)
 
-Este wireflow representa la interacción del tutor con la funcionalidad de visualización en vivo del interior del transporte escolar. Desde la pantalla de seguimiento del viaje, el tutor puede acceder mediante el botón “Visualizar Unidad” a una transmisión de video en tiempo real.
 Esta vista permite monitorear visualmente las condiciones internas del vehículo, incluyendo el comportamiento de los estudiantes y el estado del entorno. Además, se ofrece la temperatura interna del bus como dato adicional. Esta funcionalidad está diseñada para reforzar la percepción de seguridad y confianza del tutor legal durante el trayecto escolar.
-
 
 \newpage
 
-**Wireflow Diagram 6 :  Consulta de historial de viajes**
+**Wireflow Diagram 6: Consulta de historial de viajes**
 
-- **User Goal:**  
+- **User Goal**  
+
   El tutor legal desea revisar los viajes anteriores para verificar detalles como la hora de salida y llegada, la ruta recorrida y las condiciones generales del transporte escolar.
 
-- **Task Flow (Flujo de tareas del usuario):**
+- **Task Flow (Flujo de tareas del usuario)**
+
   1. Desde la pantalla principal, el tutor accede a la sección "Historial" mediante la barra de navegación inferior.
   2. Se despliega una lista de viajes completados organizados por fecha (más reciente primero).
   3. Cada tarjeta de viaje muestra:
+
      - Fecha del recorrido
      - Hora de llegada
      - Dirección de origen y destino
      - Clima registrado
      - Cantidad de pasajeros a bordo
      - Iconografía de estado
+     
   4. El tutor puede desplazarse por la lista para explorar días anteriores.
   5. Al finalizar la consulta, el tutor puede navegar hacia otra sección mediante el menú inferior.
 
+**Wireflow: Historial de Viajes**
+
 ![Artefacto creado en Figma](src/img/cap4/WD/WD_Record.png)
 
-Este wireflow corresponde a la funcionalidad de consulta del historial de viajes previos. Al acceder desde el menú principal, el tutor visualiza una lista de recorridos completados, organizados por fecha. Cada ítem contiene información clave como la hora de llegada, el número de pasajeros, las condiciones climáticas y el estado general del trayecto.
-La interfaz está diseñada para facilitar el seguimiento retrospectivo de la actividad del transporte escolar, brindando al tutor una herramienta útil para auditoría personal, validación de horarios y monitoreo histórico de la puntualidad y condiciones del servicio.
+Este wireflow corresponde a la funcionalidad de consulta del historial de viajes previos. Al acceder desde el menú principal, el tutor visualiza una lista de recorridos completados, organizados por fecha.
 
 \newpage
 
-**Wireflow Diagram 7 :  Gestión de cuenta**
+**Wireflow Diagram 7: Gestión de cuenta**
 
-- **User Goal:**  
+- **User Goal**  
+
   El tutor legal desea configurar y gestionar sus datos personales, seguridad, privacidad y notificaciones desde su perfil en la aplicación.
 
-- **Task Flow (Flujo de tareas del usuario):**
+- **Task Flow (Flujo de tareas del usuario)**
+
   1. Desde cualquier vista de la app, el tutor accede a la sección "Cuenta" mediante el ícono del menú inferior.
   2. En la pantalla principal, se muestran las siguientes opciones:
+
      - Información personal
      - Seguridad
      - Protección de datos
      - Notificaciones
+
   3. Si selecciona "Información personal", accede a una vista donde puede consultar y actualizar:
+
      - Nombre
      - Número de teléfono
      - Correo electrónico
+
   4. Si selecciona "Seguridad", puede:
+
      - Cambiar su contraseña
      - Activar o revisar la verificación en dos pasos
      - Ver el correo de soporte técnico
+
   5. En "Protección de datos", el tutor puede revisar:
+
      - Términos y condiciones
      - Políticas de privacidad
      - Información sobre protección de datos
+
   6. En "Notificaciones", puede activar o desactivar alertas específicas relacionadas a:
+
      - Transporte
      - Mapa
      - Seguimiento
      - Otros servicios
+
   7. El tutor puede volver a la pantalla principal de cuenta mediante el ícono de retroceso o la barra inferior.
 
 A continuación, se muestran de forma secuencial las pantallas involucradas en el proceso de gestión de cuenta, detallando las interacciones principales y transiciones posibles desde el acceso al menú de configuración hasta la actualización o consulta de datos personales, seguridad y preferencias.
 
-![Artefacto creado en Figma](src/img/cap4/WD/WD_AccountConfiguration)
+**Wireflow: Gestión de Cuenta**
+
+![Artefacto creado en Figma](src/img/cap4/WD/WD_AccountConfiguration.png)
 
 \newpage
 
@@ -4276,19 +4517,33 @@ A continuación, se muestran de forma secuencial las pantallas involucradas en e
 
 En esta sección se presentan los mockups de la aplicación RutaKids, los cuales representan visualmente las principales pantallas y funcionalidades diseñadas. Estas interfaces han sido construidas siguiendo principios de diseño centrado en el usuario, diseño inclusivo, accesibilidad y consistencia visual, conforme al Design System definido para este producto digital.
 
+**Inicio de sesión - Mock-up**
 
-![Inicio de sesión - Artefacto creado en Figma](src/img/cap4/Mockups/SignIn.png)
+![Artefacto creado en Figma](src/img/cap4/Mockups/SignIn.png)
 
-![Notificaciones - Artefacto creado en Figma](src/img/cap4/Mockups/Notifications.png)
+**Notificaciones - Mock-up**
 
-![Mapa en tiempo real - Artefacto creado en Figma](src/img/cap4/Mockups/Details.png)
+![Artefacto creado en Figma](src/img/cap4/Mockups/Notifications.png)
 
-![Vista interior de la unidad - Artefacto creado en Figma](src/img/cap4/Mockups/LiveInteriorView.png)
+\newpage
 
-![Historial de viajes - Artefacto creado en Figma](src/img/cap4/Mockups/Record.png)
+**Visualización del mapa - Mock-up**
 
-![Gestión de cuenta - Artefacto creado en Figma](src/img/cap4/Mockups/AccountConfiguration.png)
+![Artefacto creado en Figma](src/img/cap4/Mockups/Details.png)
 
+**Cámara activada - Mock-up**
+
+![Artefacto creado en Figma](src/img/cap4/Mockups/LiveInteriorView.png)
+
+\newpage
+
+**Historial de viajes - Mock-up**
+
+![Artefacto creado en Figma](src/img/cap4/Mockups/Record.png)
+
+**Gestión de cuenta - Mock-up**
+
+![Artefacto creado en Figma](src/img/cap4/Mockups/AccountConfiguration.png)
 
 \newpage
 
@@ -4299,7 +4554,8 @@ Estos flujos buscan garantizar la transparencia, la facilidad de uso y la confia
 
 **Inicio de Sesión**
 
-- **User Goal:**
+- **User Goal**
+
   El tutor legal desea acceder a la aplicación móvil para monitorear el transporte escolar de su hijo/a.
 
 
@@ -4307,12 +4563,10 @@ Estos flujos buscan garantizar la transparencia, la facilidad de uso y la confia
 
 Este User Flow inicia con la carga del sistema y guía al tutor legal hacia la pantalla de login, donde se permite ingresar sus credenciales o iniciar el proceso de recuperación de contraseña. Se ha considerado un flujo alternativo para usuarios que olvidan su contraseña, así como una condición de éxito que los redirige a la pantalla principal. El proceso incluye interacciones simples y claras, con rutas diferenciadas para escenarios típicos y excepcionales.
 
-\newpage
-
-
 **Visualización de eventos del recorrido (línea de tiempo)**
 
-- **User Goal:**  
+- **User Goal**  
+
   El tutor legal desea consultar el estado y el avance del recorrido escolar para asegurar el cumplimiento del trayecto.
 
 ![Artefacto creado en Figma](src/img/cap4/UF/Details.png)
@@ -4321,13 +4575,12 @@ Este diagrama de flujo de usuario muestra el proceso mediante el cual el tutor l
 La línea de tiempo muestra eventos clave como el inicio del trayecto, el abordaje de los estudiantes, el trayecto en curso, y la llegada al colegio.
 Para una trazabilidad más detallada, algunos eventos incluyen íconos interactivos que permiten abrir ventanas modales con información adicional, como los nombres de los estudiantes que abordaron y la placa del vehículo. Esta funcionalidad permite al tutor monitorear el cumplimiento del servicio de transporte escolar de forma clara y precisa, fomentando la transparencia y confianza en el proceso.
 
-
-
 \newpage
 
 **Notificaciones de eventos**
 
-- **User Goal:**  
+- **User Goal**  
+
   El tutor legal desea recibir alertas sobre momentos importantes del viaje, como el inicio del recorrido o la llegada al punto de encuentro, para mantenerse informado sobre el trayecto de su hijo/a.
 
 ![Artefacto creado en Figma](src/img/cap4/UF/Notifications.png)
@@ -4337,12 +4590,12 @@ El tutor legal, desde la pantalla principal, puede visualizar un ícono de campa
 Cada notificación incluye iconografía, texto descriptivo, hora y fecha. Al seleccionar una notificación específica, se despliega una tarjeta con información extendida del evento.
 Esta funcionalidad permite al tutor mantenerse informado en tiempo real, fortaleciendo el acompañamiento del trayecto sin necesidad de interacción directa con el sistema de transporte.
 
-
 \newpage
 
 **Visualización del trayecto del transporte escolar en mapa en tiempo real**
 
-- **User Goal:**  
+- **User Goal**  
+
   El tutor legal desea visualizar en tiempo real la ruta que sigue la unidad de transporte escolar, con información resumida del conductor, clima y estado del viaje.
 
 ![Artefacto creado en Figma](src/img/cap4/UF/LiveMap.png)
@@ -4354,12 +4607,12 @@ Además, se incluyen datos complementarios como el nombre y placa del conductor,
 Esta vista se actualiza de manera automática sin necesidad de interacción por parte del usuario, permitiendo un seguimiento continuo y preciso del recorrido escolar.
 Esta funcionalidad mejora significativamente la visibilidad y tranquilidad del tutor respecto a la seguridad y puntualidad del transporte.
 
-
 \newpage
 
 **Visualización en vivo del interior de la unidad**
 
-- **User Goal:**  
+- **User Goal**  
+
   El tutor legal desea observar visualmente la unidad de transporte en tiempo real para verificar las condiciones internas y confirmar que su hijo/a viaja de forma segura.
 
 ![Artefacto creado en Figma](src/img/cap4/UF/LiveInteriorView.png)
@@ -4370,13 +4623,12 @@ Esta transmisión permite observar las condiciones internas, incluyendo el compo
 Además, se muestra la temperatura interna del vehículo en la parte inferior de la pantalla como dato contextual relevante.
 Esta funcionalidad tiene como objetivo principal fortalecer la confianza y seguridad del tutor legal, proporcionando una capa adicional de supervisión visual.
 
-
-
 \newpage
 
 **Consulta de historial de viajes**
 
-- **User Goal:**  
+- **User Goal**  
+
   El tutor legal desea revisar los viajes anteriores para verificar detalles como la hora de salida y llegada, la ruta recorrida y las condiciones generales del transporte escolar.
 
 ![Artefacto creado en Figma](src/img/cap4/UF/Record.png)
@@ -4398,12 +4650,11 @@ Esta funcionalidad permite al tutor verificar la puntualidad del servicio, confi
 
 **Gestión de cuenta**
 
-- **User Goal:**  
+- **User Goal**  
+
   El tutor legal desea configurar y gestionar sus datos personales, seguridad, privacidad y notificaciones desde su perfil en la aplicación.
 
-
 ![Artefacto creado en Figma](src/img/cap4/UF/AccountConfiguration.png)
-
 
 Este flujo de usuario representa cómo el tutor legal accede y gestiona su configuración personal dentro de la aplicación RutaKids.
 Desde cualquier pantalla, el tutor puede ingresar a la sección de cuenta ya sea presionando el ícono de perfil en la parte superior o a través del botón “Cuenta” en la barra inferior de navegación.
@@ -4419,10 +4670,11 @@ Cada sección está diseñada para brindar al tutor control total sobre su perfi
 
 \newpage
 
-
 ## Mobile Applications Prototyping.
 
 Esta sección presenta los prototipos interactivos desarrollados para las aplicaciones móviles, los cuales permiten simular la experiencia de usuario en condiciones reales de navegación, alineados con los User Flow Diagrams previamente definidos. Los prototipos contemplan el comportamiento esperado de la interfaz ante acciones como toques, desplazamientos y navegación entre pantallas, y fueron diseñados utilizando Figma como herramienta principal de diseño y simulación.
+
+![Recurso extraído de Canva](src/img/cap4/mobile-applications-prototyping.png)
 
 **Justificación de decisiones de diseño e interacción**
 
@@ -4430,37 +4682,43 @@ El diseño de interacción responde a una arquitectura de información centrada 
 
 El sistema de navegación utiliza una barra inferior persistente, con íconos universalmente reconocibles, que agrupa las secciones principales: Inicio, Monitoreo, Historial y Cuenta. Esta estructura se eligió por su efectividad en dispositivos móviles, permitiendo que el usuario navegue sin esfuerzo entre vistas relacionadas sin necesidad de regresar a menús superiores.
 
-En cuanto a las interacciones, se ha priorizado una lógica de flujo lineal pero flexible, donde cada acción permite al usuario avanzar o retroceder sin pérdida de contexto. Los botones de acción primaria mantienen una jerarquía visual constante, con estilos y colores definidos por el Design System para asegurar accesibilidad y reconocimiento visual. Se usaron estilos consistentes de tipografía y espaciado en todos los mockups, siguiendo criterios de diseño inclusivo y contraste adecuado para la lectura en pantalla.
-
 **Consistencia y adaptabilidad**
 
 A pesar de que los prototipos fueron desarrollados inicialmente con frames de iOS para facilitar el testeo visual, todas las decisiones fueron tomadas considerando el desarrollo futuro con Flutter como framework multiplataforma. Esto asegura que los elementos visuales, tamaños de fuente, márgenes y estilos de interacción son adaptables a sistemas operativos Android, y que cualquier ajuste de microinteracción puede realizarse posteriormente sin romper la coherencia de experiencia.
-Las diferencias menores en los tamaños de botones o alineaciones responden a las guías específicas de cada sistema operativo (Apple Human Interface Guidelines y Material Design), pero sin comprometer la armonía visual ni la funcionalidad entre plataformas.
 
+\newpage
 
 ### Android Mobile Applications Prototyping.
 
 La versión prototipada corresponde a la arquitectura funcional de Android, replicando los mismos flujos de navegación definidos para iOS.
 Gracias al enfoque cross-platform con Flutter, las decisiones de interacción son consistentes entre sistemas.
 
+::: warn
+Para acceder al prototipo de la Android Mobile, haga click en la [URL](https://www.figma.com/proto/eciWGdnbz2vbcafpC3ry61/RutaKids?node-id=1-191&t=Q43WuZLUjqqKj29U-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A191)
+:::
 
-**Ver prototipo interactivo (Figma):** https://www.figma.com/proto/eciWGdnbz2vbcafpC3ry61/RutaKids?node-id=1-191&t=Q43WuZLUjqqKj29U-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A191  
+::: warn
+Para ver la demo en Microsoft Stream - Min(00:33), haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EWNyaDk6mgdMlrmkd3YCekQBkWfpMUBC7oBkGaqmv3HQIA?e=ZCJBW6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+:::
 
-**Ver demo en Microsoft Stream - Min(00:33):** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EWNyaDk6mgdMlrmkd3YCekQBkWfpMUBC7oBkGaqmv3HQIA?e=ZCJBW6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
 
+![Android Prototyping - Figma](src/img/cap4/android-proto.png)
 
+\newpage
 
 ### iOS Mobile Applications Prototyping.
 
 La interfaz se prototipó inicialmente para iOS siguiendo las guías de diseño de Apple (Human Interface Guidelines), aplicando principios de accesibilidad y navegación móvil.
 
+::: warn
+Para acceder al prototipo de la iOS Mobile, haga click en la [URL](https://www.figma.com/proto/eciWGdnbz2vbcafpC3ry61/RutaKids?node-id=5-1336&t=xAeh2weCXXUvbcOx-1&scaling=scale-down&content-scaling=fixed&page-id=5%3A1185&starting-point-node-id=5%3A1336)
+:::
 
-**Ver prototipo interactivo (Figma):** https://www.figma.com/proto/eciWGdnbz2vbcafpC3ry61/RutaKids?node-id=5-1336&t=xAeh2weCXXUvbcOx-1&scaling=scale-down&content-scaling=fixed&page-id=5%3A1185&starting-point-node-id=5%3A1336 
+::: warn
+Para ver la demo en Microsoft Stream - Min(01:57), haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EWNyaDk6mgdMlrmkd3YCekQBkWfpMUBC7oBkGaqmv3HQIA?e=ZCJBW6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+:::
 
-**Ver demo en Microsoft Stream - Min(01:57):** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EWNyaDk6mgdMlrmkd3YCekQBkWfpMUBC7oBkGaqmv3HQIA?e=ZCJBW6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
-
-
-
+![iOS Prototyping - Figma](src/img/cap4/ios-proto.png)
 
 \newpage
 
@@ -4478,61 +4736,99 @@ Para visualizar todo el diseño de los wireframes y mockups de la aplicación, h
 
 ### *Web Applications Wireframes.*
 
-**Autenticación y recuperación de acceso**
+**Inicio de sesión - Wireframe**
 
-![Pantalla de inicio de sesión - Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/sign_in.png)
+![Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/sign_in.png){ height=38% }
 
-![Recuperación de contraseña - Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/forgot_password.png)
+**Recuperación de contraseña - Wireframe**
 
-![Reinicio de contraseña - Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/reset_password.png)
-
-![Cambio de contraseña - Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/change_password.png)
+![Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/forgot_password.png){ height=38% }
 
 \newpage
 
-**Navegación y funcionalidades complementarias**
+**Reinicio de contraseña - Wireframe**
 
-![Dashboard general - Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/dashboard.png)
+![Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/reset_password.png){ height=38% }
 
-![Notificaciones - Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/notifications.png)
+**Cambio de contraseña - Wireframe**
 
-![Preguntas frecuentes - Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/faq.png)
+![Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/change_password.png){ height=38% }
 
-![Política de privacidad - Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/privacy_policy.png)
+\newpage
 
-![Cerrar sesión - Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/log_out.png)
+**Dashboard general - Wireframe**
 
-![Terminos y Condiciones - Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/terms.png)
+![Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/dashboard.png){ height=38% }
+
+**Notificaciones - Wireframe**
+
+![Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/notifications.png){ height=38% }
+
+\newpage
+
+**Preguntas frecuentes - Wireframe**
+
+![Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/faq.png){ height=38% }
+
+**Política de privacidad - Wireframe**
+
+![Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/privacy_policy.png){ height=38% }
+
+\newpage
+
+**Cerrar sesión - Wireframe**
+
+![Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/log_out.png){ height=38% }
+
+**Terminos y condiciones - Wireframe**
+
+![Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/terms.png){ height=38% }
 
 \newpage
 
 **Gestión de estudiantes**
 
-![Crear estudiante - Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/create_student.png)
+**Crear estudiante - Wireframe**
 
-![Lista de estudiantes - Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/students_list.png)
+![Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/create_student.png){ height=38% }
 
-![Tarjetas de estudiantes - Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/students_cards.png)
+**Lista de estudiantes - Wireframe**
+
+![Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/students_list.png){ height=38% }
 
 \newpage
 
+**Tarjetas de estudiantes - Wireframe**
+
+![Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/students_cards.png){ height=38% }
+
 **Gestión de movilidades y rutas escolares**
 
-![Crear movilidad escolar - Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/create_school_trans.png)
+**Crear movilidad escolar - Wireframe**
 
-![Listado de movilidades - Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/school_trans_list.png)
+![Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/create_school_trans.png){ height=38% }
 
-![Crear ruta escolar - Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/create_school_routes.png)
+\newpage
 
-![Listado de rutas escolares - Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/school_routes_list.png)
+**Listado de movilidades - Wireframe**
 
+![Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/school_trans_list.png){ height=38% }
+
+**Crear ruta escolar - Wireframe**
+
+![Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/create_school_routes.png){ height=38% }
+
+\newpage
+
+**Listado de rutas escolares - Wireframe**
+
+![Artefacto creado en Uizard](src/img/cap4/rutakids_wireframes/school_routes_list.png){ height=38% }
 
 \newpage
 
 ### *Web Applications Wireflow Diagrams.*
 
 Los wireflows representan visualmente la navegación entre las diferentes pantallas de la aplicación RutaKids, permitiendo comprender la lógica de interacción del usuario antes del desarrollo de las interfaces finales. Estos diagramas combinan los wireframes de cada vista con las conexiones funcionales entre ellas, trazando el recorrido esperado que realizarán los usuarios al interactuar con el sistema. La construcción de estos wireflows se realizó en **Uizard**, destacando la navegación entre módulos clave como autenticación, gestión de estudiantes, movilidades, rutas escolares y configuraciones. Este enfoque permite validar anticipadamente la usabilidad, fluidez y estructura lógica de la experiencia de usuario en RutaKids.
-
 
 **Inicio de sesión y autenticación**
 
@@ -4584,51 +4880,95 @@ Este wireflow agrupa funciones de soporte como las notificaciones y la sección 
 
 **Autenticación y recuperación de acceso**
 
-![Pantalla de inicio de sesión - Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/sign_in.png)
+**Inicio de sesión - Mock-up**
 
-![Recuperación de contraseña - Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/forgot_password.png)
+![Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/sign_in.png){ height=35% }
 
-![Reinicio de contraseña - Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/reset_password.png)
+**Recuperación de contraseña - Mock-up**
 
-![Cambio de contraseña - Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/change_password.png)
+![Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/forgot_password.png){ height=35% }
+
+\newpage
+
+**Reinicio de contraseña - Mock-up**
+
+![Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/reset_password.png){ height=38% }
+
+**Cambio de contraseña - Mock-up**
+
+![Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/change_password.png){ height=38% }
 
 \newpage
 
 **Navegación y funcionalidades complementarias**
 
-![Dashboard general - Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/dashboard.png)
+**Dashboard general - Mock-up**
 
-![Notificaciones - Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/notifications.png)
+![Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/dashboard.png){ height=38% }
 
-![Preguntas frecuentes - Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/faq.png)
+**Notificaciones - Mock-up**
 
-![Política de privacidad - Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/privacy_policy.png)
+![Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/notifications.png){ height=38% }
 
-![Cerrar sesión - Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/log_out.png)
+\newpage
 
-![Terminos y Condiciones - Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/terms.png)
+**Preguntas frecuentes - Mock-up**
+
+![Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/faq.png){ height=38% }
+
+**Política de privacidad - Mock-up**
+
+![Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/privacy_policy.png){ height=38% }
+
+\newpage
+
+**Cerrar sesión - Mock-up**
+
+![Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/log_out.png){ height=38% }
+
+**Terminos y condiciones - Mock-up**
+
+![Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/terms.png){ height=38% }
 
 \newpage
 
 **Gestión de estudiantes**
 
-![Crear estudiante - Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/create_student.png)
+**Crear estudiante - Mock-up**
 
-![Lista de estudiantes - Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/students_list.png)
+![Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/create_student.png){ height=38% }
 
-![Tarjetas de estudiantes - Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/students_cards.png)
+**Lista de estudiantes - Mock-up**
+
+![Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/students_list.png){ height=38% }
 
 \newpage
 
+**Tarjetas de estudiantes - Mock-up**
+
+![Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/students_cards.png){ height=38% }
+
 **Gestión de movilidades y rutas escolares**
 
-![Crear movilidad escolar - Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/create_school_trans.png)
+**Crear movilidad escolar - Mock-up**
 
-![Listado de movilidades - Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/school_trans_list.png)
+![Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/create_school_trans.png){ height=38% }
 
-![Crear ruta escolar - Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/create_school_routes.png)
+\newpage
 
-![Listado de rutas escolares - Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/school_routes_list.png)
+**Listado de movilidades - Mock-up**
+
+![Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/school_trans_list.png){ height=38% }
+
+**Crear ruta escolar - Mock-up**
+
+![Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/create_school_routes.png){ height=38% }
+
+\newpage
+
+**Listado de rutas escolares - Mock-up**
+
+![Artefacto creado en Uizard](src/img/cap4/rutakids_mockups/school_routes_list.png){ height=38% }
 
 \newpage
 
@@ -4689,6 +5029,7 @@ Para visualizar el video del prototipo de la aplicación,  haga click en la [URL
 )
 :::
 
+![Captura de Microsoft Stream](src/img/cap4/web-application-prototyping-video.png)
 
 \newpage
 
@@ -4696,59 +5037,943 @@ Para visualizar el video del prototipo de la aplicación,  haga click en la [URL
 
 En esta sección se describe la arquitectura impulsada por el dominio para **CodeMinds**, nuestra solución de autenticación IoT enfocada en el transporte escolar seguro. Utilizamos principios de *Domain-Driven Design* (DDD) para estructurar los componentes de software de manera alineada con las necesidades del negocio, garantizando escalabilidad, robustez y claridad en la separación de responsabilidades.
 
+El diseño de la solución de software constituye una etapa crítica para garantizar que el sistema responda de manera eficaz a las necesidades estratégicas del dominio de negocio identificado. A partir de la estructura de Bounded Contexts previamente definida, se propone una arquitectura modular basada en microservicios, donde cada servicio es responsable de una parte específica del dominio y se comunica a través de interfaces bien delimitadas.
+
+En **RutaKids**, esta solución se implementa mediante una combinación de tecnologías modernas como **Spring Boot** para el desarrollo de microservicios, **Kafka** para la comunicación asíncrona basada en eventos, **OAuth2 / Keycloak** para la autenticación segura de usuarios, y **Angular 17** como framework principal para el frontend modularizado. Además, se adoptan principios de arquitectura orientada a eventos, utilizando técnicas como EventStorming, Domain Message Flow Modeling y Bounded Context Canvas para asegurar una alineación continua entre el diseño técnico y los objetivos de negocio.
+
+![Recurso extraído de Canva](src/img/cap4/dddimage.png)
+
 \newpage
 
 ### Software Architecture Context Diagram.
 
-El Diagrama de Contexto muestra cómo **CodeMinds** se integra en su ecosistema. Describe a alto nivel los actores externos (como padres, colegios, conductores y autoridades escolares) y los sistemas externos (por ejemplo, bases de datos escolares, plataformas de mensajería y servidores de autenticación) que interactúan con nuestra plataforma. También identifica los flujos principales de información entre estos actores y el sistema central de **CodeMinds**.
+![System Context Level Diagram - C4](src/img/cap4/structurizr-SystemContext.png)
 
-![CodeMinds Software Context Diagram](src/img/cap4/structurizr-83808-SystemContext-001.png)
+![System Context Level Diagram - C4](src/img/cap4/structurizr-SystemContext-keys.png)
 
 \newpage
 
 ### Software Architecture Container Diagrams.
 
-El Diagrama de Contenedores de **CodeMinds** descompone el sistema en contenedores principales: aplicaciones móviles, API gateway, servicios backend, bases de datos, y dispositivos IoT de escaneo RFID/NFC instalados en autobuses escolares. Este diagrama detalla cómo cada contenedor contribuye a funcionalidades específicas, como la autenticación de estudiantes, la generación de reportes, las notificaciones a padres en tiempo real y la administración del sistema desde una consola web.
+![System Container Level Diagram - C4](src/img/cap4/structurizr-Containers.png)
 
-![CodeMinds Software Container Diagram](src/img/cap4/structurizr-83808-Container-001.png)
+![System Container Level Diagram - C4](src/img/cap4/structurizr-Containers-keys.png)
 
 \newpage
 
 ### Software Architecture Components Diagrams.
 
-En esta sección presentamos el Diagrama de Componentes de **CodeMinds**, que profundizan en la estructura interna de cada contenedor principal. Cada componente se detalla mostrando su responsabilidad y las interacciones internas y externas. Por ejemplo, dentro del servicio de autenticación, mostramos componentes como el Módulo de Verificación de Identidad, el Módulo de Gestión de Horarios y Rutas, y el Módulo de Alertas en Tiempo Real, explicando cómo colaboran entre sí para garantizar la seguridad y el seguimiento de los escolares.
+**Parent Service**
 
-![CodeMinds Software Components Diagram](src/img/cap4/structurizr-83808-Component-001.png)
+![Component Level Diagram](src/img/cap4/structurizr-ParentServiceComponents.png){ height=38% }
+
+**IoT Service**
+
+![Component Level Diagram](src/img/cap4/structurizr-IoTServiceComponents.png){ height=38% }
+
+\newpage
+
+**IoT Interceptor Service**
+
+![Component Level Diagram](src/img/cap4/structurizr-InterceptorComponents.png){ height=90% }
+
+\newpage
+
+**Routes Service**
+
+![Component Level Diagram](src/img/cap4/structurizr-RoutesServiceComponents.png)
 
 \newpage
 
 ## Software Object-Oriented Design.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+El diseño orientado a objetos (Object-Oriented Design, OOD) es un enfoque esencial en el desarrollo de sistemas de software modernos, ya que permite modelar soluciones complejas mediante la definición de objetos que interactúan entre sí dentro de un entorno bien estructurado. Este paradigma promueve la creación de sistemas más comprensibles, reutilizables y fáciles de mantener, al organizar la lógica del software en torno a clases y objetos que encapsulan datos y comportamientos. En este apartado se presenta el diseño orientado a objetos desarrollado para el sistema, haciendo uso de dos herramientas fundamentales: el Diagrama de Clases y el Diccionario de Clases. Estas herramientas proporcionan una visión clara y estructurada del sistema desde la perspectiva del diseño, antes de proceder a la implementación.
+
+El Diagrama de Clases representa gráficamente las entidades del sistema, conocidas como clases, junto con sus atributos, métodos y relaciones. Este diagrama permite identificar las jerarquías de herencia, asociaciones, composiciones y otras relaciones entre clases, lo que facilita la comprensión del comportamiento esperado del sistema y sus interacciones internas. Además, sirve como puente entre el análisis de requisitos y la codificación, ayudando a validar que el diseño cumpla con las necesidades funcionales y no funcionales definidas previamente.
+
+Por otro lado, el Diccionario de Clases proporciona una descripción detallada y textual de cada clase del sistema. Incluye información clave como el propósito de la clase, los atributos que contiene, los métodos que implementa, y las relaciones que mantiene con otras clases. Este diccionario actúa como una guía de referencia para desarrolladores y diseñadores, ya que establece un lenguaje común y consistente para todos los elementos que forman parte del sistema.
+
+![Recurso extraído de Canva](src/img/cap4/object-oriented-design.png)
 
 \newpage
 
 ### Class Diagrams.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+**Rutakids - Infrastructure UML Diagram**
+
+::: warn
+Para una mejor visualización del diagrama, haga click en la [URL](https://mermaid.live/edit#pako:eNqNlVuPmkAUx7_KZJJ9c43gCisxJpalDWm9BNw-NCRmAiMSZcYMg61r_O493BpEusiLzOH_m3OZOccL9nlAsYH9A0mSt4iEgsQee3pC9uKrM3PXzru5fncsZC7nq-XCWqxdjyF4cj2arezNNyLpb3JGl-JD9kwmpXE6LYxXj9UxKxV0TzYuFScqMnAyyd4jn6K3KPE5WHM0xwrE5GwbhTdIYUKFqSH_Ts_-gZP9pto3J-yAMhnJM1oJfoqCe4psIawvgu8rH9YJCORKQUkcsRCtDkRuuYj_gVCpuW06S9dyftqm5VZbrYgAsnJfWW2-bpocnkqatAltJqnw6VFyUXpyrB-ztb1cuNm6Xvvn52nDIzKQyHdG03tpLYxPdbexfSq9K7iBSCp3Wb19UjIea8SYgbd3AVzQMEog8ZyoB9opbkT70Oa1GncDrfHfXkwDban0d5CvX9zOliS6iZZMHnPTTKebas2p5TBP5BAF-UFK6A7WejoPYi3ZPUi2uKx3rIGOggepDwzN-va_p9ygoBpJGt9QbUXphNoS64RwD8dUxCQKYArnM9TD0Dcx9bABrwERew_DsAEdNBR3z8zHhhQp7WHoxnCHjS05JLBKj1m5yhFeSY6E_eK8vsTGBf_Bhq73h5qiKYMXRR2NdU3r4TM21OGwP359HemKomnjsapee_gj5wd9fQRf9EytqergBQAaRFDRefkHkv30cCiyRMr4KIMZa_KUSWwor9e_vsU5ag)
+:::
+
+![UML Class Diagram - Mermaid](src/img/cap4/rutakids-infrastructure.png)
+
+**Parent Service - Class Diagram**
+
+::: warn
+Para una mejor visualización del diagrama, haga click en la [URL](https://mermaid.live/edit#pako:eNq9V1Fv2jAQ_iuRpUpsAwS00BEhJAp0ikqhSmAPEy9eYiBqsCPb6cY6_vvsJJDEGAZMGi_E5-983_k7X5x34BIPARO4AWRs4MMlhes5vrkxhuOpNbWGzhwb4hdPGy-QIsyN98Qmf53OEHOfb7rdzPZpNrMGhu-ploghauWtDqc-XhoLnzI-hmt0OCWiqjMjn_FOf-UHXtdw5Z-glExv5zhPNsZcwfU6VsSFwQByZHz3KV_JJy2pmdiD6znJHcRaSmgN_eDQHIqYPwj11P1LprsGJQFiOaJC98F0otFcWIu0heG_aK4T9Qoy_xhWynZ91LNk2-2_PXyZONZ0YmvPno1CwnxO6KbIJbMXKC187PWCoPTBNGLdk0VUxMPG8kope4GchNwnGAZFtE6I69g8bJKFd0HDdLQjmRzuozpcEfRhM0slKCmS5NOVmG5RDGdof7X6OiEcRN98FxUppEZd0okXU5SQJaRgkwlFkj36uBYXEeqnjfMsKTKSGjUuCisdTmqRnrOiCP3JeGpPRqOhrdGhTzAXXSxQ22pmL7BYIl4Uw0YsJJihpA13FG0UV602ygqqsDqtLietCnYgly6PvXrH5bucyV81VJikkioH66n3-NSTyjqz56F9KOsTXLxCQYJFa5VaPCXzQ1hh5yb4ZIXhm9ymlN4aMQaXkt0bKXRosYMsdXiBm4BAr7R_dcbDI4cvKctH68vM7k2tyTifQS8MBfOFv9Rdl5KZiELZdArsPcghIxF1UYKR1SnuEdCJbepLYhSHdeQ4DTMH9TkwSKUinj6Kp-T-YxoryIxuhsu1z87valVpZ6ZUMsarDT4GFzpNhlXacgzNN4cMuWOxm6lUurkbhmmElHiRm2OQB-5f_kVcPpKE7V7WRdQucq7is-BH0lewJ7JXkKeTLxa3jkWIKBMVHnud9kkTlWWcxlDLL8PmJDINNy3ExE3npFbAOT5KJZzjostP9QNlIMzisuSJT5X4PM0BXyFxpQKmePQgfZ2DOd4KHIw4cTbYBSanESoDSqLlCpgLGDAxikJxzFD6nbODhBB_IyQ_BOY7-AnMer1Vbd3W7hvt1n2z0W6078tgI8ytdrVRb9417-q1erPVaG7L4Fe8QK3abDdrtdtGrfW53m7f3d2WAfLkXjynn1nyrwyWVGaSEkTYkwUUYS6Xbm7_AKSxSAY)
+:::
+
+![UML Class Diagram - Mermaid](src/img/cap4/parent-service-uml.png)
+
+\newpage
+
+**Routes Service - Class Diagram**
+
+::: warn
+Para una mejor visualización del diagrama, haga click en la [URL](https://mermaid.live/edit#pako:eNqtVlFv2jAQ_iuWpUrdRtGaBQYRQmKFblFpqRK6h4kXLznSqMGObKca6_rfZyehxEnatWi8kJy_83333fniBxywELCDg4QIMY1JxMlmRY-O0Oxq6S7dmb-iSP3yZeSxTAJ6KEz6NxrNqIzldjze2z7c3LhTFIcViy95TCNEyQaa1hBEwONUxoxWFuexkKM83jWLqRyjVP-JAvG4og1aOewAblOW_UwAJURhsxBaVhiN6ksulRABR4yHwFs5LTm5h-SbyoLx7QG0cktKOFDpNuxcJ2yY5ywgyZRIWMYbQEISLiGcyGcRQMP9ek5dlXy6XDTLrYwmfWV4a7mfrdcBm7-1Xi_V5YDw_0Vob3a98N3lwms7Xx6kTMTNttnbDYrrmIaTJDl-56D9makDvmzd8LhMRgEX-WkjiQF-SajDOH3ZXpcNfGy0846qEWJsSuTPvO_uWYs8PvD7OKhNodLYRiJ3EqY8usw1ZG6vybTD_lufN5GqesYgdiq9QqM9751MZ4urpbeYz2deU6kzRiVnSaLmlMFrbzeoRSANuTwQKaMCinE1MtWrObaqZ_rXhH9JzbcTr0nakLItl4ayNWkvJucXEy2wf3M58xrqiguyviOKksg2daL5kg4CtMY1KPD5DrN7XfVyWG5ACBKB4nrPjIGjshAF_ppsE0bCnUdavLb3adEa5-7XG2-ydBdXVfqTNFW013FU5NHQWK1knOgJYVAPiSSCZTyAAqN7RI054ue2-oCb52F9_V7cGlb4dIUROzlRT-_VU-Wj7aCAbdQggRCxNVIxzY9ngT85GZd7FPs5iMMaVIUDlcL4KU5lUo3-dLvmzHBQJgr0c9Mt92k92nvfMtJuQRN7-lI6KOUszIKWKFV84ytk-pURKufgKcg_Uqm5vC6TWiu3xEqBC7VJ7vSiS5mL7tkyQr3bnqAV1XUDFG1XeLX5PFex1_i2Ua774Q5W5g2JQ3Ubzo_ECstbUFcY7KjHkPC7FV7RR4UjmWT-lgbYkTyDDlbXsegWO2uSCPWWpeqkQHmV3kFSQn8wVn3FzgP-hR3L_twdDvq9z5bV7_WtXgdvsXM67HUty7ZOrb7dtwf2p8FjB__O_T927f7Atu3e4ONwOBgMrQ6GUCtxWd7j9V8HR1znUdLTdxB-xjIqsTN8_AsPXc6i)
+:::
+
+![UML Class Diagram - Mermaid](src/img/cap4/routes-service-uml.png)
+
+**Iot Service - Class Diagram**
+
+::: warn
+Para una mejor visualización del diagrama, haga click en la [URL](https://mermaid.live/edit#pako:eNq1V21vmzAQ_ivI0qRsS6MkpXlBUaSsSTfUl1RAN2nKFy-4GSrYCJtoWdf_PgNm2IY2HdryIYHzvTx3z53tPIIt8RGwwDaElC4DuEtgtMFv3hirG8_27JW7wQb_5MvGEu2DLTIeC1n2mc1WmAXsMJ9Xsvd3d_bSCHxJ4rIkwDsDwwjVpewQI906hgnCzJZ9XAWUzVyEKUnmBs1_abH8tMEyykKnPUoNj5CmOGAvhFtCBluEzCVFMmqyZAtD7hN5QYQMxr8og1EsaSxJ-i1Exh6GKZJwceaW3rqBNS5V8XHBv2GtuR6tw7Uuf4uQ_6P8zup27dre2mkcHgfFhAaMJAcVayVXIN8H2F-EYeetZeT9XzjRNT4cbL8jsuOa65gFBMNQ1W6sWzs4Hw6F5zKqL95KlGJKj_DVNrYr-Ooo7KmxM_9zlRd35Xy2z5s4cVFS39eEsAlCYUU1UrJu03SLBY2dP9ovlOevEBUm9HWkVCif5aVF8Mzs9cRolaJwj6rFjjrQPiPcwZ6UY1uyeb6-8Zz11dXKaSD0nGCWkDBE2ilQyZU8doiprDqIxgRTVGzhM41kzbSRZM2D3iGNtf971BrzNd6b8qja4FgftMWTs6i3wAtQREdo43q5uLhcZDS7d9crR0ZoE-8S3j9k-Gga6ejypcw9whrAbaFfRF3t-f2iIw4Xvr1TuENKo-Um_BpChcEtPIQE-qVJXLxyEyWLWpNe2B_vnIVnr2_kFBZxzNHfBzueS624XJwmMNvCFfgRwTvioSgO-bmUdem1LJAUH-TiXMBttpNm-ppIP7WucpSu8cX2PmVCcdnbgMEGGOTkhD-940_idmUZvJwMBpgaHKQQNuvmVyPLSNCWJH6uXjqXToDZr15P244tI6VIcq9rq1ulrq2dMJKFvMdVViWmcuXkZC7dnDL4LE3kbGXF6s7ToCjHk5TFBqcYlCCk0atwPJeppny8LI0Gz1WlNm3PmcQooXzscrMjRkXe-XCJKMpAVClLBOYNl49GYVOzqDXJKy20RjlqVctNtwBdwMURDHz-vyof7g1g3xG_RAOLP_owediADX7iejBlxD3gLbBYkqIuSEi6-w6sexhS_pbGPp9s8afsjzSG-CshUWnCX4H1CH4AazDqjcaTs745NU8n5nh0NuqCAxePB73-dGqOh33zbDKdmOZTF_zMPfR7k_5w2B9MB6Ph4PTUHI67APlZHa7Fv8Lspwt2SZaLgIiwj3jPpZgByxw-_QYdRYMe)
+:::
+
+![UML Class Diagram - Mermaid](src/img/cap4/iot-service-uml.png)
+
+\newpage
+
+**Iot Interceptor Service - Class Diagram**
+
+::: warn
+Para una mejor visualización del diagrama, haga click en la [URL](https://mermaid.live/edit#pako:eNqVVN9v2jAQ_lcsPzE1RSWkSWpVSFXZJLROe4Cq0pQXYx_BIrEj22FjiP99TkIhgVTV_BDbd_fdffcj3mOmOGCCWUaNmQqaaponErlVS9BMLZ6VNGUOGu0bRbUeH7_T1Ya-CGNBgp5Mzqob1tg75NctSDuYWy1kinIwhqbwhaCtErxlX2jFnG4O0ig9pZYOzsfp4ifibu-gDolsU3yD5VyxDVhH1GqVZZdUTwYdmkutKGfU2HbghioHY4WkVijpoS6Zgu4yh7vO4uTuycW3_Z4-LsRFSk9F4ZJZiXQmLWgGhVUXOTXqUteuO3ltqsa89-wbZQ66G7hgF6IW4nergM5pZfzWFZUadC_RbnFaDG9eX2dT1KlQLeGwFQxmV3JTO-rIXxSjmXMNC5EDsu5jLM2LlsVUlcsM0JZmJVzQa8_t7e2kS5Sg44waNOk375kpgrgwBbVsfYb19qnCt_zVwZoafo7rjXuN7xv5nixPM_m_QA0MxLaJhz3sssip4O6ZqDucYLuGHBJM3JFTvUlwIg_OjpZWzXeSYWJ1CR7WqkzXmKxoZtytLNyfDMc35iQtqPylVP4OcVdM9vgPJv4oHgZ3cRjch_5DHPuxh3eYjKJoGPphMA7GfjiKRnF88PDf2sHdMIrjIIhGfhiF9w_jKPAwcOFK--P4xlWbh1NdpXJkCJKDflaltJiEY__wDzdZpJU)
+:::
+
+![UML Class Diagram - Mermaid](src/img/cap4/iot-interceptor-uml.png)
 
 \newpage
 
 ### Class Dictionary.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+::: scenario
+**Class Dictionary – Infraestructura del Sistema**
+:::
+
+::: box
+**API-Gateway**
+:::
+
+* **Estereotipo**: `<<Gateway>>`
+* **Descripción**: Punto de entrada principal al sistema. Se encarga de enrutar las solicitudes externas hacia los microservicios correspondientes.
+* **Responsabilidades**:
+
+  * Encaminamiento de solicitudes a `Parent_Service`, `IoT_Service` y `Routes_Service`.
+  * Redirección de autenticaciones hacia `Keycloak_Service`.
+
+* **Relaciones**:
+
+  * Usa `Keycloak_Service` para autenticación.
+  * Redirige solicitudes a `Parent_Service`, `IoT_Service`, y `Routes_Service`.
+
+::: box
+**Eureka-Server**
+:::
+
+* **Estereotipo**: `<<Service Discovery>>`
+* **Descripción**: Servicio de descubrimiento que permite a los microservicios encontrar y comunicarse entre sí sin necesidad de configurar manualmente sus ubicaciones.
+* **Responsabilidades**:
+
+  * Registrar microservicios disponibles.
+  * Facilitar la resolución dinámica de servicios.
+
+* **Relaciones**:
+
+  * Recibe registros desde `Parent_Service`, `IoT_Service`, `Routes_Service`, y `IoT_Interceptor`.
+
+::: box
+**Config-Server**
+:::
+
+* **Estereotipo**: `<<Config Server>>`
+* **Descripción**: Proveedor centralizado de configuración para los microservicios, basado en repositorios externos (generalmente Git).
+* **Responsabilidades**:
+
+  * Suministrar archivos de configuración a los microservicios.
+
+* **Relaciones**:
+
+  * Es consultado por `Parent_Service`, `IoT_Service`, `Routes_Service`, y `IoT_Interceptor` para obtener configuraciones.
+
+::: box
+**Keycloak-Service**
+:::
+
+* **Estereotipo**: `<<Identity Provider>>`
+* **Descripción**: Sistema de gestión de identidades que maneja autenticación, autorización y emisión de tokens.
+* **Responsabilidades**:
+
+  * Validar tokens JWT emitidos.
+  * Autenticar usuarios que ingresan por el `API_Gateway`.
+
+* **Relaciones**:
+
+  * Autentica a través del `API_Gateway`.
+  * Valida tokens para `Parent_Service`, `IoT_Service`, y `Routes_Service`.
+
+::: box
+**Kafka-Broker**
+:::
+
+* **Estereotipo**: `<<Event Streaming Platform>>`
+* **Descripción**: Plataforma de mensajería basada en eventos. Permite la comunicación asincrónica entre microservicios mediante producción y consumo de eventos.
+* **Responsabilidades**:
+
+  * Recibir eventos de los productores.
+  * Distribuir eventos a los consumidores.
+
+* **Relaciones**:
+
+  * Recibe eventos de `IoT_Service`.
+  * Entrega eventos a `Parent_Service`, `Routes_Service`, y `IoT_Interceptor`.
+
+::: box
+**Parent-Service**
+:::
+
+* **Descripción**: Microservicio núcleo que probablemente actúa como orquestador o lógica principal del sistema.
+* **Responsabilidades**:
+
+  * Registrar en `Eureka_Server`.
+  * Obtener configuración del `Config_Server`.
+  * Validar tokens con `Keycloak_Service`.
+  * Consumir eventos desde `Kafka_Broker`.
+
+* **Relaciones**:
+
+  * Integración completa con todos los componentes principales de infraestructura.
+
+::: box
+**IoT-Service**
+:::
+
+* **Descripción**: Microservicio responsable de gestionar dispositivos IoT, recolectar y enviar datos al sistema.
+* **Responsabilidades**:
+
+  * Registrar en `Eureka_Server`.
+  * Obtener configuración del `Config_Server`.
+  * Validar tokens con `Keycloak_Service`.
+  * Producir eventos hacia `Kafka_Broker`.
+
+* **Relaciones**:
+
+  * Usa `Kafka_Broker` como productor de eventos.
+
+::: box
+**Routes-Service**
+:::
+
+* **Descripción**: Servicio encargado de administrar rutas o trayectos (posiblemente para logística, transporte o navegación).
+* **Responsabilidades**:
+
+  * Registrar en `Eureka_Server`.
+  * Obtener configuración del `Config_Server`.
+  * Validar tokens con `Keycloak_Service`.
+  * Consumir eventos desde `Kafka_Broker`.
+
+* **Relaciones**:
+
+  * Interactúa con la mayoría de los servicios de infraestructura.
+
+::: box
+**IoT-Interceptor**
+:::
+
+* **Descripción**: Microservicio especializado que intercepta datos IoT, posiblemente para análisis, filtrado o seguridad.
+* **Responsabilidades**:
+
+  * Registrar en `Eureka_Server`.
+  * Obtener configuración del `Config_Server`.
+  * Consumir eventos desde `Kafka_Broker`.
+
+* **Relaciones**:
+
+  * Actúa como consumidor de eventos emitidos por `IoT_Service`.
+
+\newpage
+
+
+::: scenario
+**Class Dictionary – Microservicio `Routes Service`**
+:::
+
+::: box
+**Route**
+:::
+
+* **Estereotipo**: `<<Entity>>`
+* **Descripción**: Representa una ruta completa, compuesta por múltiples puntos geográficos ordenados.
+* **Atributos**:
+
+  * `UUID id`: Identificador único de la ruta.
+  * `String name`: Nombre descriptivo de la ruta.
+  * `String description`: Descripción adicional de la ruta.
+  * `List<RoutePoint> points`: Lista ordenada de puntos que forman la ruta.
+
+* **Relaciones**:
+
+  * Composición con `RoutePoint` (una ruta contiene múltiples puntos).
+  * Referenciada por `TravelHistory`.
+
+::: box
+**RoutePoint**
+:::
+
+* **Estereotipo**: `<<Entity>>`
+* **Descripción**: Punto geográfico que forma parte de una ruta.
+* **Atributos**:
+
+  * `UUID id`: Identificador del punto.
+  * `Double latitude`: Coordenada latitudinal.
+  * `Double longitude`: Coordenada longitudinal.
+  * `Integer order`: Posición en la ruta.
+
+::: box
+**TravelHistory**
+:::
+
+* **Estereotipo**: `<<Entity>>`
+* **Descripción**: Registro del historial de viajes de un "parent" (posiblemente un dispositivo o usuario).
+* **Atributos**:
+
+  * `UUID id`: Identificador del historial.
+  * `UUID parentId`: Identificador del emisor o dispositivo.
+  * `UUID routeId`: Ruta que se ha recorrido.
+  * `LocalDateTime startedAt`: Fecha y hora de inicio.
+  * `LocalDateTime endedAt`: Fecha y hora de fin.
+
+* **Relaciones**:
+
+  * Asociación hacia `Route`.
+
+
+::: box
+**RouteDTO**
+:::
+
+* **Estereotipo**: `<<DTO>>`
+* **Descripción**: Representación simplificada de `Route` para transferencias de datos.
+* **Atributos**:
+
+  * `UUID id`, `String name`.
+
+::: box
+**RoutePointDTO**
+:::
+
+* **Estereotipo**: `<<DTO>>`
+* **Descripción**: DTO que representa un punto de una ruta sin información de orden.
+* **Atributos**:
+
+  * `UUID id`, `Double latitude`, `Double longitude`.
+
+::: box
+**TravelHistoryDTO**
+:::
+
+* **Estereotipo**: `<<DTO>>`
+* **Descripción**: DTO para transferir información básica del historial de viajes.
+* **Atributos**:
+
+  * `UUID id`, `LocalDateTime startedAt`, `LocalDateTime endedAt`.
+
+:: box
+**RouteRepository**
+:::
+
+* **Estereotipo**: `<<Repository>>`
+* **Descripción**: Interfaz para el acceso a datos de `Route`.
+* **Métodos**:
+
+  * `findAll()`: Obtiene todas las rutas.
+  * `findById(UUID id)`: Busca una ruta por ID.
+
+::: box
+**TravelHistoryRepository**
+:::
+
+* **Estereotipo**: `<<Repository>>`
+* **Descripción**: Maneja la persistencia de historiales de viaje.
+* **Métodos**:
+
+  * `findAllByParentId(UUID parentId)`: Encuentra todos los viajes de un dispositivo/usuario.
+
+::: box
+**RouteService**
+:::
+
+* **Estereotipo**: `<<Service>>`
+* **Descripción**: Capa de lógica de negocio para la gestión de rutas.
+* **Métodos**:
+
+  * `findAllRoutes()`: Devuelve todas las rutas en forma de `RouteDTO`.
+  * `findRouteById(UUID id)`: Devuelve una ruta específica como `RouteDTO`.
+
+* **Relaciones**:
+
+  * Usa `RouteRepository`.
+  * Produce `RouteDTO`.
+
+::: box
+**TravelHistoryService**
+:::
+
+* **Estereotipo**: `<<Service>>`
+* **Descripción**: Lógica de negocio para la gestión de historiales de viaje.
+* **Métodos**:
+
+  * `findTravelHistoriesByParent(UUID parentId)`: Devuelve los historiales asociados a un "parent".
+
+* **Relaciones**:
+
+  * Usa `TravelHistoryRepository`.
+  * Produce `TravelHistoryDTO`.
+
+::: box
+**RouteController**
+:::
+
+* **Estereotipo**: `<<Controller>>`
+* **Descripción**: Controlador REST que expone rutas relacionadas a `Route`.
+* **Métodos**:
+
+  * `getAllRoutes()`: Devuelve todas las rutas.
+  * `getRouteById(UUID id)`: Devuelve una ruta por su ID.
+
+* **Relaciones**:
+
+  * Usa `RouteService`.
+
+::: box
+**TravelHistoryController**
+:::
+
+* **Estereotipo**: `<<Controller>>`
+* **Descripción**: Controlador REST para los historiales de viaje.
+* **Métodos**:
+
+  * `getTravelHistories(UUID parentId)`: Devuelve historiales de un "parent".
+
+* **Relaciones**:
+
+  * Usa `TravelHistoryService`.
+
+::: box
+**RoutesKafkaConsumer**
+:::
+
+* **Estereotipo**: `<<KafkaListener>>`
+* **Descripción**: Escucha mensajes desde Kafka para crear o actualizar rutas.
+* **Métodos**:
+
+  * `consumeRouteEvent(String message)`: Procesa eventos entrantes.
+  * `parseRoutePayload(String payload)`: Convierte un mensaje en un `RouteDTO`.
+
+* **Relaciones**:
+
+  * Usa `RouteService` para persistencia.
+  * Produce `RouteDTO`.
+
+::: box
+**AppConfigRoutes**
+:::
+
+* **Estereotipo**: `<<Configuration>>`
+* **Descripción**: Clase de configuración del microservicio.
+* **Métodos**:
+
+  * `datasourceConfig()`: Proporciona la configuración de la fuente de datos.
+
+* **Relaciones**:
+
+  * Configura `RouteRepository`, `TravelHistoryRepository`, y `RoutesKafkaConsumer`.
+
+\newpage
+
+::: scenario
+**Class Dictionary – Microservicio `Parent Service`**
+:::
+
+::: box
+**Parent**
+:::
+
+* **Descripción:** Representa a un padre registrado en el sistema.
+* **Atributos:**
+
+  * `UUID id`: Identificador único del padre.
+  * `UUID userId`: Identificador del usuario relacionado (autenticación).
+  * `String firstName`: Nombre del padre.
+  * `String lastName`: Apellido del padre.
+  * `List<Child> children`: Lista de hijos asociados al padre.
+
+::: box
+**Child**
+:::
+
+* **Descripción:** Representa a un hijo o hija de un padre registrado.
+* **Atributos:**
+
+  * `UUID id`: Identificador único del hijo.
+  * `String firstName`: Nombre del hijo.
+  * `String lastName`: Apellido del hijo.
+  * `LocalDate birthDate`: Fecha de nacimiento del hijo.
+
+::: box
+`**User**
+:::
+
+* **Descripción:** Entidad que representa al usuario autenticado del sistema.
+* **Atributos:**
+
+  * `UUID id`: Identificador único del usuario.
+  * `String username`: Nombre de usuario.
+  * `String email`: Correo electrónico del usuario.
+  * `String password`: Contraseña (probablemente encriptada).
+  * `List<String> roles`: Lista de roles asignados al usuario.
+
+::: box
+**ParentDTO**
+:::
+
+* **Descripción:** Objeto de transferencia de datos para la entidad `Parent`.
+* **Atributos:**
+
+  * `UUID id`
+  * `UUID userId`
+  * `String firstName`
+  * `String lastName`
+
+::: box
+**ChildDTO**
+:::
+
+* **Descripción:** Objeto de transferencia para `Child`.
+* **Atributos:**
+
+  * `UUID id`
+  * `String firstName`
+  * `String lastName`
+
+::: box
+**UserDTO**
+:::
+
+* **Descripción:** Representación simplificada del usuario, omitiendo la contraseña.
+* **Atributos:**
+
+  * `UUID id`
+  * `String username`
+  * `String email`
+
+::: box
+**ParentRepository**
+:::
+
+* **Descripción:** Interfaz que define operaciones de persistencia para `Parent`.
+* **Métodos:**
+
+  * `List<Parent> findAll()`
+  * `Optional<Parent> findById(UUID id)`
+
+::: box
+**ChildRepository**
+:::
+
+* **Descripción:** Repositorio para la entidad `Child`.
+* **Métodos:**
+
+  * `List<Child> findAllByParentId(UUID parentId)`
+
+::: box
+**UserRepository**
+:::
+
+* **Descripción:** Repositorio para usuarios autenticados del sistema.
+* **Métodos:**
+
+  * `Optional<User> findByUsername(String username)`
+
+::: box
+**ParentService**
+:::
+
+* **Descripción:** Lógica de negocio para padres.
+* **Métodos:**
+
+  * `List<ParentDTO> findAllParents()`
+  * `ParentDTO findParentById(UUID id)`
+
+::: box
+**ChildService**
+:::
+
+* **Descripción:** Lógica de negocio para hijos.
+* **Métodos:**
+
+  * `List<ChildDTO> findChildrenByParentId(UUID parentId)`
+
+::: box
+**UserService**
+:::
+
+* **Descripción:** Gestión de usuarios.
+* **Métodos:**
+
+  * `UserDTO findUserByUsername(String username)`
+
+
+::: box
+**ParentController**
+:::
+
+* **Descripción:** Exposición HTTP de recursos `Parent`.
+* **Endpoints:**
+
+  * `getAllParents() → ResponseEntity<List<ParentDTO>>`
+  * `getParentById(UUID id) → ResponseEntity<ParentDTO>`
+
+::: box
+**ChildController**
+:::
+
+* **Descripción:** Exposición HTTP para acceder a hijos de un padre.
+* **Endpoints:**
+
+  * `getChildrenByParent(UUID parentId) → ResponseEntity<List<ChildDTO>>`
+
+::: box
+**UserController**
+:::
+
+* **Descripción:** Controlador para operaciones relacionadas con usuarios.
+* **Endpoints:**
+
+  * `getUserByUsername(String username) → ResponseEntity<UserDTO>`
+
+
+::: box
+**ParentKafkaConsumer**
+:::
+
+* **Descripción:** Consume eventos Kafka relacionados con padres.
+* **Métodos:**
+
+  * `consumeParentEvent(String message)`: Consume el mensaje Kafka entrante.
+  * `parseParentPayload(String payload): ParentDTO`: Parsea el mensaje en formato DTO.
+
+::: box
+**AppConfigParent**
+:::
+
+* **Descripción:** Clase de configuración principal del microservicio.
+* **Métodos:**
+
+  * `DataSource datasourceConfig()`: Configura la fuente de datos.
+
+* **Configura:** `ParentRepository`, `ChildRepository`, `UserRepository`, `ParentKafkaConsumer`.
+
+\newpage
+
+::: scenario
+**Class Dictionary – Microservicio `IoT Service`**
+:::
+
+::: box
+**Device**
+:::
+
+* **Descripción:** Representa un dispositivo físico propiedad de un padre que contiene sensores.
+* **Atributos:**
+
+  * `UUID id`: Identificador único del dispositivo.
+  * `String name`: Nombre del dispositivo.
+  * `String type`: Tipo de dispositivo (ej. "Pulsera", "Sensor ambiental").
+  * `UUID parentId`: ID del padre propietario del dispositivo.
+  * `List<Sensor> sensors`: Lista de sensores asociados al dispositivo.
+
+::: box
+**Sensor**
+:::
+
+* **Descripción:** Componente que mide una variable física y se asocia a un dispositivo.
+* **Atributos:**
+
+  * `UUID id`: Identificador único del sensor.
+  * `String type`: Tipo de sensor (ej. temperatura, frecuencia cardíaca).
+  * `String unit`: Unidad de medida (ej. "°C", "bpm").
+
+::: box
+**SensorData**
+:::
+
+* **Descripción:** Registros históricos de los datos recolectados por un sensor.
+* **Atributos:**
+
+  * `UUID id`: Identificador del dato.
+  * `UUID sensorId`: ID del sensor que generó el dato.
+  * `LocalDateTime timestamp`: Fecha y hora del registro.
+  * `Double value`: Valor medido por el sensor.
+
+::: box
+**DeviceDTO**
+:::
+
+* **Descripción:** Representación simplificada de un `Device` para transferencias de datos.
+* **Atributos:**
+
+  * `UUID id`
+  * `String name`
+  * `String type`
+
+::: box
+**SensorDTO**
+:::
+
+* **Descripción:** Transferencia de datos del objeto `Sensor`.
+* **Atributos:**
+
+  * `UUID id`
+  * `String type`
+  * `String unit`
+
+::: box
+**SensorDataDTO**
+:::
+
+* **Descripción:** DTO que encapsula los datos generados por sensores.
+* **Atributos:**
+
+  * `UUID id`
+  * `UUID sensorId`
+  * `LocalDateTime timestamp`
+  * `Double value`
+
+::: box
+**DeviceRepository**
+:::
+
+* **Descripción:** Acceso a la persistencia para dispositivos.
+* **Métodos:**
+
+  * `List<Device> findAll()`
+  * `Optional<Device> findById(UUID id)`
+
+::: box
+**SensorRepository**
+:::
+
+* **Descripción:** Provee acceso a sensores.
+* **Métodos:**
+
+  * `List<Sensor> findAllByDeviceId(UUID deviceId)`
+
+::: box
+**SensorDataRepository**
+:::
+
+* **Descripción:** Manejo de almacenamiento de datos de sensores.
+* **Métodos:**
+
+  * `List<SensorData> findAllBySensorId(UUID sensorId)`
+
+::: box
+**DeviceService**
+:::
+
+* **Descripción:** Lógica de negocio para dispositivos.
+* **Métodos:**
+
+  * `List<DeviceDTO> findAllDevices()`
+  * `DeviceDTO findDeviceById(UUID id)`
+
+::: box
+**SensorService**
+:::
+
+* **Descripción:** Servicios relacionados con sensores.
+* **Métodos:**
+
+  * `List<SensorDTO> findSensorsByDeviceId(UUID deviceId)`
+
+::: box
+**SensorDataService**
+:::
+
+* **Descripción:** Manejo y persistencia de los datos recogidos por sensores.
+* **Métodos:**
+
+  * `List<SensorDataDTO> findSensorDataBySensorId(UUID sensorId)`
+  * `void saveSensorData(SensorDataDTO dto)`
+
+::: box
+**DeviceController**
+:::
+
+* **Descripción:** Expone la API REST relacionada a dispositivos.
+* **Endpoints:**
+
+  * `getAllDevices() → ResponseEntity<List<DeviceDTO>>`
+  * `getDeviceById(UUID id) → ResponseEntity<DeviceDTO>`
+
+::: box
+**SensorController**
+:::
+
+* **Descripción:** Endpoints relacionados a sensores dentro de un dispositivo.
+* **Endpoints:**
+
+  * `getSensorsByDevice(UUID deviceId) → ResponseEntity<List<SensorDTO>>`
+
+::: box
+**SensorDataController**
+:::
+
+* **Descripción:** Controlador que expone los datos recolectados por sensores.
+* **Endpoints:**
+
+  * `getSensorData(UUID sensorId) → ResponseEntity<List<SensorDataDTO>>`
+
+::: box
+**IoTKafkaConsumer**
+:::
+
+* **Descripción:** Componente que consume eventos enviados vía Kafka con datos de sensores.
+* **Métodos:**
+
+  * `consumeSensorEvent(String message)`: Procesa y guarda los datos de sensor recibidos.
+  * `parseSensorPayload(String payload): SensorDataDTO`: Parsea un mensaje JSON en un DTO válido.
+
+::: box
+**AppConfigIoT**
+:::
+
+* **Descripción:** Clase de configuración general del microservicio IoT.
+
+* **Métodos:**
+
+  * `MongoTemplate mongoTemplate()`: Configura acceso a MongoDB.
+  * `ConsumerFactory kafkaConsumerFactory()`: Configura el factory para Kafka consumer.
+
+* **Configura:**
+
+  * Repositorios: `DeviceRepository`, `SensorRepository`, `SensorDataRepository`
+  * Kafka: `IoTKafkaConsumer`
+
+\newpage
+
+::: scenario
+**Class Dictionary – Microservicio `IoT Interceptor Service`**
+:::
+
+::: box
+**IoTConsumer**
+:::
+
+* **Descripción:** Componente que escucha eventos Kafka provenientes del servicio IoT y actúa como interceptor de datos de sensores.
+* **Métodos:**
+
+  * `consumeIoTEvent(String message)`: Escucha y recibe mensajes JSON desde Kafka que contienen datos de sensores.
+  * `processSensorData(SensorDataDTO data)`: Procesa el mensaje recibido y lo convierte en un DTO válido, que luego es reenviado por WebSocket a los clientes suscritos.
+
+::: box
+**WebSocketController**
+:::
+
+* **Descripción:** Controlador que gestiona la difusión de datos a través de WebSocket hacia los clientes conectados en tiempo real.
+* **Métodos:**
+
+  * `broadcastSensorData(String destination, SensorDataDTO payload)`: Difunde los datos de sensor a un destino WebSocket específico.
+  * `broadcastAlert(String destination, String message)`: Envía un mensaje de alerta en tiempo real a través de WebSocket (por ejemplo, para notificaciones críticas o anormales).
+
+::: box
+**AppConfigInterceptor**
+:::
+
+* **Descripción:** Clase de configuración para el microservicio, enfocada en Kafka y WebSocket.
+
+* **Métodos:**
+
+  * `kafkaConsumerFactory()`: Configura y expone un `ConsumerFactory` necesario para consumir eventos Kafka.
+  * `webSocketConfig()`: Configura el canal y comportamiento de WebSocket del sistema.
+
+* **Configura:**
+
+  * `IoTConsumer`
+  * `WebSocketController`
+
+::: box
+**SensorDataDTO**
+:::
+
+* **Descripción:** Objeto de transferencia de datos que representa una medición de un sensor, extendido para incluir el `deviceId`.
+* **Atributos:**
+
+  * `UUID id`: Identificador del dato de sensor.
+  * `UUID deviceId`: Identificador del dispositivo que contiene el sensor.
+  * `UUID sensorId`: Identificador del sensor que produjo el dato.
+  * `LocalDateTime timestamp`: Marca de tiempo del momento de recolección.
+  * `Double value`: Valor numérico medido.
+
+* `IoTConsumer --> SensorDataDTO`: Consume los datos como entrada desde Kafka.
+* `IoTConsumer --> WebSocketController`: Envía los datos procesados para su difusión.
+* `WebSocketController --> SensorDataDTO`: Utiliza el DTO tanto para entrada como para difusión.
+* `AppConfigInterceptor`: Configura la infraestructura para Kafka y WebSocket.
 
 \newpage
 
 ## Database Design.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+El diseño de bases de datos es un componente fundamental en el desarrollo de aplicaciones modernas, ya que permite estructurar, almacenar y gestionar de manera eficiente grandes volúmenes de información. Una base de datos bien diseñada no solo mejora el rendimiento y la escalabilidad del sistema, sino que también garantiza la integridad, consistencia y accesibilidad de los datos. En este apartado se describe el proceso de diseño de la base de datos del sistema, considerando tanto modelos relacionales como no relacionales, según la naturaleza de la información y los requerimientos específicos del proyecto.
+
+Para ello, se han utilizado herramientas como el **Modelo Entidad-Relación (ER)** y los **diagramas de esquemas lógicos**, que permiten representar gráficamente las entidades clave, sus atributos y las relaciones existentes entre ellas. Este modelo facilita la comprensión global de la estructura de datos, además de ser un punto de partida para la posterior implementación en un sistema de gestión de bases de datos (DBMS).
+
+Este diseño actúa como un puente entre el análisis de requerimientos y la implementación, permitiendo validar que la estructura de datos propuesta cumple con los objetivos funcionales del sistema, y sirviendo como referencia para desarrolladores, analistas y administradores de bases de datos a lo largo del ciclo de vida del software.
+
+![Recurso extraído de Canva](src/img/cap4/database-design-intro.png)
 
 \newpage
 
 ### Relational/Non-Relational Database Diagram.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+**Parent Service - Database Design**
+
+::: warn
+Para una mejor visualización del diagrama, haga click en la [URL](https://mermaid.live/edit#pako:eNqtU8tuwjAQ_BVrzwElgSSKbxGkApVSGqCHCilyaxOigo0cR5QC_17nQQFR1B7qk3dnNbOza-_gTVAGGJjspiSRZDXjSJ_pOIzQrrqX8bTfRSlFo_tT7jmIOr0gQnnGJCcrhqbD_tM0vC5gK5Iub6JrkmUbIWmFHE76cfQ4CK-aKNTiG51IsWTfQM00CqJwOPnNywX13Q_U81RmKi5sXmNLcgHVwp1ef9D9k-6aSMbVPygXpxtMQvSaSrWIKVGnls72ut83GmJ3nAxGYsOza_i0Aoz0itKEMxoXE84uBltXV24xWhANgwErJvXWqX5Z5QRmoBZMtwlYXymR7zOY8YOuI7kS4y1_A6xkzgyQIk8WgOdkmekoXxce6pd5LFkT_iLEeQh4Bx-ALcttui3Ts33Xc2zf9j0Dtjrt-k3bctpO2zItx7WdgwGfJYHZdHzHNFuW67mmaXmeawCjqRLyofoV5ecwIJGFk7pBximTHZFzVVIfvgBz_O2Y)
+:::
+
+![Database Design Diagram Mermaid](src/img/cap4/parent-service-database.png){height=70%}
+
+\newpage
+
+**Routes Service - Database Design**
+
+::: warn
+Para una mejor visualización del diagrama, haga click en la [URL](https://mermaid.live/edit#pako:eNqNUttuwjAM_ZXIzwVBSUvpGxsdq8ZNpUzaVAllxEA1SFBIpTHovy8FpnGTRt7sc2KfY3sLE8kRfEDVStlMsWUiiHlRfxQHZHsIijcahS2ScjJ4-csN4yjstYlgS7xKclxPVLrSqRQHLE_ESenxoB_24v8a7HNKZhrHBnk6QVr90UMnIAumU51xvAakmF0gpl_QDiIiFUd1oSmOmq9BZ_wcDuN-9HaXrBVTKLTRdZfcZhzEYTcga82URj5m-gaIgp9A5wMju12pJLdn0_PJnK1vcC7c-CQBhVM0eifIyccmgUSABUtUS5Zys_y93wT0HM0moeBzpj4LWm54LNNyuBET8LXK0ALjcDYHf8oWaxNlK840Ho_nl7Ji4l3K0xD8LXyBb9N6ueG5Tt22Xce1HQs24FcbTtm2qV21XepSj9a83ILv_f9KmboepdRxG5UardGqZwHyVEvVPdzt_nwtmKnCyFFfMUf1KDOhTe1a_gNZ3tTZ)
+:::
+
+![Database Design Diagram Mermaid](src/img/cap4/routes-service-database.png){height=70%}
+
+\newpage
+
+**IoT Service - Database Design**
+
+::: warn
+Para una mejor visualización del diagrama, haga click en la [URL](https://mermaid.live/edit#pako:eNqNUttugkAQ_ZXNPKNBQJB9s0obY9VGtA8Nidm4UyWVXbIsplb9966iqdomdp5mzlzO3LYwlxyBAqpuyhaKZYkgRrrRa68TkW1lHWQ67XVJyslL_weLJ-Pe8IkIluEvUG9yvMnOmUKhZymv8H0iKiWOhvFofI_siHFcp3M0Jchj_w7lCSxFqv_km3Xbk_a_SAsUhVS3pCY9mvQGEdFphoVmWX7hG00fniOyZqsSb8hPm93tajW5PY9OyZIVV8u48letUqJwLhU3gWBBhipjKTenO46QgF6iOQNQo3KmPhJIxN7EsVLLeCPmQLUq0QIly8US6DtbFcYqc840nk5_DsmZeJPy0gS6hU-gruvV_aDlhYHb8Lym27BgAzR06nYYNm2n6bte4Df9vQVfx3y73rIdx26EXtBw3MDzQwuQp1qqQfV1x-ezYKEOg5z6Q8FRdWQptCkd7L8BYvq_Sg)
+:::
+
+![Database Design Diagram Mermaid](src/img/cap4/iot-service-database.png){height=70%}
+
+\newpage
+
+**IoT Interceptor Service - Database Design**
+
+::: warn
+Para una mejor visualización del diagrama, haga click en la [URL](https://mermaid.live/edit#pako:eNpdkE1vwjAMhv9K5XOFaBuSkBsbPaANmMbHYaqEIuJBNJKgNEVjqP994WPThk_2Y_vVa59g7RSCAPRDLTdemsomMWblZDZ9XQ0H88GqXJaTeXK6Ns6xWIyGiVbJy9MdU3jQa1xpdcdrtLXz_3hULuejcZkEbbAO0uz_9KaLh-cyOchdg1faVhZSMOiN1Cq6vZipIGzRYAUipkr6jwoq28Y52QQ3O9o1iOAbTMG7ZrMF8S53dayavZIBb9f-0r20b86Zn5VYgjjBJ4g84x3S5ZT0aN7nPOcpHEFkjHVoTklBipxmLOO8TeHrItDtMM4JYRkreLdfMNJLAZUOzo-vr758PIWNP59yc4hWoX90jQ0gaEHbbxpId9c)
+:::
+
+![Database Design Diagram Mermaid](src/img/cap4/iot-interceptor-database.png){height=70%}
 
 \newpage
 
@@ -5489,4 +6714,6 @@ Para acceder los insights de este proyecto, haga click a la [URL](https://github
 Para acceder al video  about the product, haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EWO4I1TkuVdCnZbW0aswNssBgLRcrsjVJa2rl-7IQv-QoA?e=vw70w7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 :::
 
-# Bibliografia
+![Captura de Microsoft Stream](src/img/cap5/video-about-the-product.png)
+
+# Bibliografía
