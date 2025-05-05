@@ -15,6 +15,7 @@ date: "2025-01"
 subject: "Markdown"
 keywords: [Markdown, Report]
 subtitle: "Diseño de Experimentos de Ingeniería de Software - 4429 - 1ASI0732"
+block-headings: true
 lang: "es"
 colorlinks: true
 footer-left: "CodeMinds"
@@ -829,3 +830,5 @@ Para acceder los insights de este proyecto, haga click a la [URL](https://github
 ::: warn
 Para acceder al video  about the product, haga click en la [URL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EWO4I1TkuVdCnZbW0aswNssBgLRcrsjVJa2rl-7IQv-QoA?e=vw70w7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 :::
+
+![Captura de Microsoft Stream](src/img/cap5/video-about-the-product.png)

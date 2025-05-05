@@ -15,6 +15,7 @@ date: "2025-01"
 subject: "Markdown"
 keywords: [Markdown, Report]
 subtitle: "Diseño de Experimentos de Ingeniería de Software - 4429 - 1ASI0732"
+block-headings: true
 lang: "es"
 colorlinks: true
 footer-left: "CodeMinds"

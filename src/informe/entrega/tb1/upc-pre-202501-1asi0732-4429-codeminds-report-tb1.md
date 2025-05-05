@@ -15,6 +15,7 @@ date: "2025-01"
 subject: "Markdown"
 keywords: [Markdown, Report]
 subtitle: "Diseño de Experimentos de Ingeniería de Software - 4429 - 1ASI0732"
+block-headings: true
 lang: "es"
 colorlinks: true
 footer-left: "CodeMinds"
@@ -33,15 +34,28 @@ code-block-font-size: \scriptsize
 nocite: |
   @gothelf2021,
   @hernandez2018,
-  @kasparova2022,
   @kalbach2016,
-  @smith2020,
-  @johnson2019,
-  @brown2022,
+  @tarzijan2019,
+  @lin2024,
+  @rijgersberg2025,
   @igartua2019desconexion,
   @jiang2024pervasive,
   @kaspersky_privacy,
-  @collave2024datos
+  @collave2024datos,
+  @rajput2021,
+  @boyd2021,
+  @richardson2020,
+  @toussaint2020,
+  @brown2021,
+  @angular2024,
+  @freeman2022,
+  @edutransport2020,
+  @skole2020,
+  @satgeo2020,
+  @allride2020,
+  @ubusschool2020,
+  @tilkov2017,
+  @pilgrim2021
 header-includes:
 - |
   ```{=latex} 
