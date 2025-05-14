@@ -171,7 +171,7 @@ Esta estructura asegura que los módulos Angular sean correctamente validados an
 
 **Diagrama del pipeline CI/CD para Angular**
 
-![Artefacto creado en Diagrams - Build & Test Suite Pipeline - Angular SSR + GitFlow](src/img/cap6/7.1.2_build_&_test_suite_pipeline_(angular_ssr_+_gitflow).png)
+![Artefacto creado en Diagrams - Build & Test Suite Pipeline - Angular SSR + GitFlow](src/img/cap7/7.1.2_build_&_test_suite_pipeline_(angular_ssr_+_gitflow).png)
 
 \newpage
 
@@ -240,7 +240,7 @@ El pipeline propuesto se divide en dos grandes etapas:
 
 - **Notificaciones automáticas al equipo (Slack/Email)**
 
-![Artefacto creado en Diagrams - Stages Deployment Pipeline - Angular SSR + GitFlow](src/img/cap6/7.2.2_–_stages_deployment_pipeline_(angular_ssr_+_gitflow).png)
+![Artefacto creado en Diagrams - Stages Deployment Pipeline - Angular SSR + GitFlow](src/img/cap7/7.2.2_–_stages_deployment_pipeline_(angular_ssr_+_gitflow).png)
 
 \newpage
 
@@ -292,7 +292,7 @@ El pipeline de despliegue continuo está planificado con la siguiente estructura
 | Activación          | Inicio del SSR con PM2 o script personalizado                |
 | Notificación        | Envío de alertas a Slack o email tras despliegue exitoso     |
 
-![Production Deployment Pipeline - Angular SSR + GitFlow](src/img/cap6/7.2.3_pipeline_diagram_(angular_ssr_+_gitflow).png)
+![Production Deployment Pipeline - Angular SSR + GitFlow](src/img/cap7/7.2.3_pipeline_diagram_(angular_ssr_+_gitflow).png)
 
 
 \newpage
