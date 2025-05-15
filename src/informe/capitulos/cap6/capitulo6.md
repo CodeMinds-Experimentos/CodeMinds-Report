@@ -391,6 +391,12 @@ describe('BlankLayoutComponent', () => {
 
 **Ejemplos de pruebas**
 
+- `Jasmine` junto con `Karma`, por su integración nativa con Angular, su robustez para ejecutar pruebas unitarias y su soporte para herramientas como `TestBed` y `HttpTestingController`.
+
+- Mocking de dependencias usando `spyOn()` de Jasmine en servicios reutilizables, permitiendo observar y controlar llamadas sin necesidad de clases fake complejas.
+
+- Ejecución automatizada de pruebas mediante `Karma`, con reporter visual en navegador y cobertura integrada.
+
 - Validación de renderizado correcto en un componente de lista de estudiantes.
   
 - Verificación de emisiones desde un componente formulario con `@Output()`.
@@ -439,6 +445,8 @@ Se realizaron pruebas unitarias sobre funciones puras, servicios sin dependencia
 - Total de pruebas unitarias: 24
 - Pruebas exitosas: 24
 - Pruebas fallidas: 0
+- Herramienta: Jasmine + Karma
+
 
 **Resumen por entidad:**
 
