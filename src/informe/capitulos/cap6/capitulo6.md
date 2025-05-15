@@ -116,6 +116,10 @@ Las pruebas se realizaron con herramientas del ecosistema Angular y bibliotecas 
 
 **Herramientas utilizadas**
   
+- **Jasmine**: framework de pruebas utilizado para definir y estructurar los tests unitarios e integrados.
+
+- **Karma**: ejecutor de pruebas (test runner) que permite ejecutar los tests en navegadores reales.
+
 - **HttpClientTestingModule**: para simular peticiones HTTP en pruebas de integración.
   
 - **Cypress**: para pruebas de sistema y flujos completos de usuario.
@@ -381,9 +385,17 @@ describe('BlankLayoutComponent', () => {
 
 **Herramientas utilizadas**
 
+- `Jasmine` junto con `Karma`, por su integración nativa con Angular CLI, sintaxis legible y soporte robusto para pruebas unitarias e integración en navegadores reales o headless.
+
 - `TestBed` solo en casos donde era necesario emular inyección de dependencias.
 
 **Ejemplos de pruebas**
+
+- `Jasmine` junto con `Karma`, por su integración nativa con Angular, su robustez para ejecutar pruebas unitarias y su soporte para herramientas como `TestBed` y `HttpTestingController`.
+
+- Mocking de dependencias usando `spyOn()` de Jasmine en servicios reutilizables, permitiendo observar y controlar llamadas sin necesidad de clases fake complejas.
+
+- Ejecución automatizada de pruebas mediante `Karma`, con reporter visual en navegador y cobertura integrada.
 
 - Validación de renderizado correcto en un componente de lista de estudiantes.
   
@@ -433,6 +445,8 @@ Se realizaron pruebas unitarias sobre funciones puras, servicios sin dependencia
 - Total de pruebas unitarias: 24
 - Pruebas exitosas: 24
 - Pruebas fallidas: 0
+- Herramienta: Jasmine + Karma
+
 
 **Resumen por entidad:**
 
