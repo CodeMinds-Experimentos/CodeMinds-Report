@@ -116,6 +116,10 @@ Las pruebas se realizaron con herramientas del ecosistema Angular y bibliotecas 
 
 **Herramientas utilizadas**
   
+- **Jasmine**: framework de pruebas utilizado para definir y estructurar los tests unitarios e integrados.
+
+- **Karma**: ejecutor de pruebas (test runner) que permite ejecutar los tests en navegadores reales.
+
 - **HttpClientTestingModule**: para simular peticiones HTTP en pruebas de integración.
   
 - **Cypress**: para pruebas de sistema y flujos completos de usuario.
@@ -380,6 +384,8 @@ describe('BlankLayoutComponent', () => {
 - Funciones puras auxiliares y pipes personalizados.
 
 **Herramientas utilizadas**
+
+- `Jasmine` junto con `Karma`, por su integración nativa con Angular CLI, sintaxis legible y soporte robusto para pruebas unitarias e integración en navegadores reales o headless.
 
 - `TestBed` solo en casos donde era necesario emular inyección de dependencias.
 
