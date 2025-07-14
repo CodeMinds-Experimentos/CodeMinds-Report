@@ -111,6 +111,34 @@ pandoc-latex-environment:
   \hline
   tb1 & 25/04/2025 & Vargas Revollé, Ariana & Me encargué del \textit{To-Be Scenario Mapping}, \textit{Needfinding}, incluyendo \textit{User Personas}, \textit{Journey Map}, \textit{Empathy Mapping} y \textit{As-is Scenario Map}. También diseñé el \textit{Landing Page Mock-up}. \\
   \hline
+  tp1 & 14/05/2025 & Ortega Huaraca, Abel & Contribuí al Capítulo III con el \textit{To-Be Scenario Mapping}, \textit{User Stories}, y el \textit{Product Backlog}. En el Capítulo V, documenté la \textit{Software Deployment Configuration} y las evidencias de implementación (landing page, frontend, móvil y backend). En el Capítulo VI redacté las pruebas \textit{unitarias, de integración, BDD y de sistema}. Finalmente, desarrollé los apartados de \textit{Continuous Integration}, \textit{Delivery} y \textit{Deployment} en el Capítulo VII. \\
+  \hline
+  tp1 & 14/05/2025 & Ramos Rios, Belén del Rocio & Participé en el Capítulo V organizando los \textit{Sprint Backlogs} y redactando \textit{Team Collaboration Insights}. También colaboré con la validación de componentes implementados, y aporté en los flujos de trabajo descritos en DevOps (\textit{Delivery y Deployment}). \\
+  \hline
+  tp1 & 14/05/2025 & Vilchez Rios, Mateo Alejandro & En el Capítulo III colaboré con las \textit{User Stories}, \textit{Product Backlog} e \textit{Impact Mapping}. En el Capítulo V, trabajé en la documentación de las evidencias implementadas y en el Capítulo VII contribuí a los flujos de \textit{CI/CD}, especialmente en los componentes del pipeline. \\
+  \hline
+  tp1 & 14/05/2025 & Herrera González, Luis Eduardo & En el Capítulo V redacté la configuración del entorno de desarrollo y el control de versiones del código fuente. Además, elaboré la guía de estilo y convenciones de codificación para el proyecto. También contribuí en la definición de pruebas para el Capítulo VI. \\
+  \hline
+
+  tb2 & 10/06/2025 & Vargas Revollé, Ariana & Apoyé en el Capítulo III con el \textit{To-Be Scenario Mapping} y validación de historias de usuario. También diseñé y refiné las interfaces gráficas de usuario para la landing page, asegurando su compatibilidad móvil. En el Capítulo VI, estructuré los casos de prueba y documenté resultados en base a criterios de aceptación. \\
+  \hline
+  tb2 & 10/06/2025 & Ramos Rios, Belén del Rocio & Participé en el Capítulo V organizando los \textit{Sprint Backlogs} y redactando \textit{Team Collaboration Insights}. Además, lideré sesiones de revisión retrospectiva para identificar mejoras en el proceso ágil. También colaboré con la validación funcional de los entregables y la integración continua descrita en DevOps. \\
+  \hline
+  tb2 & 10/06/2025 & Vilchez Rios, Mateo Alejandro & En el Capítulo III colaboré con las \textit{User Stories}, \textit{Product Backlog} e \textit{Impact Mapping}. En el Capítulo V, documenté evidencias técnicas de implementación e integré métricas de rendimiento de funcionalidades clave. En el Capítulo VII, configuré herramientas para la automatización del pipeline de \textit{CI/CD} y realicé pruebas de despliegue. \\
+  \hline
+  tb2 & 10/06/2025 & Herrera González, Luis Eduardo & En el Capítulo V redacté la configuración del entorno de desarrollo y el control de versiones del código fuente. Además, definí la guía de estilo del repositorio y propuse reglas de linting automatizado. En el Capítulo VI, implementé pruebas unitarias con cobertura mínima del 80\% y coordiné su integración en el pipeline. \\
+  \hline
+  tb2 & 10/06/2025 & Vargas Revollé, Ariana & Apoyé en el Capítulo III con el \textit{To-Be Scenario Mapping} y validación de historias de usuario. También diseñé y refiné las interfaces gráficas de usuario para la landing page, asegurando su compatibilidad móvil. En el Capítulo VI, estructuré los casos de prueba y documenté resultados en base a criterios de aceptación. \\
+\hline
+  tf1 & 9/07/2025 & Herrera González, Luis Eduardo & En el Capítulo II participé en la elaboración del análisis de stakeholders y la matriz de priorización de requerimientos. Además, diseñé wireframes iniciales para validar la experiencia de usuario y colaboré en la estructuración del documento de visión del producto. \\
+  \hline
+  tf1 & 9/07/2025 & Vargas Revollé, Arian a& Contribuí en el Capítulo IV desarrollando componentes front-end reutilizables siguiendo principios de accesibilidad. También colaboré con la integración de estos componentes mediante pruebas funcionales y su documentación para futuras iteraciones. \\
+  \hline
+  tf1 & 9/07/2025 & Ortega Huaraca, Abel & Participé en la definición de reglas de negocio y validaciones del sistema en el Capítulo III. También configuré el sistema de control de versiones y propuse mejoras en la gestión de ramas durante los sprints. \\
+  \hline
+  tf1 & 9/07/2025 & Ramos Rios, Belén del Rocio & En el Capítulo VI estructuré los escenarios de prueba para validar la lógica de negocio y realicé pruebas exploratorias. Asimismo, apoyé en la redacción del plan de aseguramiento de calidad y reporte de incidencias detectadas. \\
+  \hline
+  tf1 & 9/07/2025 & Vilchez, Rios Mateo & Trabajé en el Capítulo VII automatizando tareas del pipeline de integración continua con scripts personalizados. Además, documenté los procesos de despliegue en entornos de staging y producción, asegurando trazabilidad y control de versiones. \\
 \end{longtable}
 
 
@@ -141,6 +169,86 @@ Para acceder los insights de este proyecto, haga click a la [URL](https://github
 **Traffic Map:**
 
 ![Organización CodeMinds, imagen extraída de Github](src/img/cap5/insights-traffic-1.png){ width=85% }
+
+\newpage
+
+**TP1:**
+
+::: warn
+Para acceder los insights de este proyecto, haga click a la [URL](https://github.com/CodeMinds-Experimentos/CodeMinds-Report/pulse)
+:::
+
+**Tablero Kanban:**
+
+![Organización CodeMinds, imagen extraída de Github](src/img/cap5/insights-kanban-todo-1.png){ width=85% }
+
+**Kanban List:**
+
+![Organización CodeMinds, imagen extraída de Github](src/img/cap5/insights-kanban-list-1.png){ width=85% }
+
+\newpage
+
+**Network Graph:**
+
+![Organización CodeMinds, imagen extraída de Github](src/img/cap1/insights-network-tp1.png){ width=85% }
+
+**Traffic Map:**
+
+![Organización CodeMinds, imagen extraída de Github](src/img/cap1/insights-trafic-tp1.png){ width=85% }
+
+\newpage
+
+
+**TB2:**
+
+::: warn
+Para acceder los insights de este proyecto, haga click a la [URL](https://github.com/CodeMinds-Experimentos/CodeMinds-Report/pulse)
+:::
+
+**Tablero Kanban:**
+
+![Organización CodeMinds, imagen extraída de Github](src/img/cap5/insights-kanban-todo-1.png){ width=85% }
+
+**Kanban List:**
+
+![Organización CodeMinds, imagen extraída de Github](src/img/cap5/insights-kanban-list-1.png){ width=85% }
+
+\newpage
+
+**Network Graph:**
+
+![Organización CodeMinds, imagen extraída de Github](src/img/cap1/insights-network-tp1.png){ width=85% }
+
+**Traffic Map:**
+
+![Organización CodeMinds, imagen extraída de Github](src/img/cap1/insights-trafic-tp1.png){ width=85% }
+
+\newpage
+
+
+**TF1:**
+
+::: warn
+Para acceder los insights de este proyecto, haga click a la [URL](https://github.com/CodeMinds-Experimentos/CodeMinds-Report/pulse)
+:::
+
+**Tablero Kanban:**
+
+![Organización CodeMinds, imagen extraída de Github](src/img/cap5/insights-kanban-todo-1.png){ width=85% }
+
+**Kanban List:**
+
+![Organización CodeMinds, imagen extraída de Github](src/img/cap5/insights-kanban-list-1.png){ width=85% }
+
+\newpage
+
+**Network Graph:**
+
+![Organización CodeMinds, imagen extraída de Github](src/img/cap1/insights-network-tp1.png){ width=85% }
+
+**Traffic Map:**
+
+![Organización CodeMinds, imagen extraída de Github](src/img/cap1/insights-trafic-tp1.png){ width=85% }
 
 \newpage
 
@@ -182,6 +290,78 @@ Durante la elaboración de los mapas de empatía y escenarios, me aseguré de re
 \textbf{Abel Ángel Ortega Huaraca} promovió un ambiente de trabajo colaborativo basado en el respeto mutuo y el cumplimiento de compromisos. \textbf{Belén del Rocío Ramos Ríos} interiorizó la necesidad de mantener la objetividad en la recolección de información, asegurándose de que las decisiones fueran justas y libres de sesgos. \textbf{Mateo Alejandro Vílchez Ríos} reforzó la importancia de trabajar con fuentes confiables y de representar los hallazgos de manera honesta, reconociendo que la veracidad en los datos es esencial para proponer soluciones éticas y sostenibles. \textbf{Luis Eduardo Herrera González} aprendió a valorar y reconocer el mérito en el trabajo de otros, contribuyendo así a una cultura de respeto profesional y crítica constructiva. Finalmente, \textbf{Ariana Vargas Revollé} consolidó su compromiso de representar fielmente las necesidades reales de los usuarios, comprendiendo que manipular información compromete no solo el proyecto, sino también la confianza de quienes serán los beneficiarios finales.
 } \\ 
 
+
+\parbox[t]{4cm}{
+
+} 
+&  
+\parbox[t]{6cm}{
+\textbf{TP1:} \\
+\textbf{Abel Ángel Ortega Huaraca} \\
+Me enfoqué en realizar aportes técnicos y documentales clave, asumiendo responsabilidades en las secciones de requisitos, implementación y validación. Mantuve el respeto por el trabajo del equipo, evitando prácticas deshonestas y cumpliendo con los tiempos acordados. \\
+\textbf{Belén del Rocío Ramos Ríos} \\
+Fui responsable y objetiva durante la planificación y evidencias de implementación. Mantuve una actitud ética en la redacción y en la comunicación del trabajo colaborativo, promoviendo decisiones basadas en evidencia. \\
+\textbf{Mateo Alejandro Vílchez Ríos} \\
+Aporté en la redacción de requisitos y mapeos de impacto, cuidando que la información y documentación reflejara de manera justa nuestras contribuciones y hallazgos técnicos. \\
+\textbf{Luis Eduardo Herrera González} \\
+Fui transparente en la documentación del entorno de desarrollo y guías de codificación. Evité exageraciones y me esforcé por mantener una narrativa precisa y profesional. \\
+\textbf{Ariana Vargas Revollé} \\
+Cuidé que las evidencias y escenarios definidos respetaran fielmente las necesidades del usuario. Fomenté una actitud ética al representar los intereses del usuario sin distorsionar datos o resultados. \\
+}
+&
+\parbox[t]{5cm}{
+\textbf{TP1:} \\
+\textbf{Abel Ángel Ortega Huaraca} reafirmó su compromiso ético al contribuir técnicamente de forma honesta y respetuosa, fomentando un entorno confiable. \textbf{Belén del Rocío Ramos Ríos} consolidó su responsabilidad al garantizar que los aportes se basaran en hechos y evidencias. \textbf{Mateo Alejandro Vílchez Ríos} valoró la integridad en la representación de datos técnicos y decisiones de diseño. \textbf{Luis Eduardo Herrera González} fortaleció su transparencia al documentar configuraciones y guías, priorizando la claridad. \textbf{Ariana Vargas Revollé} reforzó su compromiso de representar las necesidades del usuario con fidelidad, respetando los principios éticos del diseño centrado en las personas.
+} \\ 
+
+
+\parbox[t]{4cm}{
+
+} 
+&  
+\parbox[t]{6cm}{
+\textbf{TB2:} \\
+\textbf{Abel Ángel Ortega Huaraca} \\
+Me enfoqué en realizar aportes técnicos y documentales clave, asumiendo responsabilidades en las secciones de requisitos, implementación y validación. Mantuve el respeto por el trabajo del equipo, evitando prácticas deshonestas y cumpliendo con los tiempos acordados. \\
+\textbf{Belén del Rocío Ramos Ríos} \\
+Fui responsable y objetiva durante la planificación y evidencias de implementación. Mantuve una actitud ética en la redacción y en la comunicación del trabajo colaborativo, promoviendo decisiones basadas en evidencia. \\
+\textbf{Mateo Alejandro Vílchez Ríos} \\
+Aporté en la redacción de requisitos y mapeos de impacto, cuidando que la información y documentación reflejara de manera justa nuestras contribuciones y hallazgos técnicos. \\
+\textbf{Luis Eduardo Herrera González} \\
+Fui transparente en la documentación del entorno de desarrollo y guías de codificación. Evité exageraciones y me esforcé por mantener una narrativa precisa y profesional. \\
+\textbf{Ariana Vargas Revollé} \\
+Cuidé que las evidencias y escenarios definidos respetaran fielmente las necesidades del usuario. Fomenté una actitud ética al representar los intereses del usuario sin distorsionar datos o resultados. \\
+}
+&
+\parbox[t]{5cm}{
+\textbf{TB2:} \\
+\textbf{Abel Ángel Ortega Huaraca} reafirmó su compromiso ético al contribuir técnicamente de forma honesta y respetuosa, fomentando un entorno confiable. \textbf{Belén del Rocío Ramos Ríos} consolidó su responsabilidad al garantizar que los aportes se basaran en hechos y evidencias. \textbf{Mateo Alejandro Vílchez Ríos} valoró la integridad en la representación de datos técnicos y decisiones de diseño. \textbf{Luis Eduardo Herrera González} fortaleció su transparencia al documentar configuraciones y guías, priorizando la claridad. \textbf{Ariana Vargas Revollé} reforzó su compromiso de representar las necesidades del usuario con fidelidad, respetando los principios éticos del diseño centrado en las personas.
+} \\ 
+
+
+\parbox[t]{4cm}{
+
+} 
+&  
+\parbox[t]{6cm}{
+\textbf{TF1:} \\
+\textbf{Abel Ángel Ortega Huaraca} \\
+Me enfoqué en realizar aportes técnicos y documentales clave, asumiendo responsabilidades en las secciones de requisitos, implementación y validación. Mantuve el respeto por el trabajo del equipo, evitando prácticas deshonestas y cumpliendo con los tiempos acordados. \\
+\textbf{Belén del Rocío Ramos Ríos} \\
+Fui responsable y objetiva durante la planificación y evidencias de implementación. Mantuve una actitud ética en la redacción y en la comunicación del trabajo colaborativo, promoviendo decisiones basadas en evidencia. \\
+\textbf{Mateo Alejandro Vílchez Ríos} \\
+Aporté en la redacción de requisitos y mapeos de impacto, cuidando que la información y documentación reflejara de manera justa nuestras contribuciones y hallazgos técnicos. \\
+\textbf{Luis Eduardo Herrera González} \\
+Fui transparente en la documentación del entorno de desarrollo y guías de codificación. Evité exageraciones y me esforcé por mantener una narrativa precisa y profesional. \\
+\textbf{Ariana Vargas Revollé} \\
+Cuidé que las evidencias y escenarios definidos respetaran fielmente las necesidades del usuario. Fomenté una actitud ética al representar los intereses del usuario sin distorsionar datos o resultados. \\
+}
+&
+\parbox[t]{5cm}{
+\textbf{TF1:} \\
+\textbf{Abel Ángel Ortega Huaraca} reafirmó su compromiso ético al contribuir técnicamente de forma honesta y respetuosa, fomentando un entorno confiable. \textbf{Belén del Rocío Ramos Ríos} consolidó su responsabilidad al garantizar que los aportes se basaran en hechos y evidencias. \textbf{Mateo Alejandro Vílchez Ríos} valoró la integridad en la representación de datos técnicos y decisiones de diseño. \textbf{Luis Eduardo Herrera González} fortaleció su transparencia al documentar configuraciones y guías, priorizando la claridad. \textbf{Ariana Vargas Revollé} reforzó su compromiso de representar las necesidades del usuario con fidelidad, respetando los principios éticos del diseño centrado en las personas.
+} \\ 
+
 \hline
 
 \parbox[t]{4cm}{
@@ -206,6 +386,79 @@ Al crear los escenarios y perfiles de usuario, prioricé un enfoque inclusivo qu
 \textbf{TB1:} \\
 \textbf{Abel Ángel Ortega Huaraca} reflexionó sobre la escalabilidad de la solución a diferentes ciudades y los posibles efectos en la dinámica familiar y escolar. \textbf{Belén del Rocío Ramos Ríos} evaluó el entorno competitivo no solo desde un punto de vista comercial, sino asegurándose de que la solución aportara un valor real y social. \textbf{Mateo Alejandro Vílchez Ríos}, en la identificación de problemas, integró factores sociales y urbanos, procurando no sugerir soluciones que pudieran aumentar el tráfico o la contaminación. \textbf{Luis Eduardo Herrera González}, al investigar, destacó la importancia de proteger la privacidad de los estudiantes, comprendiendo que las soluciones deben respetar no solo las necesidades funcionales, sino también los derechos fundamentales de los usuarios en el entorno social. Por su parte, \textbf{Ariana Vargas Revollé} promovió un enfoque inclusivo en la creación de perfiles de usuario y escenarios, garantizando que la experiencia propuesta fuera accesible para personas de distintos niveles socioeconómicos.
 } \\
+
+
+\parbox[t]{4cm}{
+
+}
+&  
+\parbox[t]{6cm}{
+\textbf{TP1:} \\
+\textbf{Abel Ángel Ortega Huaraca} \\
+Analicé cómo nuestra solución podía escalar a distintos contextos urbanos, considerando efectos en la rutina familiar y escolar. Evalué el impacto económico para asegurar accesibilidad y evitar exclusión de sectores vulnerables. \\
+\textbf{Belén del Rocío Ramos Ríos} \\
+Estudié el entorno competitivo con enfoque social, procurando que nuestra solución ofreciera un valor diferencial sin generar dependencia tecnológica o brechas innecesarias entre usuarios. \\
+\textbf{Mateo Alejandro Vílchez Ríos} \\
+En la definición del problema, consideré factores sociales y ambientales como el tráfico urbano y la contaminación, buscando alternativas viables que no agravaran estos problemas. \\
+\textbf{Luis Eduardo Herrera González} \\
+Evalué las implicancias sociales de la solución, priorizando la privacidad y bienestar de los estudiantes. Me aseguré de que nuestras propuestas respetaran el derecho a la intimidad en el contexto escolar y familiar. \\
+\textbf{Ariana Vargas Revollé} \\
+Al diseñar escenarios de uso, me enfoqué en la equidad social, procurando que la solución fuera accesible sin requerir tecnologías costosas, y considerando la diversidad de contextos económicos de los usuarios. \\
+}
+&
+\parbox[t]{5cm}{
+\textbf{TP1:} \\
+\textbf{Abel Ángel Ortega Huaraca} emitió un juicio informado sobre la viabilidad económica y social de la solución, identificando riesgos de exclusión. \textbf{Belén del Rocío Ramos Ríos} valoró el aporte real al entorno social, cuidando que la solución no generara dependencia tecnológica. \textbf{Mateo Alejandro Vílchez Ríos} integró factores ambientales y urbanos al diagnóstico del problema, anticipando impactos negativos. \textbf{Luis Eduardo Herrera González} reflexionó sobre el respeto a la privacidad como eje social esencial en soluciones digitales dirigidas a menores. Finalmente, \textbf{Ariana Vargas Revollé} demostró conciencia sobre las barreras tecnológicas y económicas, promoviendo un diseño accesible e inclusivo para contextos diversos.
+} \\
+
+
+\parbox[t]{4cm}{
+
+}
+&  
+\parbox[t]{6cm}{
+\textbf{TB2:} \\
+\textbf{Abel Ángel Ortega Huaraca} \\
+Analicé cómo nuestra solución podía escalar a distintos contextos urbanos, considerando efectos en la rutina familiar y escolar. Evalué el impacto económico para asegurar accesibilidad y evitar exclusión de sectores vulnerables. \\
+\textbf{Belén del Rocío Ramos Ríos} \\
+Estudié el entorno competitivo con enfoque social, procurando que nuestra solución ofreciera un valor diferencial sin generar dependencia tecnológica o brechas innecesarias entre usuarios. \\
+\textbf{Mateo Alejandro Vílchez Ríos} \\
+En la definición del problema, consideré factores sociales y ambientales como el tráfico urbano y la contaminación, buscando alternativas viables que no agravaran estos problemas. \\
+\textbf{Luis Eduardo Herrera González} \\
+Evalué las implicancias sociales de la solución, priorizando la privacidad y bienestar de los estudiantes. Me aseguré de que nuestras propuestas respetaran el derecho a la intimidad en el contexto escolar y familiar. \\
+\textbf{Ariana Vargas Revollé} \\
+Al diseñar escenarios de uso, me enfoqué en la equidad social, procurando que la solución fuera accesible sin requerir tecnologías costosas, y considerando la diversidad de contextos económicos de los usuarios. \\
+}
+&
+\parbox[t]{5cm}{
+\textbf{TB2:} \\
+\textbf{Abel Ángel Ortega Huaraca} emitió un juicio informado sobre la viabilidad económica y social de la solución, identificando riesgos de exclusión. \textbf{Belén del Rocío Ramos Ríos} valoró el aporte real al entorno social, cuidando que la solución no generara dependencia tecnológica. \textbf{Mateo Alejandro Vílchez Ríos} integró factores ambientales y urbanos al diagnóstico del problema, anticipando impactos negativos. \textbf{Luis Eduardo Herrera González} reflexionó sobre el respeto a la privacidad como eje social esencial en soluciones digitales dirigidas a menores. Finalmente, \textbf{Ariana Vargas Revollé} demostró conciencia sobre las barreras tecnológicas y económicas, promoviendo un diseño accesible e inclusivo para contextos diversos.
+} \\
+
+\parbox[t]{4cm}{
+
+}
+&  
+\parbox[t]{6cm}{
+\textbf{TF1:} \\
+\textbf{Abel Ángel Ortega Huaraca} \\
+Analicé cómo nuestra solución podía escalar a distintos contextos urbanos, considerando efectos en la rutina familiar y escolar. Evalué el impacto económico para asegurar accesibilidad y evitar exclusión de sectores vulnerables. \\
+\textbf{Belén del Rocío Ramos Ríos} \\
+Estudié el entorno competitivo con enfoque social, procurando que nuestra solución ofreciera un valor diferencial sin generar dependencia tecnológica o brechas innecesarias entre usuarios. \\
+\textbf{Mateo Alejandro Vílchez Ríos} \\
+En la definición del problema, consideré factores sociales y ambientales como el tráfico urbano y la contaminación, buscando alternativas viables que no agravaran estos problemas. \\
+\textbf{Luis Eduardo Herrera González} \\
+Evalué las implicancias sociales de la solución, priorizando la privacidad y bienestar de los estudiantes. Me aseguré de que nuestras propuestas respetaran el derecho a la intimidad en el contexto escolar y familiar. \\
+\textbf{Ariana Vargas Revollé} \\
+Al diseñar escenarios de uso, me enfoqué en la equidad social, procurando que la solución fuera accesible sin requerir tecnologías costosas, y considerando la diversidad de contextos económicos de los usuarios. \\
+}
+&
+\parbox[t]{5cm}{
+\textbf{TF1:} \\
+\textbf{Abel Ángel Ortega Huaraca} emitió un juicio informado sobre la viabilidad económica y social de la solución, identificando riesgos de exclusión. \textbf{Belén del Rocío Ramos Ríos} valoró el aporte real al entorno social, cuidando que la solución no generara dependencia tecnológica. \textbf{Mateo Alejandro Vílchez Ríos} integró factores ambientales y urbanos al diagnóstico del problema, anticipando impactos negativos. \textbf{Luis Eduardo Herrera González} reflexionó sobre el respeto a la privacidad como eje social esencial en soluciones digitales dirigidas a menores. Finalmente, \textbf{Ariana Vargas Revollé} demostró conciencia sobre las barreras tecnológicas y económicas, promoviendo un diseño accesible e inclusivo para contextos diversos.
+} \\
+
+
 \hline
 \end{longtable}
 
